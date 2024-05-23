@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DonatePageComponent } from './donate-page.component';
+import { DonatePageRoutingModule } from './donate-page-routing.module';
+
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [DonatePageComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    DonatePageRoutingModule
   ]
 })
 export class DonatePageModule { }
