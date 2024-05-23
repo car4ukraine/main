@@ -1,0 +1,684 @@
+{
+	"modules": {
+		"badges": {
+			"active": "Aktywny",
+			"archived": "Gotowe"
+		},
+		"buttons": {
+			"buy_pickup_trucks": "Kup pick-up",
+			"claim_your_reward": "Odbierz nagrodę",
+			"donate": "Podarować",
+			"donate_car": "Podaruj auto",
+			"other_projects": "Inne projekty",
+			"read_less": "...mniej",
+			"read_more": "więcej..."
+		},
+		"contact_form": {
+			"email": {
+				"hint": "email@example.com",
+				"label": "Adres e-mail"
+			},
+			"inquiry": {
+				"hint": "Wybierz typ zapytania",
+				"label": "Wybierz typ zapytania"
+			},
+			"message": {
+				"hint": "Tutaj wpisz swoją wiadomosć",
+				"label": "Komunikat"
+			},
+			"name": {
+				"hint": "Twoje imię",
+				"label": "Nazwa"
+			},
+			"notifications": {
+				"error": "Błąd, sprawdź dane lub spróbuj później",
+				"loading": "Ładuję...",
+				"success": "Sukces"
+			},
+			"submit": {
+				"label": "Wyślij"
+			}
+		},
+		"footer": {
+			"follow_us": "Śledź nas na:",
+			"other_languages": "Inne języki:",
+			"powered_by": "Powered by Ukrainian unf*ckable will",
+			"rights_and_policies": "*Prawa i zasady"
+		},
+		"header": {
+			"tags": [
+				{
+					"name": "Główna"
+				},
+				{
+					"name": "O nas"
+				},
+				{
+					"name": "FAQ"
+				},
+				{
+					"name": "Kontakt"
+				},
+				{
+					"name": "Projekty"
+				}
+			]
+		},
+		"logo": {
+			"label": "Inicjatywa wolontariacka",
+			"label_size": "0.74rem"
+		},
+		"media": {
+			"videos": [
+				{
+					"alt": "Film na YouTube zatytułowany Koła wojny: droga na Ukrainę",
+					"description": "Wheels Of War: Droga na Ukrainę. Grupa entuzjastów z Wielkiej Brytanii i Irlandii chciała podarować samochody ukraińskiej armii i przebyła całą drogę z Wielkiej Brytanii do Lwowa"
+				},
+				{
+					"alt": "Film na YouTube pod tytułem Podróż na front: Jak dostroić samochód do wojny?",
+					"description": "Podróż na linię frontu: Jak przygotować samochód na wojnę? Świetna historia o Adamie, Angliku z Kalifornii, który przyjechał na Ukrainę, by przekazać samochody."
+				},
+				{
+					"alt": "Film na YouTube pokazuje jedną z wycieczek GIVE CARe's Trips",
+					"description": "GIVE CARe Trip: Grupa Holendrów i Niemców zorganizowała wycieczkę, aby przekazać samochody na cele charytatywne"
+				},
+				{
+					"alt": "Wideo Sky News na YouTube o ochotnikach dostarczających brytyjskie samochody na Ukrainę",
+					"description": "Sky News o wojnie na Ukrainie: Wolontariusze dostarczą brytyjskie samochody na Ukrainę"
+				}
+			]
+		},
+		"special_project_section": {
+			"progress_label": "Postęp",
+			"special_project_label": "Trwa zbiórka pieniędzy",
+			"title": "Przekaż darowiznę na rzecz Specjalnego Projektu Samochodu dla Ukrainy - Inicjatywa Wolontariatu"
+		}
+	},
+	"pages": {
+		"about_us": {
+			"banner": {
+				"alt": "Żołnierze i wolontariusze organizacji Samochód dla Ukrainy we Lwowie",
+				"description": "Nasz zespół składa się z ludzi z różnych branż i z różnych środowisk, ale dziś jesteśmy zjednoczeni, by służyć naszej armii.\n\nDziś nasi ludzie na pierwszej linii wymagają mobilności, a my jesteśmy tutaj z ponad 50 ochotnikami, aby im służyć i wyzwolić nasz naród.",
+				"title": "Żołnierze i wolontariusze organizacji Samochód dla Ukrainy we Lwowie"
+			},
+			"contributor": {
+				"default": {
+					"firstname": "Twój",
+					"lastname": "Imię"
+				}
+			},
+			"contributors": [
+				{
+					"alt": "Wolontariusz Roman",
+					"description": "Wiceprezes ds. talentów w IT, ale teraz łączy bystre umysły, aby tworzyć ciężarówki gotowe do walki"
+				},
+				{
+					"alt": "Wolontariusz Nazar",
+					"description": "Project Manager w IT, ale teraz pilnuje regularnych zakupów ciężarówek w całej Europie i Wielkiej Brytanii"
+				},
+				{
+					"alt": "Wolontariusz Ivan",
+					"description": "Menedżer ds. partnerstw w e-sporcie, ale teraz prowadzi stronę car4ukraine.com, aby upewnić się, że świat wspiera Ukrainę ciężarówkami"
+				},
+				{
+					"alt": "Wolontariuszka Nika",
+					"description": "Producent i reżyser filmowy, ale teraz dba o to, aby wszyscy żołnierze, którzy najbardziej potrzebują ciężarówek, otrzymali je JAK NAJSZYBCIEJ"
+				},
+				{
+					"alt": "Wolontariusz Oleksii",
+					"description": "Creative Designer and Ever Learner but now illustrates and delivers the content at car4ukraine.com"
+				},
+				{
+					"alt": "Wolontariusz Ivan",
+					"description": "Frontend Developer w IT, ale teraz robi wszystko, czego potrzebuje, aby strona car4ukraine.com działała stabilnie"
+				},
+				{
+					"alt": "Wolontariuszka Natalia",
+					"description": "Nauczyciel języka angielskiego, ale teraz komunikuje się ze światem za pośrednictwem mediów społecznościowych za pomocą fajnych bębnów"
+				},
+				{
+					"alt": "Wolontariusz Mykola",
+					"description": "Senior DevOps, ale teraz łapie najlepsze okazje dla ciężarówek w Polsce"
+				},
+				{
+					"alt": "Wolontariuszka Ksenia",
+					"description": "Manual Test Engineer, ale teraz sprawdza, gdzie są nasze ciężarówki i kiedy je dostarczamy"
+				},
+				{
+					"alt": "Wolontariusz Marian",
+					"description": "Manipulator ewakuatora, ale teraz przygotowuje każdą pojedynczą ciężarówkę, aby była mechanicznie gotowa do wyruszenia na pole bitwy"
+				},
+				{
+					"alt": "Wolontariusz Anton",
+					"description": "Producent liniowy w branży muzycznej, ale teraz komunikuje się z linią frontu, aby na czas dostarczyć pojazdy tam, gdzie są potrzebne."
+				},
+				{
+					"alt": "Wolontariusz Patrick",
+					"description": "Wykwalifikowany inżynier budowlany, ale teraz sprowadza dziesiątki samochodów z Wielkiej Brytanii do wszystkich części Ukrainy."
+				},
+				{
+					"alt": "Wolontariusz Vasyl",
+					"description": "Konsultant ds. strategii cyfryzacji, ale obecnie pomaga w długoterminowym planowaniu dalszego rozwoju projektu."
+				},
+				{
+					"alt": "Wolontariusz Richard",
+					"description": "Były profesor historii na Uniwersytecie Oksfordzkim, obecnie dziennikarz, który pomaga Car for Ukraine rozwijać się w Wielkiej Brytanii."
+				},
+				{
+					"alt": "Wolontariusz Palle",
+					"description": "Weteran armii, ale teraz przewodzi wysiłkom na rzecz sprowadzenia dziesiątek samochodów 4x4 z Danii"
+				},
+				{
+					"alt": "Wolontariusz Niels",
+					"description": "Ekspert motoryzacyjny, ale teraz prowadzi give-care.org, aby zebrać fundusze i sprowadzić niezawodne niemieckie samochody na Ukrainę."
+				},
+				{
+					"alt": "Wolontariuszka Julia",
+					"description": "Redaktor wiadomości, ale teraz upewnia się, że głos jest słyszany o tym, co ma znaczenie na całym świecie"
+				},
+				{
+					"alt": "Wolontariusz Jarosław",
+					"description": "Projektant kowalstwa, ale teraz projektuje, jak powinna wyglądać najbardziej wydajna i niezawodna zbroja"
+				},
+				{
+					"alt": "Wolontariusz Vasyl",
+					"description": "Zawodowy spawacz, ale teraz codziennie nakłada pancerz na samochody"
+				},
+				{
+					"alt": "Wolontariusz Adam",
+					"description": "Producent i reżyser filmowy, ale obecnie pomaga ukraińskim żołnierzom zarówno materialnie, jak i mentalnie na Ukrainie."
+				},
+				{
+					"alt": "Wolontariusz Andreas",
+					"description": "Przedsiębiorca, który teraz pomaga swoją wiedzą i zasobami w utrzymaniu świetnych projektów."
+				},
+				{
+					"alt": "Wolontariusz Joshua",
+					"description": "Kreatywny przedsiębiorca, który obecnie prowadzi give-care.org, aby zbierać fundusze i regularnie dostarczać samochody na Ukrainę ze wspaniałymi wibracjami."
+				},
+				{
+					"alt": "Wolontariusz Orest",
+					"description": "Projektant, który teraz upewnia się, że wszystkie nasze ciężarówki wyglądają fajnie dzięki zachęcającym naklejkom, żołnierze będą inspirowani"
+				},
+				{
+					"alt": "Wolontariusz Serhiy",
+					"description": "Zawodowy dekarz, który obecnie zajmuje się opracowywaniem i dostarczaniem nowych projektów uchwytów i wieżyczek do karabinów maszynowych."
+				},
+				{
+					"alt": "Wolontariusz Oleksandr",
+					"description": "Kreatywny spawacz, który pomaga zespołowi spawalniczemu i wnosi pozytywne emocje do zespołu"
+				},
+				{
+					"alt": "Wolontariusz Roman",
+					"description": "Zawodowy kierowca, który przejechał ponad 100 samochodów przez granicę i na linię frontu."
+				},
+				{
+					"alt": "Kobiety-wolontariuszka",
+					"description": "Kobieta, która kieruje się ambicją pomagania innym, uratowała wiele istnień ludzkich"
+				},
+				{
+					"alt": "Człowiek-wolontariusz",
+					"description": "Człowiek, który opowiada się za wolnością i obroną wszystkich niepodległych narodów przed agresorami"
+				},
+				{
+					"alt": "Wolontariusz Oleksandra",
+					"description": "Dyrektor Fundacji Intellias na rzecz Zmian"
+				}
+			],
+			"contributors[0]": {
+				"alt": ""
+			},
+			"meta": {
+				"general": {
+					"description": "Nasz zespół składa się z ludzi z różnych branż i z różnych środowisk, ale dziś jesteśmy zjednoczeni, by służyć naszej armii.\n\nDziś nasi ludzie na pierwszej linii wymagają mobilności, a my jesteśmy tutaj z ponad 50 ochotnikami, aby im służyć i wyzwolić nasz naród.",
+					"title": "O Car for Ukraine Inicjatywa Wolontariatu"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			},
+			"title": "O nas"
+		},
+		"contact_us": {
+			"form": {
+				"hint": "Skontaktuj się z nami w dowolnym momencie, a my skontaktujemy się z Tobą tak szybko, jak to możliwe",
+				"inquiries": [
+					{
+						"label": "Odnośnie mojej darowizny",
+						"title": "Regarding my donation (PL)"
+					},
+					{
+						"label": "Mam samochód do oddania",
+						"title": "I have a car to donate (PL)"
+					},
+					{
+						"label": "Chciałbym kupić dla ciebie samochód",
+						"title": "I'd like to buy a car for you (PL)"
+					},
+					{
+						"label": "Mogę pomóc w zakresie mediów i promocji",
+						"title": "I can help with media and promotion (PL)"
+					},
+					{
+						"label": "Przesłanie wsparcia",
+						"title": "Message of Support (PL)"
+					},
+					{
+						"label": "Inne",
+						"title": "Other (PL)"
+					}
+				]
+			},
+			"meta": {
+				"general": {
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy pickupy 4x4 na linię frontu na Ukrainie.",
+					"title": "Kontakt z Car for Ukraine Inicjatywa Wolontariatu"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			},
+			"title": "Kontakt"
+		},
+		"donate": {
+			"meta": {
+				"general": {
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Przekaż darowiznę na rzecz Samochodu dla Ukrainy – Inicjatywa Wolontariatu"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			}
+		},
+		"donate_car": {
+			"banner": {
+				"alt": "Miniatura filmu z YouTube zatytułowanego \"Koła wojny: droga na Ukrainę\".",
+				"description": [
+					"Osoby z całego świata, w tym z Wielkiej Brytanii, USA, UE i innych krajów, przekazały nam ponad 200 pojazdów i dostarczyły je osobiście na Ukrainę, lub dostarczyliśmy je sami. Dołącz!",
+					"Ci, którzy decydują się osobiście dostarczyć ciężarówki do Lwowa, często traktują to jak wakacje plus dobrą czynność. Pomagamy w załatwieniu formalności i możemy oprowadzić ich po mieście, kończąc wspaniałą kolacją."
+				],
+				"mobile_description": "Osoby z całego świata, w tym z Wielkiej Brytanii, USA, UE i innych krajów, przekazały nam ponad 200 pojazdów i dostarczyły je osobiście na Ukrainę, lub dostarczyliśmy je sami. Dołącz!",
+				"old_description": [
+					"Dziesiątki osób w UE, Wielkiej Brytanii i USA przekazało swoje samochody lub sprzedało je, aby kupić samochody, których ukraińscy żołnierze potrzebują teraz.",
+					"Kiedy otrzymujemy samochód jako darowiznę, oszczędzamy do 75% kosztów za ciężarówkę, a wszystko, co pozostaje nam do pokrycia, to logistyka, opancerzenie i konserwacja.",
+					"Od lutego 2024 r. otrzymaliśmy już ponad 200 samochodów jako bezpośrednią darowiznę i liczba ta stale rośnie. Dołącz!",
+					"Osoby, które nam przekazują samochody, często osobiście przyprowadzają je do Lwowa i traktują to jako wakacje oraz dobry uczynek. Pomagamy w załatwianiu formalności i możemy ich oprowadzić po mieście, kończąc na świetnej kolacji."
+				],
+				"title": "Przekaż samochód na Ukrainę"
+			},
+			"faq": {
+				"questions": [
+					{
+						"answer": "Z nami możesz przekazać samochód na Ukrainę. Wypełnij formularz, a my skontaktujemy się z Tobą w ciągu 24 godzin. Skupiamy się głównie na pickupach i samochodach 4x4, ale inne środki transportu, takie jak furgonetki i samochody cywilne, są akceptowane, ponieważ żołnierze również się przemieszczają i mają różne zadania, do których potrzebne są koła.",
+						"label": "Jak mogę przekazać samochód na Ukrainę?"
+					},
+					{
+						"answer": "Możesz przekazać darowiznę dla ukraińskiej armii za pośrednictwem Car for Ukraine, gdzie skupiamy się w szczególności na samochodach dla wojska. Pickupy, samochody 4x4, samochody dostawcze itp. Jeśli chcesz przekazać swój samochód, wypełnij formularz, a my skontaktujemy się z Tobą w ciągu 24 godzin.<br><br>Aby wesprzeć armię finansowo, możesz przekazać darowiznę tutaj, wspierając naszą inicjatywę lub sprawdzić organizację Come Back Alive, która pomaga Ukrainie w różnych projektach.",
+						"label": "Jak przekazać darowiznę dla ukraińskiej armii?"
+					},
+					{
+						"answer": "Możesz przekazać samochód na cele charytatywne z Car for Ukraine. Skupiamy się na zapewnieniu ukraińskiej armii środków transportu, które obejmują zarówno potrzeby śmiertelne, jak i humanitarne, takie jak ewakuacja ludzi ze stref wojennych, dostarczanie żywności i wody itp.",
+						"label": "Jak przekazać samochód na cele charytatywne?"
+					},
+					{
+						"answer": "Koncentrujemy się na mobilnych grupach bojowych, które potrzebują ciężarówek z napędem na 4 koła i silnikami wysokoprężnymi o pojemności 2,0 l lub większej. Oto niektóre z najlepszych opcji: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500.<br><br>Oprócz pickupów, samochody 4x4 i furgonetki, a także proste pojazdy cywilne są również potrzebne do różnych misji, np. dostarczania pomocy, dostaw żywności itp.",
+						"label": "Jakich pojazdów potrzebujesz?"
+					},
+					{
+						"answer": "Nie, możemy odebrać samochód w dowolnym miejscu w Europie lub Wielkiej Brytanii. Jeśli jednak zdecydujesz się przyjechać do nas osobiście, z przyjemnością pomożemy Ci w załatwieniu wszystkich formalności.",
+						"label": "Czy muszę osobiście przywieźć samochód na Ukrainę?"
+					}
+				],
+				"title": "FAQ"
+			},
+			"form": {
+				"hint": "Wypełnij formularz, a my skontaktujemy się z Tobą w ciągu 24 godzin",
+				"inquiries": [
+					{
+						"label": "Mam samochód do oddania",
+						"title": "I have a car to donate (PL)"
+					},
+					{
+						"label": "Chcę sprzedać samochód po obniżonej cenie",
+						"title": "I want to sell my car with a discounted price (PL)"
+					},
+					{
+						"label": "Chciałbym kupić dla ciebie samochód",
+						"title": "I'd like to buy a car for you (PL)"
+					},
+					{
+						"label": "Inne",
+						"title": "Other (PL)"
+					}
+				],
+				"title": "Chcesz przekazać samochód na Ukrainę?"
+			},
+			"meta": {
+				"general": {
+					"description": "Dziesiątki osób w UE, Wielkiej Brytanii i USA przekazało swoje samochody lub sprzedało je, aby kupić samochody, których ukraińscy żołnierze potrzebują teraz. Kiedy otrzymujemy samochód jako darowiznę, oszczędzamy do 75% kosztów za ciężarówkę, a jedyne, co pozostaje nam do pokrycia, to logistyka, opancerzenie i konserwacja. Od 1 kwietnia 2023 r. otrzymaliśmy już ponad 50 samochodów jako bezpośrednią darowiznę i liczba ta stale rośnie. Dołącz!",
+					"title": "Przekaż Samochód na Ukrainę"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			}
+		},
+		"faq": {
+			"meta": {
+				"general": {
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy pickupy 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine Inicjatywa Wolontariatu - FAQ"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			},
+			"old_questions": {
+				"3": {
+					"answer": "Dla tych, którzy wesprą nasze wysiłki, car4ukraine zorganizuje jednodniową wycieczkę z przewodnikiem po Kijowie, Buczy, Irpinie i innych miejscach, w których Ukraińcy wykazali się odwagą i oporem wobec Rosjan.<br/><br/>Spotkasz się z żołnierzami, którzy walczyli o naszą wolność i podzielą się swoimi przemyśleniami i odczuciami na temat tego, jak to było. Spotkamy się również z mieszkańcami, których domy zostały zajęte, gdy Rosjanie wciąż byli w miastach.<br/><br/>Ponadto, jeśli lubisz strzelać, będziemy mieli okazję doświadczyć prawdziwego strzelania z broni wojskowej, a także odwiedzić inne dalsze miejsca, takie jak Chersoń, Charków, Mariupol i inne po ich zajęciu.",
+					"label": "Co to jest \"Jednodniowa wycieczka z przewodnikiem\"?"
+				},
+				"4": {
+					"answer": "Po otrzymaniu potwierdzenia darowizny otrzymasz unikalny certyfikat, który możesz nam przedstawić i odebrać swoje doświadczenie.",
+					"label": "Jak zarezerwować jednodniową wycieczkę z przewodnikiem?"
+				},
+				"5": {
+					"answer": "Wycieczka opisana w jednym z pakietów zostanie zrealizowana dopiero po zwycięstwie Ukrainy i będzie przeprowadzana wtedy, gdy na ziemi ukraińskiej nie będzie obecnych żadnych zagrożeń.<br/><br/>Jednocześnie z radością organizujemy wycieczki dla tych, którzy chcą przyjechać teraz i poczuć to wszystko, dopóki to wszystko wciąż trwa.",
+					"label": "Czy bezpiecznie jest odwiedzić Ukrainę?"
+				}
+			},
+			"questions": [
+				{
+					"answer": "Wypełnij formularz na stronie <a href='/contact'>Skontaktuj się z nami</a>. Wybierz typ zapytania \"Mam samochód do oddania\", a my skontaktujemy się z Tobą jak najszybciej. Aby przyspieszyć komunikację, możesz zostawić swój numer telefonu Whatsapp w opisie.",
+					"label": "Jak mogę przekazać lub sprzedać własny pojazd?"
+				},
+				{
+					"answer": "Skupiamy się na mobilnych grupach bojowych, które potrzebują ciężarówek z silnikiem Diesla z napędem na 4 koła i silnikiem 2,0 l lub większym. Oto niektóre z najlepszych opcji: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Маzda BT-50 / Mazda B2500, Jeep Gladiator.<br/><br/>Jeśli masz inny samochód do przekazania, chętnie przyjmiemy go do innych celów, takich jak dostarczanie żywności i pomocy humanitarnej, pomoc medyczna itp.",
+					"label": "Jakich pojazdów potrzebujesz?"
+				},
+				{
+					"answer": "Nie możemy zagwarantować, że będzie nadawał się do użytku po tym, jak Ukraina położy kres rosyjskiej agresji. Samochód zostanie sprowadzony na Ukrainę bez żadnych \"ceł importowych\", ponieważ jego właścicielem będą oficjalnie ukraińskie siły zbrojne.",
+					"label": "Czy mogę odzyskać samochód po zakończeniu wojny?"
+				},
+				{
+					"answer": "Publikujemy wyniki naszej działalności na <a href='https://twitter.com/carforukraine' target='_blank'>Twitterze</a>, <a href='https://www.instagram.com/car4ukraine.com_official/' target='_blank'>Instagramie</a> i <a href='https://www.facebook.com/car4ukraine' target='_blank'>Facebooku</a>.<br/><br/>Śledź nas, aby być na bieżąco. Zobowiązujemy się do zapewnienia najwyższego poziomu przejrzystości. <br/><br/>Jednocześnie prosimy o cierpliwość, ponieważ nie jest to film, lecz wojna. Walczący na pierwszej linii nie mogą robić zdjęć jako głównego priorytetu, ponieważ cały czas narażają życie.",
+					"label": "Gdzie mogę zobaczyć wyniki waszej kampanii?"
+				},
+				{
+					"answer": "Jesteśmy grupą ukraińskich wolontariuszy. Mamy nasze stałe prace, przekazujemy środki finansowe, ale chcemy 'pomagać pomagać'.<br/><br/>Jesteśmy obecni na terenie Ukrainy, w Unii Europejskiej, w USA i innych częściach świata. Regularnie współpracujemy z jednostkami wojskowymi i bazami obronnymi na froncie Wschodnim i Południowym.",
+					"label": "Dlaczego powinienem/ powinnam ci ufać?"
+				},
+				{
+					"answer": "Wypełnij formularz na stronie <a href='/contact'>Skontaktuj się z nami</a>. Wybierz rodzaj zapytania 'Chcę pomóc swoją wiedzą' i skontaktujemy się z tobą najszybciej, jak to możliwe. Dla szybszej komunikacji możesz podać swój numer telefonu Whatsapp w opisie.",
+					"label": "Chcę pomóc w waszym projekcie swoją wiedzą. Jak to zrobić?"
+				},
+				{
+					"answer": "Kliknij łącze <a href='https://billing.stripe.com/p/login/6oEeXa7T6fA8fLieUU' target='_blank'></a> i wprowadź zmiany w subskrypcji.",
+					"label": "Jak anulować lub zmienić regularną miesięczną darowiznę?"
+				}
+			],
+			"title": "FAQ"
+		},
+		"home": {
+			"keywords": [
+				"Przekaż samochód na Ukrainę",
+				"Jak mogę przekazać samochód na Ukrainę?",
+				"Przekaż darowiznę dla ukraińskiej armii",
+				"Przekaż darowiznę dla ukraińskiej armii z Wielkiej Brytanii",
+				"Jak przekazać darowiznę dla ukraińskiej armii"
+			],
+			"meta": {
+				"general": {
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			},
+			"sections": {
+				"banner": {
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"description_size": "",
+					"metrics": {
+						"cars_delivered": "Dostarczone samochody",
+						"lives_saved": "Uratowane życia",
+						"worth_of_cars": " wartość ciężarówek"
+					}
+				},
+				"donated_vehicles": {
+					"description": "Dziesiątki osób w całej Unii Europejskiej, Wielkiej Brytanii i Stanach Zjednoczonych przekazały swoje samochody lub sprzedały je, aby zakupić pojazdy potrzebne ukraińskim żołnierzom właśnie teraz. Gdy otrzymujemy samochód jako darowiznę, oszczędzamy aż do 75% kosztu na jeden pojazd, a pozostaje nam jedynie pokrycie logistyki, opancerzenia i konserwacji. Od 1 kwietnia 2023 roku otrzymaliśmy już ponad 50 samochodów w formie bezpośrednich darowizn, a ta liczba nadal rośnie. Dołącz do nas!",
+					"images": [
+						{
+							"alt": "Pięciu wolontariuszy z Give Care z podarowanych pojazdów"
+						},
+						{
+							"alt": "Wolontariusz z Wielkiej Brytanii przekazał kultową ciężarówkę 4x4"
+						},
+						{
+							"alt": "Dwóch starszych wolontariuszy z UE jadących podarowanymi pojazdami na Ukrainę"
+						},
+						{
+							"alt": "Zdjęcie grupowe zespołu Car for Ukraine z zagranicznymi wolontariuszami"
+						},
+						{
+							"alt": "Pięć samochodów dla ukraińskich kierowców w drodze na Ukrainę"
+						},
+						{
+							"alt": "Przednie zdjęcie przekazanego samochodu Give Care"
+						}
+					],
+					"title": "Przekazane pojazdy"
+				},
+				"funded_pickup_trucks": {
+					"stories": [
+						{
+							"alt": "Dwóch żołnierzy UA z OPFOR i Adam trzymają flagę ukraińską przed zbrojnym samochodem dostawczym.",
+							"description": "Adam zawsze chciał pomóc Ukrainie konkretną darowizną. W lutym 2023 roku przyjechał do Donbasu i osobiście przekazał dwa ciężarówki żołnierzom.",
+							"link": "Obejrzyj historię Adama...",
+							"title": "ADAM ZE STANÓW ZJEDNOCZONYCH"
+						},
+						{
+							"alt": "Ivan Oleksii i Martin Buhr stoją przed podarowanym samochodem.",
+							"description": "Zaangażowany w pierwszoosobową pomoc dla Ukrainy, Martin spędził swój wrześniowy urlop w 2023 roku, przynosząc ciężarówkę, aby pomóc w usuwaniu min.",
+							"link": "Przeczytaj o podróży Martina...",
+							"title": "MARTIN BUHR - URLOP NA UKRAINIE"
+						},
+						{
+							"alt": "Zdjęcie podczas efektownego dnia z wolontariuszami z różnych krajów europejskich i przekazanymi samochodami.",
+							"description": "Dealer SUV Prestige w Wielkiej Brytanii zakupił pickupa L200, zorganizował ochotniczy konwój do Lwowa i zwiedził sklepy i miasto, tworząc porywającą historię.",
+							"link": "Obejrzyj historię Wheels of War...",
+							"title": "BRYTYJSKA FIRMA KUPIŁA NAM SAMOCHÓD CIĘŻAROWY"
+						},
+						{
+							"alt": "Dwaj bracia i Ivan Oleksii stoją przed dwoma donowanymi samochodami SUV typu pick-up trzymając brytyjskie, ukraińskie i kanadyjskie flagi.",
+							"description": "Urodzeni w RPA i wychowani w brytyjsko-kanadyjskiej społeczności, Edward i Hugh osobiście przynieśli pickupa, który teraz broni Ukrainę na wschodzie.",
+							"link": "Obejrzyj wideo Frontline...",
+							"title": "EDWARD I HUGH Z RPA"
+						}
+					],
+					"title": "Kup samochód dla nas"
+				},
+				"media_about_our_initiative": {
+					"list": [
+						{
+							"alt": "Sky News o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Logo Sky News"
+						},
+						{
+							"alt": "Insider o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Logo Insider"
+						},
+						{
+							"alt": "CNN o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Logo CNN"
+						},
+						{
+							"alt": "The Telegraph o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Logo The Telegraph"
+						},
+						{
+							"alt": "Newsweek o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Logo Newsweek"
+						},
+						{
+							"alt": "Niezależni o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Niezależne logo"
+						},
+						{
+							"alt": "Kyiv Post o inicjatywie \"Samochód dla Ukrainy",
+							"logo_alt": "Logo Kyiv Post"
+						},
+						{
+							"alt": "TV2 o inicjatywie \"Samochód dla Ukrainy",
+							"logo_alt": "Logo TV2"
+						},
+						{
+							"alt": "The National about Car for Ukraine Initiative",
+							"logo_alt": "Krajowe logo"
+						},
+						{
+							"alt": "The Times o Inicjatywie Car for Ukraine",
+							"logo_alt": "The Times logo"
+						},
+						{
+							"alt": "Yahoo! o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Logo Yahoo!"
+						},
+						{
+							"alt": "Wojskowy i Obronny Insider o inicjatywie Samochód dla Ukrainy",
+							"logo_alt": "Logo Military and Defense Insider"
+						}
+					],
+					"title": "Media o naszej inicjatywie"
+				},
+				"our_work": {
+					"steps": [
+						{
+							"alt": "Dwa podarowane samochody czekają na dostarczenie do ukraińskiej armii na linii frontu.",
+							"title": "1. Pozyskujemy samochody w UE i Wielkiej Brytanii"
+						},
+						{
+							"alt": "Grupa podarowanych samochodów znajduje się na lawecie, a przed nią stoi wolontariusz z ukraińską flagą.",
+							"title": "2. Dostarczanie ciężarówek na Ukrainę"
+						},
+						{
+							"alt": "Dwóch wolontariuszy spawa pancerz na bocznych drzwiach podarowanego samochodu.",
+							"title": "3. Naprawa i instalacja pancerza"
+						},
+						{
+							"alt": "Dwa podarowane pickupy zostały pomalowane, oznakowane i wypełnione zaopatrzeniem dla ukraińskiej armii.",
+							"title": "4. Paint and brand"
+						},
+						{
+							"alt": "Wolontariusze Car for Ukraine robią selfie z wdzięcznymi ukraińskimi żołnierzami, za nimi stoją podarowane samochody.",
+							"title": "5. Dostarczanie na linię frontu"
+						},
+						{
+							"alt": "Zdjęcie ostrzelanego samochodu, który został przekazany Car for Ukraine i wykorzystany na ukraińskich liniach frontu.",
+							"title": "6. Powtórz..."
+						}
+					],
+					"title": "Nasza praca"
+				},
+				"rewards": [
+					{
+						"alt": "Modelka ma na sobie bluzę z kapturem w stylu militarnym ze specjalnym wzorem Car for Ukraine.",
+						"description": "Posiadaj specjalną bluzę z kapturem w stylu militarnym zaprojektowaną przez naszego partnera DINGO",
+						"title": "Donate $100+"
+					},
+					{
+						"alt": "Trzy plakaty z unikalnymi ukraińskimi wzorami z czasów wojny.",
+						"description": "Zdobądź unikalny zestaw plakatów z głównymi ukraińskimi motywami",
+						"title": "Donate $500+"
+					},
+					{
+						"alt": "Naklejka z nazwiskami darczyńców i zwrotem \"za wolną Ukrainę\" naklejona na podarowany samochód.",
+						"description": "Aby dodać swoje imię lub logo do samochodu, który będzie walczył o wolność",
+						"title": "Donate $8,000+"
+					}
+				],
+				"twitter_timeline": {
+					"follow": "Śledź dalej",
+					"tweets_from": "Tweety od"
+				}
+			}
+		},
+		"special_projects": {
+			"active": "Aktywny",
+			"archived": "Archiwizowany",
+			"meta": {
+				"general": {
+					"description": "W ramach wolontariatu Car for Ukraine pozyskujemy, modernizujemy i dostarczamy pickupy 4x4 na front na Ukrainie.",
+					"title": "Projekty specjalne inicjatywy wolontariatu Car for Ukraine"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			},
+			"title": "Projekty specjalne"
+		},
+		"thankyou": {
+			"banner_alt": "Dwóch żołnierzy otrzymujących samochody ofiarowane przez ochotników.",
+			"meta": {
+				"general": {
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine Inicjatywa Wolontariatu"
+				},
+				"og": {
+					"description": "Car for Ukraine to zespół Ukraińców nowej generacji, obywateli UE i USA, którzy wspierają Ukrainę, dostarczając jej zmodernizowane pojazdy, które ratują życie i wysyłają Rosjan tam, gdzie ich miejsce.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				},
+				"twitter": {
+					"alt": "Każdy dolar, który przekażesz Armii Ukraińskiej, pozwoli zaoszczędzić 10 dolarów, które wydasz na uchodźców",
+					"description": "W ramach inicjatywy wolontariackiej Car for Ukraine pozyskujemy, modernizujemy i dostarczamy samochody typu pickup 4x4 na linię frontu na Ukrainie.",
+					"title": "Car for Ukraine - Inicjatywa Wolontariatu (C4U)"
+				}
+			},
+			"title": "Dziękuje Ci za pomoc!"
+		}
+	}
+}

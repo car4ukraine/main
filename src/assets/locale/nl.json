@@ -1,0 +1,684 @@
+{
+	"modules": {
+		"badges": {
+			"active": "Actief",
+			"archived": "Klaar"
+		},
+		"buttons": {
+			"buy_pickup_trucks": "Koop een pick-up",
+			"claim_your_reward": "Ontvang je beloning",
+			"donate": "Schenken",
+			"donate_car": "Auto doneren",
+			"other_projects": "Andere projecten",
+			"read_less": "...minder",
+			"read_more": "meer..."
+		},
+		"contact_form": {
+			"email": {
+				"hint": "email@example.com",
+				"label": "E-mail adres"
+			},
+			"inquiry": {
+				"hint": "Selecteer het type van je vraag",
+				"label": "Selecteer het type van je vraag"
+			},
+			"message": {
+				"hint": "Schrijf je bericht hier",
+				"label": "Bericht"
+			},
+			"name": {
+				"hint": "Uw naam",
+				"label": "Naam"
+			},
+			"notifications": {
+				"error": "Fout, controleer gegevens of probeer het later",
+				"loading": "Bezig met laden...",
+				"success": "Succes"
+			},
+			"submit": {
+				"label": "Stuur"
+			}
+		},
+		"footer": {
+			"follow_us": "Volg ons op:",
+			"other_languages": "Andere talen:",
+			"powered_by": "Powered by Ukrainian unf*ckable will",
+			"rights_and_policies": "*Rechten en beleid"
+		},
+		"header": {
+			"tags": [
+				{
+					"name": "Huis"
+				},
+				{
+					"name": "Over Ons"
+				},
+				{
+					"name": "FAQ"
+				},
+				{
+					"name": "Contact"
+				},
+				{
+					"name": "Projecten"
+				}
+			]
+		},
+		"logo": {
+			"label": "Initiatief voor vrijwilligerswerk",
+			"label_size": "0.59rem"
+		},
+		"media": {
+			"videos": [
+				{
+					"alt": "YouTube-video genaamd Wheels Of War: De weg naar Oekraïne",
+					"description": "Wheels Of War: De weg naar Oekraïne. Een groep enthousiastelingen uit het Verenigd Koninkrijk en Ierland wilde auto's doneren aan het Oekraïense leger en reisde helemaal vanuit Groot-Brittannië naar Lviv."
+				},
+				{
+					"alt": "YouTube-video met titel Trip to frontline: Hoe maak je een auto klaar voor de oorlog?",
+					"description": "Reis naar de frontlinie: Hoe maak je een auto klaar voor de oorlog? Geweldig verhaal over Adam, een Engelsman uit Californië die naar Oekraïne komt om auto's te doneren"
+				},
+				{
+					"alt": "YouTube-video toont een van de GIVE CARe's Trips",
+					"description": "GIVE CARe Reis: Een groep Nederlanders en Duitsers organiseerde een reis om auto's te doneren aan goede doelen."
+				},
+				{
+					"alt": "YouTube-video van Sky News over vrijwilligers die Britse auto's afleveren in Oekraïne",
+					"description": "Sky News over de oorlog in Oekraïne: Vrijwilligers leveren Britse auto's aan Oekraïne"
+				}
+			]
+		},
+		"special_project_section": {
+			"progress_label": "Vooruitgang",
+			"special_project_label": "Doorlopende inzamelingsactie",
+			"title": "Doneer aan het speciale project van Car for Ukraine - Vrijwilligersinitiatief"
+		}
+	},
+	"pages": {
+		"about_us": {
+			"banner": {
+				"alt": "Soldaten en vrijwilligers van Auto voor Oekraïne in Lviv",
+				"description": "Ons team bestaat uit mensen uit verschillende bedrijfstakken met verschillende achtergronden, maar vandaag zijn we verenigd om ons leger te dienen.\n\nVandaag hebben onze mannen in de frontlinie mobiliteit nodig en wij zijn hier met meer dan 50 vrijwilligers om hen te dienen en onze natie te bevrijden.",
+				"title": "Soldaten en vrijwilligers van Auto voor Oekraïne in Lviv"
+			},
+			"contributor": {
+				"default": {
+					"firstname": "Uw",
+					"lastname": "Naam"
+				}
+			},
+			"contributors": [
+				{
+					"alt": "Vrijwilliger Romein",
+					"description": "VP of Talents in IT, maar brengt nu knappe koppen samen om gevechtsklare trucks te creëren"
+				},
+				{
+					"alt": "Vrijwilliger Nazar",
+					"description": "Projectmanager in IT, maar zorgt er nu voor dat we regelmatig vrachtwagens kopen in heel Europa en het Verenigd Koninkrijk."
+				},
+				{
+					"alt": "Vrijwilliger Ivan",
+					"description": "Partnerships manager in esports, maar runt nu car4ukraine.com om ervoor te zorgen dat de wereld Oekraïne steunt met trucks"
+				},
+				{
+					"alt": "Vrijwilliger Nika",
+					"description": "Producent en filmregisseur, maar zorgt er nu voor dat alle soldaten die een vrachtwagen het hardst nodig hebben die ook krijgen."
+				},
+				{
+					"alt": "Vrijwilliger Oleksii",
+					"description": "Creative Designer en Ever Learner maar nu illustreert en levert de inhoud op car4ukraine.com"
+				},
+				{
+					"alt": "Vrijwilliger Ivan",
+					"description": "Frontend Developer in IT maar doet nu alles wat hij nodig heeft zodat de car4ukraine.com site stabiel en draaiend is."
+				},
+				{
+					"alt": "Vrijwilliger Natalia",
+					"description": "Leraar Engels maar communiceert nu met de wereld via sociale media met coole reels"
+				},
+				{
+					"alt": "Vrijwilliger Mykola",
+					"description": "Senior DevOps maar vangt nu de beste kansen voor trucks in Polen"
+				},
+				{
+					"alt": "Vrijwilliger Kseniia",
+					"description": "Manual Test Engineer maar controleert nu waar onze vrachtwagens zijn en wanneer we ze afleveren"
+				},
+				{
+					"alt": "Vrijwilliger Marian",
+					"description": "Evacuator Manipulator, maar bereidt nu elke vrachtwagen voor om mechanisch klaar te zijn voor het slagveld."
+				},
+				{
+					"alt": "Vrijwilliger Anton",
+					"description": "Music Industry Line Producer, maar communiceert nu met de frontlinie om de voertuigen op tijd te leveren waar ze nodig zijn."
+				},
+				{
+					"alt": "Vrijwilliger Patrick",
+					"description": "Gediplomeerd bouwkundig ingenieur, maar brengt nu tientallen auto's vanuit het VK naar alle delen van Oekraïne"
+				},
+				{
+					"alt": "Vrijwilliger Vasyl",
+					"description": "Strategieconsultant voor digitalisering, maar helpt nu bij de langetermijnplanning van de verdere ontwikkeling van het project."
+				},
+				{
+					"alt": "Vrijwilliger Richard",
+					"description": "Voormalig hoogleraar geschiedenis aan de Universiteit van Oxford, nu journalist, die Car for Ukraine helpt groeien in het Verenigd Koninkrijk"
+				},
+				{
+					"alt": "Vrijwilliger Palle",
+					"description": "Legerveteraan maar leidt nu inspanningen om tientallen 4x4s uit Denemarken te halen"
+				},
+				{
+					"alt": "Vrijwilliger Niels",
+					"description": "Auto-expert, maar runt nu give-care.org om fondsen te werven en betrouwbare Duitse auto's naar Oekraïne te brengen"
+				},
+				{
+					"alt": "Vrijwilliger Julia",
+					"description": "Nieuwsredacteur maar zorgt er nu voor dat de stem wordt gehoord over wat er wereldwijd toe doet"
+				},
+				{
+					"alt": "Vrijwilliger Yaroslav",
+					"description": "Ontwerper van smeedstukken, maar ontwerpt nu hoe het meest efficiënte en betrouwbare pantser eruit moet zien"
+				},
+				{
+					"alt": "Vrijwilliger Vasyl",
+					"description": "Professioneel lasser maar brengt nu dagelijks pantser aan op de auto's"
+				},
+				{
+					"alt": "Vrijwilliger Adam",
+					"description": "Producent en filmregisseur maar helpt nu Oekraïense soldaten zowel materieel als mentaal hier in Oekraïne"
+				},
+				{
+					"alt": "Vrijwilliger Andreas",
+					"description": "Ondernemer die nu helpt met zijn expertise en middelen om geweldige projecten draaiende te houden"
+				},
+				{
+					"alt": "Vrijwilliger Jozua",
+					"description": "Creatieve ondernemer maar runt nu give-care.org om fondsen te werven en regelmatig auto's naar Oekraïne te brengen met geweldige vibes"
+				},
+				{
+					"alt": "Vrijwilliger Orest",
+					"description": "Ontwerper die er nu voor zorgt dat al onze trucks er cool uitzien met bemoedigende stickers waar soldaten zich door laten inspireren"
+				},
+				{
+					"alt": "Vrijwilliger Serhiy",
+					"description": "Professionele dakdekker die zich nu bezighoudt met het ontwikkelen en leveren van nieuwe ontwerpen van machinegeweersteunen en -koepels"
+				},
+				{
+					"alt": "Vrijwilliger Oleksandr",
+					"description": "Creatieve lasser die het lasteam helpt en positieve emoties in het team brengt"
+				},
+				{
+					"alt": "Vrijwilliger Romein",
+					"description": "Professioneel chauffeur maar heeft nu 100+ auto's door de grens en naar de frontlinie gereden"
+				},
+				{
+					"alt": "Vrouwen-vrijwilliger plaatsvervanger",
+					"description": "De vrouw die gedreven wordt door de ambitie om anderen te helpen heeft vele levens gered"
+				},
+				{
+					"alt": "Man-vrijwilliger Plaatshouder",
+					"description": "De man die pleit voor vrijheid en verdediging van alle onafhankelijke naties tegen agressors"
+				},
+				{
+					"alt": "Vrijwilliger Oleksandra",
+					"description": "Directeur van de Intellias Foundation for Change"
+				}
+			],
+			"contributors[0]": {
+				"alt": ""
+			},
+			"meta": {
+				"general": {
+					"description": "Ons team bestaat uit mensen uit verschillende bedrijfstakken met verschillende achtergronden, maar vandaag zijn we verenigd om ons leger te dienen.\n\nVandaag hebben onze mannen in de frontlinie mobiliteit nodig en wij zijn hier met meer dan 50 vrijwilligers om hen te dienen en onze natie te bevrijden.",
+					"title": "Over Car for Ukraine Vrijwilligersinitiatief"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			},
+			"title": "Over Ons"
+		},
+		"contact_us": {
+			"form": {
+				"hint": "Voel je vrij om contact met ons op te nemen, dan nemen we zo snel mogelijk contact met je op.",
+				"inquiries": [
+					{
+						"label": "Met betrekking tot mijn donatie",
+						"title": "Regarding my donation (NL)"
+					},
+					{
+						"label": "Ik heb een auto te doneren",
+						"title": "I have a car to donate (NL)"
+					},
+					{
+						"label": "Ik zou graag een auto voor je kopen",
+						"title": "I'd like to buy a car for you (NL)"
+					},
+					{
+						"label": "Ik kan helpen met media en promotie",
+						"title": "I can help with media and promotion (NL)"
+					},
+					{
+						"label": "Bericht van steun",
+						"title": "Message of Support (NL)"
+					},
+					{
+						"label": "Andere",
+						"title": "Other (NL)"
+					}
+				]
+			},
+			"meta": {
+				"general": {
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Neem contact op met Car for Ukraine Vrijwilligerswerk Initiatief"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			},
+			"title": "Contact"
+		},
+		"donate": {
+			"meta": {
+				"general": {
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Doneer aan Car for Ukraine - Vrijwilligersinitiatief"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			}
+		},
+		"donate_car": {
+			"banner": {
+				"alt": "Miniatuurafbeelding van de YouTube-video genaamd Wheels Of War: The Road to Ukraine",
+				"description": [
+					"Mensen van over de hele wereld, inclusief het VK, de VS, de EU en meer, doneerden meer dan 200 voertuigen aan ons en brachten ze persoonlijk naar Oekraïne, of we hebben ze zelf afgeleverd. Doe mee!",
+					"Degenen die besluiten om vrachtwagens persoonlijk naar Lviv te brengen, zien het vaak als een vakantie plus een goede daad. We helpen met de papieren en kunnen ze rondleiden in de stad, eindigend met een geweldig diner."
+				],
+				"mobile_description": "Mensen van over de hele wereld, inclusief het VK, de VS, de EU en meer, doneerden meer dan 200 voertuigen aan ons en brachten ze persoonlijk naar Oekraïne, of we hebben ze zelf afgeleverd. Doe mee!",
+				"old_description": [
+					"Tientallen mensen in de EU, het VK en de VS hebben hun auto's gedoneerd of verkocht om auto's te kopen die Oekraïense soldaten nu nodig hebben.",
+					"Wanneer we een auto als donatie ontvangen, besparen we tot 75% van de kosten per truck en hoeven we alleen nog maar de logistiek, bepantsering en het onderhoud te betalen.",
+					"Vanaf februari 2024 hebben we al meer dan 200 auto's ontvangen als directe donatie en dit aantal blijft groeien. Doe mee!",
+					"Mensen die auto's aan ons doneren, brengen ze vaak persoonlijk naar Lviv en beschouwen het als een vakantie en goede daad. We helpen met papierwerk en kunnen ze rondleiden in de stad, eindigend met een geweldig diner."
+				],
+				"title": "Auto doneren aan Oekraïne"
+			},
+			"faq": {
+				"questions": [
+					{
+						"answer": "Je kunt bij ons een auto doneren in Oekraïne. Vul het formulier in en we nemen binnen 24 uur contact met je op. We richten ons voornamelijk op pick-up trucks en 4x4 auto's, maar andere transportmiddelen zoals bestelwagens en personenauto's worden ook geaccepteerd, omdat soldaten zich ook verplaatsen en verschillende taken hebben waarvoor wielen nodig zijn.",
+						"label": "Hoe kan ik mijn auto doneren aan Oekraïne?"
+					},
+					{
+						"answer": "Je kunt doneren aan het Oekraïense leger met Auto voor Oekraïne, waar we ons specifiek richten op auto's voor het leger. Pickup trucks, 4x4 auto's, bestelwagens, etc. Als je je auto wilt doneren, vul dan het formulier in en we nemen binnen 24 uur contact met je op.<br><br>Om het leger financieel te steunen, kun je hier doneren om ons initiatief te steunen of kijk bij Come Back Alive organisatie die Oekraïne helpt met verschillende projecten.",
+						"label": "Hoe doneren aan het Oekraïense leger?"
+					},
+					{
+						"answer": "Je kunt een auto doneren aan een goed doel met Auto voor Oekraïne. We richten ons op het leveren van transportmiddelen aan het Oekraïense leger voor zowel dodelijke als humanitaire behoeften, zoals het evacueren van mensen uit oorlogsgebieden, het brengen van voedsel en water, etc.",
+						"label": "Hoe doneer je een auto aan een goed doel?"
+					},
+					{
+						"answer": "We richten ons op mobiele gevechtsgroepen die 4-wielaangedreven dieseltrucks met 2.0l motoren of meer nodig hebben. Dit zijn enkele van de beste opties: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500.<br><br>Naast pick-up trucks zijn er ook 4x4 auto's en bestelwagens en eenvoudige civiele voertuigen nodig voor verschillende missies, bijv. hulpverlening, voedselvoorraden, enz.",
+						"label": "Welke voertuigen heb je nodig?"
+					},
+					{
+						"answer": "Nee, we kunnen je auto overal in Europa of Groot-Brittannië ophalen. Maar we helpen je ook graag met al het papierwerk als je besluit persoonlijk langs te komen.",
+						"label": "Moet ik de auto persoonlijk naar Oekraïne brengen?"
+					}
+				],
+				"title": "FAQ"
+			},
+			"form": {
+				"hint": "Vul het formulier in en we nemen binnen 24 uur contact met je op.",
+				"inquiries": [
+					{
+						"label": "Ik heb een auto te doneren",
+						"title": "I have a car to donate (NL)"
+					},
+					{
+						"label": "Ik wil mijn auto verkopen met korting",
+						"title": "I want to sell my car with a discounted price (NL)"
+					},
+					{
+						"label": "Ik zou graag een auto voor je kopen",
+						"title": "I'd like to buy a car for you (NL)"
+					},
+					{
+						"label": "Andere",
+						"title": "Other (NL)"
+					}
+				],
+				"title": "Wil je een auto doneren aan Oekraïne?"
+			},
+			"meta": {
+				"general": {
+					"description": "Tientallen mensen in de EU, het VK en de VS hebben hun auto gedoneerd of verkocht om auto's te kopen die Oekraïense soldaten nu nodig hebben. Als we een auto als donatie ontvangen, bespaart dat ons tot 75% van de kosten per truck en hoeven we alleen nog maar te betalen voor logistiek, bepantsering en onderhoud. Op 1 april 2023 hebben we al meer dan 50 auto's ontvangen als directe donatie en dit aantal blijft groeien. Doe mee!",
+					"title": "Auto Doneren aan Oekraïne"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			}
+		},
+		"faq": {
+			"meta": {
+				"general": {
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine Vrijwilligersinitiatief - FAQ"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			},
+			"old_questions": {
+				"3": {
+					"answer": "Voor degenen die onze inspanning steunen, organiseert car4ukraine een rondleiding van een dag door Kiev, Bucha, Irpin en andere plaatsen waar Oekraïners moed en verzet toonden tegen de Russen.<br/><br/>We zorgen ervoor dat je soldaten ontmoet die voor onze vrijheid vochten en zullen hun gedachten en gevoelens delen over hoe het was. We zullen ook de lokale bevolking ontmoeten wiens huizen werden bezet toen de Russen nog in de steden waren.<br/><br/>Daarnaast, als je van schieten houdt, krijgen we de kans om het schieten met echte militaire wapens te ervaren en andere verre plaatsen te bezoeken zoals Kherson, Kharkiv, Mariupol en meer nadat we ze hebben bezet.",
+					"label": "Wat is 'Rondleiding voor één dag'?"
+				},
+				"4": {
+					"answer": "Zodra we een bevestiging krijgen van je donatie, ontvang je een uniek certificaat dat je aan ons kunt laten zien en waarmee je je ervaring kunt opdoen.",
+					"label": "Hoe reserveer ik mijn 'Rondleiding met gids voor één dag'?"
+				},
+				"5": {
+					"answer": "De tour beschreven in een van de pakketten zal alleen worden uitgevoerd na de overwinning van Oekraïne en zal worden uitgevoerd wanneer er geen bedreigingen op Oekraïens land aanwezig zijn.<br/><br/>Tegelijkertijd organiseren we graag rondleidingen voor degenen die nu willen komen en het allemaal willen voelen terwijl het nog aan de gang is.",
+					"label": "Is het veilig om Oekraïne te bezoeken?"
+				}
+			},
+			"questions": [
+				{
+					"answer": "Vul het formulier in <a href='/contact'>Contact</a>. Selecteer het type aanvraag 'Ik heb een auto te doneren' en we nemen zo snel mogelijk contact met je op. Voor snellere communicatie kun je je Whatsapp-telefoonnummer achterlaten in de beschrijving.",
+					"label": "Ik wil mijn eigen voertuig doneren of verkopen, hoe doe ik dat?"
+				},
+				{
+					"answer": "We richten ons op gevechtsmobiele groepen die 4-wielaangedreven dieseltrucks met 2.0l motoren of meer nodig hebben. Dit zijn enkele van de beste opties: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Маzda BT-50 / Mazda B2500, Jeep Gladiator.<br/><br/>Als je een andere auto hebt om te doneren, accepteren we deze graag voor andere doeleinden, zoals het leveren van voedsel en humanitaire hulp, medische hulp, etc.",
+					"label": "Welke voertuigen heb je nodig?"
+				},
+				{
+					"answer": "We kunnen niet garanderen dat hij bruikbaar zal zijn nadat Oekraïne een einde heeft gemaakt aan de Russische agressie. De auto zal zonder \"invoerrechten\" in Oekraïne worden geïmporteerd, omdat de eigenaar officieel Oekraïense strijdkrachten zijn.",
+					"label": "Kan ik mijn auto terugkrijgen als de oorlog voorbij is?"
+				},
+				{
+					"answer": "We publiceren de resultaten van onze activiteit op <a href='https://twitter.com/carforukraine' target='_blank'>Twitter</a>, <a href='https://www.instagram.com/car4ukraine.com_official/' target='_blank'>Instagram</a> en <a href='https://www.facebook.com/car4ukraine' target='_blank'>Facebook</a>.<br/><br/>Volg ons om op de hoogte te blijven. We verbinden ons ertoe het hoogste niveau van transparantie te bieden. <br/><br/>Tegelijkertijd vragen we om geduld, omdat het geen film maar een oorlog is. Strijders aan het front kunnen geen foto's maken als belangrijkste prioriteit, omdat hun leven voortdurend op het spel staat.",
+					"label": "Waar kan ik de resultaten van jullie campagne zien?"
+				},
+				{
+					"answer": "Wij zijn een groep Oekraïense vrijwilligers. We hebben onze gewone banen, we doneren onze fondsen, maar we willen \"helpen om te helpen\".<br/><br/>We zijn in Oekraïne, in de EU, in de VS en in andere delen van de wereld. We hebben regelmatig contact met frontlinie- en defensie-eenheden in het oosten en zuiden.",
+					"label": "Waarom zou ik je vertrouwen?"
+				},
+				{
+					"answer": "Vul het formulier in op <a href='/contact'>Neem contact met ons op</a>. Selecteer het type vraag 'Ik wil helpen met mijn expertise' en we nemen zo snel mogelijk contact met je op. Voor snellere communicatie kun je je Whatsapp-telefoonnummer achterlaten in de beschrijving.",
+					"label": "Ik wil jouw project helpen met mijn expertise. Hoe doe ik dat?"
+				},
+				{
+					"answer": "Volg de <a href='https://billing.stripe.com/p/login/6oEeXa7T6fA8fLieUU' target='_blank'>link</a> en breng wijzigingen aan in je abonnement.",
+					"label": "Hoe kan ik een maandelijkse donatie annuleren of wijzigen?"
+				}
+			],
+			"title": "FAQ"
+		},
+		"home": {
+			"keywords": [
+				"Auto doneren aan Oekraïne",
+				"Hoe kan ik mijn auto doneren aan Oekraïne",
+				"Doneer aan het leger van Oekraïne",
+				"Doneer aan het Oekraïense leger vanuit het nederland",
+				"Hoe te doneren aan het leger van Oekraïne"
+			],
+			"meta": {
+				"general": {
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			},
+			"sections": {
+				"banner": {
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"description_size": "",
+					"metrics": {
+						"cars_delivered": "Geleverde auto's",
+						"lives_saved": "Geredde levens",
+						"worth_of_cars": " aan vrachtwagens"
+					}
+				},
+				"donated_vehicles": {
+					"description": "Tientallen mensen in de EU, het VK en de VS hebben hun auto's gedoneerd of verkocht om auto's te kopen die Oekraïense soldaten nu nodig hebben. Als we een auto als donatie ontvangen, bespaart dat ons tot 75% van de kosten per truck en hoeven we alleen nog maar de logistiek, bepantsering en onderhoud te betalen. Vanaf 1 april 2023 hebben we al meer dan 50 auto's ontvangen als directe donatie en dit aantal blijft groeien. Doe mee!",
+					"images": [
+						{
+							"alt": "Vijf vrijwilligers van Give Care bij een van de gedoneerde voertuigen"
+						},
+						{
+							"alt": "Vrijwilliger uit Groot-Brittannië schonk iconische 4x4 truck"
+						},
+						{
+							"alt": "Twee oudere vrijwilligers uit de EU rijden met gedoneerde voertuigen naar Oekraïne"
+						},
+						{
+							"alt": "Groepsfoto van het Auto voor Oekraïne-team met buitenlandse vrijwilligers"
+						},
+						{
+							"alt": "Vijf auto's voor Oekraïense chauffeurs op weg naar Oekraïne"
+						},
+						{
+							"alt": "Frontale foto van gedoneerde Give Care auto"
+						}
+					],
+					"title": "Gedoneerde voertuigen"
+				},
+				"funded_pickup_trucks": {
+					"stories": [
+						{
+							"alt": "Twee UA-soldaten van OPFOR en Adam houden de Oekraïense vlag voor de gemilitariseerde pick-up truck.",
+							"description": "Adam wilde altijd al Oekraïne helpen met een tastbare donatie. In februari 2023 kwam hij naar Donbas en doneerde persoonlijk twee vrachtwagens aan soldaten.",
+							"link": "Bekijk het verhaal van Adam...",
+							"title": "ADAM UIT DE VS"
+						},
+						{
+							"alt": "Ivan Oleksii en Martin Buhr staan voor de gedoneerde pick-up truck.",
+							"description": "Vol enthousiasme om Oekraïne uit eerste hand te helpen, spendeerde Martin zijn september 2023-vakantie aan het brengen van een vrachtwagen om te helpen bij het ontmijnen.",
+							"link": "Lees over de reis van Martin...",
+							"title": "MARTIN BUHR - VAKANTIE IN OEKRAÏNE"
+						},
+						{
+							"alt": "Een foto op een opvallende dag met vrijwilligers uit verschillende Europese landen en de gedoneerde auto's.",
+							"description": "De SUV Prestige-dealer in het VK kocht een L200-pick-up, organiseerde een vrijwilligerskonvooi naar Lviv, en bezocht winkels en de stad, waarmee ze een boeiend verhaal creëerden.",
+							"link": "Bekijk het verhaal van Wheels of War...",
+							"title": "BRITS BEDRIJF KOOPT ONS EEN VRACHTWAGEN"
+						},
+						{
+							"alt": "Twee broers en Ivan Oleksii staan voor twee gedoneerde SUV pick-up trucks en houden Britse, Oekraïense en Canadese vlaggen vast.",
+							"description": "Geboren in Zuid-Afrika en opgegroeid in een Brits-Canadese gemeenschap, brachten Edward en Hugh persoonlijk een pick-up truck die nu Oekraïne in het oosten verdedigt.",
+							"link": "Bekijk de Frontline-video...",
+							"title": "EDWARD EN HUGH UIT ZUID-AFRIKA"
+						}
+					],
+					"title": "Koop een auto voor ons"
+				},
+				"media_about_our_initiative": {
+					"list": [
+						{
+							"alt": "Sky News over Auto voor Oekraïne-initiatief",
+							"logo_alt": "Sky News-logo"
+						},
+						{
+							"alt": "Insider over Auto voor Oekraïne-initiatief",
+							"logo_alt": "Insider-logo"
+						},
+						{
+							"alt": "CNN over het initiatief Auto voor Oekraïne",
+							"logo_alt": "CNN-logo"
+						},
+						{
+							"alt": "De Telegraaf over het initiatief Auto voor Oekraïne",
+							"logo_alt": "Het logo van de Telegraaf"
+						},
+						{
+							"alt": "Newsweek over auto voor Oekraïne-initiatief",
+							"logo_alt": "Newsweek-logo"
+						},
+						{
+							"alt": "Onafhankelijk over Auto voor Oekraïne-initiatief",
+							"logo_alt": "Onafhankelijk logo"
+						},
+						{
+							"alt": "Kyiv Post over het initiatief Auto voor Oekraïne",
+							"logo_alt": "Logo Kyiv Post"
+						},
+						{
+							"alt": "TV2 over het initiatief Auto voor Oekraïne",
+							"logo_alt": "TV2-logo"
+						},
+						{
+							"alt": "Het Nationaal initiatief voor auto's in Oekraïne",
+							"logo_alt": "Het nationale logo"
+						},
+						{
+							"alt": "The Times initiatief voor auto's in Oekraïne",
+							"logo_alt": "The Times logo"
+						},
+						{
+							"alt": "Yahoo! over Auto voor Oekraïne-initiatief",
+							"logo_alt": "Yahoo! logo"
+						},
+						{
+							"alt": "Militaire en defensie-insider over auto voor Oekraïne-initiatief",
+							"logo_alt": "Militair en Defense Insider-logo"
+						}
+					],
+					"title": "Media over ons initiatief"
+				},
+				"our_work": {
+					"steps": [
+						{
+							"alt": "Twee gedoneerde auto's wachten op levering aan het Oekraïense leger aan de frontlinies.",
+							"title": "1. Wij kopen auto's in de EU en het VK"
+						},
+						{
+							"alt": "Het stel gedoneerde auto's staat op een aanhanger van een autotransporter en er staat een vrijwilliger met een Oekraïense vlag voor.",
+							"title": "2. Vrachtwagens leveren aan Oekraïne"
+						},
+						{
+							"alt": "Twee vrijwilligers lassen pantser op de zijdeur van een gedoneerde auto.",
+							"title": "3. Repareer en installeer bepantsering"
+						},
+						{
+							"alt": "Twee gedoneerde pick-ups werden geverfd, gebrandmerkt en gevuld met voorraden voor het Oekraïense leger.",
+							"title": "4. Verf en merk"
+						},
+						{
+							"alt": "Vrijwilligers van Car for Ukraine maken een selfie met dankbare Oekraïense soldaten, achter hen staan gedoneerde auto's.",
+							"title": "5. Lever aan de frontlinies"
+						},
+						{
+							"alt": "Een foto van een beschoten auto, die werd geschonken aan Car for Ukraine en werd gebruikt in de Oekraïense frontlinies.",
+							"title": "6. Herhaal..."
+						}
+					],
+					"title": "Ons Werk"
+				},
+				"rewards": [
+					{
+						"alt": "Een vrouwelijk model draagt een hoodie in militaire stijl met een speciaal ontwerp van Car for Ukraine.",
+						"description": "Koop een speciale hoodie in militaire stijl, ontworpen door onze partner DINGO",
+						"title": "Donate $100+"
+					},
+					{
+						"alt": "Drie posters met unieke Oekraïense ontwerpen uit de oorlogstijd.",
+						"description": "Koop een unieke posterset met de belangrijkste Oekraïense motieven",
+						"title": "Donate $500+"
+					},
+					{
+						"alt": "Een sticker met de namen van de donateurs en de zin \"for free Ukraine\" werd op de gedoneerde auto geplakt.",
+						"description": "Om je naam of logo toe te voegen aan de auto die zal vechten voor vrijheid",
+						"title": "Donate $8,000+"
+					}
+				],
+				"twitter_timeline": {
+					"follow": "Volg op",
+					"tweets_from": "Tweets van"
+				}
+			}
+		},
+		"special_projects": {
+			"active": "Actief",
+			"archived": "Gearchiveerd",
+			"meta": {
+				"general": {
+					"description": "Met het vrijwilligersinitiatief Car for Ukraine worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Speciale projecten van het vrijwilligersinitiatief van Car for Ukraine"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			},
+			"title": "Speciale projecten"
+		},
+		"thankyou": {
+			"banner_alt": "Twee soldaten nemen gedoneerde auto's in ontvangst van vrijwilligers.",
+			"meta": {
+				"general": {
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine Vrijwilligersinitiatief"
+				},
+				"og": {
+					"description": "Car for Ukraine is een team van Oekraïners van de volgende generatie, EU-burgers en Amerikaanse burgers die Oekraïne steunen door het land te voorzien van verbeterde voertuigen die levens redden en Russen sturen waar ze thuishoren.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				},
+				"twitter": {
+					"alt": "Elke $ 1 die u doneert aan het Oekraïense leger bespaart $ 10 die u aan vluchtelingen kunt besteden",
+					"description": "Met het vrijwilligersinitiatief Auto voor Oekraïne worden 4x4 pick-uptrucks ingekocht, opgewaardeerd en geleverd aan de frontlinies in Oekraïne.",
+					"title": "Car for Ukraine - Vrijwilligersinitiatief (C4U)"
+				}
+			},
+			"title": "Bedankt voor de hulp!"
+		}
+	}
+}

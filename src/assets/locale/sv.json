@@ -1,0 +1,684 @@
+{
+	"modules": {
+		"badges": {
+			"active": "Aktiva",
+			"archived": "Arkiverat"
+		},
+		"buttons": {
+			"buy_pickup_trucks": "Köp pick-up lastbil",
+			"claim_your_reward": "Hämta ditt pris",
+			"donate": "DONERA",
+			"donate_car": "Donera bil",
+			"other_projects": "Ändra projekt",
+			"read_less": "...mindre",
+			"read_more": "Mer…"
+		},
+		"contact_form": {
+			"email": {
+				"hint": "email@example.com",
+				"label": "E-postadress"
+			},
+			"inquiry": {
+				"hint": "Välj typ av din förfrågan",
+				"label": "Välj typ av din förfrågan"
+			},
+			"message": {
+				"hint": "Skriv ditt meddelande här",
+				"label": "Meddelande"
+			},
+			"name": {
+				"hint": "Ditt namn",
+				"label": "Namn"
+			},
+			"notifications": {
+				"error": "Fel, kontrollera data eller försök senare",
+				"loading": "Läser in...",
+				"success": "Framgång"
+			},
+			"submit": {
+				"label": "Skicka"
+			}
+		},
+		"footer": {
+			"follow_us": "Följ oss på:",
+			"other_languages": "Andra språk:",
+			"powered_by": "Powered by Ukrainian unf*ckable will",
+			"rights_and_policies": "*Rättigheter och policyer"
+		},
+		"header": {
+			"tags": [
+				{
+					"name": "Hem"
+				},
+				{
+					"name": "Om oss"
+				},
+				{
+					"name": "FAQ"
+				},
+				{
+					"name": "Kontakta oss"
+				},
+				{
+					"name": "Specialprojekt"
+				}
+			]
+		},
+		"logo": {
+			"label": "Frivilligt initiativ",
+			"label_size": "0.93rem"
+		},
+		"media": {
+			"videos": [
+				{
+					"alt": "YouTube-video som heter Wheels Of War: The Road to Ukraine",
+					"description": "Wheels of War: Vägen till Ukraina. En grupp entusiaster från Storbritannien och Irland ville donera bilar till den ukrainska armén och tog sig hela vägen från Storbritannien till Lviv"
+				},
+				{
+					"alt": "YouTube-video med titeln Trip to frontline: How to tune up a car for war?",
+					"description": "Resa till frontlinjen: Hur ställer man in en bil för krig? Fantastisk berättelse om Adam, en engelsk man från Kalifornien som kommer till Ukraina för att donera bilar"
+				},
+				{
+					"alt": "YouTube-video visar en av GIVE CARes resor",
+					"description": "GIVE CARe Trip: En grupp holländare och tyskar organiserade en resa för att donera bilar till välgörenhet"
+				},
+				{
+					"alt": "YouTube-video av Sky News om volontärer för att leverera brittiska bilar till Ukraina",
+					"description": "Sky News om krig i Ukraina: Volontärer för att leverera brittiska bilar till Ukraina"
+				}
+			]
+		},
+		"special_project_section": {
+			"progress_label": "Framsteg",
+			"special_project_label": "Pågående insamling",
+			"title": "Donera till Special Project of Car for Ukraine - Volunteering Initiative"
+		}
+	},
+	"pages": {
+		"about_us": {
+			"banner": {
+				"alt": "Soldater och volontärer från Car for Ukraine i Lviv",
+				"description": "Vårt team har människor från olika branscher med olika bakgrund, men idag är vi enade för att tjäna vår armé.\n\n\nIdag kräver våra män vid frontlinjen rörlighet, och vi är här med över 50 frivilliga för att tjäna dem och befria vår nation.",
+				"title": "Soldater och volontärer från Car for Ukraine i Lviv"
+			},
+			"contributor": {
+				"default": {
+					"firstname": "Din",
+					"lastname": "namn"
+				}
+			},
+			"contributors": [
+				{
+					"alt": "Volunteer Roman",
+					"description": "IT-talanger Vice President, men samlar nu kreativa hjärnor för att skapa stridsklara lastbilar"
+				},
+				{
+					"alt": "Volunteer Nazar",
+					"description": "IT-projektledare, men ser nu till att vi regelbundet köper lastbilar över hela Europa och Storbritannien"
+				},
+				{
+					"alt": "Volunteer Ivan",
+					"description": "Esports Partnerships Manager, men driver nu car4ukraine.com-webbplatsen för att se till att världen stöder Ukraina med lastbilar"
+				},
+				{
+					"alt": "Volunteer Nika",
+					"description": "Producent och filmregissör, men ser nu till att alla soldater som behöver lastbilar mest får dem så snabbt som möjligt"
+				},
+				{
+					"alt": "Volunteer Oleksii",
+					"description": "Kreativ designer och ständig lärande, men illustrerar och levererar nu innehåll på car4ukraine.com"
+				},
+				{
+					"alt": "Volunteer Ivan",
+					"description": "Frontendutvecklare inom IT, men gör nu allt som behövs för att car4ukraine.com-webbplatsen ska vara stabil och fungera"
+				},
+				{
+					"alt": "Volunteer Natalia",
+					"description": "Engelsklärare, men kommunicerar nu med världen genom sociala medier med coola reels"
+				},
+				{
+					"alt": "Volunteer Mykola",
+					"description": "Senior DevOps, men fångar nu de bästa möjligheterna för lastbilar i Polen"
+				},
+				{
+					"alt": "Volunteer Kseniia",
+					"description": "Manuell testingenjör, men kollar nu var våra lastbilar är och när vi levererar dem"
+				},
+				{
+					"alt": "Volunteer Marian",
+					"description": "Evacuator Manipulator, men förbereder nu varje enskild lastbil för mekaniskt redo att gå till stridsfälten"
+				},
+				{
+					"alt": "Volunteer Anton",
+					"description": "Producent inom musikbranschen, men kommunicerar nu med frontlinjen för att leverera fordonen i tid där de behövs"
+				},
+				{
+					"alt": "Volunteer Patrick",
+					"description": "Kvalificerad byggingenjör, men tar nu in dussintals bilar från Storbritannien till alla delar av Ukraina"
+				},
+				{
+					"alt": "Volunteer Vasyl",
+					"description": "Strategikonsult för digitalisering, men assisterar nu med långsiktig planering för ytterligare utveckling av projektet"
+				},
+				{
+					"alt": "Volunteer Richard",
+					"description": "Före detta professor i historia vid University of Oxford, nu journalist, som hjälper Car for Ukraine att växa i Storbritannien"
+				},
+				{
+					"alt": "Volunteer Palle",
+					"description": "Armeveteran, men leder nu ansträngningarna för att ta in dussintals 4x4 från Danmark"
+				},
+				{
+					"alt": "Volunteer Niels",
+					"description": "Autoexpert, men driver nu give-care.org för att samla in pengar och föra pålitliga tyska bilar till Ukraina"
+				},
+				{
+					"alt": "Volunteer Julia",
+					"description": "Nyhetredaktör, men ser nu till att rösten hörs om vad som betyder något globalt"
+				},
+				{
+					"alt": "Volunteer Yaroslav",
+					"description": "Smidesdesigner, men skapar nu hur den mest effektiva och pålitliga rustningen bör se ut"
+				},
+				{
+					"alt": "Volunteer Vasyl",
+					"description": "Professionell svetsare, men lägger nu pansar på bilarna dagligen"
+				},
+				{
+					"alt": "Volunteer Adam",
+					"description": "Producent och filmregissör, men assisterar nu ukrainska soldater både materiellt och mentalt här i Ukraina"
+				},
+				{
+					"alt": "Volunteer Andreas",
+					"description": "Entreprenör som nu hjälper med sin expertis och resurser för att hålla bra projekt igång"
+				},
+				{
+					"alt": "Volunteer Joshua",
+					"description": "Kreativ entreprenör, men driver nu give-care.org för att samla in pengar och föra bilar till Ukraina regelbundet med härlig stämning"
+				},
+				{
+					"alt": "Volunteer Orest",
+					"description": "Designer som nu ser till att alla våra lastbilar ser coola ut med uppmuntrande klistermärken som soldaterna kommer att inspireras av"
+				},
+				{
+					"alt": "Volunteer Serhiy",
+					"description": "Professionell takläggare som nu sätter händerna på att utveckla och leverera nya design av kulsprutehyllor och torn"
+				},
+				{
+					"alt": "Volunteer Oleksandr",
+					"description": "Kreativ svetsare som assisterar svetsteamet och ger positiva känslor till teamet"
+				},
+				{
+					"alt": "Volunteer Roman",
+					"description": "Professionell förare, men har nu kört över 100 bilar över gränsen och till frontlinjen"
+				},
+				{
+					"alt": "Women-volunteer placeholder",
+					"description": "Kvinnan som drivs av ambitionen att hjälpa andra har räddat många liv"
+				},
+				{
+					"alt": "Man-volunteer Placeholder",
+					"description": "Mannen som förespråkar frihet och försvar för alla oberoende nationer mot aggressorer"
+				},
+				{
+					"alt": "Volunteer Oleksandra",
+					"description": "Direktör för Intellias Foundation for Change"
+				}
+			],
+			"contributors[0]": {
+				"alt": ""
+			},
+			"meta": {
+				"general": {
+					"description": "Vårt team har människor från olika branscher med olika bakgrund, men idag är vi enade för att tjäna vår armé.\n\n\nIdag kräver våra män vid frontlinjen rörlighet, och vi är här med över 50 frivilliga för att tjäna dem och befria vår nation.",
+					"title": "Om Car for Ukraine Volunteering Initiative"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			},
+			"title": "Om oss"
+		},
+		"contact_us": {
+			"form": {
+				"hint": "Kontakta oss gärna när som helst, vi återkommer till dig så snart vi kan",
+				"inquiries": [
+					{
+						"label": "Angående min donation",
+						"title": "Regarding my donation (SE)"
+					},
+					{
+						"label": "Jag har en bil att skänka bort",
+						"title": "I have a car to donate (SE)"
+					},
+					{
+						"label": "Jag skulle vilja köpa en bil åt dig",
+						"title": "I'd like to buy a car for you (SE)"
+					},
+					{
+						"label": "Jag kan hjälpa till med media och marknadsföring",
+						"title": "I can help with media and promotion (SE)"
+					},
+					{
+						"label": "Hälsning av stöd",
+						"title": "Message of Support (SE)"
+					},
+					{
+						"label": "Annat",
+						"title": "Other (SE)"
+					}
+				]
+			},
+			"meta": {
+				"general": {
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Kontakta Car for Ukraine Volontärinitiativ"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			},
+			"title": "Kontakta oss"
+		},
+		"donate": {
+			"meta": {
+				"general": {
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Donera till Car for Ukraine - Volontärinitiativ"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			}
+		},
+		"donate_car": {
+			"banner": {
+				"alt": "Miniatyr av YouTube-videon Wheels Of War: The Road to Ukraine",
+				"description": [
+					"Personer från hela världen, inklusive Storbritannien, USA, EU och mer, donerade över 200 fordon till oss och tog dem personligen till Ukraina, eller så levererade vi dem själva. Gå med!",
+					"De som bestämmer sig för att personligen ta med lastbilar till Lviv betraktar det ofta som en semester plus en god gärning. Vi hjälper med pappersarbetet och kan visa dem runt i staden, för att avsluta med en fantastisk middag."
+				],
+				"mobile_description": "Personer från hela världen, inklusive Storbritannien, USA, EU och mer, donerade över 200 fordon till oss och tog dem personligen till Ukraina, eller så levererade vi dem själva. Gå med!",
+				"old_description": [
+					"Dussintals människor i EU, Storbritannien och USA har donerat sina bilar eller sålt dem för att köpa bilar som ukrainska soldater behöver just nu.",
+					"När vi får en bil som donation sparar det oss upp till 75 % av kostnaden per lastbil och allt vi har kvar att täcka är logistik, rustning och underhåll.",
+					"Den februari 2024 har vi redan fått över 200 bilar som en direkt donation och detta antal fortsätter att växa. Ansluta sig!",
+					"Personer som skänker bilar till oss brukar ofta personligen ta dem till Lviv och betraktar det som en semester samt en god gärning. Vi hjälper med pappersarbetet och kan visa dem runt i staden med avslutande middag."
+				],
+				"title": "Donera bil till Ukraina"
+			},
+			"faq": {
+				"questions": [
+					{
+						"answer": "Du kan donera bil till Ukraina med oss. Fyll i formuläret så återkommer vi till dig inom 24 timmar. Vi fokuserar främst på pickup-bilar och 4x4-bilar, men andra transportmedel som skåpbilar och civila bilar accepteras då soldater också rör sig och har olika uppgifter till vilka hjul som behövs.",
+						"label": "Hur kan jag donera min bil till Ukraina?"
+					},
+					{
+						"answer": "Du kan donera till Ukrainas armé med Car for Ukraine, där vi fokuserar specifikt på bilar för armén. Pickupbilar, 4x4-bilar, skåpbilar, etc. Om du vill donera din bil, vänligen fyll i formuläret så återkommer vi till dig inom 24 timmar.<br><br>För att stödja armén ekonomiskt kan du donera här för att stödja vårt initiativ eller kolla in Come Back Alive-organisationen som hjälper Ukraina med olika projekt.",
+						"label": "Hur donerar man till Ukrainas armé?"
+					},
+					{
+						"answer": "Du kan donera en bil till välgörenhet med Car for Ukraine. Vi fokuserar på att förse den ukrainska armén med transportmedel som inkluderar både dödliga och humanitära behov, som att evakuera människor från krigsområden, ta med mat och vatten, etc.",
+						"label": "Hur skänker man en bil till välgörenhet?"
+					},
+					{
+						"answer": "Vi fokuserar på mobila stridsgrupper som behöver 4-hjulsdrivna diesellastbilar med 2,0l motorer eller mer. Dessa är några av de bästa alternativen: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500.<br><br>Förutom pickup-bilar krävs också fyrhjulsdrivna bilar och skåpbilar samt enkla civila fordon för olika uppdrag, t.ex. biståndsleverans, matförsörjning etc.",
+						"label": "Vilka fordon behöver du?"
+					},
+					{
+						"answer": "Nej, vi kan hämta din bil var som helst i Europa eller Storbritannien. Men vi hjälper dig också gärna med allt pappersarbete om du bestämmer dig för att komma personligen.",
+						"label": "Måste jag ta bilen personligen till Ukraina?"
+					}
+				],
+				"title": "FAQ"
+			},
+			"form": {
+				"hint": "Fyll i formuläret så återkommer vi till dig inom 24 timmar",
+				"inquiries": [
+					{
+						"label": "Jag har en bil att donera",
+						"title": "I have a car to donate (EN)"
+					},
+					{
+						"label": "Jag vill sälja min bil till ett rabatterat pris",
+						"title": "I want to sell my car with a discounted price (EN)"
+					},
+					{
+						"label": "Jag skulle vilja köpa en bil åt dig",
+						"title": "I'd like to buy a car for you (SE)"
+					},
+					{
+						"label": "Andra",
+						"title": "Other(EN)"
+					}
+				],
+				"title": "Vill du donera bil till Ukraina?"
+			},
+			"meta": {
+				"general": {
+					"description": "Dussintals människor i EU, Storbritannien och USA har donerat sina bilar eller sålt dem för att köpa bilar som ukrainska soldater behöver just nu. När vi får en bil som donation sparar det oss upp till 75 % av kostnaden per lastbil och allt vi har kvar att täcka är logistik, rustning och underhåll. Den 1 april 2023 har vi redan tagit emot över 50 bilar som en direkt donation och detta antal fortsätter att växa. Ansluta sig!",
+					"title": "Donera bil till Ukraina"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			}
+		},
+		"faq": {
+			"meta": {
+				"general": {
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Car for Ukraine Volunteering Initiative - FAQ"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			},
+			"old_questions": {
+				"3": {
+					"answer": "För dem som stöder våra ansträngningar kommer car4ukraine att organisera en guidad tur under en dag där man besöker Kyiv, Bucha, Irpin och andra platser där ukrainarna visade mod och motstånd mot ryssarna.<br/><br/>Du kommer att träffa soldater som kämpade för vår frihet och de kommer att dela med sig av sina tankar och känslor om hur det var. Vi kommer också att träffa lokalbefolkningen vars hus ockuperades medan ryssarna fortfarande var i städerna.<br/><br/> Dessutom, om du gillar skytte, kommer du att få möjlighet att uppleva riktigt militärt vapenskytte och besöka andra avlägsna platser som Kherson, Kharkiv, Mariupol och mer efter att vi har befriat dem.",
+					"label": "Vad är 'En Dag Guidad Tur'?"
+				},
+				"4": {
+					"answer": "När vi får bekräftelse på din donation kommer du att få ett unikt certifikat som du kan visa för oss och få din upplevelse.",
+					"label": "Hur bokar jag 'En Dag Guidad Tur'?"
+				},
+				"5": {
+					"answer": "Turen som beskrivs i en av paketen kommer att hanteras endast efter Ukrainas seger och kommer att genomföras när det inte finns några hot mot ukrainsk mark.<br/><br/>Samtidigt är vi glada att organisera turer för dem som vill komma nu och uppleva allt medan det fortfarande pågår.",
+					"label": "Är det säkert att besöka Ukraina?"
+				}
+			},
+			"questions": [
+				{
+					"answer": "Fyll i formuläret på <a href='/contact'>Kontakta oss</a>. Välj typ av förfrågan ’Jag har en bil att skänka bort’ och vi kommer att kontakta dig så snart som möjligt. För snabbare kommunikation kan du lämna ditt Whatsapp-telefonnummer i beskrivningen.",
+					"label": "Jag vill skänka eller sälja mitt eget fordon, hur gör jag det?"
+				},
+				{
+					"answer": "Vi fokuserar på stridande mobila grupper som behöver fyrhjulsdrivna dieselbilar med motorer på 2,0 liter eller mer. Här är några av de bästa alternativen: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara / KingCab, Isuzu D-Max, Маzda BT-50 / Mazda B2500, Jeep Gladiator.<br/><br/>Om du har en annan bil att skänka tar vi gärna emot den för andra ändamål, som leverans av mat och humanitär hjälp, medicinsk hjälp, osv.",
+					"label": "Vilka fordon behöver ni?"
+				},
+				{
+					"answer": "Vi kan inte garantera att den kommer vara användbar efter att Ukraina har satt stopp för den ryska aggressionen. Bilen importeras utan några 'importtullar' till Ukraina, eftersom dess ägare kommer att vara officiellt en del av Ukrainas väpnade styrkor.",
+					"label": "Kan jag få tillbaka min bil efter att kriget är över?"
+				},
+				{
+					"answer": "Vi publicerar resultaten av vår verksamhet på <a href='https://twitter.com/carforukraine' target='_blank'>Twitter</a>, <a href='https://www.instagram.com/car4ukraine.com_official/' target='_blank'>Instagram</a> och <a href='https://www.facebook.com/car4ukraine' target='_blank'>Facebook</a>.<br/><br/>Följ oss för att hålla dig uppdaterad. Vi förbinder oss att erbjuda den högsta nivån av transparens. <br/><br/>Samtidigt ber vi dig att ha tålamod, eftersom det inte är en film utan en krig. Kämpare på frontlinjen kan inte ta bilder som huvudprioritet, eftersom de hela tiden riskerar sina liv.",
+					"label": "Var kan jag se resultaten av er kampanj?"
+				},
+				{
+					"answer": "Vi är en grupp ukrainska volontärer. Vi har våra vanliga jobb, vi donerar våra medel, men vill 'hjälpa till att hjälpa'.<br/><br/>Vi finns i Ukraina, EU, USA och andra delar av världen. Vi samverkar regelbundet med försvarsenheter och försvarsenheter vid frontlinjen i östra och södra sidan.",
+					"label": "Varför ska jag lita på er?"
+				},
+				{
+					"answer": "Fyll i formuläret på <a href='/contact'>Kontakta oss</a>. Välj typ av förfrågan ’Jag vill hjälpa med min expertis’ och vi kommer att kontakta dig så snart som möjligt. För snabbare kommunikation kan du lämna ditt Whatsapp-telefonnummer i beskrivningen.",
+					"label": "Jag vill hjälpa ert projekt med min expertis. Hur gör jag det?"
+				},
+				{
+					"answer": "Följ <a href='https://billing.stripe.com/p/login/6oEeXa7T6fA8fLieUU' target='_blank'>länken</a> och gör ändringar i din prenumeration.",
+					"label": "Hur avbryter jag eller gör ändringar i en regelbunden månatlig donation?"
+				}
+			],
+			"title": "FAQ"
+		},
+		"home": {
+			"keywords": [
+				"Donera bil till Ukraina",
+				"Hur kan jag donera min bil till Ukraina",
+				"Donera till Ukrainas armé",
+				"Donera till Ukrainas armé från Storbritannien",
+				"Hur donerar man till Ukrainas armé"
+			],
+			"meta": {
+				"general": {
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volontärinitiativ"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			},
+			"sections": {
+				"banner": {
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"description_size": "",
+					"metrics": {
+						"cars_delivered": "Bilar levererade",
+						"lives_saved": "Liv räddade",
+						"worth_of_cars": "värda lastbilar"
+					}
+				},
+				"donated_vehicles": {
+					"description": "Dussintals människor i EU, Storbritannien och USA har donerat sina bilar eller sålt dem för att köpa bilar som ukrainska soldater behöver just nu. \nNär vi får en bil som donation sparar det oss upp till 75 % av kostnaden per lastbil och allt vi har kvar att täcka är logistik, rustning och underhåll. \nDen 1 april 2023 har vi redan fått över 50 bilar som en direkt donation och detta antal fortsätter att växa. \nAnsluta sig!",
+					"images": [
+						{
+							"alt": "Fem frivilliga från Give Care framför de donerade fordonen"
+						},
+						{
+							"alt": "Volontär från Storbritannien donerade ikonisk 4x4-lastbil"
+						},
+						{
+							"alt": "Två äldre volontärer från EU kör donerade fordon till Ukraina"
+						},
+						{
+							"alt": "Gruppfoto av Car for Ukraine-teamet med internationella volontärer"
+						},
+						{
+							"alt": "Fem Car for Ukraine-förare på väg till Ukraina"
+						},
+						{
+							"alt": "Frontalbild av donerad Give Care-bil"
+						}
+					],
+					"title": "Donerade fordon"
+				},
+				"funded_pickup_trucks": {
+					"stories": [
+						{
+							"alt": "Två UA-soldater från OPFOR och Adam håller den ukrainska flaggan framför den militariserade pick-upen.",
+							"description": "Adam har alltid velat hjälpa Ukraina med en konkret donation. I februari 2023 kom han till Donbas och personligen donerade två lastbilar till soldaterna.",
+							"link": "Titta på Adams historia...",
+							"title": "ADAM FRÅN USA"
+						},
+						{
+							"alt": "Ivan Oleksii och Martin Buhr står framför den donerade pick-upen.",
+							"description": "I sin iver att hjälpa Ukraina på plats spenderade Martin sin semester i september 2023 med att ta med en lastbil för att stödja minröjningsarbetet.",
+							"link": "Läs om Martins resa...",
+							"title": "MARTIN BUHR - SEMESTER I UKRAINA"
+						},
+						{
+							"alt": "En bild på en uppseendeväckande dag med frivilliga från olika europeiska länder med de donerade bilarna.",
+							"description": "Storbritanniens SUV Prestige-återförsäljare köpte en L200 pick-up, organiserade en frivillig konvoj till Lviv och turnerade affärer och staden, vilket skapade en fängslande berättelse.",
+							"link": "Se Wheels of War-historien...",
+							"title": "BRITTISKT FÖRETAG KÖPTE EN LASTBIL TILL OSS"
+						},
+						{
+							"alt": "Två bröder och Ivan Oleksii står framför två donerade SUV-pickupbilar och håller brittiska, ukrainska och kanadensiska flaggor.",
+							"description": "Födda i Sydafrika och uppvuxna i en brittisk-kanadensisk gemenskap, tog Edward och Hugh personligen med en pickup-lastbil som nu försvarar Ukraina i öst.",
+							"link": "Titta på Frontline-video...",
+							"title": "EDWARD OCH HUGH FRÅN SYDAFRIKA"
+						}
+					],
+					"title": "Köp bil åt oss"
+				},
+				"media_about_our_initiative": {
+					"list": [
+						{
+							"alt": "Sky News om Car for Ukraine-initiativet",
+							"logo_alt": "Sky News-logotypen"
+						},
+						{
+							"alt": "Insider om Car for Ukraine-initiativet",
+							"logo_alt": "Insider-logotypen"
+						},
+						{
+							"alt": "CNN om Car for Ukraine-initiativet",
+							"logo_alt": "CNN-logotypen"
+						},
+						{
+							"alt": "The Telegraph om Car for Ukraine-initiativet",
+							"logo_alt": "The Telegraph-logotypen"
+						},
+						{
+							"alt": "Newsweek om Car for Ukraine-initiativet",
+							"logo_alt": "Newsweek-logotypen"
+						},
+						{
+							"alt": "Independent om Car for Ukraine-initiativet",
+							"logo_alt": "Independent-logotypen"
+						},
+						{
+							"alt": "Kyiv Post om Car for Ukraine-initiativet",
+							"logo_alt": "Kyiv Post-logotypen"
+						},
+						{
+							"alt": "TV2 om Car for Ukraine-initiativet",
+							"logo_alt": "TV2-logotypen"
+						},
+						{
+							"alt": "The National om Car for Ukraine-initiativet",
+							"logo_alt": "The National-logotypen"
+						},
+						{
+							"alt": "The Times om Car for Ukraine-initiativet",
+							"logo_alt": "The Times-logotypen"
+						},
+						{
+							"alt": "Yahoo! om Car for Ukraine-initiativet",
+							"logo_alt": "Yahoo!-logotypen"
+						},
+						{
+							"alt": "Military and Defense Insider om Car for Ukraine-initiativet",
+							"logo_alt": "Military and Defense Insider-logotypen"
+						}
+					],
+					"title": "Media om vårt initiativ"
+				},
+				"our_work": {
+					"steps": [
+						{
+							"alt": "Två donerade bilar väntar på att levereras till den Ukrainska armén på frontlinjen.",
+							"title": "1. Vi källar bilar i EU och Storbritannien"
+						},
+						{
+							"alt": "En bunt donerade bilar på en biltransporttrailer, och en volontär med ett Ukrainskt flagg står framför den.",
+							"title": "2. Leverera lastbilar till Ukraina"
+						},
+						{
+							"alt": "Två volontärer svetsar pansar på sidodörren till en donerad bil.",
+							"title": "3. Reparation och installation av pansar"
+						},
+						{
+							"alt": "Två donerade pickup-bilar målades, märktes och fylldes med förnödenheter för den Ukrainska armén.",
+							"title": "4. Måla och märk"
+						},
+						{
+							"alt": "Car for Ukraine-volontärer tar en selfie med tacksamma Ukrainska soldater, bakom dem finns donerade bilar.",
+							"title": "5. Leverera till frontlinjen"
+						},
+						{
+							"alt": "En bild av en beskjuten bil, som donerades till Car for Ukraine och användes på de Ukrainska frontlinjerna.",
+							"title": "6. Upprepa..."
+						}
+					],
+					"title": "Vårt arbete"
+				},
+				"rewards": [
+					{
+						"alt": "En kvinnlig modell bär en militärstilhoodie med en speciell Car for Ukraine-design.",
+						"description": "Äg en speciell militärstilhoodie designad av vår partner DINGO",
+						"title": "Donera 100+ dollar"
+					},
+					{
+						"alt": "Tre affischer med unika Ukrainska krigstidsdesigner.",
+						"description": "Få en unik affischuppsättning med de viktigaste Ukrainska mottoarna",
+						"title": "Donera 500+ dollar"
+					},
+					{
+						"alt": "En klistermärke med donatorers namn och frasen 'för ett fritt Ukraina' klistrat på den donerade bilen.",
+						"description": "För att lägga till ditt namn eller logotyp på bilen som kommer att kämpa för friheten",
+						"title": "Donera 8 000+ dollar"
+					}
+				],
+				"twitter_timeline": {
+					"follow": "Följ på",
+					"tweets_from": "Tweets från"
+				}
+			}
+		},
+		"special_projects": {
+			"active": "Aktiva",
+			"archived": "Arkiverad",
+			"meta": {
+				"general": {
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Särskilda projekt av Car for Ukraine Volunteering Initiative"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			},
+			"title": "Specialprojekt"
+		},
+		"thankyou": {
+			"banner_alt": "Två soldater tar emot donerade bilar från frivilliga.",
+			"meta": {
+				"general": {
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Car for Ukraine Volunteering Initiative"
+				},
+				"og": {
+					"description": "Car for Ukraine är ett team av nästa generations ukrainare, EU-medborgare och amerikanska medborgare som stödjer Ukraina genom att förse det med uppgraderade fordon som räddar liv och skickar ryssar dit de hör hemma.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				},
+				"twitter": {
+					"alt": "Varje $1 du donerar till den ukrainska armén sparar $10 du kommer att spendera på flyktingar",
+					"description": "På frivillighetsinitiativet Car for Ukraine köper, uppgraderar och levererar vi 4x4 pickuptruckar till frontlinjerna i Ukraina.",
+					"title": "Bil för Ukraina - Volunteering Initiative (C4U)"
+				}
+			},
+			"title": "Tack för hjälp!"
+		}
+	}
+}

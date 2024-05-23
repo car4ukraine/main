@@ -1,0 +1,684 @@
+{
+	"modules": {
+		"badges": {
+			"active": "Aktiiv.",
+			"archived": "Arkist."
+		},
+		"buttons": {
+			"buy_pickup_trucks": "Osta pakettiauto",
+			"claim_your_reward": "Lunasta palkintosi",
+			"donate": "Lahjoittaa",
+			"donate_car": "Lahjoita auto",
+			"other_projects": "Muut projektit",
+			"read_less": "…Väh.",
+			"read_more": "Lisää..."
+		},
+		"contact_form": {
+			"email": {
+				"hint": "email@example.com",
+				"label": "Sähköpostiosoite"
+			},
+			"inquiry": {
+				"hint": "Valitse kyselysi tyyppi",
+				"label": "Valitse kyselysi tyyppi"
+			},
+			"message": {
+				"hint": "Kirjoita viestisi tähän",
+				"label": "Viesti"
+			},
+			"name": {
+				"hint": "Sinun nimesi",
+				"label": "Nimi"
+			},
+			"notifications": {
+				"error": "Virhe, tarkista tiedot tai yritä myöhemmin",
+				"loading": "Ladataan...",
+				"success": "Menestys"
+			},
+			"submit": {
+				"label": "Lähettää"
+			}
+		},
+		"footer": {
+			"follow_us": "Seuraa meitä:",
+			"other_languages": "Muut kielet:",
+			"powered_by": "Powered by Ukrainian unf*ckable will",
+			"rights_and_policies": "*Oikeudet ja käytännöt"
+		},
+		"header": {
+			"tags": [
+				{
+					"name": "Koti"
+				},
+				{
+					"name": "Meistä"
+				},
+				{
+					"name": "FAQ"
+				},
+				{
+					"name": "Yhteys"
+				},
+				{
+					"name": "Erikoisprojektit"
+				}
+			]
+		},
+		"logo": {
+			"label": "Vapaaehtoistyö aloite",
+			"label_size": "0.88rem"
+		},
+		"media": {
+			"videos": [
+				{
+					"alt": "YouTube-video nimeltä Wheels Of War: The Road to Ukraine",
+					"description": "Wheels Of War: Tie Ukrainaan. Ryhmä harrastajia Isosta-Britanniasta ja Irlannista halusi lahjoittaa autoja Ukrainan armeijalle ja matkasi Britanniasta Lviviin"
+				},
+				{
+					"alt": "YouTube-video, jonka otsikko on Trip to frontline: Kuinka virittää auto sotaa varten?",
+					"description": "Matka etulinjaan: Kuinka virittää auto sotaa varten? Upea tarina Adamista, englantilaismiehestä Kaliforniasta, joka tulee Ukrainaan lahjoittamaan autoja"
+				},
+				{
+					"alt": "YouTube-video näyttää yhden GIVE CARen matkoista",
+					"description": "GIVE CARe -matka: Ryhmä hollantilaisia ja saksalaisia järjesti matkan lahjoittaakseen autoja hyväntekeväisyyteen"
+				},
+				{
+					"alt": "Sky Newsin YouTube-video vapaaehtoisista brittiautojen toimittamisesta Ukrainaan",
+					"description": "Sky News Ukrainan sodasta: Vapaaehtoiset toimittavat brittiautoja Ukrainaan"
+				}
+			]
+		},
+		"special_project_section": {
+			"progress_label": "Edistyminen",
+			"special_project_label": "Varainkeruu käynnissä",
+			"title": "Lahjoita Ukrainan autoprojektiin – vapaaehtoistoimintaan"
+		}
+	},
+	"pages": {
+		"about_us": {
+			"banner": {
+				"alt": "Auton Ukrainalle sotilaat ja vapaaehtoiset Lvivissä",
+				"description": "Tiimissämme on ihmisiä eri toimialoilta erilaisilla taustoilla, mutta tänään olemme yhtenäisiä palvelemaan armeijaamme.\n\n\nNykyään etulinjan miehemme tarvitsevat liikkuvuutta, ja olemme täällä yli 50 vapaaehtoisen kanssa palvelemassa heitä ja vapauttamassa kansakuntaamme.",
+				"title": "Auton Ukrainalle sotilaat ja vapaaehtoiset Lvivissä"
+			},
+			"contributor": {
+				"default": {
+					"firstname": "Sinun",
+					"lastname": "Nimi"
+				}
+			},
+			"contributors": [
+				{
+					"alt": "Volunteer Roman",
+					"description": "IT-alan lahjakkuuksien varapuheenjohtaja, mutta nyt kokoaa kirkkaita mieliä luodakseen taisteluvalmiita kuorma-autoja"
+				},
+				{
+					"alt": "Volunteer Nazar",
+					"description": "IT-projektipäällikkö, mutta nyt varmistaa, että ostatamme säännöllisesti kuorma-autoja ympäri Eurooppaa ja Iso-Britanniaa"
+				},
+				{
+					"alt": "Volunteer Ivan",
+					"description": "Esports-kumppanuushallinnan johtaja, mutta nyt pyörittää car4ukraine.com-sivustoa varmistaakseen, että maailma tukee Ukrainaa kuorma-autoilla"
+				},
+				{
+					"alt": "Volunteer Nika",
+					"description": "Tuottaja ja elokuvaohjaaja, mutta nyt varmistaa, että kaikki sotilaat, jotka tarvitsevat kuorma-autoja eniten, saavat ne mahdollisimman nopeasti"
+				},
+				{
+					"alt": "Volunteer Oleksii",
+					"description": "Luova suunnittelija ja ikuisesti oppija, mutta nyt kuvittaa ja toimittaa sisältöä car4ukraine.com-sivustolle"
+				},
+				{
+					"alt": "Volunteer Ivan",
+					"description": "IT-alan frontend-kehittäjä, mutta nyt tekee kaiken tarvittavan, jotta car4ukraine.com-sivusto toimisi vakaasti"
+				},
+				{
+					"alt": "Volunteer Natalia",
+					"description": "Englannin opettaja, mutta nyt viestii maailman kanssa sosiaalisen median kautta hienojen reelsien avulla"
+				},
+				{
+					"alt": "Volunteer Mykola",
+					"description": "Senior DevOps, mutta nyt saa parhaat kuorma-autojen mahdollisuudet Puolasta"
+				},
+				{
+					"alt": "Volunteer Kseniia",
+					"description": "Manuaalisen testauksen insinööri, mutta nyt tarkistaa missä kuorma-autot ovat ja milloin toimitamme ne"
+				},
+				{
+					"alt": "Volunteer Marian",
+					"description": "Evakuointimanipulaattori, mutta nyt valmistelee jokaisen kuorma-auton mekaanisesti valmiiksi lähtemään taistelukentille"
+				},
+				{
+					"alt": "Volunteer Anton",
+					"description": "Musiikkiteollisuuden linjatuottaja, mutta nyt viestii etulinjalla varmistaakseen ajoneuvojen oikea-aikaisen toimittamisen tarvittaviin paikkoihin"
+				},
+				{
+					"alt": "Volunteer Patrick",
+					"description": "Kokenut rakennusinsinööri, mutta nyt tuo kymmeniä autoja Iso-Britanniasta eri puolille Ukrainaa"
+				},
+				{
+					"alt": "Volunteer Vasyl",
+					"description": "Strategiakonsultti digitalisaatiossa, mutta nyt avustaa pitkäaikaisessa suunnittelussa projektin jatkokehityksestä"
+				},
+				{
+					"alt": "Volunteer Richard",
+					"description": "Entinen historian professori Oxfordin yliopistossa, nyt journalisti, joka auttaa Car for Ukrainea kasvamaan Isossa-Britanniassa"
+				},
+				{
+					"alt": "Volunteer Palle",
+					"description": "Armeijan veteraani, mutta nyt johtaa ponnisteluja tuoda kymmeniä 4x4-autoja Tanskasta"
+				},
+				{
+					"alt": "Volunteer Niels",
+					"description": "Autoteollisuuden asiantuntija, mutta nyt pyörittää give-care.org-sivustoa kerätäkseen varoja ja tuodakseen luotettavia saksalaisia autoja Ukrainaan"
+				},
+				{
+					"alt": "Volunteer Julia",
+					"description": "Uutisten toimittaja, mutta nyt varmistaa, että ääni kuuluu maailmanlaajuisesti tärkeistä asioista"
+				},
+				{
+					"alt": "Volunteer Yaroslav",
+					"description": "Sepän suunnittelija, mutta nyt suunnittelee, miltä tehokkaimman ja luotettavimman panssaroinnin tulisi näyttää"
+				},
+				{
+					"alt": "Volunteer Vasyl",
+					"description": "Ammattimainen hitsaaja, mutta nyt asentaa panssareita autoihin päivittäin"
+				},
+				{
+					"alt": "Volunteer Adam",
+					"description": "Tuottaja ja elokuvaohjaaja, mutta nyt auttaa Ukrainan sotilaita sekä materiaalisesti että henkisesti täällä Ukrainassa"
+				},
+				{
+					"alt": "Volunteer Andreas",
+					"description": "Yrittäjä, joka nyt auttaa asiantuntemuksellaan ja resursseillaan pitämään hienoja projekteja käynnissä"
+				},
+				{
+					"alt": "Volunteer Joshua",
+					"description": "Luova yrittäjä, mutta nyt pyörittää give-care.org-sivustoa kerätäkseen varoja ja tuodakseen autoja Ukrainaan säännöllisesti hyvillä fiiliksillä"
+				},
+				{
+					"alt": "Volunteer Orest",
+					"description": "Suunnittelija, joka nyt varmistaa, että kaikki kuorma-autot näyttävät siisteiltä kannustavilla tarroilla, joista sotilaat saavat inspiraatiota"
+				},
+				{
+					"alt": "Volunteer Serhiy",
+					"description": "Ammattimainen kattoremonttimies, joka nyt osallistuu uusien konekivääritelineiden ja tornien suunnitteluun ja toimittamiseen"
+				},
+				{
+					"alt": "Volunteer Oleksandr",
+					"description": "Luova hitsaaja, joka avustaa hitsaustiimiä ja tuo positiivisia tunteita tiimille"
+				},
+				{
+					"alt": "Volunteer Roman",
+					"description": "Ammattimainen kuljettaja, mutta nyt on ajanut yli 100 autoa rajan yli ja etulinjalle"
+				},
+				{
+					"alt": "Women-volunteer placeholder",
+					"description": "Nainen, jota ajaa halu auttaa muita ja on pelastanut monia henkiä"
+				},
+				{
+					"alt": "Man-volunteer Placeholder",
+					"description": "Mies, joka puolustaa vapautta ja puolustusta kaikkien itsenäisten kansojen puolesta aggressoreita vastaan"
+				},
+				{
+					"alt": "Volunteer Oleksandra",
+					"description": "Intellias Foundation for Change -säätiön johtaja"
+				}
+			],
+			"contributors[0]": {
+				"alt": "Vapaaehtoinen Roman"
+			},
+			"meta": {
+				"general": {
+					"description": "Tiimissämme on ihmisiä eri toimialoilta erilaisilla taustoilla, mutta tänään olemme yhtenäisiä palvelemaan armeijaamme.\n\n\nNykyään etulinjan miehemme tarvitsevat liikkuvuutta, ja olemme täällä yli 50 vapaaehtoisen kanssa palvelemassa heitä ja vapauttamassa kansakuntaamme.",
+					"title": "Tietoja Car for Ukraine -vapaaehtoisaloitteesta"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ​​ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			},
+			"title": "Meistä"
+		},
+		"contact_us": {
+			"form": {
+				"hint": "Ota meihin yhteyttä milloin tahansa, otamme sinuun yhteyttä mahdollisimman pian",
+				"inquiries": [
+					{
+						"label": "Koskien lahjoitustani",
+						"title": "Regarding my donation (FI)"
+					},
+					{
+						"label": "Minulla on auto lahjoitettavaksi",
+						"title": "I have a car to donate (FI)"
+					},
+					{
+						"label": "Haluan ostaa sinulle auton",
+						"title": "I'd like to buy a car for you (FI)"
+					},
+					{
+						"label": "Voin auttaa median ja markkinoinnin kanssa",
+						"title": "I can help with media and promotion (FI)"
+					},
+					{
+						"label": "Tukiviesti",
+						"title": "Message of Support (FI)"
+					},
+					{
+						"label": "Muu",
+						"title": "Other (FI)"
+					}
+				]
+			},
+			"meta": {
+				"general": {
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Ota yhteyttä Car for Ukraine Volunteering Initiative -aloitteeseen"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ​​ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			},
+			"title": "Ota meihin yhteyttä"
+		},
+		"donate": {
+			"meta": {
+				"general": {
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Lahjoita Ukrainan autolle - Vapaaehtoisaloite"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ​​ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			}
+		},
+		"donate_car": {
+			"banner": {
+				"alt": "Pikkukuva YouTube-videosta nimeltä Wheels Of War: The Road to Ukraine",
+				"description": [
+					"Ihmiset ympäri maailmaa, mukaan lukien Iso-Britannia, Yhdysvallat, EU ja muut, lahjoittivat yli 200 ajoneuvoa meille ja toivat ne henkilökohtaisesti Ukrainaan, tai toimitimme ne itse. Liity mukaan!",
+					"Ne, jotka päättävät tuoda kuorma-autot henkilökohtaisesti Lviviin, näkevät sen usein lomana ja hyvänä tekona. Autamme paperitöissä ja voimme näyttää heille kaupungin, päättyen mahtavaan illalliseen."
+				],
+				"mobile_description": "Ihmiset ympäri maailmaa, mukaan lukien UK, USA, EU ja enemmän, lahjoittivat yli 200 ajoneuvoa meille ja toivat ne henkilökohtaisesti Ukrainaan, tai toimitimme ne itse. Liity mukaan!",
+				"old_description": [
+					"Kymmenet ihmiset EU:ssa, Isossa-Britanniassa ja Yhdysvalloissa ovat lahjoittaneet autonsa tai myyneet niitä ostaakseen autoja, joita ukrainalaiset sotilaat tarvitsevat juuri nyt.",
+					"Kun saamme lahjoituksena auton, säästämme jopa 75 % kuorma-auton kustannuksista, ja meillä ei ole muuta katettavaa kuin logistiikka, panssarointi ja huolto.",
+					"Helmikuusta 2024 alkaen mennessä olemme saaneet jo yli 200 autoa suorana lahjoituksena ja määrä kasvaa jatkuvasti. Liittyä seuraan!",
+					"Ihmiset, jotka lahjoittavat meille autoja, tuovat ne usein henkilökohtaisesti Lviviin ja pitävät sitä lomana sekä hyvänä tekona. Autamme papereiden kanssa ja voimme näyttää heille kaupunkia päättyen hienoon illalliseen."
+				],
+				"title": "Lahjoita auto Ukrainalle"
+			},
+			"faq": {
+				"questions": [
+					{
+						"answer": "Voit lahjoittaa auton Ukrainaan kanssamme. Täytä lomake, niin palaamme asiaan 24 tunnin sisällä. Keskitymme pääasiassa avo- ja 4x4-autoihin, mutta myös muut kulkuvälineet, kuten pakettiautot ja siviiliautot hyväksytään sotilaiksi ja niillä on erilaisia tehtäviä, joihin pyörät tarvitaan.",
+						"label": "Kuinka voin lahjoittaa autoni Ukrainalle?"
+					},
+					{
+						"answer": "Voit lahjoittaa Ukrainan armeijalle Car for Ukraine -sovelluksella, jossa keskitymme erityisesti armeijan autoihin. Noutoautot, 4x4-autot, pakettiautot jne. Jos haluat lahjoittaa autosi, täytä lomake, niin otamme sinuun yhteyttä 24 tunnin kuluessa.<br><br>Voit tukea armeijaa taloudellisesti lahjoittamalla täällä tukemaan aloitettamme tai tutustumalla Come Back Alive -järjestöön, joka auttaa Ukrainaa erilaisissa projekteissa.",
+						"label": "Kuinka lahjoittaa Ukrainan armeijalle?"
+					},
+					{
+						"answer": "Voit lahjoittaa auton hyväntekeväisyyteen Car for Ukraine -palvelussa. Keskitymme tarjoamaan Ukrainan armeijalle kulkuvälineitä, joihin sisältyy sekä tappavia että humanitaarisia tarpeita, kuten ihmisten evakuointi sota-alueilta, ruoan ja veden tuominen jne.",
+						"label": "Kuinka lahjoittaa auto hyväntekeväisyyteen?"
+					},
+					{
+						"answer": "Keskitymme liikkuviin taisteluryhmiin, jotka tarvitsevat nelivetoisia dieselautoja, joissa on vähintään 2,0 litran moottori. Nämä ovat joitakin parhaista vaihtoehdoista: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500.<br><br>Lava-autojen lisäksi tarvitaan 4x4-autoja ja pakettiautoja sekä yksinkertaisia siviiliajoneuvoja erilaisiin tehtäviin, esim. avun toimitus, ruokatarvikkeet jne.",
+						"label": "Mitä ajoneuvoja tarvitset?"
+					},
+					{
+						"answer": "Ei, voimme noutaa autosi mistä tahansa Euroopasta tai Isosta-Britanniasta. Mutta autamme mielellämme myös kaikissa papereissa, jos päätät tulla henkilökohtaisesti.",
+						"label": "Pitääkö minun tuoda auto henkilökohtaisesti Ukrainaan?"
+					}
+				],
+				"title": "Ohje"
+			},
+			"form": {
+				"hint": "Täytä lomake, niin otamme sinuun yhteyttä 24 tunnin sisällä",
+				"inquiries": [
+					{
+						"label": "Minulla on auto lahjoitettavana",
+						"title": "I have a car to donate(FI)"
+					},
+					{
+						"label": "Haluan myydä autoni alennettuun hintaan",
+						"title": "I want to sell my car with a discounted price (FI)"
+					},
+					{
+						"label": "Haluan ostaa sinulle auton",
+						"title": "I'd like to buy a car for you (FI)"
+					},
+					{
+						"label": "Muut",
+						"title": "Other (EN)"
+					}
+				],
+				"title": "Haluatko lahjoittaa auton Ukrainalle?"
+			},
+			"meta": {
+				"general": {
+					"description": "Kymmenet ihmiset EU:ssa, Isossa-Britanniassa ja Yhdysvalloissa ovat lahjoittaneet autonsa tai myyneet niitä ostaakseen autoja, joita ukrainalaiset sotilaat tarvitsevat juuri nyt. Kun saamme lahjoituksena auton, säästämme jopa 75 % kuorma-auton kustannuksista, ja meillä ei ole muuta katettavaa kuin logistiikka, panssari ja huolto. 1.4.2023 mennessä olemme saaneet jo yli 50 autoa suorana lahjoituksena ja määrä kasvaa jatkuvasti. Liittyä seuraan!",
+					"title": "Lahjoita auto Ukrainalle"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			}
+		},
+		"faq": {
+			"meta": {
+				"general": {
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle vapaaehtoistyö - FAQ"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ​​ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			},
+			"old_questions": {
+				"3": {
+					"answer": "Niille, jotka tukevat ponnisteluamme, car4ukraine järjestää ohjatun kierroksen yhden päivän ajan vierailemalla Kiovassa, Buchassa, Irpinissä ja muissa paikoissa, joissa ukrainalaiset osoittivat rohkeutta ja vastarintaa venäläisille.<br/><br/>Tulet tapaamaan sotilaita, jotka taistelivat vapautemme puolesta, ja he jakavat ajatuksiaan ja tunteitaan siitä, millaista oli. Tapamme myös paikallisia, joiden talot olivat miehitettyinä venäläisten ollessa kaupungeissa.<br/><br/>Lisäksi, jos pidät ampumisesta, saamme mahdollisuuden kokea todellisten sotilaallisten aseiden ampumista sekä vierailla muissa kauempana sijaitsevissa paikoissa, kuten Kherson, Kharkiv, Mariupol ja muut, kun saamme ne takaisin.",
+					"label": "Mikä on ’Yhden päivän opastettu kierros’?"
+				},
+				"4": {
+					"answer": "Kun saamme vahvistuksen lahjoituksestasi, saat ainutlaatuisen todistuksen, jonka voit esittää meille ja saat kokemuksesi.",
+					"label": "Kuinka varaan 'Yhden päivän opastetun kierroksen'?"
+				},
+				"5": {
+					"answer": "Pakettiin kuvailema kierros käsitellään vasta Ukrainan voiton jälkeen ja se toteutetaan, kun uhkia Ukrainan maaperällä ei ole.<br/><br/>Samalla olemme iloisia järjestää matkoja niille, jotka haluavat tulla nyt ja kokea kaiken, kun se vielä tapahtuu.",
+					"label": "Onko turvallista vierailla Ukrainassa?"
+				}
+			},
+			"questions": [
+				{
+					"answer": "Täytä lomake osoitteessa <a href='/contact'>Ota yhteyttä</a>. Valitse tiedustelutyyppi ’Minulla on auto lahjoitettavaksi’, ja otamme sinuun yhteyttä mahdollisimman pian. Nopeampaa viestintää varten voit jättää Whatsapp-puhelinnumerosi kuvausosioon.",
+					"label": "Haluan lahjoittaa tai myydä oman ajoneuvoni, miten teen sen?"
+				},
+				{
+					"answer": "Keskitymme liikkuvien taisteluryhmien tarpeisiin, jotka tarvitsevat nelivetodieselautoja, joiden moottorit ovat 2.0 litraa tai suurempia. Tässä muutamia parhaita vaihtoehtoja: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara / KingCab, Isuzu D-Max, Маzda BT-50 / Mazda B2500, Jeep Gladiator.<br/><br/>Jos sinulla on erilainen auto lahjoitettavaksi, otamme sen mielellämme vastaan ​​muihin tarkoituksiin, kuten ruoan ja humanitaarisen avun toimitukseen, lääketieteelliseen apuun jne.",
+					"label": "Mitä ajoneuvoja tarvitsette?"
+				},
+				{
+					"answer": "Emme voi taata, että se on käyttökelpoinen, kun Ukraina lopettaa venäläisen hyökkäyksen. Auto tuodaan ilman mitään ”tuontitulleja” Ukrainaan, koska sen omistaja on virallisesti Ukrainan asevoimat.",
+					"label": "Voinko saada autoni takaisin, kun sota päättyy?"
+				},
+				{
+					"answer": "Julkaisemme toimintamme tulokset <a href='https://twitter.com/carforukraine' target='_blank'>Twitterissä</a>, <a href='https://www.instagram.com/car4ukraine.com_official/' target='_blank'>Instagramissa</a> ja <a href='https://www.facebook.com/car4ukraine' target='_blank'>Facebookissa</a>.<br/><br/>Seuraa meitä pysyäksesi ajan tasalla. Sitoudumme tarjoamaan korkeimman tason läpinäkyvyyttä. <br/><br/>Samalla pyydämme kärsivällisyyttä, koska kyseessä ei ole elokuva vaan sota. Taistelijat etulinjassa eivät voi ottaa kuvia ensisijaisesti, koska heidän henkensä on koko ajan vaarassa.",
+					"label": "Missä voin nähdä kampanjanne tulokset?"
+				},
+				{
+					"answer": "Olemme joukko ukrainalaisia vapaaehtoisia. Meillä on vakituiset työmme, lahjoitamme varojamme, mutta haluamme ”auttaa auttamaan”.<br/><br/>Olemme Ukrainassa, EU:ssa, Yhdysvalloissa ja muilla maailman alueilla. Toimimme säännöllisesti rintamalinjojen sotilaiden ja puolustusyksiköiden kanssa idässä ja etelässä.",
+					"label": "Haluan auttaa projektianne osaamisellani. Miten teen sen?"
+				},
+				{
+					"answer": "Täytä lomake osoitteessa <a href='/contact'>Ota yhteyttä</a>. Valitse tiedustelutyyppi ’Haluan auttaa asiantuntemuksellani’, ja otamme sinuun yhteyttä mahdollisimman pian. Nopeampaa viestintää varten voit jättää Whatsapp-puhelinnumerosi kuvausosioon.",
+					"label": "Haluan auttaa projektianne osaamisellani. Miten teen sen?"
+				},
+				{
+					"answer": "Seuraa <a href='https://billing.stripe.com/p/login/6oEeXa7T6fA8fLieUU' target='_blank'>linkkiä</a> ja tee muutoksia tilaukseesi.",
+					"label": "Kuinka peruuttaa tai tehdä muutoksia säännölliseen kuukausittaiseen lahjoitukseen?"
+				}
+			],
+			"title": "FAQ"
+		},
+		"home": {
+			"keywords": [
+				"lahjoita auto Ukrainalle",
+				"Kuinka voin lahjoittaa autoni Ukrainalle",
+				"Lahjoita Ukrainan armeijalle",
+				"Lahjoita Ukrainan armeijalle Isosta-Britanniasta",
+				"Kuinka lahjoittaa Ukrainan armeijalle"
+			],
+			"meta": {
+				"general": {
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainaan - Vapaaehtoisaloite"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ​​ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			},
+			"sections": {
+				"banner": {
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"description_size": "",
+					"metrics": {
+						"cars_delivered": "Autot toimitettu",
+						"lives_saved": "Pelastettu henkiä",
+						"worth_of_cars": "kuorma-autojen arvosta"
+					}
+				},
+				"donated_vehicles": {
+					"description": "Kymmenet ihmiset EU:ssa, Isossa-Britanniassa ja Yhdysvalloissa ovat lahjoittaneet autonsa tai myyneet niitä ostaakseen autoja, joita ukrainalaiset sotilaat tarvitsevat juuri nyt. \nKun saamme lahjoituksena auton, säästämme jopa 75 % kuorma-auton kustannuksista, ja meillä ei ole muuta katettavaa kuin logistiikka, panssari ja huolto. \n1.4.2023 mennessä olemme saaneet jo yli 50 autoa suorana lahjoituksena ja määrä kasvaa jatkuvasti. \nLiittyä seuraan!",
+					"images": [
+						{
+							"alt": "Viisi Give Care -järjestön vapaaehtoista lahjoitettujen ajoneuvojen edessä"
+						},
+						{
+							"alt": "Vapaaehtoinen Britanniasta lahjoitti ikonisen nelivedon"
+						},
+						{
+							"alt": "Kaksi ikääntynyttä vapaaehtoista EU:sta ajamassa lahjoitettuja ajoneuvoja Ukrainaan"
+						},
+						{
+							"alt": "Car for Ukraine -tiimin ryhmäkuva kansainvälisistä vapaaehtoisista"
+						},
+						{
+							"alt": "Viisi Car for Ukraine -kuljettajaa matkalla Ukrainaan"
+						},
+						{
+							"alt": "Frontaalikuva Give Care -järjestölle lahjoitetusta autosta"
+						}
+					],
+					"title": "Lahjoitetut ajoneuvot"
+				},
+				"funded_pickup_trucks": {
+					"stories": [
+						{
+							"alt": "Kaksi UA-sotilasta OPFOR:sta ja Adam pitävät ukrainalaista lippua sotilaallisen poiminta-auton edessä.",
+							"description": "Adam halusi aina auttaa Ukrainaa konkreettisella lahjoituksella. Helmikuussa 2023 hän tuli Donbassiin ja lahjoitti henkilökohtaisesti kaksi kuorma-autoa sotilaille.",
+							"link": "Katso Adamin tarina...",
+							"title": "ADAM YHDYSVALLOISTA"
+						},
+						{
+							"alt": "Ivan Oleksii ja Martin Buhr seisovat lahjoitetun poiminta-auton edessä.",
+							"description": "Innoissaan auttaakseen Ukrainaa ensikäden kokemuksella, Martin vietti syyskuun 2023 lomansa tuoden kuorma-auton auttamaan miinojen raivauksessa.",
+							"link": "Lue Martinin matkasta...",
+							"title": "MARTIN BUHR - LOMA UKRAINASSA"
+						},
+						{
+							"alt": "Kuva näyttävänä päivänä eri eurooppalaisten maiden vapaaehtoisista ja lahjoitetuista autoista.",
+							"description": "Iso-Britannian SUV Prestige -autoliike osti L200-pikapakin, järjesti vapaaehtoiskonvoojin Lviviin ja kiersi kauppoja ja kaupunkia, luoden mukaansatempaavan tarinan.",
+							"link": "Katso Wheels of War -tarina...",
+							"title": "BRITTIYRITYS OSTI MEILLE KUORMA-AUTON"
+						},
+						{
+							"alt": "Kaksi veljestä ja Ivan Oleksii seisovat kahden lahjoitetun SUV-pakettiauton edessä pitäen brittiläisiä, ukrainalaisia ja kanadalaisia lippuja.",
+							"description": "Syntyneet Etelä-Afrikassa ja kasvatettu brittiläis-kanadalaisessa yhteisössä, Edward ja Hugh toivat henkilökohtaisesti pickup-auton, joka nyt puolustaa Ukrainaa idässä.",
+							"link": "Katso Frontline-videota...",
+							"title": "EDWARD JA HUGH ETELÄ-AFRIKASTA"
+						}
+					],
+					"title": "Osta meille auto"
+				},
+				"media_about_our_initiative": {
+					"list": [
+						{
+							"alt": "Sky News Car for Ukraine -aloitteesta",
+							"logo_alt": "Sky Newsin logo"
+						},
+						{
+							"alt": "Insider Car for Ukraine -aloitteesta",
+							"logo_alt": "Insiderin logo"
+						},
+						{
+							"alt": "CNN Car for Ukraine -aloitteesta",
+							"logo_alt": "CNN:n logo"
+						},
+						{
+							"alt": "The Telegraph Car for Ukraine -aloitteesta",
+							"logo_alt": "The Telegraphin logo"
+						},
+						{
+							"alt": "Newsweek Car for Ukraine -aloitteesta",
+							"logo_alt": "Newsweekin logo"
+						},
+						{
+							"alt": "Independent Car for Ukraine -aloitteesta",
+							"logo_alt": "Independentin logo"
+						},
+						{
+							"alt": "Kyiv Post Car for Ukraine -aloitteesta",
+							"logo_alt": "Kyiv Postin logo"
+						},
+						{
+							"alt": "TV2 Car for Ukraine -aloitteesta",
+							"logo_alt": "TV2:n logo"
+						},
+						{
+							"alt": "The National Car for Ukraine -aloitteesta",
+							"logo_alt": "The Nationalin logo"
+						},
+						{
+							"alt": "The Times Car for Ukraine -aloitteesta",
+							"logo_alt": "The Timesin logo"
+						},
+						{
+							"alt": "Yahoo! Car for Ukraine -aloitteesta",
+							"logo_alt": "Yahoo!n logo"
+						},
+						{
+							"alt": "Military and Defense Insider Car for Ukraine -aloitteesta",
+							"logo_alt": "Military and Defense Insiderin logo"
+						}
+					],
+					"title": "Media aloitteestamme"
+				},
+				"our_work": {
+					"steps": [
+						{
+							"alt": "Kaksi lahjoitettua autoa odottaa toimitusta Ukrainan armeijan etulinjalle.",
+							"title": "1. Hankimme autoja EU:sta ja Britanniasta"
+						},
+						{
+							"alt": "Useita lahjoitettuja autoja kuljetetaan autonkuljetustrailerissa, ja vapaaehtoinen seisoo sen edessä Ukrainan lipun kanssa.",
+							"title": "2. Toimitamme kuorma-autot Ukrainaan"
+						},
+						{
+							"alt": "Kaksi vapaaehtoista hitsaamassa panssaria lahjoitetun auton sivuoveen.",
+							"title": "3. Korjaamme ja asennamme panssarointia"
+						},
+						{
+							"alt": "Kaksi lahjoitettua pakettiautoa on maalattu, brändätty ja täytetty tarvikkeilla Ukrainan armeijaa varten.",
+							"title": "4. Maalaamme ja brändäämme"
+						},
+						{
+							"alt": "Car for Ukraine -vapaaehtoiset ottavat selfieitä kiitollisten ukrainalaissotilaiden kanssa, taustallaan lahjoitetut autot.",
+							"title": "5. Toimitamme etulinjoille"
+						},
+						{
+							"alt": "Kuva kranaatilla isketystä autosta, joka lahjoitettiin Car for Ukraine -aloitteelle ja hyödynnettiin Ukrainan etulinjoilla.",
+							"title": "6. Toistamme..."
+						}
+					],
+					"title": "Meidän työmme"
+				},
+				"rewards": [
+					{
+						"alt": "Naismalli pitää päällään sotilaallista hupparia erityisellä Car for Ukraine -suunnittelulla.",
+						"description": "Omista erityinen sotilaallinen huppari, jonka on suunnitellut kumppanimme DINGO",
+						"title": "Lahjoita 100+ dollaria"
+					},
+					{
+						"alt": "Kolme julistetta, joissa on ainutlaatuisia ukrainalaisia sotamuotoiluja.",
+						"description": "Saat ainutlaatuisen julistesetin tärkeimmillä ukrainalaisilla motolla",
+						"title": "Lahjoita 500+ dollaria"
+					},
+					{
+						"alt": "Tarra, jossa on lahjoittajien nimet ja teksti 'vapaa Ukraina', kiinnitetty lahjoitettuun autoon.",
+						"description": "Lisätäksesi nimesi tai logosi auton kylkeen, joka taistelee vapauden puolesta",
+						"title": "Lahjoita 8 000+ dollaria"
+					}
+				],
+				"twitter_timeline": {
+					"follow": "Seurata",
+					"tweets_from": "Tweetit osoitteesta"
+				}
+			}
+		},
+		"special_projects": {
+			"active": "Aktiivinen",
+			"archived": "Arkistoitu",
+			"meta": {
+				"general": {
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Car for Ukraine Volunteering Initiativen erityisprojektit"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ​​ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			},
+			"title": "Erikoisprojektit"
+		},
+		"thankyou": {
+			"banner_alt": "Kaksi sotilasta vastaanottaa lahjoitettuja autoja vapaaehtoisilta.",
+			"meta": {
+				"general": {
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainan vapaaehtoistyölle"
+				},
+				"og": {
+					"description": "Car for Ukraine on joukko seuraavan sukupolven ukrainalaisia, EU-kansalaisia ​​ja Yhdysvaltain kansalaisia, jotka tukevat Ukrainaa tarjoamalla sille päivitettyjä ajoneuvoja, jotka pelastavat ihmishenkiä ja lähettävät venäläisiä minne he kuuluvat.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				},
+				"twitter": {
+					"alt": "Jokainen Ukrainan armeijalle lahjoittamasi dollari säästää 10 dollaria, jonka käytät pakolaisiin",
+					"description": "Vapaaehtoisaloitteessa Car for Ukraine hankimme, päivitämme ja toimitamme 4x4-avolava-autoja Ukrainan etulinjalle.",
+					"title": "Auto Ukrainalle - Vapaaehtoisaloite (C4U)"
+				}
+			},
+			"title": "Kiitos avusta!"
+		}
+	}
+}
