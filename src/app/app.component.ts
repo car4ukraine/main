@@ -14,7 +14,7 @@ import { FooterComponent } from '../common/components/footer/footer.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   host: {
-    'class': 'flex'
+    'class': 'flex flex-col'
   }
 })
 export class AppComponent {

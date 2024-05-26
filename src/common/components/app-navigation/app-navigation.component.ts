@@ -5,7 +5,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './app-navigation.component.html',
-  styleUrl: './app-navigation.component.scss'
+  styleUrl: './app-navigation.component.scss',
+  host: {
+    class: "flex flex-col sm:flex-row"
+  }
 })
 export class AppNavigationComponent {
   public readonly tabs: Array<{
