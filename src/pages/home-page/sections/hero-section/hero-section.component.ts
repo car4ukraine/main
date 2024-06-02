@@ -27,7 +27,7 @@ export class HeroSectionComponent {
     },
     {
       name: 'Worth of Cars',
-      value: 3.4,
+      value: 3.3,
       prefix: '$',
       postfix: 'M+'
     },
