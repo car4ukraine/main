@@ -1,11 +1,12 @@
 
 <section id="heroSectionHomePage">
-	<div class="mx-6 aspect-[2/1] m-auto rounded-3xl bg-cover bg-top bg-[url('/assets/images/home/hero.jpg')] flex text-white">
-		<div class="flex flex-col items-center m-auto">
+	<div class="flex flex-col justify-between mx-6 text-white aspect-[2/1] m-auto rounded-3xl bg-cover bg-top bg-[url('/assets/images/home/hero.jpg')]">
+		
+		<div class="flex flex-col items-center mx-auto max-w-4xl pt-20">
 			
-			<h1 class="text-6xl tracking-tight leading-none font-extrabold max-w-6xl text-balance text-center pb-8" [innerText]="title"></h1>
+			<h1 class="text-7xl tracking-tight leading-none font-extrabold text-balance text-center pb-6" [innerText]="title"></h1>
 			
-			<p class="max-w-2xl text-center font-light text-slate-300 text-2xl text-pretty pb-8" [innerText]="description"></p>
+			<p class="text-center font-light text-slate-300 text-2xl text-pretty pb-6" [innerText]="description"></p>
 			
 			<div class="flex flex-row gap-6">
 				<app-donate-button></app-donate-button>
@@ -13,5 +14,30 @@
 			</div>
 		
 		</div>
+
+		<div class="flex flex-row justify-between pb-16 px-24 items-center">
+
+			<div class="max-w-2xl text-slate-300">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ex architecto accusamus voluptatibus ab aliquam, sit dolor sapiente eaque pariatur quos sunt quae autem aut itaque illum perspiciatis assumenda reiciendis!</p>
+			</div>
+
+			<div class="flex flex-wrap gap-16">
+				@for (metric of metrics; track $index) {
+					<div class="flex flex-col-reverse">
+						
+						<h2 class="font-light text-slate-300 text-2xl" [innerText]="metric.name"></h2>
+						
+						<p class="text-7xl font-extrabold">
+							<span [innerText]="metric.prefix"></span>
+							<span [innerText]="metric.value"></span>
+							<span [innerText]="metric.postfix"></span>
+						</p>
+
+					</div>
+				}
+			</div>
+
+		</div>
+
 	</div>
 </section>
