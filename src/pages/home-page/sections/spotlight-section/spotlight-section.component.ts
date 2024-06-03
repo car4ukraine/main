@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 })
 export class SpotlightSectionComponent {
   public readonly organizationName: string = 'Car for Ukraine';
-  public readonly linking_word: string = ' in ';
+  public readonly linkingWord: string = ' in ';
   public readonly assetsPath: string = '/assets/images/home/spotlight/';
   public readonly news: Array<{
     title: string;
