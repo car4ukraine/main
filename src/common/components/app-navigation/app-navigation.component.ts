@@ -20,10 +20,6 @@ export class AppNavigationComponent {
       href: '/'
     },
     {
-      name: 'Donate Car',
-      href: '/donate-car'
-    },
-    {
       name: 'About',
       href: '/about'
     },
@@ -34,6 +30,10 @@ export class AppNavigationComponent {
     {
       name: 'Contact',
       href: '/contact'
+    },
+    {
+      name: 'Donate Car',
+      href: '/donate-car'
     }
   ]
 }
