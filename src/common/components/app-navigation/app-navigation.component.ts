@@ -34,6 +34,10 @@ export class AppNavigationComponent {
     {
       name: 'Donate Car',
       href: '/donate-car'
+    },
+    {
+      name: 'asfkadflan',
+      href: '/donate'
     }
   ]
 }

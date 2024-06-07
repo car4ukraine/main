@@ -1,9 +1,10 @@
+import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-steps-section',
   standalone: true,
-  imports: [],
+  imports: [NgClass],
   templateUrl: './steps-section.component.html',
   styleUrl: './steps-section.component.scss'
 })

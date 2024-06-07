@@ -3,16 +3,17 @@
 	<h2 class="text-2xl lg:text-6xl tracking-tight font-extrabold text-emerald-600 text-center pb-8" [innerText]="title"></h2>
 	<div class="flex overflow-hidden gap-4 lg:gap-8 h-96 mx-6">
 		@for (step of steps; track $index) {
-			<div class="block h-full relative rounded-3xl overflow-clip">
+			<div class="block h-full relative rounded-3xl overflow-clip"
+				[ngClass]="{'hidden': $index > 2}">
 				
 				<img class="h-full object-cover" 
 					[src]="assetsPath + step.image" 
 					[title]="step.title"
 					[alt]="step.alt">
 			
-				<div class="absolute inset-0 flex flex-col-reverse items-center justify-center text-center">
-					<h3 class="text-white text-2xl lg:text-5xl font-bold" [innerText]="step.title"></h3>
-					<p class="text-slate-300 text-lg lg:text-2xl font-light" [innerText]="'Step ' + ($index + 1)"></p>
+				<div class="absolute inset-0 flex flex-col-reverse justify-end ms-16 mt-16 gap-y-12">
+					<h3 class="text-slate-100 text-3xl" [innerText]="step.title"></h3>
+					<p class="text-slate-300 text-3xl lg:text-7xl font-extrabold" [innerText]="'0' + ($index + 1) + '.'"></p>
 				</div>
 			
 			</div>
