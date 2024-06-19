@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { DonateButtonComponent } from "../../../../common/components/buttons/donate-button/donate-button.component";
 
 @Component({
-  selector: 'app-ongoing-fundraiser-section',
-  standalone: true,
-  imports: [],
-  templateUrl: './ongoing-fundraiser-section.component.html',
-  styleUrl: './ongoing-fundraiser-section.component.scss'
+    selector: 'app-ongoing-fundraiser-section',
+    standalone: true,
+    templateUrl: './ongoing-fundraiser-section.component.html',
+    styleUrl: './ongoing-fundraiser-section.component.scss',
+    imports: [DonateButtonComponent]
 })
 export class OngoingFundraiserSectionComponent {
   public readonly title: string = 'Ongoing Fundraiser';

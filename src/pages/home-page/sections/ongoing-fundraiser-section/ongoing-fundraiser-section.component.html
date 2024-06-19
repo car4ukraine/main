@@ -4,10 +4,10 @@
 	<h2 class="text-2xl lg:text-6xl tracking-tight font-extrabold text-emerald-600 text-center pb-6" 
 		[innerText]="title"></h2>
 
-	<div class="flex">
+	<div class="max-w-5xl m-auto flex gap-6">
 		
-		<div class="max-w-3xl m-auto h-full">
-			<div class="flex flex-col gap-4 md:rounded-2xl lg:rounded-3xl bg-emerald-50 overflow-clip">
+		<div class="basis-3/4 h-full contents">
+			<div class="flex-col gap-4 md:rounded-2xl lg:rounded-3xl bg-slate-50 overflow-clip">
 				
 				<div class="relative">
 					<img [src]="banner.src"
@@ -25,21 +25,22 @@
 			</div>		
 		</div>
 
-		<div class="max-w-md h-full m-auto">
-			<div class="flex flex-col gap-4 md:rounded-2xl lg:rounded-3xl bg-emerald-50 overflow-clip">
+		<div class="basis-1/4 h-full contents">
+			<div class="flex flex-col gap-4 md:rounded-2xl lg:rounded-3xl bg-slate-50 p-4">
 				
-				<div class="relative">
-					<img [src]="banner.src"
-						[title]="banner.title"
-						[alt]="banner.alt"
-						class="object-cover h-auto w-full rounded-b-none">
-				</div>
+				<iframe frameborder="0" height="93px" name="donorbox" scrolling="no" seamless="seamless"
+						src="https://donorbox.org/embed/fellamobile?donation_meter_color=%23059669&amp;only_donation_meter=true"
+						style="max-width:500px; min-width:250px; max-height:none!important" width="100%"></iframe>
+
+				<app-donate-button></app-donate-button>
 	
-				<div class="px-12 pb-12 pt-4 text-slate-700 text-lg lg:text-xl">
-					<h3 [innerHTML]="banner.title" class="font-bold text-xl lg:text-3xl text-emerald-600"></h3>
-					<br>
-					<p [innerHtml]="description" class="font-ligh text-pretty leading-tight"></p>
-				</div>
+				<iframe class="pt-4 h-full border-t"
+						frameborder="0"
+						name="donorbox"
+						scrolling="yes"
+						seamless="seamless"
+						src="https://donorbox.org/embed/fellamobile?donor_wall_color=%23059669&amp;only_donor_wall=true"
+						style="max-height:1200px"></iframe>
 	
 			</div>		
 		</div>
