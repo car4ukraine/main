@@ -1,1 +1,22 @@
-<p>contributors-section works!</p>
+
+<section id="contributorsSectionAboutPage" class="mb-8 lg:mb-16">
+    
+    <h2 class="text-2xl lg:text-6xl tracking-tight font-extrabold text-emerald-600 text-center pb-12" [innerText]="title"></h2>
+
+    <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl m-auto">
+        @for (member of team; track $index) {
+            <div class="text-center text-gray-500">
+                
+                <img class="mx-auto mb-4 w-36 h-36 rounded-full" [src]="assetsPath + member.avatar" alt="Bonnie Avatar">
+                    
+                <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 hover:text-emerald-600">
+                    <a href="#" [innerText]="member.fullName"></a>
+                </h3>
+                
+                <p [innerText]="member.details"></p>
+
+            </div>
+        }
+    </div>
+
+</section>
