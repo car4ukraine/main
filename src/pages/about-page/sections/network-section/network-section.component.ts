@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class NetworkSectionComponent {
   public readonly title: string = 'Our Network';
+  public readonly mapSrc: string = '/assets/images/about/network/world-map.svg';
 }

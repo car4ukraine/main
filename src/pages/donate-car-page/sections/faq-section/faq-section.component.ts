@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './faq-section.component.scss'
 })
 export class FaqSectionComponent {
-  public readonly title: string = 'FAQ';
+  public readonly title: string = 'Frequently Asked Questions';
 }
