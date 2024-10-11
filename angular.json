@@ -13,6 +13,17 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "pl": {
+            "translation": "src/locale/messages.pl.xlf"
+          },
+          "fr": {
+            "translation": "src/locale/messages.fr.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -21,7 +32,8 @@
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -34,10 +46,14 @@
             ],
             "scripts": [],
             "server": "src/main.server.ts",
-            "prerender": true,
+            "prerender": {
+              "routesFile": "routes.txt"
+            },
             "ssr": {
               "entry": "server.ts"
-            }
+            },
+            "localize": true,
+            "i18nMissingTranslation": "warning"
           },
           "configurations": {
             "production": {
@@ -59,6 +75,15 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "en-US": {
+              "localize": ["en-US"]
+            },
+            "pl": {
+              "localize": ["pl"]
+            },
+            "fr": {
+              "localize": ["fr"]
             }
           },
           "defaultConfiguration": "production"
@@ -71,14 +96,29 @@
             },
             "development": {
               "buildTarget": "client:build:development"
+            },
+            "en-US": {
+              "buildTarget": "angular-i18n-example:build:development,en-US"
+            },
+            "pl": {
+              "buildTarget": "angular-i18n-example:build:development,pl"
+            },
+            "fr": {
+              "buildTarget": "angular-i18n-example:build:development,fr"
             }
           },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
           "options": {
-            "buildTarget": "client:build"
+            "buildTarget": "client:build",
+            "format": "xlf2",
+            "outputPath": "src/locale",
+            "targetFiles": [
+              "messages.pl.xlf",
+              "messages.fr.xlf"
+            ]
           }
         }
       }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from '../common/components/header/header.component';
 import { FooterComponent } from '../common/components/footer/footer.component';
@@ -17,6 +17,11 @@ import { FooterComponent } from '../common/components/footer/footer.component';
     'class': 'flex flex-col'
   }
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'client';
+
+  ngOnInit() {
+    console.log($localize`:@@appComponent.ngOnInit:App component initialized`);
+  }
+
 }
