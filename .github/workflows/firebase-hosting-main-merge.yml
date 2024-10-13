@@ -21,6 +21,6 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_CAR4UKRAINE_COM }}"
           channelId: live
-          target: beeoclock
-          projectId: bee-o-clock
+          target: car4ukraine
+          projectId: car4ukraine-com
           entrypoint: ./firebase/production
