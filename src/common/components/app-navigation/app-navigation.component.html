@@ -1,9 +1,9 @@
 @for (tab of tabs; track $index) {
   <a
     [routerLink]="tab.href"
-    [title]="tab.name + 'Page Link'"
+    [title]="tab.name + ' Page Link'"
     [innerText]="tab.name"
-    class="text-slate-700 hover:text-emerald-600 sm:block rounded-md px-4 py-2 text-lg font-normal">
+    class="text-slate-700 hover:text-emerald-600 sm:block rounded-full hover:bg-green-50 transition-all px-4 py-2 text-lg font-normal">
   </a>
 }
 

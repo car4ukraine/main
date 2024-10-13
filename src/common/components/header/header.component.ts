@@ -1,13 +1,14 @@
-import { Component } from '@angular/core';
-import { AppNavigationComponent } from "../app-navigation/app-navigation.component";
-import { DonateButtonComponent } from "../buttons/donate-button/donate-button.component";
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
+import {AppNavigationComponent} from "../app-navigation/app-navigation.component";
+import {DonateButtonComponent} from "../buttons/donate-button/donate-button.component";
 
 @Component({
-    selector: 'app-header',
-    standalone: true,
-    templateUrl: './header.component.html',
-    styleUrl: './header.component.scss',
-    imports: [AppNavigationComponent, DonateButtonComponent]
+  selector: 'app-header',
+  standalone: true,
+  templateUrl: './header.component.html',
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.Default,
+  imports: [AppNavigationComponent, DonateButtonComponent]
 })
 export class HeaderComponent {
 

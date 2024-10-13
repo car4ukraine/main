@@ -31,6 +31,14 @@ export const routes: Routes = [
 		loadChildren: () => import('../pages/thank-you-page/thank-you-page.module').then(m => m.ThankYouPageModule)
 	},
 	{
+		path: 'languages',
+		loadComponent: () => import('../pages/languages-page/languages.page')
+	},
+	{
+		path: 'sitemap',
+		loadComponent: () => import('../pages/sitemap-page/sitemap.page')
+	},
+	{
 		path: '**',
 		redirectTo: '',
 	},

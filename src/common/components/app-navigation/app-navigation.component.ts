@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
 import {RouterLink} from "@angular/router";
 
 @Component({
@@ -8,7 +8,8 @@ import {RouterLink} from "@angular/router";
     RouterLink
   ],
   templateUrl: './app-navigation.component.html',
-  styleUrl: './app-navigation.component.scss',
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.Default,
   host: {
     class: "flex flex-col sm:flex-row"
   }
