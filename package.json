@@ -8,7 +8,11 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:client": "node dist/client/server/server.mjs",
-    "i18n:extract": "ng extract-i18n"
+    "i18n:extract": "ng extract-i18n",
+    "build:firebase:development": "ng build --configuration development --output-path=./firebase/develop/dist && npm run build:firebase:prepare_development_base --output-path=./firebase/develop/dist",
+    "build:firebase:prepare_development_base": "ng build --configuration prepare_development_base --output-path=./firebase/develop/dist",
+    "build:firebase:production": "ng build --configuration production --output-path=./firebase/production/dist && npm run build:firebase:prepare_production_base --output-path=./firebase/production/dist",
+    "build:firebase:prepare_production_base": "ng build --configuration prepare_production_base --output-path=./firebase/production/dist"
   },
   "private": true,
   "dependencies": {

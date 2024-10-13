@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "car4ukraine-com",
+    "public": "dist/browser",
+    "ignore": [
+      "**/firebase/**",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
