@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-navigation',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   templateUrl: './app-navigation.component.html',
   styleUrl: './app-navigation.component.scss',
   host: {
@@ -17,23 +20,23 @@ export class AppNavigationComponent {
   }> = [
     {
       name: 'Home',
-      href: '/'
+      href: './'
     },
     {
       name: 'Donate Car',
-      href: '/donate-car'
+      href: './donate-car'
     },
     {
       name: 'About',
-      href: '/about'
+      href: './about'
     },
     {
       name: 'FAQ',
-      href: '/faq'
+      href: './faq'
     },
     {
       name: 'Contact',
-      href: '/contact'
+      href: './contact'
     }
   ]
 }

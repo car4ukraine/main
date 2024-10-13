@@ -6,5 +6,11 @@
         <target>App component initialized</target>
       </segment>
     </unit>
+    <unit id="appComponent.helloWorld">
+      <segment state="initial">
+        <source>Hello world</source>
+        <target>Hello world</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

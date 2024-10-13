@@ -22,6 +22,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     console.log($localize`:@@appComponent.ngOnInit:App component initialized`);
+    console.log($localize`:@@appComponent.helloWorld:Hello world`);
   }
 
 }
