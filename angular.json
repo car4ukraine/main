@@ -74,6 +74,30 @@
             "i18nMissingTranslation": "warning"
           },
           "configurations": {
+            "prepare_production_base": {
+              "localize": false,
+              "deleteOutputPath": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "prepare_development_base": {
+              "localize": false,
+              "deleteOutputPath": false,
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            },
             "production": {
               "budgets": [
                 {
@@ -97,11 +121,29 @@
             "en-US": {
               "localize": ["en-US"]
             },
-            "pl": {
-              "localize": ["pl"]
+            "da": {
+              "localize": ["da"]
+            },
+            "de": {
+              "localize": ["de"]
+            },
+            "es": {
+              "localize": ["es"]
             },
             "fr": {
               "localize": ["fr"]
+            },
+            "nb": {
+              "localize": ["nb"]
+            },
+            "nl": {
+              "localize": ["nl"]
+            },
+            "pl": {
+              "localize": ["pl"]
+            },
+            "sv": {
+              "localize": ["sv"]
             }
           },
           "defaultConfiguration": "production"
