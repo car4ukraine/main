@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "car4ukraine-com",
-    "public": "dist/client/browser",
+    "public": "dist/browser",
     "ignore": [
       "**/firebase/**",
       "**/.*",
