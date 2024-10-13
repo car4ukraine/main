@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "default": "car4ukraine-com"
+  },
+  "targets": {
+    "car4ukraine-com": {
+      "hosting": {
+        "car4ukraine-com": [
+          "car4ukraine-com"
+        ]
+      }
+    },
+    "dev-car4ukraine": {
+      "hosting": {
+        "dev-car4ukraine": [
+          "dev-car4ukraine"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
