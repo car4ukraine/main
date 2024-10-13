@@ -12,7 +12,8 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
     <app-stories-section/>
     <app-ongoing-fundraiser-section/>
     <app-donated-vehicles-section/>
-    <app-social-media-section/>
+<!--  TODO: Fix social media section, because the section has some problem which block home page and program can replace the home page with another page  -->
+<!--    <app-social-media-section/>-->
   `
 })
 export class HomePageComponent implements OnInit {
