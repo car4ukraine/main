@@ -40,3 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+/firebase/develop/dist/
+/firebase/production/dist/
+
+# Scully
+scully.log

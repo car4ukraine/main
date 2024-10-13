@@ -1,7 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from '../common/components/header/header.component';
-import { FooterComponent } from '../common/components/footer/footer.component';
+import {ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
+import {HeaderComponent} from '../common/components/header/header.component';
+import {FooterComponent} from '../common/components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +11,13 @@ import { FooterComponent } from '../common/components/footer/footer.component';
     HeaderComponent,
     FooterComponent
   ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: `
+    <app-header/>
+    <router-outlet/>
+    <app-footer/>
+  `,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.Default,
   host: {
     'class': 'flex flex-col'
   }
