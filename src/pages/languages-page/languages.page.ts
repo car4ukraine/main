@@ -1,17 +1,13 @@
 import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/core";
-import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-languages-page',
   templateUrl: './languages.page.html',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.Default,
-  imports: [
-    RouterLink
-  ],
   standalone: true
 })
-export default class LanguagesPage {
+export class LanguagesPage {
 
   public readonly languageList: {
     name: string;
@@ -66,3 +62,5 @@ export default class LanguagesPage {
   ];
 
 }
+
+export default LanguagesPage;

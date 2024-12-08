@@ -1,10 +1,22 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
 import { PageMetaService } from '../../common/services/page-meta/page-meta.service';
+import {HeroSectionComponent} from "./sections/hero-section/hero-section.component";
+import {ContributorsSectionComponent} from "./sections/contributors-section/contributors-section.component";
+import {NetworkSectionComponent} from "./sections/network-section/network-section.component";
+import {JoinSectionComponent} from "./sections/join-section/join-section.component";
 
 @Component({
   selector: 'app-about-page',
   templateUrl: './about-page.component.html',
-  styleUrl: './about-page.component.scss'
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [
+    HeroSectionComponent,
+    ContributorsSectionComponent,
+    NetworkSectionComponent,
+    JoinSectionComponent
+  ],
+  standalone: true
 })
 export class AboutPageComponent {
   readonly title: string = `About Car for Ukraine Volunteering Initiative`;
@@ -14,3 +26,5 @@ export class AboutPageComponent {
     this.pageMetaService.setTitleAndDescription(this.title, this.description);
   }
 }
+
+export default AboutPageComponent;

@@ -4,31 +4,31 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
 	{
 		path: '',
-		loadChildren: () => import('../pages/home-page/home-page.module').then(m => m.HomePageModule)
+		loadComponent: () => import('../pages/home-page/home-page.component')
 	},
 	{
 		path: 'about',
-		loadChildren: () => import('../pages/about-page/about-page.module').then(m => m.AboutPageModule)
+    loadComponent: () => import('../pages/about-page/about-page.component')
 	},
 	{
 		path: 'donate',
-		loadChildren: () => import('../pages/donate-page/donate-page.module').then(m => m.DonatePageModule)
+    loadComponent: () => import('../pages/donate-page/donate-page.component')
 	},
 	{
 		path: 'donate-car',
-		loadChildren: () => import('../pages/donate-car-page/donate-car-page.module').then(m => m.DonateCarPageModule)
+    loadComponent: () => import('../pages/donate-car-page/donate-car-page.component')
 	},
 	{
 		path: 'contact',
-		loadChildren: () => import('../pages/contact-page/contact-page.module').then(m => m.ContactPageModule)
+    loadComponent: () => import('../pages/contact-page/contact-page.component')
 	},
 	{
 		path: 'faq',
-		loadChildren: () => import('../pages/faq-page/faq-page.module').then(m => m.FaqPageModule)
+    loadComponent: () => import('../pages/faq-page/faq-page.component')
 	},
 	{
 		path: 'thankyou',
-		loadChildren: () => import('../pages/thank-you-page/thank-you-page.module').then(m => m.ThankYouPageModule)
+    loadComponent: () => import('../pages/thank-you-page/thank-you-page.component')
 	},
 	{
 		path: 'languages',
@@ -38,13 +38,13 @@ export const routes: Routes = [
 		path: 'sitemap',
 		loadComponent: () => import('../pages/sitemap-page/sitemap.page')
 	},
-	{
-		path: '**',
-		redirectTo: '',
-	},
-	{
-		path: '',
-		redirectTo: '',
-		pathMatch: 'full'
-	}
+	// {
+	// 	path: '**',
+	// 	redirectTo: '',
+	// },
+	// {
+	// 	path: '',
+	// 	redirectTo: '',
+	// 	pathMatch: 'full'
+	// }
 ];
