@@ -14,3 +14,5 @@ export class FaqPageComponent {
     this.pageMetaService.setTitleAndDescription(this.title, this.description);
   }
 }
+
+export default FaqPageComponent;

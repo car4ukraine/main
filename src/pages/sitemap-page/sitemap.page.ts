@@ -11,7 +11,7 @@ import {RouterLink} from "@angular/router";
   ],
   standalone: true
 })
-export default class SitemapPage {
+export class SitemapPage {
 
   public readonly sitemapList: {
     name: string;
@@ -56,3 +56,5 @@ export default class SitemapPage {
   ];
 
 }
+
+export default SitemapPage;

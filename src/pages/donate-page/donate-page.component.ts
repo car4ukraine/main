@@ -14,3 +14,5 @@ export class DonatePageComponent {
     this.pageMetaService.setTitleAndDescription(this.title, this.description);
   }
 }
+
+export default DonatePageComponent;

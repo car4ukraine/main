@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
 import { PageMetaService } from '../../common/services/page-meta/page-meta.service';
 
 @Component({
   selector: 'app-contact-page',
   templateUrl: './contact-page.component.html',
-  styleUrl: './contact-page.component.scss'
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  standalone: true
 })
 export class ContactPageComponent {
   readonly title: string = `Contact Car for Ukraine Volunteering Initiative`;
@@ -14,3 +16,5 @@ export class ContactPageComponent {
     this.pageMetaService.setTitleAndDescription(this.title, this.description);
   }
 }
+
+export default ContactPageComponent;

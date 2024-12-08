@@ -1,10 +1,17 @@
 import {ChangeDetectionStrategy, Component, inject, OnInit, ViewEncapsulation} from '@angular/core';
 import {PageMetaService} from '../../common/services/page-meta/page-meta.service';
+import {HeroSectionComponent} from "./sections/hero-section/hero-section.component";
+import {NgOptimizedImage} from "@angular/common";
 
 @Component({
   selector: 'app-home-page',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.Default,
+  standalone: true,
+  imports: [
+    HeroSectionComponent,
+    NgOptimizedImage
+  ],
   template: `
     <app-hero-section/>
 
@@ -13,7 +20,9 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
       <div class="grid grid-cols-12 gap-10 max-w-[1330px] w-full">
 
         <div class="col-span-6">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland. With over 50 volunteers, we’re here to provide the frontline with the mobility they need to defend and liberate our nation."
+          Our team, united from various industries and backgrounds, stands together to protect our homeland. With over
+          50 volunteers, we’re here to provide the frontline with the mobility they need to defend and liberate our
+          nation."
         </div>
 
         <div class="col-span-3 flex flex-col items-center">
@@ -26,7 +35,7 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
         </div>
 
         <div class="col-span-12">
-          <img class="w-full h-96 rounded-lg" src="https://via.placeholder.com/1330x366" />
+          <img class="w-full max-h-96 rounded-lg" height="374" width="900" ngSrc="assets/page/home/section/about-us/banner.jpg"/>
         </div>
 
       </div>
@@ -55,7 +64,7 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
           </div>
         </div>
         <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366" />
+          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
         </div>
 
       </div>
@@ -85,7 +94,7 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
           </div>
         </div>
         <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366" />
+          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
         </div>
 
       </div>
@@ -117,7 +126,7 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
           </div>
         </div>
         <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366" />
+          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
         </div>
 
       </div>
@@ -149,7 +158,7 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
           </div>
         </div>
         <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366" />
+          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
         </div>
 
       </div>
@@ -181,7 +190,7 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
           </div>
         </div>
         <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366" />
+          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
         </div>
 
       </div>
@@ -193,20 +202,20 @@ import {PageMetaService} from '../../common/services/page-meta/page-meta.service
       <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
         <div class="col-span-12">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366" />
+          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
         </div>
 
       </div>
 
     </div>
 
-<!--    <app-spotlight-section/>-->
-<!--    <app-steps-section/>-->
-<!--    <app-stories-section/>-->
-<!--    <app-ongoing-fundraiser-section/>-->
-<!--    <app-donated-vehicles-section/>-->
-<!--  TODO: Fix social media section, because the section has some problem which block home page and program can replace the home page with another page  -->
-<!--    <app-social-media-section/>-->
+    <!--    <app-spotlight-section/>-->
+    <!--    <app-steps-section/>-->
+    <!--    <app-stories-section/>-->
+    <!--    <app-ongoing-fundraiser-section/>-->
+    <!--    <app-donated-vehicles-section/>-->
+    <!--  TODO: Fix social media section, because the section has some problem which block home page and program can replace the home page with another page  -->
+    <!--    <app-social-media-section/>-->
   `
 })
 export class HomePageComponent implements OnInit {
@@ -220,4 +229,6 @@ export class HomePageComponent implements OnInit {
     this.pageMetaService.setTitleAndDescription(this.title, this.description);
   }
 }
+
+export default HomePageComponent;
 

@@ -4,7 +4,7 @@ import { PageMetaService } from '../../common/services/page-meta/page-meta.servi
 @Component({
   selector: 'app-thank-you-page',
   templateUrl: './thank-you-page.component.html',
-  styleUrl: './thank-you-page.component.scss'
+  standalone: true
 })
 export class ThankYouPageComponent {
   readonly title: string = `Thank You Page of Car for Ukraine - Volunteering Initiative`;
@@ -14,3 +14,5 @@ export class ThankYouPageComponent {
     this.pageMetaService.setTitleAndDescription(this.title, this.description);
   }
 }
+
+export default ThankYouPageComponent;
