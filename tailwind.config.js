@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        tektur: ['Tektur', 'sans-serif'], // Add the font family
+      },
+    }
   },
   plugins: [],
 }

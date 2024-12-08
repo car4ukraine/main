@@ -19,17 +19,17 @@ import {NgOptimizedImage} from "@angular/common";
 
       <div class="grid grid-cols-12 gap-10 max-w-[1330px] w-full">
 
-        <div class="col-span-6">
+        <div class="col-span-6 font-tektur">
           Our team, united from various industries and backgrounds, stands together to protect our homeland. With over
           50 volunteers, we’re here to provide the frontline with the mobility they need to defend and liberate our
           nation."
         </div>
 
-        <div class="col-span-3 flex flex-col items-center">
+        <div class="col-span-3 flex flex-col items-center font-tektur">
           <div class="text-4xl font-bold">473</div>
           <div>CARS DELIVERED</div>
         </div>
-        <div class="col-span-3 flex flex-col items-center">
+        <div class="col-span-3 flex flex-col items-center font-tektur">
           <div class="text-4xl font-bold">$3.84M</div>
           <div>WORTH OF TRUCKS</div>
         </div>
@@ -46,9 +46,9 @@ import {NgOptimizedImage} from "@angular/common";
       <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
         <div class="col-span-12">
-          <div class="text-4xl font-bold">Media about us</div>
+          <div class="text-4xl font-bold font-tektur">Media about us</div>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 font-tektur">
           Our team, united from various industries and backgrounds, stands together to protect our homeland.
         </div>
         <div class="col-span-12"></div>
@@ -76,9 +76,9 @@ import {NgOptimizedImage} from "@angular/common";
       <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
         <div class="col-span-12">
-          <div class="text-4xl font-bold">Our Work</div>
+          <div class="text-4xl font-bold font-tektur">Our Work</div>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 font-tektur">
           Our team, united from various industries and backgrounds, stands together to protect our homeland.
         </div>
         <div class="col-span-12"></div>
@@ -106,11 +106,11 @@ import {NgOptimizedImage} from "@angular/common";
       <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
         <div class="col-span-12">
-          <div class="text-4xl font-bold">
+          <div class="text-4xl font-bold font-tektur">
             They Bought Us Cars
           </div>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 font-tektur">
           Our team, united from various industries and backgrounds, stands together to protect our homeland.
         </div>
         <div class="col-span-12"></div>
@@ -138,11 +138,11 @@ import {NgOptimizedImage} from "@angular/common";
       <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
         <div class="col-span-12">
-          <div class="text-4xl font-bold">
+          <div class="text-4xl font-bold font-tektur">
             Active Campaigns
           </div>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 font-tektur">
           Our team, united from various industries and backgrounds, stands together to protect our homeland.
         </div>
         <div class="col-span-12"></div>
@@ -170,11 +170,11 @@ import {NgOptimizedImage} from "@angular/common";
       <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
         <div class="col-span-12">
-          <div class="text-4xl font-bold">
+          <div class="text-4xl font-bold font-tektur">
             Donated Vehicles
           </div>
         </div>
-        <div class="col-span-6">
+        <div class="col-span-6 font-tektur">
           Our team, united from various industries and backgrounds, stands together to protect our homeland.
         </div>
         <div class="col-span-12"></div>
@@ -202,6 +202,33 @@ import {NgOptimizedImage} from "@angular/common";
       <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
         <div class="col-span-12">
+          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="w-full bg-[#EAECED] p-10 flex flex-col items-center justify-center ">
+
+      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
+
+        <div class="col-span-12">
+          <div class="text-4xl font-bold font-tektur">
+            Our Initiative
+          </div>
+        </div>
+        <div class="col-span-6 font-tektur">
+          Today our men at the frontline require mobility, and we are here with over 50 volunteers to serve them and liberate our nation.
+        </div>
+        <div class="col-span-12"></div>
+        <div class="col-span-5 items-center flex">
+          <div class="font-tektur">
+            Our team has people from different industries with different backgrounds, but today we are united to serve our army.
+            Today our men at the frontline require mobility, and we are here with over 50 volunteers to serve them and liberate our nation. Today our men at the frontline require mobility, and we are here with over 50 volunteers to serve them and liberate our nation.
+          </div>
+        </div>
+        <div class="col-span-7">
           <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
         </div>
 
