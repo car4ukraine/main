@@ -2,6 +2,14 @@ import {ChangeDetectionStrategy, Component, inject, OnInit, ViewEncapsulation} f
 import {PageMetaService} from '../../common/services/page-meta/page-meta.service';
 import {HeroSectionComponent} from "./sections/hero-section/hero-section.component";
 import {NgOptimizedImage} from "@angular/common";
+import {MediaAboutUsComponent} from "./sections/media-about-us/media-about-us.component";
+import {OurWorkComponent} from "./sections/our-work/our-work.component";
+import {TheyBoughtUsCarsComponent} from "./sections/they-bought-us-cars/they-bought-us-cars.component";
+import {ActiveCampaignsComponent} from "./sections/active-campaigns/active-campaigns.component";
+import {DonatedVehiclesComponent} from "./sections/donated-vehicles/donated-vehicles.component";
+import {OurInitiativeComponent} from "./sections/our-initiative/our-initiative.component";
+import {SubHeroComponent} from "./sections/sub-hero/sub-hero.component";
+import {HowDonationsWorkComponent} from "./sections/how-donations-work/how-donations-work.component";
 
 @Component({
   selector: 'app-home-page',
@@ -10,237 +18,35 @@ import {NgOptimizedImage} from "@angular/common";
   standalone: true,
   imports: [
     HeroSectionComponent,
-    NgOptimizedImage
+    NgOptimizedImage,
+    MediaAboutUsComponent,
+    OurWorkComponent,
+    TheyBoughtUsCarsComponent,
+    ActiveCampaignsComponent,
+    DonatedVehiclesComponent,
+    OurInitiativeComponent,
+    SubHeroComponent,
+    HowDonationsWorkComponent
   ],
   template: `
     <app-hero-section/>
 
-    <div class="w-full pb-10 bg-white flex flex-col items-center justify-center">
+    <app-sub-hero-section-component/>
 
-      <div class="grid grid-cols-12 gap-10 max-w-[1330px] w-full">
+    <app-media-about-us-section-component/>
 
-        <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland. With over
-          50 volunteers, we’re here to provide the frontline with the mobility they need to defend and liberate our
-          nation."
-        </div>
+    <app-our-work-section-component/>
 
-        <div class="col-span-3 flex flex-col items-center font-tektur">
-          <div class="text-4xl font-bold">473</div>
-          <div>CARS DELIVERED</div>
-        </div>
-        <div class="col-span-3 flex flex-col items-center font-tektur">
-          <div class="text-4xl font-bold">$3.84M</div>
-          <div>WORTH OF TRUCKS</div>
-        </div>
+    <app-they-bought-us-cars-section-component/>
 
-        <div class="col-span-12">
-          <img class="w-full max-h-96 rounded-lg" height="374" width="900" ngSrc="assets/page/home/section/about-us/banner.jpg"/>
-        </div>
+    <app-active-campaigns-section-component/>
 
-      </div>
-    </div>
+    <app-donated-vehicles-section-component/>
 
-    <div class="w-full bg-[#EAECED] p-10 flex flex-col items-center justify-center">
+    <app-how-donations-work-section-component/>
 
-      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
+    <app-our-initiative-section-component/>
 
-        <div class="col-span-12">
-          <div class="text-4xl font-bold font-tektur">Media about us</div>
-        </div>
-        <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland.
-        </div>
-        <div class="col-span-12"></div>
-        <div class="col-span-5">
-          <div class="w-full grid grid-cols-3 gap-4">
-            <div>asd</div>
-            <div>eqwe</div>
-            <div>asdas</div>
-            <div>sdas</div>
-            <div>zczx</div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-        <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="w-full bg-[#1F2125] p-10 flex flex-col items-center justify-center text-white">
-
-      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
-
-        <div class="col-span-12">
-          <div class="text-4xl font-bold font-tektur">Our Work</div>
-        </div>
-        <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland.
-        </div>
-        <div class="col-span-12"></div>
-        <div class="col-span-5">
-          <div class="w-full grid grid-cols-3 gap-4">
-            <div>asd</div>
-            <div>eqwe</div>
-            <div>asdas</div>
-            <div>sdas</div>
-            <div>zczx</div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-        <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="w-full bg-white p-10 flex flex-col items-center justify-center">
-
-      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
-
-        <div class="col-span-12">
-          <div class="text-4xl font-bold font-tektur">
-            They Bought Us Cars
-          </div>
-        </div>
-        <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland.
-        </div>
-        <div class="col-span-12"></div>
-        <div class="col-span-5">
-          <div class="w-full grid grid-cols-3 gap-4">
-            <div>asd</div>
-            <div>eqwe</div>
-            <div>asdas</div>
-            <div>sdas</div>
-            <div>zczx</div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-        <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="w-full bg-[#EAECED] p-10 flex flex-col items-center justify-center ">
-
-      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
-
-        <div class="col-span-12">
-          <div class="text-4xl font-bold font-tektur">
-            Active Campaigns
-          </div>
-        </div>
-        <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland.
-        </div>
-        <div class="col-span-12"></div>
-        <div class="col-span-5">
-          <div class="w-full grid grid-cols-3 gap-4">
-            <div>asd</div>
-            <div>eqwe</div>
-            <div>asdas</div>
-            <div>sdas</div>
-            <div>zczx</div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-        <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="w-full bg-[#1F2125] p-10 flex flex-col items-center justify-center text-white">
-
-      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
-
-        <div class="col-span-12">
-          <div class="text-4xl font-bold font-tektur">
-            Donated Vehicles
-          </div>
-        </div>
-        <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland.
-        </div>
-        <div class="col-span-12"></div>
-        <div class="col-span-5">
-          <div class="w-full grid grid-cols-3 gap-4">
-            <div>asd</div>
-            <div>eqwe</div>
-            <div>asdas</div>
-            <div>sdas</div>
-            <div>zczx</div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-        <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="w-full bg-white p-10 flex flex-col items-center justify-center text-white">
-
-      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
-
-        <div class="col-span-12">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="w-full bg-[#EAECED] p-10 flex flex-col items-center justify-center ">
-
-      <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
-
-        <div class="col-span-12">
-          <div class="text-4xl font-bold font-tektur">
-            Our Initiative
-          </div>
-        </div>
-        <div class="col-span-6 font-tektur">
-          Today our men at the frontline require mobility, and we are here with over 50 volunteers to serve them and liberate our nation.
-        </div>
-        <div class="col-span-12"></div>
-        <div class="col-span-5 items-center flex">
-          <div class="font-tektur">
-            Our team has people from different industries with different backgrounds, but today we are united to serve our army.
-            Today our men at the frontline require mobility, and we are here with over 50 volunteers to serve them and liberate our nation. Today our men at the frontline require mobility, and we are here with over 50 volunteers to serve them and liberate our nation.
-          </div>
-        </div>
-        <div class="col-span-7">
-          <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!--    <app-spotlight-section/>-->
-    <!--    <app-steps-section/>-->
-    <!--    <app-stories-section/>-->
-    <!--    <app-ongoing-fundraiser-section/>-->
-    <!--    <app-donated-vehicles-section/>-->
     <!--  TODO: Fix social media section, because the section has some problem which block home page and program can replace the home page with another page  -->
     <!--    <app-social-media-section/>-->
   `
