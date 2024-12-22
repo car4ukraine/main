@@ -38,9 +38,9 @@
     "@angular/compiler-cli": "latest",
     "@angular/localize": "latest",
     "@types/express": "5.0.0",
-    "@types/node": "22.10.1",
+    "@types/node": "22.10.2",
     "ng-extract-i18n-merge": "2.13.1",
-    "tailwindcss": "3.4.16",
+    "tailwindcss": "3.4.17",
     "typescript": "5.6.3"
   }
 }
