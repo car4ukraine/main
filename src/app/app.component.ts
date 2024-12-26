@@ -26,8 +26,6 @@ export class AppComponent implements OnInit {
   title = 'client';
 
   ngOnInit() {
-    console.log($localize`:@@appComponent.ngOnInit:App component initialized`);
-    console.log($localize`:@@appComponent.helloWorld:Hello world`);
   }
 
 }
