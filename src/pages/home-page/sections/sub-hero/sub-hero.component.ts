@@ -17,9 +17,7 @@ import {NgOptimizedImage} from "@angular/common";
       <div class="grid grid-cols-12 gap-10 max-w-[1330px] w-full">
 
         <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland. With over
-          50 volunteers, we’re here to provide the frontline with the mobility they need to defend and liberate our
-          nation."
+          Since 2022 we’ve been asking our soldiers what they need the most. Some need drones, other medical equipment, but the one common need for every unit no matter where they serve are reliable cars.
         </div>
 
         <div class="col-span-3 flex flex-col items-center font-tektur">

@@ -17,7 +17,7 @@ import {TheyBoughtUsCarsComponent} from "../they-bought-us-cars/they-bought-us-c
           </div>
         </div>
         <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland.
+          It’s hard to help everyone but we do our best. Join a campaign you like and help us help these warriors.
         </div>
         <div class="col-span-12"></div>
         <div class="col-span-5">

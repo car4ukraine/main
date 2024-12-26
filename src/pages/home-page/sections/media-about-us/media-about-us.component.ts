@@ -13,7 +13,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
         <div class="text-4xl font-bold font-tektur">Media about us</div>
       </div>
       <div class="col-span-6 font-tektur">
-        Our team, united from various industries and backgrounds, stands together to protect our homeland.
+        Every story published brings us one step closer to our shared  victory. Thank you!
       </div>
       <div class="col-span-12"></div>
       <div class="col-span-5">

@@ -16,7 +16,7 @@ import {MediaAboutUsComponent} from "../media-about-us/media-about-us.component"
           </div>
         </div>
         <div class="col-span-6 font-tektur">
-          Our team, united from various industries and backgrounds, stands together to protect our homeland.
+          From every corner of the globe people come to Ukraine in person to stand with us and show their support.
         </div>
         <div class="col-span-12"></div>
         <div class="col-span-5">
