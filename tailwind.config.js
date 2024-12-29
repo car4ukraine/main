@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         tektur: ['Tektur', 'sans-serif'], // Add the font family
-      },
+      }
     }
   },
   plugins: [],

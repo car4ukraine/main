@@ -36,9 +36,18 @@ import {MediaAboutUsComponent} from "../media-about-us/media-about-us.component"
 
       </div>
 
+      <div class="w-[1327px] h-[70px] relative">
+        <div class="w-[429px] h-[69px] left-[898px] top-0 absolute">
+          <div class="w-[429px] h-[69px] px-[18px] left-0 top-0 absolute bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
+            <div class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">BUY PICKUP TRUCK</div>
+          </div>
+        </div>
+        <div class="left-0 top-0 absolute text-center"><span class="text-[#216df9] text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest">THEY MADE IT!</span><span class="text-black text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest"> </span><span class="text-[#ffd000] text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest">WILL YOU?</span></div>
+      </div>
+
   `,
   host: {
-    class: `w-full bg-white p-10 flex flex-col items-center justify-center`
+    class: `w-full bg-white p-10 flex flex-col gap-8 items-center justify-center`
   }
 })
 export class TheyBoughtUsCarsComponent {
