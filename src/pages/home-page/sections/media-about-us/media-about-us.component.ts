@@ -16,7 +16,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
         Every story published brings us one step closer to our shared victory. Thank you!
       </div>
       <div class="col-span-12"></div>
-      <div class="col-span-5">
+      <div class="col-span-12 lg:col-span-5">
         <div class="w-full grid grid-cols-3 gap-4">
           @for (slide of slideListImage; track slide.url) {
             <a href="{{ slide.url }}" target="_blank" class="flex justify-center items-center bg-white rounded">
@@ -26,7 +26,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
           }
         </div>
       </div>
-      <div class="col-span-7">
+      <div class="col-span-12 lg:col-span-7">
         <iframe  class="w-full h-[500px] rounded-lg" width="1330" height="366" src="https://www.youtube.com/embed/0ZBULtaRSMs?si=bEoElSnPX274PUvB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!--        <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>-->
       </div>
@@ -35,7 +35,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
 
   `,
   host: {
-    class: `w-full bg-[#EAECED] p-10 flex flex-col items-center justify-center`
+    class: `w-full bg-[#EAECED] p-10 py-36 flex flex-col items-center justify-center`
   }
 })
 export class MediaAboutUsComponent {

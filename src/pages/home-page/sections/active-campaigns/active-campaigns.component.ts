@@ -39,7 +39,7 @@ import {TheyBoughtUsCarsComponent} from "../they-bought-us-cars/they-bought-us-c
 
   `,
   host: {
-    class: `w-full bg-[#EAECED] p-10 flex flex-col items-center justify-center`
+    class: `w-full bg-[#EAECED] p-10 py-36 flex flex-col items-center justify-center`
   }
 })
 export class ActiveCampaignsComponent {

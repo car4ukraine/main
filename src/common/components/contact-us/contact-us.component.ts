@@ -83,7 +83,7 @@ import {catchError, throwError} from "rxjs";
 
         }
 
-        <div class="w-[701px] h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
+        <div class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
           <button
             [disabled]="pending"
             class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
@@ -108,7 +108,7 @@ import {catchError, throwError} from "rxjs";
     ReactiveFormsModule
   ],
   host: {
-    class: ''
+    class: 'flex flex-col w-full'
   }
 })
 export class ContactUsComponent implements OnInit {

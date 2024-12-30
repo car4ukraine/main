@@ -60,9 +60,9 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 
           </div>
 
-          <div class="w-[1086px] h-[3px] relative">
-            <div class="w-[1086px] h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
-            <div class="w-[315px] h-[3px] left-0 top-0 absolute bg-[#dde1e6]"></div>
+          <div class="w-full h-[3px] relative">
+            <div class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
+            <div class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]"></div>
           </div>
 
         </div>
@@ -76,7 +76,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
     NgIcon
   ],
   host: {
-    class: `w-full bg-[#1F2125] p-10 flex flex-col items-center justify-center text-white`
+    class: `w-full bg-[#1F2125] p-10 py-36 flex flex-col items-center justify-center text-white`
   }
 })
 export class DonatedVehiclesComponent implements OnInit {

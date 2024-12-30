@@ -16,7 +16,7 @@ import {NgOptimizedImage} from "@angular/common";
 
       <div class="grid grid-cols-12 gap-10 max-w-[1330px] w-full">
 
-        <div class="col-span-6 font-tektur">
+        <div class="col-span-12 lg:col-span-6 font-tektur">
           Since 2022 we’ve been asking our soldiers what they need the most. Some need drones, other medical equipment, but the one common need for every unit no matter where they serve are reliable cars.
         </div>
 

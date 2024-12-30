@@ -67,30 +67,31 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 
           </div>
 
-          <div class="w-[1086px] h-[3px] relative">
-            <div class="w-[1086px] h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
-            <div class="w-[315px] h-[3px] left-0 top-0 absolute bg-[#dde1e6]"></div>
+          <div class="w-full h-[3px] relative">
+            <div class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
+            <div class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]"></div>
           </div>
 
         </div>
       </div>
 
-    </div>
+      <div class="col-span-12 pt-10">
 
-    <div class="w-[1327px] h-[70px] relative">
-      <div class="w-[429px] h-[69px] left-[898px] top-0 absolute">
-        <div
-          class="w-[429px] h-[69px] px-[18px] left-0 top-0 absolute bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
-          <div class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
-            BUY PICKUP TRUCK
+        <div class="flex flex-col gap-8 lg:flex-row justify-between w-full">
+          <div class="text-center"><span
+            class="text-[#216df9] text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest">THEY MADE IT!</span><span
+            class="text-black text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest"> </span><span
+            class="text-[#ffd000] text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest">WILL YOU?</span>
+          </div>
+          <div
+            class="w-full lg:flex-1 h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
+            <div class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
+              BUY PICKUP TRUCK
+            </div>
           </div>
         </div>
       </div>
-      <div class="left-0 top-0 absolute text-center"><span
-        class="text-[#216df9] text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest">THEY MADE IT!</span><span
-        class="text-black text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest"> </span><span
-        class="text-[#ffd000] text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest">WILL YOU?</span>
-      </div>
+
     </div>
 
   `,
@@ -98,7 +99,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
     NgIcon
   ],
   host: {
-    class: `w-full bg-white p-10 flex flex-col gap-8 items-center justify-center`
+    class: `w-full bg-white p-10 py-36 flex flex-col gap-8 items-center justify-center`
   }
 })
 export class TheyBoughtUsCarsComponent {
