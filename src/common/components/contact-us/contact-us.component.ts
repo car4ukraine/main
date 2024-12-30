@@ -9,108 +9,99 @@ import {catchError, throwError} from "rxjs";
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.Default,
   template: `
-    <div>
-      Contact us
+    <div class="font-tektur">
+      <div class="text-4xl font-bold">
+        Contact us
+      </div>
+      <div>
+        Fill up the form, and we’ll get back to you within 24 hours
+      </div>
     </div>
-    <div>
-      Fill up the form, and we’ll get back to you within 24 hours
-    </div>
-    <div class="bg-white p-5 mx-lg-5 mb-5 shadow">
-      <div class="row mx-lg-5 px-lg-5">
-        <div class="col-md-12 mx-lg-5 px-lg-5">
 
-          <div class="row">
+    <form [formGroup]="form" (ngSubmit)="submitForm()" [class.was-validated]="form.touched">
 
-            <h2 class="col-12 text-center font-custom fw-bold fs-3"></h2>
+      <div class="flex flex-col gap-4">
+
+        <div>
+          <label for="disabledSelect" class="form-label"></label>
+          <select formControlName="subject" id="disabledSelect"
+                  class="bg-transparent block w-full mt-0 px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                  [required]="isRequired('subject')">
+            @for (option of options; track option) {
+              <option [value]="$index"></option>
+            }
+          </select>
+        </div>
+
+        <div>
+          <label for="pages-contact_us-form-name-input" class="form-label"></label>
+          <input formControlName="name" type="text"
+                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                 id="pages-contact_us-form-name-input"
+                 [required]="isRequired('name')" [placeholder]="'modules.contact_form.name.hint'">
+        </div>
+
+        <div>
+          <label for="pages-contact_us-form-email-input" class="form-label"></label>
+          <input formControlName="email" type="email"
+                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                 id="pages-contact_us-form-email-input" [required]="isRequired('email')"
+                 [placeholder]="'modules.contact_form.email.hint'">
+        </div>
+
+        <div>
+          <label for="pages-contact_us-form-message-textarea" class="form-label"></label>
+          <textarea formControlName="message"
+                    class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                    id="pages-contact_us-form-message-textarea"
+                    rows="3" [required]="isRequired('message')"
+                    [placeholder]="'modules.contact_form.message.hint'"></textarea>
+        </div>
+
+        @if (showSuccessAlert) {
+          <div class="col-12">
+
+            <div class="alert alert-success d-flex align-items-center justify-content-center" role="alert">
+              <i class="bi bi-check-circle me-2"></i>
+              <div [innerText]="'modules.contact_form.notifications.success'"></div>
+            </div>
 
           </div>
 
-          <form [formGroup]="form" (ngSubmit)="submitForm()" [class.was-validated]="form.touched"
-                class="mt-5 font-custom">
-            <div class="row ">
+        }
 
-              <div class="col-12">
+        @if (showErrorAlert) {
 
-                <div class="mb-3">
-                  <label for="disabledSelect" class="form-label"></label>
-                  <select formControlName="subject" id="disabledSelect" class="form-select cursor-pointer"
-                          [required]="isRequired('subject')">
-                    @for (option of options; track option) {
-                      <option [value]="$index"></option>
-                    }
-                  </select>
-                </div>
+          <div class="col-12">
 
-                <div class="mb-3">
-                  <label for="pages-contact_us-form-name-input" class="form-label"></label>
-                  <input formControlName="name" type="text" class="form-control" id="pages-contact_us-form-name-input"
-                         [required]="isRequired('name')" [placeholder]="'modules.contact_form.name.hint'">
-                </div>
-
-                <div class="mb-3">
-                  <label for="pages-contact_us-form-email-input" class="form-label"></label>
-                  <input formControlName="email" type="email" class="form-control"
-                         id="pages-contact_us-form-email-input" [required]="isRequired('email')"
-                         [placeholder]="'modules.contact_form.email.hint'">
-                </div>
-
-                <div class="mb-3">
-                  <label for="pages-contact_us-form-message-textarea" class="form-label"></label>
-                  <textarea formControlName="message" class="form-control" id="pages-contact_us-form-message-textarea"
-                            rows="3" [required]="isRequired('message')"
-                            [placeholder]="'modules.contact_form.message.hint'"></textarea>
-                </div>
-
-              </div>
-
-              @if (showSuccessAlert) {
-                <div class="col-12">
-
-                  <div class="alert alert-success d-flex align-items-center justify-content-center" role="alert">
-                    <i class="bi bi-check-circle me-2"></i>
-                    <div [innerText]="'modules.contact_form.notifications.success'"></div>
-                  </div>
-
-                </div>
-
-              }
-
-              @if (showErrorAlert) {
-
-                <div class="col-12">
-
-                  <div class="alert alert-danger d-flex align-items-center justify-content-center" role="alert">
-                    <i class="bi bi-x-circle me-2"></i>
-                    <div [innerText]="'modules.contact_form.notifications.error'"> Error, check data or try later.</div>
-                  </div>
-
-                </div>
-
-              }
-
-              <div class="col align pt-5">
-                <button type="submit" class="btn btn-primary btn-font w-100 py-3 text-white" [disabled]="pending">
-
-                  @if (pending) {
-
-                    <span class="spinner-border" role="status" aria-hidden="true"></span>
-                    <span class="visually-hidden">Loading...</span>
-
-                  } @else {
-
-                    {{ 'modules.contact_form.submit.label' }}
-
-                  }
-
-                </button>
-              </div>
-
+            <div class="alert alert-danger d-flex align-items-center justify-content-center" role="alert">
+              <i class="bi bi-x-circle me-2"></i>
+              <div [innerText]="'modules.contact_form.notifications.error'"> Error, check data or try later.</div>
             </div>
-          </form>
 
+          </div>
+
+        }
+
+        <div class="w-[701px] h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
+          <button
+            [disabled]="pending"
+            class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
+
+            @if (pending) {
+
+              <span class="spinner-border" role="status" aria-hidden="true"></span>
+              <span class="visually-hidden">Loading...</span>
+
+            } @else {
+              SEND MESSAGE
+            }
+          </button>
         </div>
+
       </div>
-    </div>
+
+    </form>
 
   `,
   imports: [

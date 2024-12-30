@@ -104,7 +104,7 @@ import {ContactUsComponent} from "../../../../common/components/contact-us/conta
     ContactUsComponent
   ],
   host: {
-    class: `w-full bg-[#EAECED] p-10 flex flex-col items-center justify-center`
+    class: `w-full bg-[#EAECED] p-10 flex flex-col gap-8 items-center justify-center`
   }
 })
 export class OurInitiativeComponent {
