@@ -9,7 +9,7 @@ import {ICampaignWidgetSingleResponse} from "./i.campaign-widget-single.response
 })
 export class CampaignWidgetSingleApiService {
 
-  public readonly endpoint: string = `http://api.car4ukraine.com:1337/api/campaign-widget-singles`;
+  public readonly endpoint: string = `https://api.car4ukraine.com/api/campaign-widget-singles`;
 
   private readonly httpClient = inject(HttpClient);
 

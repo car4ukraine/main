@@ -9,7 +9,7 @@ import {ICampaignResponse} from "./i.campaign.response";
 })
 export class CampaignApiService {
 
-  public readonly endpoint: string = `http://api.car4ukraine.com:1337/api/campaigns`;
+  public readonly endpoint: string = `https://api.car4ukraine.com/api/campaigns`;
 
   private readonly httpClient = inject(HttpClient);
 
