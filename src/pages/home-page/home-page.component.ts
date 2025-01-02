@@ -14,7 +14,7 @@ import {HowDonationsWorkComponent} from "./sections/how-donations-work/how-donat
 @Component({
   selector: 'app-home-page',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
   imports: [
     HeroSectionComponent,

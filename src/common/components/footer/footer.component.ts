@@ -9,7 +9,7 @@ import {RouterLink} from "@angular/router";
   standalone: true,
   templateUrl: './footer.component.html',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     AppNavigationComponent,
     NgIconComponent,

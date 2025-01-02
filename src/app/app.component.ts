@@ -17,7 +17,7 @@ import {FooterComponent} from '../common/components/footer/footer.component';
     <app-footer/>
   `,
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     'class': 'flex flex-col'
   }

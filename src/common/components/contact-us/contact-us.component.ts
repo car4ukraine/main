@@ -7,7 +7,7 @@ import {catchError, throwError} from "rxjs";
   standalone: true,
   selector: 'app-contact-us-section-component',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="font-tektur">
       <div class="text-4xl font-bold">

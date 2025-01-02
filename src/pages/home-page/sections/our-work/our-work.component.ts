@@ -13,7 +13,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
   standalone: true,
   selector: 'app-our-work-section-component',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   viewProviders: [
     provideIcons({
       heroArrowLeft,

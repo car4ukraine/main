@@ -7,7 +7,7 @@ import {DonateButtonComponent} from "../buttons/donate-button/donate-button.comp
   standalone: true,
   templateUrl: './header.component.html',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [AppNavigationComponent, DonateButtonComponent]
 })
 export class HeaderComponent {

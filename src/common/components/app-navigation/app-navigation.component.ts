@@ -9,7 +9,7 @@ import {RouterLink} from "@angular/router";
   ],
   templateUrl: './app-navigation.component.html',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     class: "flex flex-col sm:flex-row"
   }

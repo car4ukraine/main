@@ -6,7 +6,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
   standalone: true,
   selector: 'app-our-initiative-section-component',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
 
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">

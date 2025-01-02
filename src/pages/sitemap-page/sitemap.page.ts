@@ -5,7 +5,7 @@ import {RouterLink} from "@angular/router";
   selector: 'app-languages-page',
   templateUrl: './sitemap.page.html',
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.Default,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     RouterLink
   ],
