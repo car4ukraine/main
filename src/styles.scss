@@ -10,3 +10,12 @@
   font-weight: 100 900; /* Adjust weight range if needed */
   font-style: normal;
 }
+
+/* Hide scrollbar for modern browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

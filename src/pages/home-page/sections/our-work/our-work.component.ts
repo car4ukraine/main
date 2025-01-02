@@ -32,7 +32,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
       </div>
       <div class="col-span-12">
 
-        <div class="relative w-full flex gap-6 snap-x overflow-x-auto h-[578px]" #scrollContainer>
+        <div class="relative w-full flex gap-6 snap-x overflow-x-auto h-[578px] scrollbar-hide" #scrollContainer>
 
           @for (file of files; track file.src) {
 
