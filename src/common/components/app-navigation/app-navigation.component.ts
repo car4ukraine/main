@@ -1,11 +1,12 @@
 import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
-import {RouterLink} from "@angular/router";
+import {RouterLink, RouterLinkActive} from "@angular/router";
 
 @Component({
   selector: 'app-navigation',
   standalone: true,
   imports: [
-    RouterLink
+    RouterLink,
+    RouterLinkActive
   ],
   templateUrl: './app-navigation.component.html',
   encapsulation: ViewEncapsulation.None,
@@ -24,11 +25,7 @@ export class AppNavigationComponent {
       href: './'
     },
     {
-      name: 'Donate Car',
-      href: './donate-car'
-    },
-    {
-      name: 'About',
+      name: 'About Us',
       href: './about'
     },
     {
@@ -36,7 +33,15 @@ export class AppNavigationComponent {
       href: './faq'
     },
     {
-      name: 'Contact',
+      name: 'Campaigns',
+      href: './campaigns'
+    },
+    {
+      name: 'Donate Car',
+      href: './donate-car'
+    },
+    {
+      name: 'Contact Us',
       href: './contact'
     }
   ]

@@ -1,6 +1,4 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, inject, OnInit, ViewEncapsulation} from "@angular/core";
-import {MediaAboutUsComponent} from "../media-about-us/media-about-us.component";
-import {TheyBoughtUsCarsComponent} from "../they-bought-us-cars/they-bought-us-cars.component";
 import {CampaignApiService} from "../../../../api/campaign/campaign.api.service";
 import {
   CampaignWidgetSingleApiService
@@ -9,6 +7,9 @@ import {ICampaignResponse} from "../../../../api/campaign/i.campaign.response";
 import {SafePipe} from "safe-pipe";
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {bootstrapHeart} from "@ng-icons/bootstrap-icons";
+import {
+  MainDonateButtonComponent
+} from "../../../../common/components/buttons/main-donate-button/main-donate-button.component";
 
 @Component({
   standalone: true,
@@ -56,14 +57,7 @@ import {bootstrapHeart} from "@ng-icons/bootstrap-icons";
                       <div [innerHTML]="campaign.progress_bar_html | safe: 'html'"></div>
                       <div class="mt-1 text-gray-500" [innerHTML]="campaign.description | safe: 'html'"></div>
                     </div>
-                    <a target="_blank"
-                       class="w-[422px] h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
-                      <ng-icon class="text-orange-400" name="bootstrapHeart"/>
-                      <div
-                        class="text-center text-[#f7f8f7] text-2xl font-medium font-tektur leading-loose tracking-[2.88px]">
-                        DONATE
-                      </div>
-                    </a>
+                    <app-main-donate-button/>
                   </div>
                 </div>
 
@@ -80,12 +74,8 @@ import {bootstrapHeart} from "@ng-icons/bootstrap-icons";
   `,
   imports: [
     SafePipe,
-    NgIcon
-  ],
-  providers: [
-    provideIcons({
-      bootstrapHeart
-    })
+    NgIcon,
+    MainDonateButtonComponent
   ],
   host: {
     class: `w-full bg-[#EAECED] p-10 py-36 flex flex-col items-center justify-center`
@@ -109,6 +99,7 @@ export class ActiveCampaignsComponent implements OnInit {
         console.log(error);
       }
     });
+
     this.campaignWidgetSingleApiService.documents().subscribe({
       next: (documents) => {
         console.log(documents);

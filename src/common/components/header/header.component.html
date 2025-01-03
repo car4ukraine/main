@@ -1,4 +1,4 @@
-<nav>
+<nav class="absolute top-0 left-0 w-full">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-20 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -25,40 +25,12 @@
         </button>
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="flex flex-shrink-0 w-8 h-8 items-center rounded-lg text-emerald-600">
-          <svg class="h-8 w-auto m-auto" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.1331 52.9058C26.1331 52.8423 26.1017 52.7829 26.0493 52.7472L11.0838 42.5295C11.0313 42.4938 11 42.4344 11 42.3709V6.19239C11 6.03466 11.1796 5.94418 11.3064 6.03808L21.9648 13.9346C22.0137 13.9708 22.0425 14.0281 22.0425 14.0889L22.0426 37.9977L26.1331 42.7988V23.9217C26.1331 23.8608 26.162 23.8035 26.211 23.7673L36.8694 15.8893C36.9962 15.7956 37.1756 15.8861 37.1756 16.0437V42.6644L41.2662 37.9785V13.9922L52.0024 6.03808C52.1291 5.94418 52.3087 6.03466 52.3087 6.19239V42.166C52.3087 42.2259 52.2807 42.2824 52.233 42.3187L26.4416 61.9604C26.3151 62.0567 26.1332 61.9665 26.1332 61.8076L26.1331 52.9058ZM26.9013 24.3896L30.8958 23.1413V56.3094L26.9013 60.3317V52.5129L17.2991 41.6816V13.0748L21.2744 14.5291V38.2806L26.9013 44.8849V24.3896ZM37.1756 50.3246V44.1048L42.0344 38.2666V14.5553L45.9137 13.331V41.1381L37.1756 50.3246Z" fill="#0d9488"/>
-          </svg>
+        <div class="flex flex-shrink-0 items-center rounded-lg text-emerald-600">
+          <img ngSrc="assets/images/logo-big.svg" alt="" height="38" width="241">
         </div>
         <div class="hidden sm:ml-6 sm:flex sm:flex-row w-full">
-          <div class="flex space-x-4 w-full justify-center">
+          <div class="flex space-x-4 w-full justify-end">
             <app-navigation/>
-          </div>
-        </div>
-      </div>
-      <div class="flex absolute inset-y-0 right-0 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-
-        <!-- Profile dropdown -->
-        <div class="relative ml-6">
-          <div>
-            <app-donate-button></app-donate-button>
-          </div>
-
-          <!--
-            Dropdown menu, show/hide based on menu state.
-
-            Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"
-          -->
-          <div class="hidden absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
-            <!-- Active: "bg-gray-100", Not Active: "" -->
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1">Your Profile</a>
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1">Settings</a>
-            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1">Sign out</a>
           </div>
         </div>
       </div>

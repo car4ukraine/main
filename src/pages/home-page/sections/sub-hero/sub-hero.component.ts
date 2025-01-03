@@ -38,7 +38,7 @@ import {NgOptimizedImage} from "@angular/common";
 
   `,
   host: {
-    class: `w-full pb-10 bg-white flex flex-col items-center justify-center`
+    class: `w-full p-10 bg-white flex flex-col items-center justify-center`
   }
 })
 export class SubHeroComponent {
