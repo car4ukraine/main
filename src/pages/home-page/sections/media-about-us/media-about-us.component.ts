@@ -26,8 +26,8 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
           }
         </div>
       </div>
-      <div class="col-span-12 lg:col-span-7 max-md:w-full max-md:mt-3">
-        <iframe  class="w-full h-[500px] rounded-lg" width="1330" height="366" src="https://www.youtube.com/embed/0ZBULtaRSMs?si=bEoElSnPX274PUvB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="col-span-12 lg:col-span-7 max-md:w-full max-md:mt-3 max-md:h-[235px]">
+        <iframe  class="w-full h-[500px] rounded-lg max-md:h-[235px]" width="1330" height="366" src="https://www.youtube.com/embed/0ZBULtaRSMs?si=bEoElSnPX274PUvB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!--        <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>-->
       </div>
 

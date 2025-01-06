@@ -31,15 +31,15 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide
           them 4x4 and other cars for as long as it takes.
         </div>
-        <button aria-label="Open"
+        <button aria-label="Open" i18n-aria-label="Open"
           class="w-[312px] h-[66px] px-[18px] border-2 border-[#1f2024] justify-center items-center gap-[7px] inline-flex">
-          <div class="text-center text-[#1f2024] text-2xl font-medium font-tektur leading-loose tracking-[2.88px]" i18n>
+          <div class="text-center text-[#1f2024] text-2xl font-medium font-tektur leading-loose tracking-[2.88px] cursor-pointer" i18n>
             MEET OUR TEAM
           </div>
         </button>
       </div>
       <div class="col-span-7 max-md:col-span-12">
-        <img class="w-full h-[500px] max-md:h-auto rounded-lg" src="../../../../assets/images/team.jpg" alt=""/>
+        <img class="w-full h-[500px] max-md:h-auto rounded-lg" src="assets/images/team.jpg" alt=""/>
       </div>
 
       <div class="col-span-12 p-8 gap-8 mt-12 bg-[#1f2024] rounded-xl flex flex-wrap justify-around items-center [&>div>div]:font-tektur [&>div]:max-md:w-full">

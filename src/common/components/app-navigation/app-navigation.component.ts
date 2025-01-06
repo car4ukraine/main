@@ -23,7 +23,6 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
 })
 export class AppNavigationComponent {
   public readonly menuItemClicked = output();
-  @Input() selectedLanguage: string = 'EN';
 
   public onMenuItemClick() {
     this.menuItemClicked.emit();

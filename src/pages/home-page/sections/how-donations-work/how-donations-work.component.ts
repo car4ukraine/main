@@ -27,7 +27,7 @@ import {NgOptimizedImage} from "@angular/common";
                 incredible stories.
               </p>
             </div>
-            <button aria-label="Open" class="bg-[#1f2024] max-w-[305px] text-[#F7F8F7] flex justify-center items-center text-center font-tektur text-2xl p-4 p-2 max-md:hidden" i18n>
+            <button aria-label="Open" i18n-aria-label="Open" class="bg-[#1f2024] max-w-[305px] text-[#F7F8F7] flex justify-center items-center text-center font-tektur text-2xl p-4 p-2 max-md:hidden cursor-pointer" i18n>
               WATCH STORIES
             </button>
           </div>
@@ -36,7 +36,7 @@ import {NgOptimizedImage} from "@angular/common";
 
           <div class="col-span-12 lg:col-span-5">
             <img ngSrc="assets/images/home/how-donations-work/map.svg" class="max-w-full min-w-full" alt="" height="296" width="546">
-            <button aria-label="Open" class="hidden bg-[#1f2024] max-w-[305px] text-[#F7F8F7] justify-center items-center text-center font-tektur text-2xl p-4 p-2 max-md:block max-md:w-full max-md:mt-10" i18n>
+            <button aria-label="Open" i18n-aria-label="Open" class="hidden bg-[#1f2024] max-w-[305px] text-[#F7F8F7] justify-center items-center text-center font-tektur text-2xl p-4 p-2 max-md:block max-md:w-full max-md:mt-10 cursor-pointer" i18n>
               WATCH STORIES
             </button>
           </div>

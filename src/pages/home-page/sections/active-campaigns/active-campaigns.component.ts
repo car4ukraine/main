@@ -40,23 +40,6 @@ import {
                   <img class="w-full h-[237px] rounded-xl" [src]="campaign.photo_url" alt="Card Image"/>
                   <div class="flex flex-col h-full justify-between">
                     <div class="flex flex-col gap-2">
-                      <h3 class="text-lg font-bold text-gray-800 font-tektur">
-                        {{ campaign.title }}
-                      </h3>
-                      <div>
-                        @if (campaign.active) {
-                          <!--<div
-                            class="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-red-100 text-red-800">
-                            {{ 'modules.badges.active' }}
-                          </div>-->
-                        } @else {
-                          <div
-                            class="inline-flex items-center gap-x-1.5 py-1.5 px-3 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
-                            {{ 'modules.badges.archived' }}
-                          </div>
-
-                        }
-                      </div>
                       <div [innerHTML]="campaign.progress_bar_html | safe: 'html'"></div>
                       <div class="mt-1 text-gray-500 font-tektur" [innerHTML]="campaign.description | safe: 'html'"></div>
                     </div>
