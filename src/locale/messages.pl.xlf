@@ -1,15 +1,549 @@
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US" trgLang="pl">
   <file id="ngi18n" original="ng.template">
-    <unit id="appComponent.ngOnInit">
+    <unit id="2337552100734144441">
+      <notes>
+        <note category="description">currentLanguageCode</note>
+      </notes>
       <segment state="initial">
-        <source>App component initialized</source>
-        <target>App component initialized</target>
+        <source> EN </source>
+        <target> PL </target>
       </segment>
     </unit>
-    <unit id="appComponent.helloWorld">
+    <unit id="6490688569532630280">
+      <notes>
+        <note category="description">Send</note>
+      </notes>
       <segment state="initial">
-        <source>Hello world</source>
-        <target>Hej świat</target>
+        <source>Send</source>
+        <target>Send</target>
+      </segment>
+    </unit>
+    <unit id="89970906091089947">
+      <segment state="initial">
+        <source>Donate</source>
+        <target>Donate</target>
+      </segment>
+    </unit>
+    <unit id="2669721426854134893">
+      <segment state="initial">
+        <source> DONATE </source>
+        <target> DONATE </target>
+      </segment>
+    </unit>
+    <unit id="5819125010421830334">
+      <segment state="initial">
+        <source> Contact us </source>
+        <target> Contact us </target>
+      </segment>
+    </unit>
+    <unit id="8696314672440192975">
+      <segment state="initial">
+        <source> Fill up the form, and we’ll get back to you within 24 hours </source>
+        <target> Fill up the form, and we’ll get back to you within 24 hours </target>
+      </segment>
+    </unit>
+    <unit id="7503803056116347460">
+      <segment state="initial">
+        <source>Select type of your inquiry</source>
+        <target>Select type of your inquiry</target>
+      </segment>
+    </unit>
+    <unit id="2297688463310993102">
+      <segment state="initial">
+        <source>Your Name</source>
+        <target>Your Name</target>
+      </segment>
+    </unit>
+    <unit id="4768749765465246664">
+      <segment state="initial">
+        <source>Email</source>
+        <target>Email</target>
+      </segment>
+    </unit>
+    <unit id="8066608938393600549">
+      <segment state="initial">
+        <source>Message</source>
+        <target>Message</target>
+      </segment>
+    </unit>
+    <unit id="9120531335529995692">
+      <segment state="initial">
+        <source> Error, check data or try later.</source>
+        <target> Error, check data or try later.</target>
+      </segment>
+    </unit>
+    <unit id="3894950702316166331">
+      <segment state="initial">
+        <source>Loading...</source>
+        <target>Loading...</target>
+      </segment>
+    </unit>
+    <unit id="7707990905304886819">
+      <segment state="initial">
+        <source>SEND MESSAGE</source>
+        <target>SEND MESSAGE</target>
+      </segment>
+    </unit>
+    <unit id="3651165538579172203">
+      <segment state="initial">
+        <source>Site Map</source>
+        <target>Site Map</target>
+      </segment>
+    </unit>
+    <unit id="8364309938383915497">
+      <segment state="initial">
+        <source> Home </source>
+        <target> Home </target>
+      </segment>
+    </unit>
+    <unit id="1307251978584893939">
+      <segment state="initial">
+        <source> About us </source>
+        <target> About us </target>
+      </segment>
+    </unit>
+    <unit id="1848675993600091944">
+      <segment state="initial">
+        <source> FAQ </source>
+        <target> FAQ </target>
+      </segment>
+    </unit>
+    <unit id="4310323778467674178">
+      <segment state="initial">
+        <source> Donate Car </source>
+        <target> Donate Car </target>
+      </segment>
+    </unit>
+    <unit id="7530965177276291749">
+      <segment state="initial">
+        <source> Campaigns </source>
+        <target> Campaigns </target>
+      </segment>
+    </unit>
+    <unit id="9081389459800982992">
+      <segment state="initial">
+        <source> Contact Us </source>
+        <target> Contact Us </target>
+      </segment>
+    </unit>
+    <unit id="8864658120410603626">
+      <segment state="initial">
+        <source>Campaigns</source>
+        <target>Campaigns</target>
+      </segment>
+    </unit>
+    <unit id="5158249202259613043">
+      <segment state="initial">
+        <source> Other languages: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></source>
+        <target> Other languages: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></target>
+      </segment>
+    </unit>
+    <unit id="679851261531413848">
+      <segment state="initial">
+        <source>Follow us on</source>
+        <target>Follow us on</target>
+      </segment>
+    </unit>
+    <unit id="8348478365460665907">
+      <segment state="initial">
+        <source>Partner NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV Institute</pc></source>
+        <target>Partner NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV Institute</pc></target>
+      </segment>
+    </unit>
+    <unit id="3864064412424264069">
+      <segment state="initial">
+        <source> Legal representation in Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></source>
+        <target> Legal representation in Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></target>
+      </segment>
+    </unit>
+    <unit id="8584887482763622558">
+      <segment state="initial">
+        <source>Powered by Ukrainian un*fckable will</source>
+        <target>Powered by Ukrainian un*fckable will</target>
+      </segment>
+    </unit>
+    <unit id="7593555694782789615">
+      <notes>
+        <note category="description">Open</note>
+      </notes>
+      <segment state="initial">
+        <source>Open</source>
+        <target>Open</target>
+      </segment>
+    </unit>
+    <unit id="7752848848235338438">
+      <segment state="initial">
+        <source>Open main menu</source>
+        <target>Open main menu</target>
+      </segment>
+    </unit>
+    <unit id="4085618859671305484">
+      <segment state="initial">
+        <source>Quick Donation</source>
+        <target>Quick Donation</target>
+      </segment>
+    </unit>
+    <unit id="8244660986474645651">
+      <segment state="initial">
+        <source>Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</source>
+        <target>Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</target>
+      </segment>
+    </unit>
+    <unit id="1769661379068269645">
+      <segment state="initial">
+        <source>Your email</source>
+        <target>Your email</target>
+      </segment>
+    </unit>
+    <unit id="9127604588498960753">
+      <segment state="initial">
+        <source>Subject</source>
+        <target>Subject</target>
+      </segment>
+    </unit>
+    <unit id="1391056849737890767">
+      <segment state="initial">
+        <source>Your message</source>
+        <target>Your message</target>
+      </segment>
+    </unit>
+    <unit id="935187492052582731">
+      <notes>
+        <note category="description">Submit</note>
+      </notes>
+      <segment state="initial">
+        <source>Submit</source>
+        <target>Submit</target>
+      </segment>
+    </unit>
+    <unit id="8740036082299980043">
+      <segment state="initial">
+        <source>Send message</source>
+        <target>Send message</target>
+      </segment>
+    </unit>
+    <unit id="759687838251957893">
+      <segment state="initial">
+        <source>Contact Us</source>
+        <target>Contact Us</target>
+      </segment>
+    </unit>
+    <unit id="7661266739277123343">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What do you mean by &quot;Figma assets&quot;? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What do you mean by &quot;Figma assets&quot;? </target>
+      </segment>
+    </unit>
+    <unit id="2714481749274100833">
+      <segment state="initial">
+        <source>You will have access to download the full Figma project including all of the pages, the components, responsive pages, and also the icons, illustrations, and images included in the screens.</source>
+        <target>You will have access to download the full Figma project including all of the pages, the components, responsive pages, and also the icons, illustrations, and images included in the screens.</target>
+      </segment>
+    </unit>
+    <unit id="2356023078199797848">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does &quot;lifetime access&quot; exactly mean? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does &quot;lifetime access&quot; exactly mean? </target>
+      </segment>
+    </unit>
+    <unit id="7461813655435130484">
+      <segment state="initial">
+        <source>Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge.</source>
+        <target>Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge.</target>
+      </segment>
+    </unit>
+    <unit id="2098379320353314600">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> How does support work? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> How does support work? </target>
+      </segment>
+    </unit>
+    <unit id="3960229884510612301">
+      <segment state="initial">
+        <source>We&apos;re aware of the importance of well qualified support, that is why we decided that support will only be provided by the authors that actually worked on this project.</source>
+        <target>We&apos;re aware of the importance of well qualified support, that is why we decided that support will only be provided by the authors that actually worked on this project.</target>
+      </segment>
+    </unit>
+    <unit id="6399625817512677825">
+      <segment state="initial">
+        <source>Feel free to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;" dispEnd="&lt;/a&gt;">contact us</pc> and we&apos;ll help you out as soon as we can.</source>
+        <target>Feel free to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;" dispEnd="&lt;/a&gt;">contact us</pc> and we&apos;ll help you out as soon as we can.</target>
+      </segment>
+    </unit>
+    <unit id="4182301013294593793">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> I want to build more than one project. Is that allowed? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> I want to build more than one project. Is that allowed? </target>
+      </segment>
+    </unit>
+    <unit id="4172205313937003447">
+      <segment state="initial">
+        <source>You can use Windster for an unlimited amount of projects, whether it&apos;s a personal website, a SaaS app, or a website for a client. As long as you don&apos;t build a product that will directly compete with Windster either as a UI kit, theme, or template, it&apos;s fine.</source>
+        <target>You can use Windster for an unlimited amount of projects, whether it&apos;s a personal website, a SaaS app, or a website for a client. As long as you don&apos;t build a product that will directly compete with Windster either as a UI kit, theme, or template, it&apos;s fine.</target>
+      </segment>
+    </unit>
+    <unit id="6112694040179343461">
+      <segment state="initial">
+        <source>Find out more information by <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot;&gt;" dispEnd="&lt;/a&gt;">reading the license</pc>.</source>
+        <target>Find out more information by <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot;&gt;" dispEnd="&lt;/a&gt;">reading the license</pc>.</target>
+      </segment>
+    </unit>
+    <unit id="2304252714821933522">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does &quot;free updates&quot; include? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does &quot;free updates&quot; include? </target>
+      </segment>
+    </unit>
+    <unit id="332437038892248193">
+      <segment state="initial">
+        <source>The free updates that will be provided is based on the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot;&gt;" dispEnd="&lt;/a&gt;">roadmap</pc> that we have laid out for this project. It is also possible that we will provide extra updates outside of the roadmap as well.</source>
+        <target>The free updates that will be provided is based on the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot;&gt;" dispEnd="&lt;/a&gt;">roadmap</pc> that we have laid out for this project. It is also possible that we will provide extra updates outside of the roadmap as well.</target>
+      </segment>
+    </unit>
+    <unit id="8808352643697366654">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does the free version include? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does the free version include? </target>
+      </segment>
+    </unit>
+    <unit id="5658909140294950448">
+      <segment state="initial">
+        <source>The <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot;&gt;" dispEnd="&lt;/a&gt;">free version</pc> of Windster includes a minimal style guidelines, component variants, and a dashboard page with the mobile version alongside it.</source>
+        <target>The <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot;&gt;" dispEnd="&lt;/a&gt;">free version</pc> of Windster includes a minimal style guidelines, component variants, and a dashboard page with the mobile version alongside it.</target>
+      </segment>
+    </unit>
+    <unit id="3903315428696574195">
+      <segment state="initial">
+        <source>You can use this version for any purposes, because it is open-source under the MIT license.</source>
+        <target>You can use this version for any purposes, because it is open-source under the MIT license.</target>
+      </segment>
+    </unit>
+    <unit id="6734395307735017080">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What is the difference between Windster and Tailwind UI? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What is the difference between Windster and Tailwind UI? </target>
+      </segment>
+    </unit>
+    <unit id="8356621435013181386">
+      <segment state="initial">
+        <source>Although both Windster and Tailwind UI are built for integration with Tailwind CSS, the main difference is in the design, the pages, the extra components and UI elements that Windster includes.</source>
+        <target>Although both Windster and Tailwind UI are built for integration with Tailwind CSS, the main difference is in the design, the pages, the extra components and UI elements that Windster includes.</target>
+      </segment>
+    </unit>
+    <unit id="8119645141042790186">
+      <segment state="initial">
+        <source>Additionally, Windster is a project that is still in development, and later it will include both the application, marketing, and e-commerce UI interfaces.</source>
+        <target>Additionally, Windster is a project that is still in development, and later it will include both the application, marketing, and e-commerce UI interfaces.</target>
+      </segment>
+    </unit>
+    <unit id="264907060892009214">
+      <segment state="initial">
+        <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> Can I use Windster in open-source projects? </source>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> Can I use Windster in open-source projects? </target>
+      </segment>
+    </unit>
+    <unit id="6885945640315636434">
+      <segment state="initial">
+        <source>Generally, it is accepted to use Windster in open-source projects, as long as it is not a UI library, a theme, a template, a page-builder that would be considered as an alternative to Windster itself.</source>
+        <target>Generally, it is accepted to use Windster in open-source projects, as long as it is not a UI library, a theme, a template, a page-builder that would be considered as an alternative to Windster itself.</target>
+      </segment>
+    </unit>
+    <unit id="797280792813604184">
+      <segment state="initial">
+        <source>With that being said, feel free to use this design kit for your open-source projects.</source>
+        <target>With that being said, feel free to use this design kit for your open-source projects.</target>
+      </segment>
+    </unit>
+    <unit id="7409478739929443979">
+      <segment state="initial">
+        <source> Active Campaigns </source>
+        <target> Active Campaigns </target>
+      </segment>
+    </unit>
+    <unit id="8043617914521233588">
+      <segment state="initial">
+        <source> It’s hard to help everyone but we do our best. Join a campaign you like and help us help these warriors. </source>
+        <target> It’s hard to help everyone but we do our best. Join a campaign you like and help us help these warriors. </target>
+      </segment>
+    </unit>
+    <unit id="4776238191559675527">
+      <segment state="initial">
+        <source> Donated Vehicles </source>
+        <target> Donated Vehicles </target>
+      </segment>
+    </unit>
+    <unit id="1637146014790901967">
+      <segment state="initial">
+        <source> “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car in many ways, but they all share one wish. </source>
+        <target> “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car in many ways, but they all share one wish. </target>
+      </segment>
+    </unit>
+    <unit id="2863573355385606334">
+      <segment state="initial">
+        <source> CARS GIVE FREEDOM <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/></source>
+        <target> CARS GIVE FREEDOM <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/></target>
+      </segment>
+    </unit>
+    <unit id="5951663334307834187">
+      <segment state="initial">
+        <source> We source, upgrade and deliver cars to the frontlines in Ukraine. </source>
+        <target> We source, upgrade and deliver cars to the frontlines in Ukraine. </target>
+      </segment>
+    </unit>
+    <unit id="1179467567286219752">
+      <segment state="initial">
+        <source> Hundreds of people from every corner of the globe have bough for us, donated or sold their cars to give wheels to our warriors. </source>
+        <target> Hundreds of people from every corner of the globe have bough for us, donated or sold their cars to give wheels to our warriors. </target>
+      </segment>
+    </unit>
+    <unit id="8713592270969885498">
+      <segment state="initial">
+        <source> A car donation saves up to 75% of the cost, leaving only logistics, armoring, and maintenance to cover. More than half of the cars we deploy come as direct donations, and this number is growing. Check these incredible stories. </source>
+        <target> A car donation saves up to 75% of the cost, leaving only logistics, armoring, and maintenance to cover. More than half of the cars we deploy come as direct donations, and this number is growing. Check these incredible stories. </target>
+      </segment>
+    </unit>
+    <unit id="2093653791441885355">
+      <segment state="initial">
+        <source> WATCH STORIES </source>
+        <target> WATCH STORIES </target>
+      </segment>
+    </unit>
+    <unit id="6677971768887468813">
+      <segment state="initial">
+        <source>Media About Us</source>
+        <target>Media About Us</target>
+      </segment>
+    </unit>
+    <unit id="3925234057189672630">
+      <segment state="initial">
+        <source> Every story published brings us one step closer to our shared victory. Thank you! </source>
+        <target> Every story published brings us one step closer to our shared victory. Thank you! </target>
+      </segment>
+    </unit>
+    <unit id="1356347849930095315">
+      <segment state="initial">
+        <source> Our Initiative </source>
+        <target> Our Initiative </target>
+      </segment>
+    </unit>
+    <unit id="3286655922675407435">
+      <segment state="initial">
+        <source> All the achievements this project has wouldn’t be possible with people behind it. </source>
+        <target> All the achievements this project has wouldn’t be possible with people behind it. </target>
+      </segment>
+    </unit>
+    <unit id="6632033636649533060">
+      <segment state="initial">
+        <source> People from from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </source>
+        <target> People from from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </target>
+      </segment>
+    </unit>
+    <unit id="3627897773142576264">
+      <segment state="initial">
+        <source>Since day 1 of the full scale invasion our warriors require mobility. Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide them 4x4 and other cars for as long as it takes. </source>
+        <target>Since day 1 of the full scale invasion our warriors require mobility. Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide them 4x4 and other cars for as long as it takes. </target>
+      </segment>
+    </unit>
+    <unit id="620557263762073868">
+      <segment state="initial">
+        <source> MEET OUR TEAM </source>
+        <target> MEET OUR TEAM </target>
+      </segment>
+    </unit>
+    <unit id="4880653135119148048">
+      <segment state="initial">
+        <source> since </source>
+        <target> since </target>
+      </segment>
+    </unit>
+    <unit id="2997432401345838579">
+      <segment state="initial">
+        <source> volonteers </source>
+        <target> volonteers </target>
+      </segment>
+    </unit>
+    <unit id="8720853126160623548">
+      <segment state="initial">
+        <source> countries </source>
+        <target> countries </target>
+      </segment>
+    </unit>
+    <unit id="2664763808281857421">
+      <segment state="initial">
+        <source> cars delivered </source>
+        <target> cars delivered </target>
+      </segment>
+    </unit>
+    <unit id="3351281020249926408">
+      <segment state="initial">
+        <source> WORTH OF TRUCKS </source>
+        <target> WORTH OF TRUCKS </target>
+      </segment>
+    </unit>
+    <unit id="2550047917032205584">
+      <segment state="initial">
+        <source>Our Work</source>
+        <target>Our Work</target>
+      </segment>
+    </unit>
+    <unit id="9177704080762791977">
+      <segment state="initial">
+        <source> Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline.&quot; </source>
+        <target> Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline.&quot; </target>
+      </segment>
+    </unit>
+    <unit id="1756286064562600907">
+      <segment state="initial">
+        <source> Since 2022 we’ve been asking our soldiers what they need the most. Some need drones, other medical equipment, but the one common need for every unit no matter where they serve are reliable cars. </source>
+        <target> Since 2022 we’ve been asking our soldiers what they need the most. Some need drones, other medical equipment, but the one common need for every unit no matter where they serve are reliable cars. </target>
+      </segment>
+    </unit>
+    <unit id="8844410652970249401">
+      <segment state="initial">
+        <source>CARS DEPLOYED</source>
+        <target>CARS DEPLOYED</target>
+      </segment>
+    </unit>
+    <unit id="1300661058366695056">
+      <segment state="initial">
+        <source>WORTH OF CARS</source>
+        <target>WORTH OF CARS</target>
+      </segment>
+    </unit>
+    <unit id="152810346592921686">
+      <segment state="initial">
+        <source> They Bought Us Cars </source>
+        <target> They Bought Us Cars </target>
+      </segment>
+    </unit>
+    <unit id="3282333930793029501">
+      <segment state="initial">
+        <source> From every corner of the globe people come to Ukraine in person to stand with us and show their support. </source>
+        <target> From every corner of the globe people come to Ukraine in person to stand with us and show their support. </target>
+      </segment>
+    </unit>
+    <unit id="5389855581875642030">
+      <segment state="initial">
+        <source>THEY MADE IT!</source>
+        <target>THEY MADE IT!</target>
+      </segment>
+    </unit>
+    <unit id="3665084015746850306">
+      <segment state="initial">
+        <source>WILL YOU?</source>
+        <target>WILL YOU?</target>
+      </segment>
+    </unit>
+    <unit id="5513884155699547224">
+      <segment state="initial">
+        <source> BUY PICKUP TRUCK </source>
+        <target> BUY PICKUP TRUCK </target>
+      </segment>
+    </unit>
+    <unit id="6690813934469184660">
+      <segment state="initial">
+        <source> List of languages </source>
+        <target> List of languages </target>
       </segment>
     </unit>
   </file>
