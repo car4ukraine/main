@@ -31,11 +31,11 @@ import {NgStyle} from "@angular/common";
       <div class="col-span-12"></div>
 
       <div class="col-span-12">
-        <div class="relative w-full flex gap-6 snap-x overflow-x-auto h-[578px] scrollbar-hide" #scrollContainer>
+        <div class="relative w-full lg:w-auto flex gap-6 snap-x overflow-x-auto lg:h-[578px] scrollbar-hide" #scrollContainer>
           @for (file of files; track file.src) {
 
-            <div class="snap-center shrink-0 h-[578px]">
-              <img class="shrink-0 rounded-lg shadow-xl bg-white h-[578px]" [src]="file.src">
+            <div class="snap-center flex items-center w-full lg:w-auto shrink-0 lg:h-[578px]">
+              <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px]" [src]="file.src">
             </div>
           }
         </div>
