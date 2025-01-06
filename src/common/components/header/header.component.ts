@@ -13,4 +13,14 @@ import {NgOptimizedImage} from "@angular/common";
 })
 export class HeaderComponent {
 
+  isMenuOpen = false;
+
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false;
+    console.log(this.isMenuOpen);
+  }
 }

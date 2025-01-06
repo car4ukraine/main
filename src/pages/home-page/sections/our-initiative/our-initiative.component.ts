@@ -16,18 +16,18 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           Our Initiative
         </div>
       </div>
-      <div class="col-span-12 lg:col-span-6 font-tektur max-w-md">
+      <div class="col-span-12 lg:col-span-6 font-tektur max-w-md text-base text-[#3D4650]">
         All the achievements this project has wouldn’t be
         possible with people behind it.
       </div>
       <div class="col-span-12"></div>
       <div class="col-span-12 lg:col-span-5 justify-center flex flex-col gap-8">
-        <div class="font-tektur max-w-md tex-[#3D4650]">
+        <div class="font-tektur max-w-md text-[#3D4650] text-base">
           People from from totally different industries like IT or logistics, education or media PR have united with a
           common mission and a common wish.
         </div>
         <div class="col-span-2"></div>
-        <div class="font-tektur max-w-md tex-[#3D4650]">Since day 1 of the full scale invasion our warriors require mobility.
+        <div class="font-tektur max-w-md text-[#3D4650] text-base">Since day 1 of the full scale invasion our warriors require mobility.
           Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide
           them 4x4 and other cars for as long as it takes.
         </div>
@@ -38,35 +38,30 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           </div>
         </button>
       </div>
-      <div class="hidden lg:block col-span-7">
-        <img class="w-full h-[500px] rounded-lg" src="../../../../assets/images/team.jpg" alt=""/>
+      <div class="col-span-7 max-md:col-span-12">
+        <img class="w-full h-[500px] max-md:h-auto rounded-lg" src="../../../../assets/images/team.jpg" alt=""/>
       </div>
 
-      <div class="col-span-12 p-8 gap-8 mt-12 bg-[#1f2024] rounded-xl flex flex-wrap justify-around items-center font-tektur">
+      <div class="col-span-12 p-8 gap-8 mt-12 bg-[#1f2024] rounded-xl flex flex-wrap justify-around items-center [&>div>div]:font-tektur [&>div]:max-md:w-full">
 
-        <div class="">
-          <div
-            class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+        <div>
+          <div class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide">
             since
           </div>
-          <div
-            class=" text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
+          <div class=" text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
             2022
           </div>
         </div>
-        <div class="">
-          <div
-            class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+        <div>
+          <div class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide">
             volonteers
           </div>
-          <div
-            class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
+          <div class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
             250+
           </div>
         </div>
-        <div class="">
-          <div
-            class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+        <div>
+          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
             countries
           </div>
           <div
@@ -74,23 +69,19 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
             30+
           </div>
         </div>
-        <div class="">
-          <div
-            class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+        <div>
+          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
             cars delivered
           </div>
-          <div
-            class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
+          <div class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
             473
           </div>
         </div>
-        <div class="">
-          <div
-            class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+        <div>
+          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
             WORTH OF TRUCKS
           </div>
-          <div
-            class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
+          <div class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
             $3.84M
           </div>
         </div>
@@ -102,7 +93,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
     QuickDonationComponent
   ],
   host: {
-    class: `w-full bg-[#F7F8F7] p-10 flex flex-col gap-8 items-center justify-center`
+    class: `w-full bg-[#F7F8F7] p-10 flex flex-col gap-8 items-center justify-center max-md:p-16 max-md:px-2.5`
   }
 })
 export class OurInitiativeComponent {

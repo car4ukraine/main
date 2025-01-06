@@ -26,7 +26,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
       <div class="col-span-12">
         <div class="text-6xl font-bold font-tektur text-[#DDE2E7]">Our Work</div>
       </div>
-      <div class="col-span-6 font-tektur text-[#919EAB] text-xl">
+      <div class="col-span-6 font-tektur text-[#919EAB] text-xl max-md:col-span-10">
         Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline."
       </div>
       <div class="col-span-12">
@@ -72,7 +72,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
     NgIcon
   ],
   host: {
-    class: `w-full bg-[#1F2125] p-10 py-24 flex flex-col items-center justify-center text-white`
+    class: `w-full bg-[#1F2125] p-10 py-24 flex flex-col items-center justify-center text-white max-md:py-20 max-md:px-2.5`
   }
 })
 export class OurWorkComponent implements AfterViewInit {

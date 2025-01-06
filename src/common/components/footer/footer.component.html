@@ -3,16 +3,21 @@
   class="mt-auto w-full py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-gradient-to-b from-[#7b8693] to-white border-[#ccd3da]">
   <!-- Grid -->
   <div class="flex justify-center">
-    <div class="flex gap-6 mb-10 max-w-[1330px] w-full justify-between">
-      <div class="col-span-full hidden lg:col-span-2 lg:flex flex-col justify-between">
-        <a href="#" class="py-1.5 inline-flex items-center">
+    <div class="flex gap-6 mb-10 max-w-[1330px] w-full justify-between max-md:flex-wrap">
+      <a href="#" class="py-1.5 hidden items-center max-md:flex w-auto">
+        <div class="flex flex-shrink-0 items-center rounded-lg text-emerald-600 w-full">
+          <img src="assets/images/LogoXL.png" alt="logo">
+        </div>
+      </a>
+      <div class="col-span-full max-md:col-span-12 lg:col-span-2 flex-col justify-between max-md:order-2">
+        <a href="#" class="py-1.5 inline-flex items-center max-md:flex max-md:hidden">
           <div class="flex flex-shrink-0 items-center rounded-lg text-emerald-600">
             <img src="assets/images/LogoXL.png" alt="logo">
           </div>
         </a>
-        <div class="grid grid-cols-2 mt-12">
+        <div class="grid grid-cols-2 mt-12 max-md:flex max-md:flex-col max-md:mt-4 max-md:gap-6">
           <div class="[&>ul>li>a]:font-tektur [&>ul>li>a]:text-[#3D4650]">
-            <h2 class="text-base font-semibold font-tektur mb-4 uppercase">Site Map</h2>
+            <h2 class="text-base font-semibold font-tektur mb-4 uppercase max-md:mb-3">Site Map</h2>
             <ul class="space-y-2 text-base">
               <li>
                 <a
@@ -59,7 +64,7 @@
             </ul>
           </div>
           <div class="[&>ul>li>a]:font-tektur [&>ul>li>a]:text-[#3D4650]">
-            <h2 class="text-base font-semibold font-tektur mb-4 uppercase">Campaigns</h2>
+            <h2 class="text-base font-semibold font-tektur mb-4 uppercase max-md:mb-3">Campaigns</h2>
             <ul class="space-y-2 text-base">
               <li>
                 <a
@@ -94,8 +99,8 @@
         </div>
       </div>
 
-      <div class="col-span-2 lg:col-span-3 flex flex-col items-center lg:items-end text-center lg:text-right">
-        <div class="flex flex-col max-w-[375px] gap-6">
+      <div class="col-span-2 lg:col-span-3 flex flex-col items-center lg:items-end text-center lg:text-right max-md:flex max-md:order-1 w-full [&>p]:max-md:flex [&>p]:w-full">
+        <div class="flex flex-col max-w-[375px] gap-6 w-full max-md:min-w-full">
           <app-main-donate-button/>
           <app-donate-car-button/>
         </div>
@@ -103,7 +108,7 @@
           <a href="mailto:info@car4ukraine.com">{{ infoMail }}</a>
         </p>
 
-        <p class="mt-12 text-base font-tektur text-[#1F2125]">
+        <p class="mt-12 text-base font-tektur text-[#1F2125] max-md:flex max-md:mt-6 max-md:flex-col max-md:items-start">
           Other languages: <span class="font-tektur text-xl tex-[#1F2125]">DA DE ES FI NB PL SU</span>
         </p>
       </div>
@@ -111,16 +116,19 @@
   </div>
 
   <!-- End Grid -->
-  <div class="bg-[#000000] h-[1px]"></div>
-  <div class="pt-5 mt-5 flex justify-center">
-    <div class="flex items-center max-w-[1330px] w-full">
-      <div class="flex items-center gap-4 w-[40%]">
-        <p class="font-tektur tex-base text-[#1F2125]">Follow us on</p>
+  <div class="bg-[#000000] h-[1px] max-md:hidden"></div>
+  <div class="pt-5 mt-5 flex justify-center max-md:mt-0">
+    <div class="flex items-center max-w-[1330px] w-full max-md:flex-col max-md:items-start max-md:gap-5">
+      <div class="flex items-center gap-4 w-[40%] max-md:w-full max-md:flex-wrap max-md:justify-between">
+        <p class="font-tektur tex-base text-[#1F2125] flex max-md:w-full">Follow us on</p>
         <a href="https://x.com/carforukraine"
            target="_blank"
-           title="Link to Car for Ukraine Twitter Page"
-           class="">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+           title="Link to Car for Ukraine Twitter Page">
+          <svg
+            class="w-6 h-6 max-md:w-14 max-md:h-14"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_420_641)">
               <path
                 d="M12.8025 11.5894L18.2033 19.3145H15.9868L11.5796 13.0108V13.0104L10.9325 12.085L5.78418 4.7207H8.00071L12.1554 10.664L12.8025 11.5894Z"
@@ -139,7 +147,7 @@
         <a href="https://www.facebook.com/car4ukraine"
            target="_blank"
            title="Link to Car for Ukraine Facebook Page">
-          <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M21.8182 1H3.18182C2.33795 1 1.52864 1.33523 0.931933 1.93193C0.335226 2.52864 0 3.33795 0 4.18182V22.8182C0 23.6621 0.335226 24.4714 0.931933 25.0681C1.52864 25.6648 2.33795 26 3.18182 26H12.3108V15.598H10.2304V11.4372H12.2936V9.55682C12.2936 7.855 13.1043 5.19625 16.6719 5.19625L19.8859 5.20915V8.77398H17.5519C17.1724 8.77398 16.6324 8.96295 16.6324 9.77352V11.4374H19.9389L19.5594 15.5982H16.4716V26H21.8182C22.236 26 22.6498 25.9177 23.0358 25.7578C23.4218 25.5979 23.7726 25.3635 24.0681 25.0681C24.3635 24.7726 24.5979 24.4218 24.7578 24.0358C24.9177 23.6498 25 23.236 25 22.8182V4.18182C25 3.76398 24.9177 3.35022 24.7578 2.96419C24.5979 2.57815 24.3635 2.22739 24.0681 1.93193C23.7726 1.63647 23.4218 1.4021 23.0358 1.2422C22.6498 1.0823 22.236 1 21.8182 1Z"
               fill="#3D4650"/>
@@ -148,7 +156,7 @@
         <a href="https://www.instagram.com/car4ukraine.com_official/"
            target="_blank"
            title="Link to Car for Ukraine Instagram Page">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_420_635)">
               <path
                 d="M17.625 4.26562H6.375C5.21191 4.26562 4.26562 5.21191 4.26562 6.375V17.625C4.26562 18.7881 5.21191 19.7344 6.375 19.7344H17.625C18.7881 19.7344 19.7344 18.7881 19.7344 17.625V6.375C19.7344 5.21191 18.7881 4.26562 17.625 4.26562ZM12 16.9219C9.28638 16.9219 7.07812 14.7136 7.07812 12C7.07812 9.28638 9.28638 7.07812 12 7.07812C14.7136 7.07812 16.9219 9.28638 16.9219 12C16.9219 14.7136 14.7136 16.9219 12 16.9219ZM16.9219 8.48438C16.1466 8.48438 15.5156 7.85339 15.5156 7.07812C15.5156 6.30286 16.1466 5.67188 16.9219 5.67188C17.6971 5.67188 18.3281 6.30286 18.3281 7.07812C18.3281 7.85339 17.6971 8.48438 16.9219 8.48438Z"
@@ -171,7 +179,7 @@
         <a href="https://www.linkedin.com/company/car4ukraine"
            target="_blank"
            title="Link to Car for Ukraine LinkedIn Page">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_420_631)">
               <path
                 d="M21.6 0H2.4C1.08 0 0 1.08 0 2.4V21.6C0 22.92 1.08 24 2.4 24H21.6C22.92 24 24 22.92 24 21.6V2.4C24 1.08 22.92 0 21.6 0ZM7.2 20.4H3.6V9.6H7.2V20.4ZM5.4 7.56C4.2 7.56 3.24 6.6 3.24 5.4C3.24 4.2 4.2 3.24 5.4 3.24C6.6 3.24 7.56 4.2 7.56 5.4C7.56 6.6 6.6 7.56 5.4 7.56ZM20.4 20.4H16.8V14.04C16.8 13.08 15.96 12.24 15 12.24C14.04 12.24 13.2 13.08 13.2 14.04V20.4H9.6V9.6H13.2V11.04C13.8 10.08 15.12 9.36 16.2 9.36C18.48 9.36 20.4 11.28 20.4 13.56V20.4Z"
@@ -186,7 +194,7 @@
         </a>
       </div>
       <div class="flex justify-between items-center [&>div>p]:flex [&>div>p]:flex-col w-[100%] [&>div>p]:tex-base
-                  [&>div>p]:text-[#1F2125] [&>div>p>a]:text-[#3D4650] [&>div>p]:font-tektur"
+                  [&>div>p]:text-[#1F2125] [&>div>p>a]:text-[#3D4650] [&>div>p]:font-tektur max-md:flex-col max-md:items-start max-md:gap-5"
       >
         <div>
           <p>Partner NGO: <a href="https://av-institute.org" target="_blank" class="font-semibold underline">AV

@@ -4,11 +4,12 @@
     [title]="tab.name + ' Page Link'"
     [innerText]="tab.name"
     routerLinkActive="!opacity-100 border-[#1F2125]"
+    (click)=onMenuItemClick()
     class="text-[#1F2125] opacity-80 font-tektur sm:block border-b border-transparent hover:border-[#1F2125] transition-all px-4 py-2 uppercase">
   </a>
 }
-<div
-  class="flex font-tektur uppercase justify-center items-center text-[#1F2125] border border-solid border-current py-2 px-3 cursor-pointer ml-8"
+<div (click)=onMenuItemClick()
+  class="flex font-tektur uppercase justify-center items-center text-[#1F2125] border border-solid border-current py-2 px-3 cursor-pointer ml-8 max-md:ml-0"
   routerLink="/languages"
 >
   EN

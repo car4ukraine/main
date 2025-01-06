@@ -1,14 +1,14 @@
-<div class="flex flex-col items-center justify-center">
-  <h1 class="font-bold text-8xl flex flex-wrap font-tektur gap-2.5">
+<div class="flex flex-col items-center justify-center  max-md:p-2.5 max-md:mt-[90px] max-md:gap-3">
+  <h1 class="font-bold max-md:text-6xl text-8xl flex flex-wrap max-md:flex-nowrap font-tektur gap-2.5 max-md:gap-0 relative">
     CARS GIVE FREEDOM
-    <img ngSrc="assets/images/ukraine-flag.svg" height="26" width="47" alt="Ukraine Flag">
+    <img ngSrc="assets/images/ukraine-flag.svg" class="max-md:absolute bottom-[14%] right-[22%]" height="26" width="47" alt="Ukraine Flag">
   </h1>
   <div class="font-tektur">
     We source, upgrade and deliver cars to the frontlines in Ukraine.
   </div>
 </div>
 
-<div class="flex gap-4">
+<div class="flex gap-4 max-md:flex-col max-md:p-2.5 max-md:w-full">
   <app-main-donate-button/>
   <app-donate-car-button/>
 </div>

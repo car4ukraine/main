@@ -36,7 +36,7 @@ import {
 
               @for (campaign of campaigns.data; track campaign.id) {
 
-                <div class="max-w-[422px] w-full flex flex-col bg-white rounded-xl">
+                <div class="max-w-[422px] w-full flex flex-col bg-white rounded-xl max-md:bg-[#EAECED]">
                   <img class="w-full h-[237px] rounded-xl" [src]="campaign.photo_url" alt="Card Image"/>
                   <div class="flex flex-col h-full justify-between">
                     <div class="flex flex-col gap-2">
@@ -78,7 +78,7 @@ import {
     MainDonateButtonComponent
   ],
   host: {
-    class: `w-full p-10 py-36 flex flex-col items-center justify-center`
+    class: `w-full p-10 py-36 flex flex-col items-center justify-center max-md:p-16 max-md:px-2.5 max-md:bg-[#EAECED]`
   }
 })
 export class ActiveCampaignsComponent implements OnInit {
