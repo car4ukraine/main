@@ -3,8 +3,9 @@
     [routerLink]="tab.href"
     [title]="tab.name + ' Page Link'"
     [innerText]="tab.name"
-    routerLinkActive="!opacity-100 border-[#1F2125]"
+    routerLinkActive="border-b-[#1F2125]"
     (click)=onMenuItemClick()
+    [routerLinkActiveOptions]="{ exact: true }"
     class="text-[#1F2125] opacity-80 font-tektur sm:block border-b border-transparent hover:border-[#1F2125] transition-all px-4 py-2 uppercase">
   </a>
 }
