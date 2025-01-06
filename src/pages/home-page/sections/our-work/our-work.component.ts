@@ -23,62 +23,50 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
   template: `
 
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
-
       <div class="col-span-12">
-        <div class="text-4xl font-bold font-tektur">Our Work</div>
+        <div class="text-6xl font-bold font-tektur text-[#DDE2E7]">Our Work</div>
       </div>
-      <div class="col-span-6 font-tektur">
+      <div class="col-span-6 font-tektur text-[#919EAB] text-xl">
         Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline."
       </div>
       <div class="col-span-12">
-
         <div class="relative w-full flex gap-6 snap-x overflow-x-auto h-[578px] scrollbar-hide" #scrollContainer>
-
           @for (file of files; track file.src) {
-
             <div class="snap-center shrink-0 h-[578px] relative">
-              <img class="shrink-0 rounded-lg shadow-xl bg-white h-[578px] brightness-50" [src]="file.src">
-              <div class="absolute top-0 left-0 font-tektur w-4/5 text-[28px] flex gap-2 p-8">
-                <div>{{ $index }}.</div>
-                <div class="text-wrap">
-                  {{ file.title }}
+              <img class="shrink-0 rounded-lg shadow-xl bg-white h-[578px] brightness-50"
+                   [src]="file.src"/>
+              <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8">
+                <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl">
+                  {{ $index }}. {{ file.title }}
                 </div>
               </div>
             </div>
-
           }
-
         </div>
       </div>
 
       <div class="col-span-12">
-
         <div class="justify-start items-center gap-[27px] flex">
-
           <div class="justify-start items-center flex gap-8">
-
-            <div (click)="prevSlide()" class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
+            <div (click)="prevSlide()"
+                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
               <ng-icon name="heroArrowLeft"/>
             </div>
-
-            <div class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">07</div>
-
-            <div (click)="nextSlide()" class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
+            <div
+              class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">{{ files.length }}
+            </div>
+            <div (click)="nextSlide()"
+                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
               <ng-icon name="heroArrowRight"/>
             </div>
-
           </div>
-
           <div class="w-full h-[3px] relative">
             <div class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
-            <div class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]"></div>
+            <div class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]" [style.left]="getProgressPosition()"></div>
           </div>
-
         </div>
       </div>
-
     </div>
-
   `,
   imports: [
     NgIcon
@@ -182,5 +170,12 @@ export class OurWorkComponent implements AfterViewInit {
   //
   //   }
   // }
+  public getProgressPosition(): string {
+    if (this.currentSlideIndex >= this.files.length - 1) {
+      return `calc(100% - 10%)`;
+    }
 
+    const progress = (this.currentSlideIndex / (this.files.length - 1)) * 100;
+    return `${progress}%`;
+  }
 }

@@ -8,7 +8,13 @@ module.exports = {
     extend: {
       fontFamily: {
         tektur: ['Tektur', 'sans-serif'], // Add the font family
-      }
+      },
+      dropShadow: {
+        custom: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+      },
+      width: {
+        'slide': 'calc(100% / var(--slide-count))',
+      },
     }
   },
   plugins: [

@@ -3,6 +3,9 @@ import {AppNavigationComponent} from "../app-navigation/app-navigation.component
 import {NgIconComponent, provideIcons} from "@ng-icons/core";
 import {heroLanguage} from "@ng-icons/heroicons/outline";
 import {RouterLink} from "@angular/router";
+import {NgOptimizedImage} from "@angular/common";
+import {MainDonateButtonComponent} from "../buttons/main-donate-button/main-donate-button.component";
+import {DonateCarButtonComponent} from "../../../pages/home-page/buttons/donate-car-button/donate-car-button.component";
 
 @Component({
   selector: 'app-footer',
@@ -13,7 +16,10 @@ import {RouterLink} from "@angular/router";
   imports: [
     AppNavigationComponent,
     NgIconComponent,
-    RouterLink
+    RouterLink,
+    NgOptimizedImage,
+    MainDonateButtonComponent,
+    DonateCarButtonComponent
   ],
   viewProviders: [
     provideIcons({
@@ -22,5 +28,7 @@ import {RouterLink} from "@angular/router";
   ]
 })
 export class FooterComponent {
+
+ infoMail = 'info@car4ukraine.com'
 
 }

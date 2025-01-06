@@ -9,11 +9,11 @@ import {catchError, throwError} from "rxjs";
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="font-tektur">
-      <div class="text-4xl font-bold">
+    <div class="font-tektur text-[#3D4650]">
+      <div class="text-6xl font-bold">
         Contact us
       </div>
-      <div>
+      <div class="text-xl">
         Fill up the form, and we’ll get back to you within 24 hours
       </div>
     </div>
@@ -23,9 +23,9 @@ import {catchError, throwError} from "rxjs";
       <div class="flex flex-col gap-4">
 
         <div>
-          <label for="disabledSelect" class="form-label"></label>
+          <label for="disabledSelect" class="form-label font-tektur text-[#3D4650]">Select type of your inquiry</label>
           <select formControlName="subject" id="disabledSelect"
-                  class="bg-transparent block w-full mt-0 px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                  class="bg-transparent block w-full mt-0 px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur"
                   [required]="isRequired('subject')">
             @for (option of options; track option) {
               <option [value]="$index"></option>
@@ -34,28 +34,28 @@ import {catchError, throwError} from "rxjs";
         </div>
 
         <div>
-          <label for="pages-contact_us-form-name-input" class="form-label"></label>
+          <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-[#3D4650]">Your Name</label>
           <input formControlName="name" type="text"
-                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                  id="pages-contact_us-form-name-input"
-                 [required]="isRequired('name')" [placeholder]="'modules.contact_form.name.hint'">
+                 [required]="isRequired('name')" [placeholder]="'Type'">
         </div>
 
         <div>
-          <label for="pages-contact_us-form-email-input" class="form-label"></label>
+          <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-[#3D4650]">Email</label>
           <input formControlName="email" type="email"
-                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                  id="pages-contact_us-form-email-input" [required]="isRequired('email')"
-                 [placeholder]="'modules.contact_form.email.hint'">
+                 [placeholder]="'Type'">
         </div>
 
         <div>
-          <label for="pages-contact_us-form-message-textarea" class="form-label"></label>
+          <label for="pages-contact_us-form-message-textarea" class="form-label font-tektur text-[#3D4650]">Message</label>
           <textarea formControlName="message"
-                    class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black"
+                    class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                     id="pages-contact_us-form-message-textarea"
                     rows="3" [required]="isRequired('message')"
-                    [placeholder]="'modules.contact_form.message.hint'"></textarea>
+                    [placeholder]="'Type'"></textarea>
         </div>
 
         @if (showSuccessAlert) {
@@ -108,7 +108,7 @@ import {catchError, throwError} from "rxjs";
     ReactiveFormsModule
   ],
   host: {
-    class: 'flex flex-col w-full'
+    class: 'w-full bg-white py-10 flex flex-col'
   }
 })
 export class ContactUsComponent implements OnInit {

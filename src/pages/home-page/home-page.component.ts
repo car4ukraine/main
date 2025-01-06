@@ -10,6 +10,8 @@ import {DonatedVehiclesComponent} from "./sections/donated-vehicles/donated-vehi
 import {OurInitiativeComponent} from "./sections/our-initiative/our-initiative.component";
 import {SubHeroComponent} from "./sections/sub-hero/sub-hero.component";
 import {HowDonationsWorkComponent} from "./sections/how-donations-work/how-donations-work.component";
+import {ContactUsComponent} from "../../common/components/contact-us/contact-us.component";
+import {QuickDonationComponent} from "../../common/components/quick-donation/quick-donation.component";
 
 @Component({
   selector: 'app-home-page',
@@ -26,7 +28,9 @@ import {HowDonationsWorkComponent} from "./sections/how-donations-work/how-donat
     DonatedVehiclesComponent,
     OurInitiativeComponent,
     SubHeroComponent,
-    HowDonationsWorkComponent
+    HowDonationsWorkComponent,
+    ContactUsComponent,
+    QuickDonationComponent
   ],
   template: `
     <app-hero-section/>
@@ -46,6 +50,14 @@ import {HowDonationsWorkComponent} from "./sections/how-donations-work/how-donat
     <app-how-donations-work-section-component/>
 
     <app-our-initiative-section-component/>
+
+    <div class="w-full flex flex-wrap justify-center p-10 gap-32">
+      <img class="max-w-[1330px] w-full" src="../../assets/images/media/tweeter.png" alt="">
+      <div class="max-w-[1330px] flex w-full">
+        <app-contact-us-section-component/>
+        <app-quick-donation/>
+      </div>
+    </div>
 
     <!--  TODO: Fix social media section, because the section has some problem which block home page and program can replace the home page with another page  -->
     <!--    <app-social-media-section/>-->

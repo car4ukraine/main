@@ -16,17 +16,17 @@ import {NgOptimizedImage} from "@angular/common";
 
       <div class="grid grid-cols-12 gap-10 max-w-[1330px] w-full">
 
-        <div class="col-span-12 lg:col-span-6 font-tektur">
+        <div class="col-span-12 lg:col-span-6 text-xl font-tektur text-[#3D4650]">
           Since 2022 we’ve been asking our soldiers what they need the most. Some need drones, other medical equipment, but the one common need for every unit no matter where they serve are reliable cars.
         </div>
 
         <div class="col-span-3 flex flex-col items-center font-tektur">
-          <div class="text-4xl font-bold">473</div>
-          <div>CARS DELIVERED</div>
+          <div class="text-4xl font-bold text-[#323232]">473</div>
+          <div class="text-[#3D4650] font-medium text-sm">CARS DEPLOYED</div>
         </div>
         <div class="col-span-3 flex flex-col items-center font-tektur">
-          <div class="text-4xl font-bold">$3.84M</div>
-          <div>WORTH OF TRUCKS</div>
+          <div class="text-4xl font-bold text-[#323232]">$3.84M</div>
+          <div class="text-[#3D4650] font-medium text-sm">WORTH OF CARS</div>
         </div>
 
         <div class="col-span-12">

@@ -15,7 +15,7 @@ import {NgOptimizedImage} from "@angular/common";
 
 
           <div class="flex flex-col gap-8 col-span-12 lg:col-span-6">
-            <div class="text-black font-tektur flex flex-col gap-8">
+            <div class="text-[#1F2125] text-xl font-tektur flex flex-col gap-8">
               <p>
                 Hundreds of people from every corner of the globe have bough for us, donated or sold their cars to give
                 wheels to our warriors.
@@ -27,7 +27,7 @@ import {NgOptimizedImage} from "@angular/common";
                 incredible stories.
               </p>
             </div>
-            <button class="bg-[#1f2024] flex justify-center items-center text-center text-2xl p-4 p-2">
+            <button class="bg-[#1f2024] max-w-[305px] text-[#F7F8F7] flex justify-center items-center text-center font-tektur text-2xl p-4 p-2">
               WATCH STORIES
             </button>
           </div>
