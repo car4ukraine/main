@@ -20,11 +20,11 @@ import {NgStyle} from "@angular/common";
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
       <div class="col-span-12">
-        <div class="text-6xl font-bold font-tektur text-[#DDE2E7] max-md:text-4xl">
+        <div class="text-6xl font-bold font-tektur text-[#DDE2E7] max-md:text-4xl" i18n>
           Donated Vehicles
         </div>
       </div>
-      <div class="col-span-6 font-tektur max-md:col-span-12 max-md:text-[#919EAB] max-md:text-xl">
+      <div class="col-span-6 font-tektur max-md:col-span-12 max-md:text-[#919EAB] max-md:text-xl" i18n>
         “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car
         in many ways, but they all share one wish.
       </div>

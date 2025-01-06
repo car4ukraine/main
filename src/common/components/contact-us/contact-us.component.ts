@@ -9,11 +9,11 @@ import {catchError, throwError} from "rxjs";
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="font-tektur text-[#3D4650]">
-      <div class="text-6xl font-bold">
+    <div class="font-tektur text-mainColor">
+      <div class="text-6xl font-bold" i18n>
         Contact us
       </div>
-      <div class="text-xl">
+      <div class="text-xl" i18n>
         Fill up the form, and we’ll get back to you within 24 hours
       </div>
     </div>
@@ -23,7 +23,7 @@ import {catchError, throwError} from "rxjs";
       <div class="flex flex-col gap-4">
 
         <div>
-          <label for="disabledSelect" class="form-label font-tektur text-[#3D4650]">Select type of your inquiry</label>
+          <label for="disabledSelect" class="form-label font-tektur text-mainColor" i18n>Select type of your inquiry</label>
           <select formControlName="subject" id="disabledSelect"
                   class="bg-transparent block w-full mt-0 px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur"
                   [required]="isRequired('subject')">
@@ -34,7 +34,7 @@ import {catchError, throwError} from "rxjs";
         </div>
 
         <div>
-          <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-[#3D4650]">Your Name</label>
+          <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-mainColor" i18n>Your Name</label>
           <input formControlName="name" type="text"
                  class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                  id="pages-contact_us-form-name-input"
@@ -42,7 +42,7 @@ import {catchError, throwError} from "rxjs";
         </div>
 
         <div>
-          <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-[#3D4650]">Email</label>
+          <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-mainColor" i18n>Email</label>
           <input formControlName="email" type="email"
                  class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                  id="pages-contact_us-form-email-input" [required]="isRequired('email')"
@@ -50,7 +50,7 @@ import {catchError, throwError} from "rxjs";
         </div>
 
         <div>
-          <label for="pages-contact_us-form-message-textarea" class="form-label font-tektur text-[#3D4650]">Message</label>
+          <label for="pages-contact_us-form-message-textarea" class="form-label font-tektur text-mainColor" i18n>Message</label>
           <textarea formControlName="message"
                     class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                     id="pages-contact_us-form-message-textarea"
@@ -76,7 +76,7 @@ import {catchError, throwError} from "rxjs";
 
             <div class="alert alert-danger d-flex align-items-center justify-content-center" role="alert">
               <i class="bi bi-x-circle me-2"></i>
-              <div [innerText]="'modules.contact_form.notifications.error'"> Error, check data or try later.</div>
+              <div [innerText]="'modules.contact_form.notifications.error'" i18n> Error, check data or try later.</div>
             </div>
 
           </div>
@@ -85,16 +85,17 @@ import {catchError, throwError} from "rxjs";
 
         <div class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
           <button
+            aria-label="Send"
             [disabled]="pending"
             class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
 
             @if (pending) {
 
               <span class="spinner-border" role="status" aria-hidden="true"></span>
-              <span class="visually-hidden">Loading...</span>
+              <span class="visually-hidden" i18n>Loading...</span>
 
             } @else {
-              SEND MESSAGE
+              <p i18n>SEND MESSAGE</p>
             }
           </button>
         </div>

@@ -12,28 +12,28 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
       <div class="col-span-12">
-        <div class="text-4xl font-bold font-tektur">
+        <div class="text-4xl font-bold font-tektur" i18n>
           Our Initiative
         </div>
       </div>
-      <div class="col-span-12 lg:col-span-6 font-tektur max-w-md text-base text-[#3D4650]">
+      <div class="col-span-12 lg:col-span-6 font-tektur max-w-md text-base text-mainColor" i18n>
         All the achievements this project has wouldn’t be
         possible with people behind it.
       </div>
       <div class="col-span-12"></div>
       <div class="col-span-12 lg:col-span-5 justify-center flex flex-col gap-8">
-        <div class="font-tektur max-w-md text-[#3D4650] text-base">
+        <div class="font-tektur max-w-md text-mainColor text-base" i18n>
           People from from totally different industries like IT or logistics, education or media PR have united with a
           common mission and a common wish.
         </div>
         <div class="col-span-2"></div>
-        <div class="font-tektur max-w-md text-[#3D4650] text-base">Since day 1 of the full scale invasion our warriors require mobility.
+        <div class="font-tektur max-w-md text-mainColor text-base" i18n>Since day 1 of the full scale invasion our warriors require mobility.
           Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide
           them 4x4 and other cars for as long as it takes.
         </div>
-        <button
+        <button aria-label="Open"
           class="w-[312px] h-[66px] px-[18px] border-2 border-[#1f2024] justify-center items-center gap-[7px] inline-flex">
-          <div class="text-center text-[#1f2024] text-2xl font-medium font-tektur leading-loose tracking-[2.88px]">
+          <div class="text-center text-[#1f2024] text-2xl font-medium font-tektur leading-loose tracking-[2.88px]" i18n>
             MEET OUR TEAM
           </div>
         </button>
@@ -45,7 +45,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
       <div class="col-span-12 p-8 gap-8 mt-12 bg-[#1f2024] rounded-xl flex flex-wrap justify-around items-center [&>div>div]:font-tektur [&>div]:max-md:w-full">
 
         <div>
-          <div class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+          <div class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide" i18n>
             since
           </div>
           <div class=" text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
@@ -53,7 +53,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           </div>
         </div>
         <div>
-          <div class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+          <div class=" text-[#8895a4] text-sm font-medium uppercase tracking-wide" i18n>
             volonteers
           </div>
           <div class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
@@ -61,7 +61,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           </div>
         </div>
         <div>
-          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide" i18n>
             countries
           </div>
           <div
@@ -70,7 +70,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           </div>
         </div>
         <div>
-          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide" i18n>
             cars delivered
           </div>
           <div class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">
@@ -78,7 +78,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           </div>
         </div>
         <div>
-          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide">
+          <div class="text-[#8895a4] text-sm font-medium uppercase tracking-wide" i18n>
             WORTH OF TRUCKS
           </div>
           <div class="text-[#dde1e6] text-6xl font-bold leading-[78.07px] tracking-widest">

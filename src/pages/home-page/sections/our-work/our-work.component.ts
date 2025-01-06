@@ -24,19 +24,19 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
       <div class="col-span-12">
-        <div class="text-6xl font-bold font-tektur text-[#DDE2E7]">Our Work</div>
+        <div class="text-6xl font-bold font-tektur text-[#DDE2E7]" i18n>Our Work</div>
       </div>
-      <div class="col-span-6 font-tektur text-[#919EAB] text-xl max-md:col-span-10">
+      <div class="col-span-6 font-tektur text-[#919EAB] text-xl max-md:col-span-10" i18n>
         Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline."
       </div>
       <div class="col-span-12">
-        <div class="relative w-full flex gap-6 snap-x overflow-x-auto h-[578px] scrollbar-hide" #scrollContainer>
+        <div class="relative w-full flex gap-6 snap-x overflow-x-auto h-[578px] scrollbar-hide max-md:h-[376px]" #scrollContainer>
           @for (file of files; track file.src) {
-            <div class="snap-center shrink-0 h-[578px] relative">
-              <img class="shrink-0 rounded-lg shadow-xl bg-white h-[578px] brightness-50"
+            <div class="snap-center shrink-0 h-[578px] relative max-md:h-[376px]">
+              <img class="shrink-0 rounded-lg shadow-xl bg-white h-[578px] max-md:h-[376px] brightness-50"
                    [src]="file.src"/>
-              <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8">
-                <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl">
+              <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8 max-md:px-0">
+                <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl max-md:text-xl">
                   {{ $index }}. {{ file.title }}
                 </div>
               </div>

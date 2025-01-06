@@ -9,6 +9,8 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
 })
 export class LanguagesPage {
 
+  public selectedLanguage: string = 'EN'
+
   public readonly languageList: {
     name: string;
     href: string;
@@ -61,6 +63,9 @@ export class LanguagesPage {
     }
   ];
 
+  onLanguageSelect(language: { name: string; href: string; code: string }) {
+    this.selectedLanguage = language.name;
+  }
 }
 
 export default LanguagesPage;

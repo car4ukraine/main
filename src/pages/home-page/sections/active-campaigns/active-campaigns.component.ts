@@ -21,10 +21,10 @@ import {
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
       <div class="col-span-12">
-        <div class="text-5xl font-bold font-tektur text-[#323232]">
+        <div class="text-5xl font-bold font-tektur text-[#323232]" i18n>
           Active Campaigns
         </div>
-        <div class="text-xl font-tektur text-[#3D4650]">
+        <div class="text-xl font-tektur text-mainColor" i18n>
           It’s hard to help everyone but we do our best. Join a campaign you like and help us help these warriors.
         </div>
       </div>
@@ -91,9 +91,7 @@ export class ActiveCampaignsComponent implements OnInit {
   public ngOnInit() {
     this.campaignApiService.documents().subscribe({
       next: (documents) => {
-        console.log(documents, 111);
         this.campaigns = documents;
-        console.log(this.campaigns)
         this.changeDetectorRef.detectChanges();
       },
       error: (error) => {
@@ -103,7 +101,6 @@ export class ActiveCampaignsComponent implements OnInit {
 
     this.campaignWidgetSingleApiService.documents().subscribe({
       next: (documents) => {
-        console.log(documents, 222);
       },
       error: (error) => {
         console.log(error);

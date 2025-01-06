@@ -4,7 +4,7 @@
   <div class="col-span-full hidden lg:col-span-1 lg:block">
     <div
       class="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80 dark:text-white"
-      aria-label="List of languages">
+      aria-label="List of languages" i18n>
       List of languages
     </div>
   </div>
@@ -16,12 +16,11 @@
       <a
         class="inline-flex px-3 py-2 hover:bg-green-50 rounded-full hover:text-green-800 transition-all focus:outline-none focus:text-green-800"
         [hreflang]="language.code"
-        [href]="language.href">
+        [href]="language.href"
+        (click)="onLanguageSelect(language)">
         {{ language.name }}
       </a>
-
     }
-
   </div>
 
 </div>

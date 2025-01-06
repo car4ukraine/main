@@ -1,4 +1,10 @@
-import {ChangeDetectionStrategy, Component, EventEmitter, Output, ViewEncapsulation} from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  Input,
+  output,
+  ViewEncapsulation
+} from '@angular/core';
 import {RouterLink, RouterLinkActive} from "@angular/router";
 
 @Component({
@@ -16,7 +22,8 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
   }
 })
 export class AppNavigationComponent {
-  @Output() menuItemClicked = new EventEmitter<void>();
+  public readonly menuItemClicked = output();
+  @Input() selectedLanguage: string = 'EN';
 
   public onMenuItemClick() {
     this.menuItemClicked.emit();

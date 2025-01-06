@@ -15,6 +15,9 @@ module.exports = {
       width: {
         'slide': 'calc(100% / var(--slide-count))',
       },
+      colors: {
+        mainColor: '#3D4650'
+      }
     }
   },
   plugins: [

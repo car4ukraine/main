@@ -4,11 +4,11 @@
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden z-index: 10">
         <!-- Mobile menu button-->
         <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-[#1F2125]"
-                aria-controls="mobile-menu" aria-expanded="false"
+                aria-controls="mobile-menu" aria-expanded="false" aria-label="Open"
                 (click)="toggleMenu()"
         >
           <span class="absolute -inset-0.5"></span>
-          <span class="sr-only">Open main menu</span>
+          <span class="sr-only" i18n>Open main menu</span>
           @if (!isMenuOpen) {
           <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                aria-hidden="true">

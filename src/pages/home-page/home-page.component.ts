@@ -52,8 +52,8 @@ import {QuickDonationComponent} from "../../common/components/quick-donation/qui
     <app-our-initiative-section-component/>
 
     <div class="w-full flex flex-wrap justify-center p-10 gap-32 max-md:gap-0 max-md:p-16 max-md:px-2.5">
-      <img class="max-w-[1330px] w-full max-md:hidden" src="../../assets/images/media/tweeter.png" alt="">
-      <img class="hidden max-md:block" src="../../assets/images/media/twitter_mob.png" alt="">
+      <img class="max-w-[1330px] w-full max-md:hidden" src="assets/images/media/tweeter.png" alt="">
+      <img class="hidden max-md:block" src="assets/images/media/twitter_mob.png" alt="">
       <div class="max-w-[1330px] flex w-full max-md:flex-col">
         <app-contact-us-section-component/>
         <app-quick-donation/>

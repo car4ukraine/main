@@ -21,6 +21,5 @@ export class HeaderComponent {
 
   closeMenu() {
     this.isMenuOpen = false;
-    console.log(this.isMenuOpen);
   }
 }

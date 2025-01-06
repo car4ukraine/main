@@ -6,7 +6,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="text-6xl font-tektur text-[#1F2125] font-bold drop-shadow-xl">Quick Donation</div>
+    <div class="text-6xl font-tektur text-[#1F2125] font-bold drop-shadow-xl" i18n>Quick Donation</div>
     <div>
 
     </div>

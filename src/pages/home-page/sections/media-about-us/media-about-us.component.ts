@@ -10,9 +10,9 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full max-md:flex flex-wrap">
 
       <div class="col-span-12">
-        <div class="text-6xl font-bold font-tektur text-[#1F2125] max-md:text-4xl">Media About Us</div>
+        <div class="text-6xl font-bold font-tektur text-[#1F2125] max-md:text-4xl" i18n>Media About Us</div>
       </div>
-      <div class="col-span-6 font-tektur text-xl text-[#3D4650]">
+      <div class="col-span-6 font-tektur text-xl text-mainColor" i18n>
         Every story published brings us one step closer to our shared  victory. Thank you!
       </div>
       <div class="col-span-12"></div>
