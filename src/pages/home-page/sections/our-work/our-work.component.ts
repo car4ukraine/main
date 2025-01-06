@@ -30,10 +30,10 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
         Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline."
       </div>
       <div class="col-span-12">
-        <div class="relative w-full flex gap-6 snap-x overflow-x-auto h-[578px] scrollbar-hide max-md:h-[376px]" #scrollContainer>
+        <div class="relative w-full lg:w-auto  flex gap-6 snap-x overflow-x-auto lg:h-[578px] scrollbar-hide" #scrollContainer>
           @for (file of files; track file.src) {
-            <div class="snap-center shrink-0 h-[578px] relative max-md:h-[376px]">
-              <img class="shrink-0 rounded-lg shadow-xl bg-white h-[578px] max-md:h-[376px] brightness-50"
+            <div class="snap-center flex items-center w-full lg:w-auto shrink-0 lg:h-[578px] relative">
+              <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px] brightness-50"
                    [src]="file.src"/>
               <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8 max-md:px-0">
                 <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl max-md:text-xl">
