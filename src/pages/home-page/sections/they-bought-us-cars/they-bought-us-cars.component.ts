@@ -39,7 +39,7 @@ import {YouTubePlayer} from "@angular/youtube-player";
       <div class="col-span-12">
         <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 border-t-2 border-[#535353] my-4 py-4" #scrollContainer>
           @for (article of articles; track article.videoId) {
-            <div class="grid grid-cols-12 w-full">
+            <div class="grid grid-cols-12 min-w-full">
               <div class="col-span-5 font-tektur max-md:col-span-12">
                 <div class="text-[30px] font-bold mb-4 text-[#1F2125]">
                   {{ article.title }}
@@ -159,6 +159,7 @@ export class TheyBoughtUsCarsComponent {
 
   private updateCurrentArticle(): void {
     this.currentArticle = this.articles[this.currentSlideIndex];
+    this.scrollToCurrentSlide();
   }
 
   public scrollToCurrentSlide() {
