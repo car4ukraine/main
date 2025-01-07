@@ -23,7 +23,6 @@ export class VideosSectionComponent {
     href: string,
     iframe: string,
     image: string
-    videoId?: string;
   }> = [
     {
       title: 'Adam from USA',
@@ -31,7 +30,6 @@ export class VideosSectionComponent {
       href: 'https://www.youtube.com/watch?v=z8pCibdfCkY',
       iframe: '',
       image: '1-adam.jpg',
-      videoId: 'z8pCibdfCkY',
     },
     {
       title: 'Martin Buhr - Vacation in Ukraine',

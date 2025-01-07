@@ -1,13 +1,10 @@
 import {
   ChangeDetectionStrategy,
   Component,
-  computed,
   ElementRef,
-  signal,
   ViewChild,
   ViewEncapsulation
 } from "@angular/core";
-import {MediaAboutUsComponent} from "../media-about-us/media-about-us.component";
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 import {SafePipe} from "safe-pipe";
@@ -37,21 +34,33 @@ import {YouTubePlayer} from "@angular/youtube-player";
         From every corner of the globe people come to Ukraine in person to stand with us and show their support.
       </div>
       <div class="col-span-12">
-        <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 border-t-2 border-[#535353] my-4 py-4" #scrollContainer>
+        <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 border-t-2 border-[#535353] my-4 py-4"
+             #scrollContainer>
           @for (article of articles; track article.videoId) {
-            <div class="grid grid-cols-12 min-w-full">
-              <div class="col-span-5 font-tektur max-md:col-span-12">
+            <div class="grid grid-cols-12 min-w-full max-xl:flex max-xl:flex-col">
+              <div class="col-span-6 font-tektur max-md:col-span-12 lg:w-auto">
                 <div class="text-[30px] font-bold mb-4 text-[#1F2125]">
                   {{ article.title }}
                 </div>
                 <div class="flex flex-col gap-4 max-md:mb-8" [innerHTML]="article.details"></div>
               </div>
-              <div class="col-span-7 max-md:col-span-12">
-                <youtube-player
-                  [videoId]="article.videoId"
-                  [height]="'360'"
-                  [width]="'640'">
-                </youtube-player>
+              <div class="col-span-6 max-md:col-span-12">
+                @if (article.videoId) {
+                  <youtube-player
+                    [videoId]="article.videoId">
+                  </youtube-player>
+                } @else {
+                  <a [href]="article.href" target="_blank">
+                    <img
+                      class="mb-6 shadow-md rounded-lg bg-slate-50 w-full"
+                      [src]="assetsPath + article.image"
+                      [title]="article.title"
+                      [alt]="article.title"
+                      width="1216"
+                      height="640"
+                    />
+                  </a>
+                }
               </div>
             </div>
           }
@@ -77,7 +86,7 @@ import {YouTubePlayer} from "@angular/youtube-player";
       </div>
 
       <div class="col-span-12 pt-10">
-        <div class="flex flex-col gap-8 lg:flex-row justify-between w-full">
+        <div class="flex flex-col gap-8 lg:flex-row justify-between max-lg:items-center w-full">
           <div class="text-center max-md:cols-span-12 max-md:text-start"><span
             class="text-[#216df9] text-[54px] font-bold font-['Tektur'] leading-[70.26px] tracking-widest max-md:text-[46px]"
             i18n>THEY MADE IT!</span><span
@@ -107,6 +116,8 @@ import {YouTubePlayer} from "@angular/youtube-player";
 })
 export class TheyBoughtUsCarsComponent {
 
+  public readonly assetsPath: string = '/assets/images/home/stories/';
+
   public readonly articles: Array<{
     title: string,
     details: string,
@@ -133,8 +144,13 @@ export class TheyBoughtUsCarsComponent {
       details: 'Born in South Africa and raised in a British-Canadian community, Edward and Hugh personally brought a pickup truck that now defends Ukraine in the East.',
       href: 'https://twitter.com/carforukraine/status/1743748880808779951',
       image: '4-edward-and-hugh.jpg'
-    }
-
+    },
+    {
+      title: 'Martin Buhr - Vacation in Ukraine',
+      details: 'Excited to help Ukraine firsthand, Martin spent his September 2023 vacation bringing a truck to aid in demining efforts.',
+      href: 'https://tallmartin.substack.com/p/coda-my-truck-heads-to-the-russo?utm_source=profile&utm_medium=reader2',
+      image: '2-martin-buhr.jpg'
+    },
   ];
 
   @ViewChild('scrollContainer', {static: true})
