@@ -1,4 +1,10 @@
-import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  Input,
+  output,
+  ViewEncapsulation
+} from '@angular/core';
 import {RouterLink, RouterLinkActive} from "@angular/router";
 
 @Component({
@@ -16,6 +22,12 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
   }
 })
 export class AppNavigationComponent {
+  public readonly menuItemClicked = output();
+
+  public onMenuItemClick() {
+    this.menuItemClicked.emit();
+  }
+
   public readonly tabs: Array<{
     name: string,
     href: string,

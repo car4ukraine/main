@@ -7,27 +7,27 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
 
-    <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
+    <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full max-md:flex flex-wrap">
 
       <div class="col-span-12">
-        <div class="text-4xl font-bold font-tektur">Media about us</div>
+        <div class="text-6xl font-bold font-tektur text-[#1F2125] max-md:text-4xl" i18n>Media About Us</div>
       </div>
-      <div class="col-span-6 font-tektur">
-        Every story published brings us one step closer to our shared victory. Thank you!
+      <div class="col-span-6 font-tektur text-xl text-mainColor" i18n>
+        Every story published brings us one step closer to our shared  victory. Thank you!
       </div>
       <div class="col-span-12"></div>
-      <div class="col-span-12 lg:col-span-5">
+      <div class="col-span-12 lg:col-span-5 max-md:w-full max-md:mt-5">
         <div class="w-full grid grid-cols-3 gap-4">
           @for (slide of slideListImage; track slide.url) {
-            <a href="{{ slide.url }}" target="_blank" class="flex justify-center items-center bg-white rounded">
+            <a href="{{ slide.url }}" target="_blank" class="flex justify-center items-center bg-white">
               <!--                <img class="w-full h-[200px] rounded-lg" [src]="slide.image"/>-->
               <img class="w-[100px] h-[100px] mt-2" [src]="slide.logo"/>
             </a>
           }
         </div>
       </div>
-      <div class="col-span-12 lg:col-span-7">
-        <iframe  class="w-full h-[500px] rounded-lg" width="1330" height="366" src="https://www.youtube.com/embed/0ZBULtaRSMs?si=bEoElSnPX274PUvB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="col-span-12 lg:col-span-7 max-md:w-full max-md:mt-3 max-md:h-[235px]">
+        <iframe  class="w-full h-[500px] rounded-lg max-md:h-[235px]" width="1330" height="366" src="https://www.youtube.com/embed/0ZBULtaRSMs?si=bEoElSnPX274PUvB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!--        <img class="w-full h-[500px] rounded-lg" src="https://via.placeholder.com/1330x366"/>-->
       </div>
 
@@ -35,7 +35,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
 
   `,
   host: {
-    class: `w-full bg-[#EAECED] p-10 py-36 flex flex-col items-center justify-center`
+    class: `w-full bg-[#EAECED] p-10 py-36 flex flex-col items-center justify-center max-md:p-16 max-md:px-2.5`
   }
 })
 export class MediaAboutUsComponent {
