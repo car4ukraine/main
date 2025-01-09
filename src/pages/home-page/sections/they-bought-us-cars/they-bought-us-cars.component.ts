@@ -172,7 +172,7 @@ export class TheyBoughtUsCarsComponent implements OnInit {
   });
 
   public readonly playerHeight: Signal<number | undefined> = computed(() =>
-    this.screenWidth() < 768 ? 360 : undefined
+    this.screenWidth() < 768 ? 360 : 200
   );
 
   public currentSlideIndex = 0;
