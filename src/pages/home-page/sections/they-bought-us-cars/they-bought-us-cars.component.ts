@@ -9,7 +9,7 @@ import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 import {SafePipe} from "safe-pipe";
 import {YouTubePlayer} from "@angular/youtube-player";
-import {isPlatformBrowser} from "@angular/common";
+import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -38,7 +38,7 @@ import {isPlatformBrowser} from "@angular/common";
         <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 border-t-2 border-[#535353] my-4 py-4"
              #scrollContainer>
           @for (article of articles; track article.videoId) {
-            <div class="grid grid-cols-12 min-w-full max-xl:flex max-xl:flex-col">
+            <div class="grid grid-cols-12 min-w-full max-xl:flex max-xl:flex-col landscape:max-xl:flex-row">
               <div class="col-span-6 font-tektur max-md:col-span-12 lg:w-auto">
                 <div class="text-[30px] font-bold mb-4 text-[#1F2125]">
                   {{ article.title }}
@@ -57,7 +57,7 @@ import {isPlatformBrowser} from "@angular/common";
                   <a [href]="article.href" target="_blank">
                     <img
                       class="mb-6 shadow-md rounded-lg bg-slate-50 w-full"
-                      [src]="assetsPath + article.image"
+                      [ngSrc]="assetsPath + article.image"
                       [title]="article.title"
                       [alt]="article.title"
                       width="1216"
@@ -99,8 +99,8 @@ import {isPlatformBrowser} from "@angular/common";
             i18n>WILL YOU?</span>
           </div>
           <div
-            class="max-w-[429px] lg:flex-1 h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
-            <div class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]"
+            class="max-w-[429px] lg:flex-1 h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex ">
+            <div class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px] max-xl:text-xl"
                  i18n>
               BUY PICKUP TRUCK
             </div>
@@ -112,10 +112,11 @@ import {isPlatformBrowser} from "@angular/common";
   imports: [
     NgIcon,
     SafePipe,
-    YouTubePlayer
+    YouTubePlayer,
+    NgOptimizedImage
   ],
   host: {
-    class: `w-full bg-white p-10 py-36 flex flex-col gap-8 items-center justify-center max-md:py-16 max-md:px-2.5`
+    class: `w-full bg-white p-10 py-36 flex flex-col gap-8 items-center justify-center max-md:py-16 max-md:px-2.5 max-xl:pb-0`
   }
 })
 export class TheyBoughtUsCarsComponent implements OnInit {
