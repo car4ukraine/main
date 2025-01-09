@@ -1,7 +1,7 @@
 import {
   ChangeDetectionStrategy,
-  Component,
-  ElementRef,
+  Component, computed,
+  ElementRef, inject, OnInit, PLATFORM_ID, Signal, signal,
   ViewChild,
   ViewEncapsulation
 } from "@angular/core";
@@ -9,6 +9,7 @@ import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 import {SafePipe} from "safe-pipe";
 import {YouTubePlayer} from "@angular/youtube-player";
+import {isPlatformBrowser} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -47,7 +48,10 @@ import {YouTubePlayer} from "@angular/youtube-player";
               <div class="col-span-6 max-md:col-span-12">
                 @if (article.videoId) {
                   <youtube-player
-                    [videoId]="article.videoId">
+                    [videoId]="article.videoId"
+                    [width]="playerWidth()"
+                    [height]="playerHeight()"
+                  >
                   </youtube-player>
                 } @else {
                   <a [href]="article.href" target="_blank">
@@ -114,7 +118,7 @@ import {YouTubePlayer} from "@angular/youtube-player";
     class: `w-full bg-white p-10 py-36 flex flex-col gap-8 items-center justify-center max-md:py-16 max-md:px-2.5`
   }
 })
-export class TheyBoughtUsCarsComponent {
+export class TheyBoughtUsCarsComponent implements OnInit {
 
   public readonly assetsPath: string = '/assets/images/home/stories/';
 
@@ -153,11 +157,37 @@ export class TheyBoughtUsCarsComponent {
     },
   ];
 
-  @ViewChild('scrollContainer', {static: true})
-  public scrollContainer!: ElementRef;
+  @ViewChild('scrollContainer', {static: false})
+  scrollContainer!: ElementRef<HTMLDivElement>;
+  private readonly platformId = inject(PLATFORM_ID);
+  private readonly screenWidth = signal<number>(0);
+
+  public readonly playerWidth: Signal<number | undefined> = computed(() => {
+    if (this.screenWidth() < 400) {
+      return 350;
+    } else if (this.screenWidth() < 768) {
+      return 410;
+    }
+    return undefined;
+  });
+
+  public readonly playerHeight: Signal<number | undefined> = computed(() =>
+    this.screenWidth() < 768 ? 360 : undefined
+  );
 
   public currentSlideIndex = 0;
+  private readonly isBrowser = isPlatformBrowser(this.platformId);
   public currentArticle = this.articles[this.currentSlideIndex];
+
+
+  ngOnInit(): void {
+    if (this.isBrowser) {
+      this.screenWidth.set(window.innerWidth);
+      window.addEventListener("resize", () => {
+        this.screenWidth.set(window.innerWidth);
+      });
+    }
+  }
 
   public nextSlide(): void {
     if (this.currentSlideIndex < this.articles.length - 1) {
@@ -186,5 +216,6 @@ export class TheyBoughtUsCarsComponent {
       behavior: 'smooth'
     });
   }
+
 }
 
