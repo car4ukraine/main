@@ -38,7 +38,7 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
           </div>
         </button>
       </div>
-      <div class="col-span-7 max-md:col-span-12">
+      <div class="col-span-7 max-md:col-span-12 portrait:max-xl:col-span-12">
         <img class="w-full h-[500px] max-md:h-auto rounded-lg" src="assets/images/team.jpg" alt=""/>
       </div>
 
