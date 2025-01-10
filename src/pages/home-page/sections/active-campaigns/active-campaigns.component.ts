@@ -24,14 +24,14 @@ import {
         <div class="text-5xl font-bold font-tektur text-[#323232]" i18n>
           Active Campaigns
         </div>
-        <div class="text-xl font-tektur text-mainColor" i18n>
+        <div class="col-span-12 text-xl font-tektur text-mainColor" i18n>
           It’s hard to help everyone but we do our best. Join a campaign you like and help us help these warriors.
         </div>
       </div>
 
       <div class="col-span-12">
         <div class="container">
-          <div class="flex flex-wrap gap-4 pb-4">
+          <div class="flex flex-wrap gap-4 pb-4 justify-center">
             @if (campaigns) {
 
               @for (campaign of campaigns.data; track campaign.id) {
@@ -41,7 +41,7 @@ import {
                   <div class="flex flex-col h-full justify-between">
                     <div class="flex flex-col gap-2">
                       <div [innerHTML]="campaign.progress_bar_html | safe: 'html'"></div>
-                      <div class="mt-1 text-gray-500 font-tektur" [innerHTML]="campaign.description | safe: 'html'"></div>
+                      <div class="mt-1 text-gray-500 font-tektur max-xl:line-clamp-3" [innerHTML]="campaign.description | safe: 'html'"></div>
                     </div>
                     <app-main-donate-button/>
                   </div>
