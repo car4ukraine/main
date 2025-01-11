@@ -9,8 +9,8 @@ import {catchError, throwError} from "rxjs";
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="font-tektur text-mainColor">
-      <div class="text-6xl font-bold" i18n>
+    <div class="font-tektur text-mainColor mb-10">
+      <div class="text-6xl font-bold mb-2.5" i18n>
         Contact us
       </div>
       <div class="text-xl" i18n>

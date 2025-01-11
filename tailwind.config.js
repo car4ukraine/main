@@ -17,6 +17,9 @@ module.exports = {
       },
       colors: {
         mainColor: '#3D4650'
+      },
+      backgroundImage: {
+        'custom-bg': "url('assets/images/about/group.png')",
       }
     }
   },

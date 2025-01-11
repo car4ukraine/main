@@ -222,12 +222,6 @@
         <target>Send message</target>
       </segment>
     </unit>
-    <unit id="759687838251957893">
-      <segment state="initial">
-        <source>Contact Us</source>
-        <target>Contact Us</target>
-      </segment>
-    </unit>
     <unit id="7661266739277123343">
       <segment state="initial">
         <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What do you mean by &quot;Figma assets&quot;? </source>
@@ -544,6 +538,30 @@
       <segment state="initial">
         <source> List of languages </source>
         <target> List of languages </target>
+      </segment>
+    </unit>
+    <unit id="3016409759898406728">
+      <segment state="initial">
+        <source>Ivan Oleksii</source>
+        <target>Ivan Oleksii</target>
+      </segment>
+    </unit>
+    <unit id="4326551561167692252">
+      <segment state="initial">
+        <source>Marketing Director </source>
+        <target>Marketing Director </target>
+      </segment>
+    </unit>
+    <unit id="555665422511322417">
+      <segment state="initial">
+        <source> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus doloribus earum illo ipsa, iusto maxime mollitia, neque nostrum officia optio saepe sapiente similique, sit. Assumenda nam odio officia. Et, illum. </source>
+        <target> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus doloribus earum illo ipsa, iusto maxime mollitia, neque nostrum officia optio saepe sapiente similique, sit. Assumenda nam odio officia. Et, illum. </target>
+      </segment>
+    </unit>
+    <unit id="2806917038528218276">
+      <segment state="initial">
+        <source>FAQ</source>
+        <target>FAQ</target>
       </segment>
     </unit>
   </file>
