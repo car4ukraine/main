@@ -1,8 +1,6 @@
 import {ChangeDetectionStrategy, Component, ElementRef, OnInit, ViewChild, ViewEncapsulation} from "@angular/core";
-import {MediaAboutUsComponent} from "../media-about-us/media-about-us.component";
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
-import {NgStyle} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -73,8 +71,7 @@ import {NgStyle} from "@angular/common";
 
   `,
   imports: [
-    NgIcon,
-    NgStyle
+    NgIcon
   ],
   host: {
     class: `w-full bg-[#1F2125] p-10 py-36 flex flex-col items-center justify-center text-white max-md:p-16 max-md:px-2.5`

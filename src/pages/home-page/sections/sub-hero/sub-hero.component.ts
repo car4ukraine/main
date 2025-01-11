@@ -6,7 +6,6 @@ import {NgOptimizedImage} from "@angular/common";
   standalone: true,
   selector: 'app-sub-hero-section-component',
   imports: [
-    HeroSectionComponent,
     NgOptimizedImage
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
