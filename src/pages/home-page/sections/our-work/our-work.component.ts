@@ -57,7 +57,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
             </div>
             <div (click)="nextSlide()"
                  class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
-              <ng-icon name="bi bi-github"/>
+              <ng-icon name="heroArrowRight"/>
             </div>
           </div>
           <div class="w-full h-[3px] relative">

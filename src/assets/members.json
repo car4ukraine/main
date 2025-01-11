@@ -4,7 +4,7 @@
     "name": "Roman Hapachylo",
     "description": "VP of Talents in IT but now brings bright minds together to create battle-ready trucks",
     "flag": "assets/images/about/members/flag/ua.svg",
-    "icon": "bi bi-linkedin",
+    "icon": "bootstrapLinkedin",
     "link": "https://www.linkedin.com/in/roman-hapachylo-56668b3/"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Nazar Kravchuk",
     "description": "Project Manager in IT but now makes sure we buy trucks regularly all over the Europe and the UK",
     "flag": "assets/images/about/members/flag/ua.svg",
-    "icon": "bi bi-linkedin",
+    "icon": "bootstrapLinkedin",
     "link": "https://www.linkedin.com/in/ivanoleksii/"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Ivan Oleksii",
     "description": "Partnerships manager in exports but now runs car4ukraine.com site to make sure the world supports Ukraine with trucks",
     "flag": "assets/images/about/members/flag/ua.svg",
-    "icon": "bi bi-linkedin",
+    "icon": "bootstrapLinkedin",
     "link": "https://www.linkedin.com/in/ivanoleksii/"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Nika Ostratyuk",
     "description": "Producer and Film Director but now makes sure that all the soldiers who need trucks the most get them ASAP",
     "flag": "assets/images/about/members/flag/gb.svg",
-    "icon": "bi bi-facebook",
+    "icon": "bootstrapFacebook",
     "link": "https://www.facebook.com/nika.ostratyuk"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Oleksii Dovhaniuk",
     "description": "Creative Designer and Ever Learner but now illustrates and delivers the content at car4ukraine.com",
     "flag": "assets/images/about/members/flag/ua.svg",
-    "icon": "bi bi-facebook",
+    "icon": "bootstrapFacebook",
     "link": "https://www.facebook.com/oleksii.dovhaniuk"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Ivan Karbashevskyi ",
     "description": "Frontend Developer in IT but now does all he needs so the car4ukraine.com site is steady and running",
     "flag": "assets/images/about/members/flag/pl.svg",
-    "icon": "bi bi-github",
+    "icon": "bootstrapGithub",
     "link": "https://github.com/Karbashevskyi"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Natalia Yakovenko",
     "description": "English Teacher but now communicates with the world through social media with cool reels",
     "flag": "assets/images/about/members/flag/ua.svg",
-    "icon": "bi bi-instagram",
+    "icon": "bootstrapInstagram",
     "link": "https://www.instagram.com/nataly_ishere/"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Mykola Fedyk",
     "description": "Senior DevOps but now catches the best trucks opportunities in Poland",
     "flag": "assets/images/about/members/flag/pl.svg",
-    "icon": "bi bi-facebook",
+    "icon": "bootstrapFacebook",
     "link": "https://www.facebook.com/profile.php?id=100000648979732"
   }
 ]

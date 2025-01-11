@@ -49,9 +49,10 @@
       <div class="flex flex-wrap w-full">
         @for (member of membersData; track member) {
           <div class="w-1/4 relative group overflow-hidden max-md:w-2/4">
-            <img class=" flex w-full" [src]="member.image" alt="Image">
-            <div class="absolute inset-x-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50 h-2/3 transform
-                      translate-y-full opacity-0 transition-transform duration-500 group-hover:translate-y-0 group-hover:opacity-100"
+            <img class="flex w-full" [src]="member.image" alt="Image">
+            <div
+              class="absolute inset-x-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50 h-2/3 transform
+                     translate-y-full opacity-0 transition-transform duration-500 group-hover:translate-y-0 group-hover:opacity-100"
             >
               <div class="flex flex-wrap gap-3 font-tektur px-6 relative">
                 <div class="flex w-full justify-between">
@@ -61,11 +62,11 @@
                 <span class="text-[#dde1e6]">{{ member.description }}</span>
               </div>
             </div>
-          </div>
-          <div class>
-            <a [href]="member.link" target="_blank">
-              <i [class]="member.icon"></i>
-            </a>
+            <div class="absolute bottom-0 left-0 p-2 shadow-sm w-[50px]">
+              <a [href]="member.link" target="_blank" class="text-4xl">
+                <ng-icon [name]="member.icon" class="x-large"/>
+              </a>
+            </div>
           </div>
         }
       </div>

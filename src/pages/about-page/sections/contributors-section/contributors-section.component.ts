@@ -1,7 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import {MembersApiService} from "../../../../api/members/members.api.service";
 import {IMember} from "../../../../api/members/i.member.response";
-import {NgIcon} from "@ng-icons/core";
+import {NgIcon, provideIcons} from "@ng-icons/core";
+import {
+  bootstrapFacebook,
+  bootstrapGithub,
+  bootstrapInstagram,
+  bootstrapLinkedin
+} from "@ng-icons/bootstrap-icons";
 
 
 @Component({
@@ -11,7 +17,10 @@ import {NgIcon} from "@ng-icons/core";
   styleUrl: './contributors-section.component.scss',
   imports: [
     NgIcon
-  ]
+  ],
+  viewProviders: [
+    provideIcons({bootstrapFacebook, bootstrapLinkedin, bootstrapInstagram, bootstrapGithub}),
+  ],
 })
 export class ContributorsSectionComponent implements OnInit {
 
