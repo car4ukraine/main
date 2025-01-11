@@ -46,7 +46,7 @@
   </div>
   <div class="flex max-w-[1330px] w-full">
     @if (membersData) {
-      <div class="flex flex-wrap w-full">
+      <div class="flex flex-wrap w-full cursor-pointer">
         @for (member of membersData; track member) {
           <div class="w-1/4 relative group overflow-hidden max-md:w-2/4">
             <img class="flex w-full" [src]="member.image" alt="Image">
