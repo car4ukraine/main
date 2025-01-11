@@ -4,6 +4,7 @@ import { PageMetaService } from '../../common/services/page-meta/page-meta.servi
 @Component({
   selector: 'app-faq-page',
   templateUrl: './faq-page.component.html',
+  standalone: true,
   styleUrl: './faq-page.component.scss'
 })
 export class FaqPageComponent {
@@ -12,7 +13,9 @@ export class FaqPageComponent {
 
   constructor(private pageMetaService: PageMetaService) {
     this.pageMetaService.setTitleAndDescription(this.title, this.description);
+
   }
+  infoMail = 'info@car4ukraine.com'
 }
 
 export default FaqPageComponent;
