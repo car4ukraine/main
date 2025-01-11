@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import {YouTubePlayer} from "@angular/youtube-player";
 
 @Component({
   selector: 'app-videos-section',
   standalone: true,
-  imports: [],
+  imports: [
+    YouTubePlayer
+  ],
   templateUrl: './videos-section.component.html',
   styleUrl: './videos-section.component.scss'
 })
@@ -26,7 +29,7 @@ export class VideosSectionComponent {
       details: 'Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers.',
       href: 'https://www.youtube.com/watch?v=z8pCibdfCkY',
       iframe: '',
-      image: '1-adam.jpg'
+      image: '1-adam.jpg',
     },
     {
       title: 'Martin Buhr - Vacation in Ukraine',

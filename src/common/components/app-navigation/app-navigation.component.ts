@@ -18,7 +18,7 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
-    class: "flex flex-col sm:flex-row"
+    class: "flex flex-col lg:flex-row"
   }
 })
 export class AppNavigationComponent {
