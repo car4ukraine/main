@@ -1,6 +1,4 @@
 import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/core";
-import {ContactUsComponent} from "../../../../common/components/contact-us/contact-us.component";
-import {QuickDonationComponent} from "../../../../common/components/quick-donation/quick-donation.component";
 
 @Component({
   standalone: true,
@@ -88,10 +86,6 @@ import {QuickDonationComponent} from "../../../../common/components/quick-donati
       </div>
     </div>
   `,
-  imports: [
-    ContactUsComponent,
-    QuickDonationComponent
-  ],
   host: {
     class: `w-full bg-[#F7F8F7] p-10 flex flex-col gap-8 items-center justify-center max-md:p-16 max-md:px-2.5`
   }
