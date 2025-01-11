@@ -48,21 +48,24 @@
     @if (membersData) {
       <div class="flex flex-wrap w-full cursor-pointer">
         @for (member of membersData; track member) {
-          <div class="w-1/4 relative group overflow-hidden max-md:w-2/4">
+          <div class="w-1/4 relative group overflow-hidden max-md:w-full">
             <img class="flex w-full" [src]="member.image" alt="Image">
             <div
               class="absolute inset-x-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50 h-2/3 transform
-                     translate-y-full opacity-0 transition-transform duration-500 group-hover:translate-y-0 group-hover:opacity-100"
+                     translate-y-full opacity-100 transition-transform duration-500 ease-in-out group-hover:translate-y-0
+                     group-hover:opacity-100"
             >
               <div class="flex flex-wrap gap-3 font-tektur px-6 relative">
                 <div class="flex w-full justify-between">
-                  <p class="text-white text-xl">{{ member.name }}</p>
+                  <p class="text-white text-2xl">{{ member.name }}</p>
                   <img class="w-[24px] h-auto" [src]="member.flag" alt="flag">
                 </div>
-                <span class="text-[#dde1e6]">{{ member.description }}</span>
+                <span class="text-[#dde1e6] text-base max-md:text-xl">{{ member.description }}</span>
               </div>
             </div>
-            <div class="absolute bottom-0 left-0 p-2 shadow-sm w-[50px]">
+            <div class="absolute top-[calc(100%-60px)] left-0 p-2 shadow-sm w-[50px] transition-all duration-500
+                        group-hover:top-[calc(100%-90px-2/3*100%)] bg-grey rounded"
+            >
               <a [href]="member.link" target="_blank" class="text-4xl">
                 <ng-icon [name]="member.icon" class="x-large"/>
               </a>
