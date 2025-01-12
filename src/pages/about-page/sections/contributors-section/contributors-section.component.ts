@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {NgIcon, provideIcons} from "@ng-icons/core";
+import {NgIcon, provideIcons, provideNgIconsConfig} from "@ng-icons/core";
 import {
   bootstrapFacebook,
   bootstrapGithub,
@@ -18,6 +18,9 @@ import {
   ],
   viewProviders: [
     provideIcons({bootstrapFacebook, bootstrapLinkedin, bootstrapInstagram, bootstrapGithub}),
+    provideNgIconsConfig({
+
+    }),
   ],
 })
 export class ContributorsSectionComponent {

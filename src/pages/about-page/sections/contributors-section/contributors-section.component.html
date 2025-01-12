@@ -63,11 +63,11 @@
                 <span class="text-[#dde1e6] text-base max-md:text-xl">{{ member.description }}</span>
               </div>
             </div>
-            <div class="absolute top-[calc(100%-60px)] left-0 p-2 shadow-sm w-[50px] transition-all duration-500
-                        group-hover:top-[calc(100%-90px-2/3*100%)] bg-grey rounded"
+            <div class="absolute top-[calc(100%-60px)] left-2 py-3 shadow-sm w-[50px] transition-all duration-500
+                        group-hover:top-[calc(100%-90px-2/3*100%)] bg-[#2E2F29] rounded-md text-white"
             >
-              <a [href]="member.link" target="_blank" class="text-4xl">
-                <ng-icon [name]="member.icon" class="x-large"/>
+              <a [href]="member.link" target="_blank" class="text-2xl flex items-center justify-center">
+                <ng-icon [name]="member.icon"/>
               </a>
             </div>
           </div>
