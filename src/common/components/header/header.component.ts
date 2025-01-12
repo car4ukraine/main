@@ -1,6 +1,5 @@
 import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
 import {AppNavigationComponent} from "../app-navigation/app-navigation.component";
-import {DonateButtonComponent} from "../buttons/donate-button/donate-button.component";
 import {NgOptimizedImage} from "@angular/common";
 
 @Component({
@@ -9,7 +8,7 @@ import {NgOptimizedImage} from "@angular/common";
   templateUrl: './header.component.html',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [AppNavigationComponent, DonateButtonComponent, NgOptimizedImage]
+  imports: [AppNavigationComponent, NgOptimizedImage]
 })
 export class HeaderComponent {
 

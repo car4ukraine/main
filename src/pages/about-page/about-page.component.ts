@@ -2,8 +2,6 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/co
 import { PageMetaService } from '../../common/services/page-meta/page-meta.service';
 import {HeroSectionComponent} from "./sections/hero-section/hero-section.component";
 import {ContributorsSectionComponent} from "./sections/contributors-section/contributors-section.component";
-import {NetworkSectionComponent} from "./sections/network-section/network-section.component";
-import {JoinSectionComponent} from "./sections/join-section/join-section.component";
 
 @Component({
   selector: 'app-about-page',
@@ -12,9 +10,7 @@ import {JoinSectionComponent} from "./sections/join-section/join-section.compone
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     HeroSectionComponent,
-    ContributorsSectionComponent,
-    NetworkSectionComponent,
-    JoinSectionComponent
+    ContributorsSectionComponent
   ],
   standalone: true
 })
