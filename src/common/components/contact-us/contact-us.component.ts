@@ -3,6 +3,7 @@ import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/
 import {ContactApiService} from "../../../api/contact/contact.api.service";
 import {catchError, throwError} from "rxjs";
 import {NgClass} from "@angular/common";
+import {HttpErrorResponse} from "@angular/common/http";
 
 interface IOption {
   id: number;
@@ -26,7 +27,7 @@ interface IOption {
 
     <form [formGroup]="form" (ngSubmit)="submitForm()" novalidate>
       <div class="flex flex-col gap-4">
-        <div [ngClass]="{'has-error': form.get('subject')?.invalid && form.get('subject')?.touched}">
+        <div [ngClass]="{'has-error': form.get('subject')?.invalid && form.get('subject')?.touched}" class="relative mb-5">
           <label for="disabledSelect" class="form-label font-tektur text-mainColor" i18n>
             Select type of your inquiry
           </label>
@@ -41,12 +42,12 @@ interface IOption {
             }
           </select>
           @if (form.get('subject')?.invalid && form.get('subject')?.touched) {
-            <div class="error-message text-rose-600 font-tektur" i18n>
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
               Subject is required.
             </div>
           }
         </div>
-        <div [ngClass]="{'has-error': form.get('name')?.invalid && form.get('name')?.touched}">
+        <div [ngClass]="{'has-error': form.get('name')?.invalid && form.get('name')?.touched}" class="relative mb-5">
           <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-mainColor" i18n>
             Your Name
           </label>
@@ -58,12 +59,12 @@ interface IOption {
             [placeholder]="'Type'"
           />
           @if (form.get('name')?.invalid && form.get('name')?.touched) {
-            <div class="error-message text-rose-600 font-tektur" i18n>
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
               Name is required.
             </div>
           }
         </div>
-        <div [ngClass]="{'has-error': form.get('email')?.invalid && form.get('email')?.touched}">
+        <div [ngClass]="{'has-error': form.get('email')?.invalid && form.get('email')?.touched}" class="relative mb-5">
           <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-mainColor" i18n>
             Email
           </label>
@@ -75,7 +76,7 @@ interface IOption {
             [placeholder]="'Type'"
           />
           @if (form.get('email')?.invalid && form.get('email')?.touched) {
-            <div class="error-message text-rose-600 font-tektur" i18n>
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
               Valid email is required.
             </div>
           }
@@ -88,18 +89,18 @@ interface IOption {
             formControlName="message"
             id="pages-contact_us-form-message-textarea"
             rows="3"
-            class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
+            class="relative bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
             [placeholder]="'Type'"
           ></textarea>
           @if (form.get('message')?.invalid && form.get('message')?.touched) {
-            <div class="error-message text-rose-600 font-tektur" i18n>
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
               Message is required.
             </div>
           }
         </div>
         <div
           class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex transition-all
-                 duration-150 ease-in-out active:scale-95 cursor-pointer"
+                 duration-150 ease-in-out active:scale-95 cursor-pointer mt-5"
         >
           <button type="submit" [disabled]="form.invalid || pending"
                   class="send-button text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose
@@ -187,15 +188,15 @@ export class ContactUsComponent implements OnInit {
         subject
       }))
         .pipe(
-          catchError(error => {
+          catchError((error: HttpErrorResponse) => {
             this.stopPending();
             this.showErrorAlert = true;
-            return throwError(error);
+            return throwError(() => error);
           })
         )
         .subscribe(() => {
           this.form.reset({
-            type: 0
+            subject: null
           });
           this.stopPending();
           this.showSuccessAlert = true;
