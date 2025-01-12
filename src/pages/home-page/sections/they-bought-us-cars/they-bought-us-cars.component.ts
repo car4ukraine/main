@@ -7,7 +7,6 @@ import {
 } from "@angular/core";
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
-import {SafePipe} from "safe-pipe";
 import {YouTubePlayer} from "@angular/youtube-player";
 import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
 
@@ -111,7 +110,6 @@ import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
   `,
   imports: [
     NgIcon,
-    SafePipe,
     YouTubePlayer,
     NgOptimizedImage
   ],

@@ -5,8 +5,6 @@ import {
 } from "../../../../api/campaign-widget-single/campaign-widget-single.api.service";
 import {ICampaignResponse} from "../../../../api/campaign/i.campaign.response";
 import {SafePipe} from "safe-pipe";
-import {NgIcon, provideIcons} from "@ng-icons/core";
-import {bootstrapHeart} from "@ng-icons/bootstrap-icons";
 import {
   MainDonateButtonComponent
 } from "../../../../common/components/buttons/main-donate-button/main-donate-button.component";
@@ -57,7 +55,6 @@ import {
   `,
   imports: [
     SafePipe,
-    NgIcon,
     MainDonateButtonComponent
   ],
   host: {

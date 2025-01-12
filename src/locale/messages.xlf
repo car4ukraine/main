@@ -325,6 +325,11 @@
         <source>Open</source>
       </segment>
     </unit>
+    <unit id="759687838251957893">
+      <segment>
+        <source>Contact Us</source>
+      </segment>
+    </unit>
     <unit id="7661266739277123343">
       <segment>
         <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What do you mean by &quot;Figma assets&quot;? </source>
@@ -453,24 +458,29 @@
         <source>Submit</source>
       </segment>
     </unit>
+    <unit id="1069885221612312172">
+      <segment>
+        <source> All the achievements this project has wouldn’t be possible without people behind it. </source>
+      </segment>
+    </unit>
+    <unit id="2081730406109376232">
+      <segment>
+        <source> People from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </source>
+      </segment>
+    </unit>
     <unit id="2806917038528218276">
       <segment>
         <source>FAQ</source>
       </segment>
     </unit>
-    <unit id="3016409759898406728">
+    <unit id="419919156881207305">
       <segment>
-        <source>Ivan Oleksii</source>
+        <source> Since day 1 of the full-scale invasion, our warriors require mobility. Together with over 250 volunteers from all over the globe, we are committed to serving our heroes and providing them 4x4 and other cars for as long as it takes. </source>
       </segment>
     </unit>
-    <unit id="4326551561167692252">
+    <unit id="5736481176444461852">
       <segment>
-        <source>Marketing Director </source>
-      </segment>
-    </unit>
-    <unit id="555665422511322417">
-      <segment>
-        <source> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus doloribus earum illo ipsa, iusto maxime mollitia, neque nostrum officia optio saepe sapiente similique, sit. Assumenda nam odio officia. Et, illum. </source>
+        <source>About Us</source>
       </segment>
     </unit>
   </file>

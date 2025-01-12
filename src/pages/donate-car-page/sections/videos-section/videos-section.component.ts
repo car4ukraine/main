@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
-import {YouTubePlayer} from "@angular/youtube-player";
 
 @Component({
   selector: 'app-videos-section',
   standalone: true,
-  imports: [
-    YouTubePlayer
-  ],
   templateUrl: './videos-section.component.html',
   styleUrl: './videos-section.component.scss'
 })

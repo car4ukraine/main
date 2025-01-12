@@ -1,7 +1,6 @@
 import {ChangeDetectionStrategy, Component, inject, OnInit, ViewEncapsulation} from '@angular/core';
 import {PageMetaService} from '../../common/services/page-meta/page-meta.service';
 import {HeroSectionComponent} from "./sections/hero-section/hero-section.component";
-import {NgOptimizedImage} from "@angular/common";
 import {MediaAboutUsComponent} from "./sections/media-about-us/media-about-us.component";
 import {OurWorkComponent} from "./sections/our-work/our-work.component";
 import {TheyBoughtUsCarsComponent} from "./sections/they-bought-us-cars/they-bought-us-cars.component";
@@ -20,7 +19,6 @@ import {QuickDonationComponent} from "../../common/components/quick-donation/qui
   standalone: true,
   imports: [
     HeroSectionComponent,
-    NgOptimizedImage,
     MediaAboutUsComponent,
     OurWorkComponent,
     TheyBoughtUsCarsComponent,
