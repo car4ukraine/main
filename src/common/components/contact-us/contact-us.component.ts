@@ -92,12 +92,12 @@ interface IOption {
 
         }
 
-        <div class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
+        <div class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex transition-all duration-150 ease-in-out active:scale-95 ">
           <button
             aria-label="Send"
             [disabled]="pending"
             class="send-button text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]
-                   transition-transform duration-100 ease-in-out active:scale-95 active:shadow-lg">
+           transition-all duration-150 ease-in-out active:scale-95 active:shadow-lg">
 
             @if (pending) {
               <span class="spinner-border" role="status" aria-hidden="true"></span>
