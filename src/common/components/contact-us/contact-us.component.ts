@@ -2,6 +2,13 @@ import {ChangeDetectionStrategy, Component, inject, OnInit, ViewEncapsulation} f
 import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
 import {ContactApiService} from "../../../api/contact/contact.api.service";
 import {catchError, throwError} from "rxjs";
+import {NgClass} from "@angular/common";
+import {HttpErrorResponse} from "@angular/common/http";
+
+interface IOption {
+  id: number;
+  name: string;
+}
 
 @Component({
   standalone: true,
@@ -9,8 +16,8 @@ import {catchError, throwError} from "rxjs";
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="font-tektur text-mainColor">
-      <div class="text-6xl font-bold" i18n>
+    <div class="font-tektur text-mainColor mb-10">
+      <div class="text-6xl font-bold mb-2.5" i18n>
         Contact us
       </div>
       <div class="text-xl" i18n>
@@ -18,95 +25,101 @@ import {catchError, throwError} from "rxjs";
       </div>
     </div>
 
-    <form [formGroup]="form" (ngSubmit)="submitForm()" [class.was-validated]="form.touched">
-
+    <form [formGroup]="form" (ngSubmit)="submitForm()" novalidate>
       <div class="flex flex-col gap-4">
-
-        <div>
-          <label for="disabledSelect" class="form-label font-tektur text-mainColor" i18n>Select type of your inquiry</label>
-          <select formControlName="subject" id="disabledSelect"
-                  class="bg-transparent block w-full mt-0 px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur"
-                  [required]="isRequired('subject')">
+        <div [ngClass]="{'has-error': form.get('subject')?.invalid && form.get('subject')?.touched}" class="relative mb-5">
+          <label for="disabledSelect" class="form-label font-tektur text-mainColor" i18n>
+            Select type of your inquiry
+          </label>
+          <select
+            formControlName="subject"
+            id="disabledSelect"
+            class="bg-transparent block w-full mt-0 px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur"
+          >
+            <option [value]="null" disabled selected>Select...</option>
             @for (option of options; track option) {
-              <option [value]="$index"></option>
+              <option [value]="option.id">{{ option.name }}</option>
             }
           </select>
-        </div>
-
-        <div>
-          <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-mainColor" i18n>Your Name</label>
-          <input formControlName="name" type="text"
-                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
-                 id="pages-contact_us-form-name-input"
-                 [required]="isRequired('name')" [placeholder]="'Type'">
-        </div>
-
-        <div>
-          <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-mainColor" i18n>Email</label>
-          <input formControlName="email" type="email"
-                 class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
-                 id="pages-contact_us-form-email-input" [required]="isRequired('email')"
-                 [placeholder]="'Type'">
-        </div>
-
-        <div>
-          <label for="pages-contact_us-form-message-textarea" class="form-label font-tektur text-mainColor" i18n>Message</label>
-          <textarea formControlName="message"
-                    class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
-                    id="pages-contact_us-form-message-textarea"
-                    rows="3" [required]="isRequired('message')"
-                    [placeholder]="'Type'"></textarea>
-        </div>
-
-        @if (showSuccessAlert) {
-          <div class="col-12">
-
-            <div class="alert alert-success d-flex align-items-center justify-content-center" role="alert">
-              <i class="bi bi-check-circle me-2"></i>
-              <div [innerText]="'modules.contact_form.notifications.success'"></div>
+          @if (form.get('subject')?.invalid && form.get('subject')?.touched) {
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
+              Subject is required.
             </div>
-
-          </div>
-
-        }
-
-        @if (showErrorAlert) {
-
-          <div class="col-12">
-
-            <div class="alert alert-danger d-flex align-items-center justify-content-center" role="alert">
-              <i class="bi bi-x-circle me-2"></i>
-              <div [innerText]="'modules.contact_form.notifications.error'" i18n> Error, check data or try later.</div>
+          }
+        </div>
+        <div [ngClass]="{'has-error': form.get('name')?.invalid && form.get('name')?.touched}" class="relative mb-5">
+          <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-mainColor" i18n>
+            Your Name
+          </label>
+          <input
+            formControlName="name"
+            type="text"
+            id="pages-contact_us-form-name-input"
+            class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
+            [placeholder]="'Type'"
+          />
+          @if (form.get('name')?.invalid && form.get('name')?.touched) {
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
+              Name is required.
             </div>
-
-          </div>
-
-        }
-
-        <div class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex">
-          <button
-            aria-label="Send"
-            [disabled]="pending"
-            class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
-
+          }
+        </div>
+        <div [ngClass]="{'has-error': form.get('email')?.invalid && form.get('email')?.touched}" class="relative mb-5">
+          <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-mainColor" i18n>
+            Email
+          </label>
+          <input
+            formControlName="email"
+            type="email"
+            id="pages-contact_us-form-email-input"
+            class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
+            [placeholder]="'Type'"
+          />
+          @if (form.get('email')?.invalid && form.get('email')?.touched) {
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
+              Valid email is required.
+            </div>
+          }
+        </div>
+        <div [ngClass]="{'has-error': form.get('message')?.invalid && form.get('message')?.touched}">
+          <label for="pages-contact_us-form-message-textarea" class="form-label font-tektur text-mainColor" i18n>
+            Message
+          </label>
+          <textarea
+            formControlName="message"
+            id="pages-contact_us-form-message-textarea"
+            rows="3"
+            class="relative bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
+            [placeholder]="'Type'"
+          ></textarea>
+          @if (form.get('message')?.invalid && form.get('message')?.touched) {
+            <div class="error-message text-rose-600 font-tektur absolute" i18n>
+              Message is required.
+            </div>
+          }
+        </div>
+        <div
+          class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex transition-all
+                 duration-150 ease-in-out active:scale-95 cursor-pointer mt-5"
+        >
+          <button type="submit"
+                  class="send-button text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose
+                         tracking-[2.88px] transition-all duration-150 ease-in-out active:scale-95 active:shadow-lg"
+          >
             @if (pending) {
-
-              <span class="spinner-border" role="status" aria-hidden="true"></span>
-              <span class="visually-hidden" i18n>Loading...</span>
-
-            } @else {
-              <p i18n>SEND MESSAGE</p>
+              <span class="spinner-border spinner-border-sm font-tektur"></span>
+            }
+            @if (!pending) {
+              <span class="cursor-pointer font-tektur" i18n>SEND MESSAGE</span>
             }
           </button>
         </div>
-
       </div>
-
     </form>
-
   `,
   imports: [
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgClass
   ],
   host: {
     class: 'w-full bg-white py-10 flex flex-col'
@@ -114,7 +127,7 @@ import {catchError, throwError} from "rxjs";
 })
 export class ContactUsComponent implements OnInit {
 
-  public readonly options: any[] = [];
+  public options: IOption[] = [];
   public form!: FormGroup;
   public pending: boolean = false;
   public showSuccessAlert: boolean = false;
@@ -128,16 +141,24 @@ export class ContactUsComponent implements OnInit {
     this.initForm();
   }
 
-  private initOptions(): void {
-    this.options.length = 6;
+  public initOptions(): void {
+    this.options =
+      [
+        {id: 1, name: 'Regarding my donation'},
+        {id: 2, name: 'I have a car to donate'},
+        {id: 3, name: 'I\'d like to buy a car for you'},
+        {id: 4, name: 'I can help with media and promotion'},
+        {id: 5, name: 'Message of Support'},
+        {id: 6, name: 'Other'}
+      ]
   }
 
   private initForm(): void {
     this.form = this.formBuilder.group({
-      subject: [0, [Validators.required]],
-      name: [null, [Validators.required]],
-      email: [null, [Validators.required]],
-      message: [null, [Validators.required]]
+      subject: [null, [Validators.required]],
+      name: [null, [Validators.required, Validators.minLength(2)]],
+      email: [null, [Validators.required, Validators.email]],
+      message: [null, [Validators.required, Validators.minLength(5)]],
     });
   }
 
@@ -167,15 +188,15 @@ export class ContactUsComponent implements OnInit {
         subject
       }))
         .pipe(
-          catchError(error => {
+          catchError((error: HttpErrorResponse) => {
             this.stopPending();
             this.showErrorAlert = true;
-            return throwError(error);
+            return throwError(() => error);
           })
         )
         .subscribe(() => {
           this.form.reset({
-            type: 0
+            subject: null
           });
           this.stopPending();
           this.showSuccessAlert = true;
@@ -183,14 +204,6 @@ export class ContactUsComponent implements OnInit {
     } else {
       this.stopPending();
     }
-  }
-
-  /**
-   *
-   * @param controlName
-   */
-  public isRequired(controlName: string): boolean {
-    return <boolean>this.form.get(controlName)?.hasValidator(Validators.required);
   }
 }
 

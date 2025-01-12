@@ -546,35 +546,5 @@
         <target> List of languages </target>
       </segment>
     </unit>
-    <unit id="5736481176444461852">
-      <segment state="initial">
-        <source>About Us</source>
-        <target>About Us</target>
-      </segment>
-    </unit>
-    <unit id="1069885221612312172">
-      <segment state="initial">
-        <source> All the achievements this project has wouldn’t be possible without people behind it. </source>
-        <target> All the achievements this project has wouldn’t be possible without people behind it. </target>
-      </segment>
-    </unit>
-    <unit id="2081730406109376232">
-      <segment state="initial">
-        <source> People from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </source>
-        <target> People from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </target>
-      </segment>
-    </unit>
-    <unit id="419919156881207305">
-      <segment state="initial">
-        <source> Since day 1 of the full-scale invasion, our warriors require mobility. Together with over 250 volunteers from all over the globe, we are committed to serving our heroes and providing them 4x4 and other cars for as long as it takes. </source>
-        <target> Since day 1 of the full-scale invasion, our warriors require mobility. Together with over 250 volunteers from all over the globe, we are committed to serving our heroes and providing them 4x4 and other cars for as long as it takes. </target>
-      </segment>
-    </unit>
-    <unit id="2806917038528218276">
-      <segment state="initial">
-        <source>FAQ</source>
-        <target>FAQ</target>
-      </segment>
-    </unit>
   </file>
 </xliff>
