@@ -102,7 +102,7 @@ interface IOption {
           class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex transition-all
                  duration-150 ease-in-out active:scale-95 cursor-pointer mt-5"
         >
-          <button type="submit" [disabled]="form.invalid || pending"
+          <button type="submit"
                   class="send-button text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose
                          tracking-[2.88px] transition-all duration-150 ease-in-out active:scale-95 active:shadow-lg"
           >
