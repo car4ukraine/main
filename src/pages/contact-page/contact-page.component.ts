@@ -10,7 +10,6 @@ import {NgOptimizedImage} from "@angular/common";
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     ContactUsComponent,
-    NgOptimizedImage
   ],
   standalone: true
 })

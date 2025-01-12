@@ -3,6 +3,11 @@ import {FormBuilder, FormGroup, ReactiveFormsModule, Validators} from "@angular/
 import {ContactApiService} from "../../../api/contact/contact.api.service";
 import {catchError, throwError} from "rxjs";
 
+interface IOption {
+  id: number;
+  name: string;
+}
+
 @Component({
   standalone: true,
   selector: 'app-contact-us-section-component',
@@ -23,18 +28,20 @@ import {catchError, throwError} from "rxjs";
       <div class="flex flex-col gap-4">
 
         <div>
-          <label for="disabledSelect" class="form-label font-tektur text-mainColor" i18n>Select type of your inquiry</label>
+          <label for="disabledSelect" class="form-label font-tektur text-mainColor" i18n>Select type of your
+            inquiry</label>
           <select formControlName="subject" id="disabledSelect"
                   class="bg-transparent block w-full mt-0 px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur"
                   [required]="isRequired('subject')">
-            @for (option of options; track option) {
-              <option [value]="$index"></option>
+            @for (option of options; track option.id) {
+              <option [value]="option.id">{{ option.name }}</option>
             }
           </select>
         </div>
 
         <div>
-          <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-mainColor" i18n>Your Name</label>
+          <label for="pages-contact_us-form-name-input" class="form-label font-tektur text-mainColor" i18n>Your
+            Name</label>
           <input formControlName="name" type="text"
                  class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                  id="pages-contact_us-form-name-input"
@@ -42,7 +49,8 @@ import {catchError, throwError} from "rxjs";
         </div>
 
         <div>
-          <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-mainColor" i18n>Email</label>
+          <label for="pages-contact_us-form-email-input" class="form-label font-tektur text-mainColor"
+                 i18n>Email</label>
           <input formControlName="email" type="email"
                  class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                  id="pages-contact_us-form-email-input" [required]="isRequired('email')"
@@ -50,7 +58,8 @@ import {catchError, throwError} from "rxjs";
         </div>
 
         <div>
-          <label for="pages-contact_us-form-message-textarea" class="form-label font-tektur text-mainColor" i18n>Message</label>
+          <label for="pages-contact_us-form-message-textarea" class="form-label font-tektur text-mainColor"
+                 i18n>Message</label>
           <textarea formControlName="message"
                     class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
                     id="pages-contact_us-form-message-textarea"
@@ -87,13 +96,12 @@ import {catchError, throwError} from "rxjs";
           <button
             aria-label="Send"
             [disabled]="pending"
-            class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
+            class="send-button text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]
+                   transition-transform duration-100 ease-in-out active:scale-95 active:shadow-lg">
 
             @if (pending) {
-
               <span class="spinner-border" role="status" aria-hidden="true"></span>
               <span class="visually-hidden" i18n>Loading...</span>
-
             } @else {
               <p i18n>SEND MESSAGE</p>
             }
@@ -114,7 +122,7 @@ import {catchError, throwError} from "rxjs";
 })
 export class ContactUsComponent implements OnInit {
 
-  public readonly options: any[] = [];
+  public options: IOption[] = [];
   public form!: FormGroup;
   public pending: boolean = false;
   public showSuccessAlert: boolean = false;
@@ -128,8 +136,16 @@ export class ContactUsComponent implements OnInit {
     this.initForm();
   }
 
-  private initOptions(): void {
-    this.options.length = 6;
+  public initOptions(): void {
+    this.options =
+      [
+        {id: 1, name: 'Regarding my donation'},
+        {id: 2, name: 'I have a car to donate'},
+        {id: 3, name: 'I\'d like to buy a car for you'},
+        {id: 4, name: 'I can help with media and promotion'},
+        {id: 5, name: 'Message of Support'},
+        {id: 6, name: 'Other'}
+      ]
   }
 
   private initForm(): void {
