@@ -41,9 +41,7 @@
   </div>
 
   <!-- Mobile menu -->
-  <div class="lg:hidden relative z-10 transition-all duration-3000 ease-in-out" [class.max-h-0]="!isMenuOpen"
-       [class.max-h-screen]="isMenuOpen"
-       [class.overflow-hidden]="!isMenuOpen">
+  <div class="lg:hidden relative z-10">
     @if (isMenuOpen) {
       <div class="space-y-1 px-2 pb-3 pt-2 bg-gradient-to-b from-[#7b8693] to-white border-[#ccd3da]">
         <app-navigation (menuItemClicked)="closeMenu()"></app-navigation>

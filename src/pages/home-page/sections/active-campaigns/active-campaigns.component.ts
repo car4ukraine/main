@@ -21,7 +21,7 @@ import {NgClass} from "@angular/common";
     <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
 
       <div class="col-span-12">
-        <div [ngClass]="getClassByTitle()" class="text-5xl font-bold font-tektur text-[#323232]" i18n>
+        <div [ngClass]="getClassByTitle()" class="text-5xl font-bold font-tektur text-[#323232] max-lg:text-5xl" i18n>
           {{ title }}
         </div>
         <div class="col-span-8 text-xl font-tektur text-mainColor" i18n>
