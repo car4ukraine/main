@@ -37,29 +37,32 @@ import {QuickDonationComponent} from "../../common/components/quick-donation/qui
 
     <app-media-about-us-section-component/>
 
-    <app-our-work-section-component/>
+    @defer {
 
-    <app-they-bought-us-cars-section-component/>
+      <app-our-work-section-component/>
 
-    <app-active-campaigns-section-component/>
+      <app-they-bought-us-cars-section-component/>
 
-    <app-donated-vehicles-section-component/>
+      <app-active-campaigns-section-component/>
 
-    <app-how-donations-work-section-component/>
+      <app-donated-vehicles-section-component/>
 
-    <app-our-initiative-section-component/>
+      <app-how-donations-work-section-component/>
 
-    <div class="w-full flex flex-wrap justify-center p-10 gap-32 max-md:gap-0 max-md:p-16 max-md:px-2.5">
-      <img class="max-w-[1330px] w-full max-md:hidden" src="assets/images/media/tweeter.png" alt="">
-      <img class="hidden max-md:block" src="assets/images/media/twitter_mob.png" alt="">
-      <div class="max-w-[1330px] flex w-full max-md:flex-col">
-        <app-contact-us-section-component/>
-        <app-quick-donation/>
+      <app-our-initiative-section-component/>
+
+      <div class="w-full flex flex-wrap justify-center p-10 gap-32 max-md:gap-0 max-md:p-16 max-md:px-2.5">
+        <img class="max-w-[1330px] w-full max-md:hidden" src="assets/images/media/tweeter.png" alt="">
+        <img class="hidden max-md:block" src="assets/images/media/twitter_mob.png" alt="">
+        <div class="max-w-[1330px] flex w-full max-md:flex-col">
+          <app-contact-us-section-component/>
+          <app-quick-donation/>
+        </div>
       </div>
-    </div>
 
-    <!--  TODO: Fix social media section, because the section has some problem which block home page and program can replace the home page with another page  -->
-    <!--    <app-social-media-section/>-->
+      <!--  TODO: Fix social media section, because the section has some problem which block home page and program can replace the home page with another page  -->
+        <!--    <app-social-media-section/>-->
+    }
   `
 })
 export class HomePageComponent implements OnInit {
