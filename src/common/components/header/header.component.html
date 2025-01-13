@@ -1,6 +1,6 @@
 <nav class="absolute top-0 left-0 w-full">
-  <div class="mx-auto max-w-[1330px] max-sm:px-6 max-lg:px-8">
-    <div class="relative flex h-20 items-center justify-between max-lg:h-16 max-lg:p-10">
+  <div class="mx-auto max-w-[1330px] max-sm:px-6 max-xl:px-8">
+    <div class="relative flex h-20 items-center justify-between max-lg:h-16">
       <!-- Mobile menu button -->
       <div class="absolute inset-y-0 left-0 flex items-center lg:hidden">
         <button type="button"
@@ -41,7 +41,9 @@
   </div>
 
   <!-- Mobile menu -->
-  <div class="lg:hidden relative z-10">
+  <div class="lg:hidden relative z-10 transition-all duration-3000 ease-in-out" [class.max-h-0]="!isMenuOpen"
+       [class.max-h-screen]="isMenuOpen"
+       [class.overflow-hidden]="!isMenuOpen">
     @if (isMenuOpen) {
       <div class="space-y-1 px-2 pb-3 pt-2 bg-gradient-to-b from-[#7b8693] to-white border-[#ccd3da]">
         <app-navigation (menuItemClicked)="closeMenu()"></app-navigation>
