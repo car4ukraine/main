@@ -38,6 +38,10 @@ export const routes: Routes = [
 		path: 'sitemap',
 		loadComponent: () => import('../pages/sitemap-page/sitemap.page')
 	},
+	{
+		path: 'campaigns',
+		loadComponent: () => import('../pages/campaigns-page/campaigns-page')
+	},
 	// {
 	// 	path: '**',
 	// 	redirectTo: '',

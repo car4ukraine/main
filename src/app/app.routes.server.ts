@@ -37,8 +37,8 @@ export const serverRoutes: ServerRoute[] = [
     path: 'sitemap',
     renderMode: RenderMode.Prerender,
   },
-  // {
-  //   path: 'campaigns',
-  //   renderMode: RenderMode.Prerender,
-  // },
+  {
+    path: 'campaigns',
+    renderMode: RenderMode.Prerender,
+  },
 ];
