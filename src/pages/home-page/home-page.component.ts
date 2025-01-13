@@ -37,7 +37,7 @@ import {QuickDonationComponent} from "../../common/components/quick-donation/qui
 
     <app-media-about-us-section-component/>
 
-    @defer {
+    @defer (on immediate) {
 
       <app-our-work-section-component/>
 
