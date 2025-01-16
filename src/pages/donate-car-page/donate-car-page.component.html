@@ -179,7 +179,7 @@
                 value="sellDiscountCar"
                 class="form-radio"
               />
-              <span class="ml-2 font-tektur">Sell a car with discount</span>
+              <span class="ml-2 font-tektur" i18n>Sell a car with discount</span>
             </label>
           </div>
         </div>
@@ -188,7 +188,7 @@
         <div class="flex-col gap-4">
           <div [ngClass]="{'has-error': donateForm.get('name')?.invalid && donateForm.get('name')?.touched}"
                class="relative mb-6">
-            <label for="name" class="block text-gray-700 font-medium mb-2">
+            <label for="name" class="block text-gray-700 font-medium mb-2" i18n>
               Your Name
             </label>
             <input
