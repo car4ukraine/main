@@ -58,33 +58,29 @@
     </div>
     <div class="w-full">
       <div class="col-span-12">
-        <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 my-4 py-4"
-             #scrollContainer>
+        <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 my-4 py-4" #scrollContainer>
           @for (article of article; track article.videoId) {
-            <div class="grid grid-cols-12 min-w-full max-xl:flex max-xl:flex-col landscape:max-xl:flex-row">
-              <div class="col-span-6 max-md:col-span-12">
-                @if (article.videoId) {
-                  <youtube-player
-                    [videoId]="article.videoId"
-                    [width]="playerWidth()"
-                    [height]="playerHeight()"
-                  >
-                  </youtube-player>
-                  <div class="col-span-6 font-tektur max-md:col-span-12 lg:w-auto">
-                    <div class="text-base mb-4 text-[#919EAB]" [innerHTML]="article.details"></div>
-                  </div>
-                } @else {
-                  <a [href]="article.href" target="_blank">
-                    <img
-                      class="mb-6 rounded-lg  w-full text-[#919EAB]"
-                      [ngSrc]="assetsPath + article.image"
-                      [title]="article.title"
-                      [alt]="article.title"
-                      width="1216"
-                      height="550"
-                    />
-                  </a>
-                }
+            <div class="min-w-[300px] flex-shrink-0 rounded-lg p-4">
+              <div class="grid grid-cols-12 min-h-[300px]">
+                <div class="col-span-12 flex flex-col justify-between">
+                  @if (article.videoId) {
+                    <youtube-player
+                      [videoId]="article.videoId"
+                      [width]="playerWidth()"
+                      [height]="playerHeight()"
+                    ></youtube-player>
+                  } @else {
+                    <a [href]="article.href" target="_blank" class="max-w-[600px]">
+                      <img
+                        class="mb-4 rounded-lg max-w-[600px] text-[#919EAB] min-h-[390px] max-h-[390px]"
+                        [src]="assetsPath + article.image"
+                        [title]="article.title"
+                        [alt]="article.title"
+                      />
+                    </a>
+                  }
+                  <div class=" flex max-w-[600px] max-lg:max-w-[400px] text-base font-tektur text-[#919EAB] mt-2 line-clamp-3" [innerHTML]="article.details"></div>
+                </div>
               </div>
             </div>
           }
@@ -93,22 +89,32 @@
       <div class="col-span-12 mt-5">
         <div class="justify-start items-center gap-[27px] flex max-lg:flex-col max-lg:items-start">
           <div class="justify-start items-center flex gap-8 lg:w-[21%]">
-            <div (click)="prevSlide()"
-                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
-              <ng-icon class="text-white" name="heroArrowLeft"/>
+            <div
+              (click)="prevSlide()"
+              class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] "
+            >
+              <ng-icon class="text-white" name="heroArrowLeft"></ng-icon>
             </div>
             <div
-              class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">
+              class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide"
+            >
               {{ currentSlideIndex + 1 }} / {{ article.length }}
             </div>
-            <div (click)="nextSlide()"
-                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
-              <ng-icon class="text-white" name="heroArrowRight"/>
+            <div
+              (click)="nextSlide()"
+              class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] "
+            >
+              <ng-icon class="text-white" name="heroArrowRight"></ng-icon>
             </div>
           </div>
           <div class="w-full h-[3px] relative">
-            <div class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
-            <div class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]" [style.left]="getProgressPosition()"></div>
+            <div
+              class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"
+            ></div>
+            <div
+              class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]"
+              [style.left]="getProgressPosition()"
+            ></div>
           </div>
         </div>
       </div>
