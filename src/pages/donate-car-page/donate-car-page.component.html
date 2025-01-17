@@ -1,6 +1,6 @@
 <section
   class="md:px-3 lg:px-6 flex justify-center bg-gradient-to-b from-[#7B8693] to-[#DDE2E7] pt-28 pb-28 max-md:px-2 max-lg:pb-14">
-  <div class="flex max-w-[1330px] w-full justify-between max-lg:flex-col">
+  <div class="flex max-w-[1330px] w-full justify-between max-lg:flex-col gap-4">
     <div class="w-1/2 flex flex-col gap-24 max-lg:w-full">
       <div class="">
         <h1 class="font-bold max-md:text-6xl text-8xl flex font-tektur mb-2.5" i18n>
@@ -29,13 +29,14 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col">
+    <div class="flex flex-1 flex-col overflow-hidden w-full">
+<!--      [width]="playerWidth()"
+        [height]="playerHeight()"-->
       <youtube-player
+        class="[&>.youtube-player-placeholder]:aspect-[16/9] [&>.youtube-player-placeholder]:!w-full [&>.youtube-player-placeholder]:!h-full"
         [videoId]="articles[0].videoId"
-        [width]="playerWidth()"
-        [height]="playerHeight()"
-      >
-      </youtube-player>
+
+      />
       <div class="font-tektur text-base text-mainColor tracking-wider mt-2">
         Wheels Of War: The Road to Ukraine. A group of enthusiasts from the <br>
         UK and Ireland wanted to donate cars to Ukraine army and made all <br>
@@ -68,7 +69,7 @@
                       [videoId]="article.videoId"
                       [width]="playerWidth()"
                       [height]="playerHeight()"
-                    ></youtube-player>
+                    />
                   } @else {
                     <a [href]="article.href" target="_blank" class="max-w-[600px]">
                       <img
@@ -79,7 +80,9 @@
                       />
                     </a>
                   }
-                  <div class=" flex max-w-[600px] max-lg:max-w-[400px] text-base font-tektur text-[#919EAB] mt-2 line-clamp-3" [innerHTML]="article.details"></div>
+                  <div
+                    class=" flex max-w-[600px] max-lg:max-w-[400px] text-base font-tektur text-[#919EAB] mt-2 line-clamp-3"
+                    [innerHTML]="article.details"></div>
                 </div>
               </div>
             </div>
@@ -267,8 +270,9 @@
         </div>
       </form>
     </div>
-    <div class="flex w-1/2 justify-end items-end max-lg:px-2.5 max-lg:w-full">
-      <div class="bg-white max-w-[437px] w-full h-full max-h-[561px] flex justify-center flex-col items-center rounded-md p-5">
+    <div class="flex w-1/2 justify-center lg:justify-end items-end max-lg:px-2.5 max-lg:w-full">
+      <div
+        class="bg-white max-w-[437px] w-full h-full max-h-[561px] flex justify-center flex-col items-center rounded-md p-5">
         <img class="max-w-[214px]  max-h-[214px] mb-5" src="assets/images/profile.png" alt="profile">
         <p class="text-xl font-tektur text-mainColor" i18n>Ivan Oleksii</p>
         <span class="text-base font-tektur text-[#919EAB] mb-10" i18n>Marketing Director </span>
