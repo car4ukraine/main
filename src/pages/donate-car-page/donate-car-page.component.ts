@@ -130,10 +130,18 @@ export class DonateCarPageComponent implements OnInit {
   ];
 
   public readonly playerWidth: Signal<number | undefined> = computed(() => {
+    if (typeof window === 'undefined') {
+      return undefined;
+    }
+
+    const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+
     if (this.screenWidth() < 400) {
       return 350;
     } else if (this.screenWidth() < 768) {
       return 410;
+    } else if (isPortrait && this.screenWidth() >= 1024) {
+      return 490;
     }
     return undefined;
   });
