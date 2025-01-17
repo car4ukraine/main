@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
-import { PageMetaService } from '../../common/services/page-meta/page-meta.service';
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
+import {PageMetaService} from '../../common/services/page-meta/page-meta.service';
 
 @Component({
   selector: 'app-donate-page',
   templateUrl: './donate-page.component.html',
-  styleUrl: './donate-page.component.scss'
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  standalone: true
 })
 export class DonatePageComponent {
   readonly title: string = `Donate to Car for Ukraine - Volunteering Initiative`;
