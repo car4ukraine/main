@@ -1,4 +1,287 @@
-<app-hero-section></app-hero-section>
-<app-videos-section></app-videos-section>
-<app-contact-section></app-contact-section>
+<section
+  class="md:px-3 lg:px-6 flex justify-center bg-gradient-to-b from-[#7B8693] to-[#DDE2E7] pt-28 pb-28 max-md:px-2 max-lg:pb-14">
+  <div class="flex max-w-[1330px] w-full justify-between max-lg:flex-col gap-4">
+    <div class="w-1/2 flex flex-col gap-24 max-lg:w-full">
+      <div class="">
+        <h1 class="font-bold max-md:text-6xl text-8xl flex font-tektur mb-2.5" i18n>
+          DONATE CAR TO UKRAINE
+        </h1>
+        <h3 class="font-tektur flex text-mainColor text-xl lg:w-[88%]" i18n>
+          Dozens of people across EU, UK and the US have
+          donated their cars or sold them to buy cars Ukrainian
+          soldiers need right now.
+        </h3>
+      </div>
+      <div class="flex w-full gap-6 max-lg:flex-col max-lg:mb-5">
+        <div (click)="selectOption('buyCar')"
+             class="w-[286px] h-[70px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex max-lg:w-full cursor-pointer">
+          <div
+            class="text-center text-[#f7f8f7] text-2xl font-medium font-tektur leading-loose tracking-[2.88px]" i18n>
+            BUY CAR
+          </div>
+        </div>
+        <div (click)="selectOption('donateCar')"
+             class="w-[254px] h-[70px] px-[18px] border-2 border-[#1f2024] justify-center items-center gap-[7px] inline-flex max-lg:w-full cursor-pointer">
+          <div
+            class="text-center text-[#1f2024] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
+            DONATE CAR
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-1 flex-col overflow-hidden w-full">
+<!--      [width]="playerWidth()"
+        [height]="playerHeight()"-->
+      <youtube-player
+        class="[&>.youtube-player-placeholder]:aspect-[16/9] [&>.youtube-player-placeholder]:!w-full [&>.youtube-player-placeholder]:!h-full"
+        [videoId]="articles[0].videoId"
+
+      />
+      <div class="font-tektur text-base text-mainColor tracking-wider mt-2">
+        Wheels Of War: The Road to Ukraine. A group of enthusiasts from the <br>
+        UK and Ireland wanted to donate cars to Ukraine army and made all <br>
+        the way from Britain to Lviv
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-[#1F2125] flex justify-center py-28 max-lg:px-2.5 max-lg:py-14">
+  <div class="flex max-w-[1330px] w-full justify-center flex-wrap items-center md:px-3 lg:px-6">
+    <div class="w-full">
+      <h1 class="font-bold text-[58px] flex font-tektur mb-2.5 text-[#DDE2E7] max-lg:text-4xl" i18n>
+        The Road to Ukraine
+      </h1>
+      <h3 class="font-tektur flex text-[#919EAB] text-xl" i18n>
+        Dozens of people across EU, UK and the US have <br>
+        donated their cars or sold them to buy cars Ukrainian <br>
+        soldiers need right now.
+      </h3>
+    </div>
+    <div class="w-full">
+      <div class="col-span-12">
+        <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 my-4 py-4" #scrollContainer>
+          @for (article of article; track article.videoId) {
+            <div class="min-w-[300px] flex-shrink-0 rounded-lg p-4">
+              <div class="grid grid-cols-12 min-h-[300px]">
+                <div class="col-span-12 flex flex-col justify-between">
+                  @if (article.videoId) {
+                    <youtube-player
+                      [videoId]="article.videoId"
+                      [width]="playerWidth()"
+                      [height]="playerHeight()"
+                    />
+                  } @else {
+                    <a [href]="article.href" target="_blank" class="max-w-[600px]">
+                      <img
+                        class="mb-4 rounded-lg max-w-[600px] text-[#919EAB] min-h-[390px] max-h-[390px]"
+                        [src]="assetsPath + article.image"
+                        [title]="article.title"
+                        [alt]="article.title"
+                      />
+                    </a>
+                  }
+                  <div
+                    class=" flex max-w-[600px] max-lg:max-w-[400px] text-base font-tektur text-[#919EAB] mt-2 line-clamp-3"
+                    [innerHTML]="article.details"></div>
+                </div>
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+      <div class="col-span-12 mt-5">
+        <div class="justify-start items-center gap-[27px] flex max-lg:flex-col max-lg:items-start">
+          <div class="justify-start items-center flex gap-8 lg:w-[21%]">
+            <div
+              (click)="prevSlide()"
+              class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] "
+            >
+              <ng-icon class="text-white" name="heroArrowLeft"></ng-icon>
+            </div>
+            <div
+              class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide"
+            >
+              {{ currentSlideIndex + 1 }} / {{ article.length }}
+            </div>
+            <div
+              (click)="nextSlide()"
+              class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] "
+            >
+              <ng-icon class="text-white" name="heroArrowRight"></ng-icon>
+            </div>
+          </div>
+          <div class="w-full h-[3px] relative">
+            <div
+              class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"
+            ></div>
+            <div
+              class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]"
+              [style.left]="getProgressPosition()"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white flex justify-center py-28 max-lg:px-2.5 max-lg:py-14">
+  <div class="flex max-w-[1330px] w-full flex-wrap">
+    <div>
+      <p class="font-tektur text-mainColor text-[58px] font-bold max-lg:text-4xl mb-2.5" i18n>Welcome to Ukraine</p>
+      <span class="font-tektur text-mainColor text-xl" i18n>
+        People who decide to donate a car and bring it to Ukraine in person<br>
+        not only provide a very tangible donationknowing exactly where<br>
+        and how the truck is used but also get a unique opportunity to<br>
+        meet with our team in Lviv,as well as spend some time in a <br>
+        gorgeous city of Lviv followed by a great dinner and some local<br>
+        beer 🙂
+      </span>
+    </div>
+    <div>
+      <img ngSrc="assets/images/group.webp" alt="group" height="616" width="1328">
+    </div>
+  </div>
+</section>
+<section class="bg-[#F4F5F6] flex justify-center py-28 max-lg:py-14">
+  <div class="flex max-w-[1330px] w-full justify-center max-lg:flex-col">
+    <div class="p-3 bg-[#F4F5F6] w-full">
+      <h2 class="font-tektur text-mainColor text-6xl font-bold mb-2 max-lg:text-4xl" i18n>
+        Want to Donate Car to Ukraine?
+      </h2>
+      <p class="font-tektur text-xl mb-6 text-mainColor" i18n>
+        Fill up the form, and we’ll get back to you within 24 hours
+      </p>
+
+      <form [formGroup]="donateForm" (ngSubmit)="onSubmit()" class="space-y-4" #donationForm>
+        <!-- Radio Buttons -->
+        <div>
+          <label class="block text-sm uppercase text-mainColor font-medium mb-2 font-tektur" i18n>
+            How would you like to help?
+          </label>
+          <div class="flex gap-2 max-lg:flex-col">
+            <label class="flex items-center bg-[#2452DD] py-3.5 px-14 cursor-pointer max-lg:pl-3"
+                   [ngClass]="getHelpTypeClass('buyCar')">
+              <input
+                type="radio"
+                formControlName="helpType"
+                value="buyCar"
+                class="form-radio  border-[#919EAB]"
+              />
+              <span class="ml-2  text-base font-tektur" i18n>Buy a car</span>
+            </label>
+
+            <label class="flex items-center py-3.5 px-14 cursor-pointer max-lg:pl-3"
+                   [ngClass]="getHelpTypeClass('donateCar')">
+              <input
+                type="radio"
+                formControlName="helpType"
+                value="donateCar"
+                class="form-radio"
+              />
+              <span class="ml-2 font-tektur" i18n>Donate a car</span>
+            </label>
+
+            <label class="flex items-center py-3.5 px-14 cursor-pointer max-lg:pl-3"
+                   [ngClass]="getHelpTypeClass('sellDiscountCar')">
+              <input
+                type="radio"
+                formControlName="helpType"
+                value="sellDiscountCar"
+                class="form-radio"
+              />
+              <span class="ml-2 font-tektur" i18n>Sell a car with discount</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Name -->
+        <div class="flex-col gap-4">
+          <div [ngClass]="{'has-error': donateForm.get('name')?.invalid && donateForm.get('name')?.touched}"
+               class="relative mb-6">
+            <label for="name" class="block text-gray-700 font-medium mb-2" i18n>
+              Your Name
+            </label>
+            <input
+              id="name"
+              type="text"
+              formControlName="name"
+              [placeholder]="'Type'"
+              class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
+            />
+            @if (donateForm.get('name')?.invalid && donateForm.get('name')?.touched) {
+              <div class="error-message text-rose-600 font-tektur absolute" i18n>
+                Name is required.
+              </div>
+            }
+          </div>
+
+          <!-- Email -->
+          <div [ngClass]="{'has-error': donateForm.get('email')?.invalid && donateForm.get('email')?.touched}"
+               class="mb-6">
+            <label for="email" class="block text-gray-700 font-medium mb-2 font-tektur" i18n>
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              formControlName="email"
+              [placeholder]="'Type'"
+              class="bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
+            />
+            @if (donateForm.get('email')?.invalid && donateForm.get('email')?.touched) {
+              <div class="error-message text-rose-600 font-tektur absolute" i18n>
+                Name is required.
+              </div>
+            }
+          </div>
+
+          <!-- Message -->
+          <div [ngClass]="{'has-error': donateForm.get('message')?.invalid && donateForm.get('message')?.touched}"
+               class="mb-6">
+            <label for="message" class="block font-medium mb-2 font-tektur" i18n>
+              Message
+            </label>
+            <textarea
+              id="message"
+              formControlName="message"
+              [placeholder]="'Type'"
+              rows="3"
+              class="relative bg-transparent mt-0 block w-full px-0.5 border-0 border-b-2 border-[#8996A5] focus:ring-0 focus:border-black font-tektur text-[#7B8693]"
+            ></textarea>
+            @if (donateForm.get('message')?.invalid && donateForm.get('message')?.touched) {
+              <div class="error-message text-rose-600 font-tektur absolute" i18n>
+                Name is required.
+              </div>
+            }
+          </div>
+
+          <!-- Submit Button -->
+          <div
+            class="w-full h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex transition-all
+                 duration-150 ease-in-out active:scale-95 cursor-pointer mt-5"
+          >
+            <button type="submit"
+                    class="send-button text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose
+                         tracking-[2.88px] transition-all duration-150 ease-in-out active:scale-95 active:shadow-lg"
+            >
+              <span class="cursor-pointer font-tektur" i18n>SEND MESSAGE</span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="flex w-1/2 justify-center lg:justify-end items-end max-lg:px-2.5 max-lg:w-full">
+      <div
+        class="bg-white max-w-[437px] w-full h-full max-h-[561px] flex justify-center flex-col items-center rounded-md p-5">
+        <img class="max-w-[214px]  max-h-[214px] mb-5" src="assets/images/profile.png" alt="profile">
+        <p class="text-xl font-tektur text-mainColor" i18n>Ivan Oleksii</p>
+        <span class="text-base font-tektur text-[#919EAB] mb-10" i18n>Marketing Director </span>
+        <span class="font-tektur text-mainColor" i18n>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusamus doloribus earum illo ipsa, iusto maxime
+          mollitia, neque nostrum officia optio saepe sapiente similique, sit. Assumenda nam odio officia. Et, illum.
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
 <app-faq-section></app-faq-section>
