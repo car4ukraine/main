@@ -21,85 +21,85 @@
     <unit id="89970906091089947">
       <segment state="initial">
         <source>Donate</source>
-        <target>Donate</target>
+        <target>Doner</target>
       </segment>
     </unit>
     <unit id="2669721426854134893">
       <segment state="initial">
         <source> DONATE </source>
-        <target> DONATE </target>
+        <target> DONER </target>
       </segment>
     </unit>
     <unit id="5819125010421830334">
       <segment state="initial">
         <source> Contact us </source>
-        <target> Contact us </target>
+        <target> Kontakt os </target>
       </segment>
     </unit>
     <unit id="8696314672440192975">
       <segment state="initial">
         <source> Fill up the form, and we’ll get back to you within 24 hours </source>
-        <target> Fill up the form, and we’ll get back to you within 24 hours </target>
+        <target> Udfyld formularen, så vender vi tilbage til dig inden for 24 timer. </target>
       </segment>
     </unit>
     <unit id="7503803056116347460">
       <segment state="initial">
         <source>Select type of your inquiry</source>
-        <target>Select type of your inquiry</target>
+        <target>Vælg typen af din forespørgsel</target>
       </segment>
     </unit>
     <unit id="2297688463310993102">
       <segment state="initial">
         <source>Your Name</source>
-        <target>Your Name</target>
+        <target>Dit navn</target>
       </segment>
     </unit>
     <unit id="4768749765465246664">
       <segment state="initial">
         <source>Email</source>
-        <target>Email</target>
+        <target>E-mail</target>
       </segment>
     </unit>
     <unit id="8066608938393600549">
       <segment state="initial">
         <source>Message</source>
-        <target>Message</target>
+        <target>Besked</target>
       </segment>
     </unit>
     <unit id="9120531335529995692">
       <segment state="initial">
         <source> Error, check data or try later.</source>
-        <target> Error, check data or try later.</target>
+        <target> Fejl, tjek data eller prøv senere.</target>
       </segment>
     </unit>
     <unit id="3894950702316166331">
       <segment state="initial">
         <source>Loading...</source>
-        <target>Loading...</target>
+        <target>Indlæsning...</target>
       </segment>
     </unit>
     <unit id="7707990905304886819">
       <segment state="initial">
         <source>SEND MESSAGE</source>
-        <target>SEND MESSAGE</target>
+        <target>SEND BESKED</target>
       </segment>
     </unit>
     <unit id="3651165538579172203">
       <segment state="initial">
         <source>Site Map</source>
-        <target>Site Map</target>
+        <target>Kort over webstedet</target>
       </segment>
     </unit>
     <unit id="8364309938383915497">
       <segment state="initial">
         <source> Home </source>
-        <target> Home </target>
+        <target> Hjem </target>
       </segment>
     </unit>
     <unit id="1307251978584893939">
       <segment state="initial">
         <source> About us </source>
-        <target> About us </target>
+        <target> Om os </target>
       </segment>
     </unit>
     <unit id="1848675993600091944">
@@ -111,55 +111,55 @@
     <unit id="4310323778467674178">
       <segment state="initial">
         <source> Donate Car </source>
-        <target> Donate Car </target>
+        <target> Doner bil </target>
       </segment>
     </unit>
     <unit id="7530965177276291749">
       <segment state="initial">
         <source> Campaigns </source>
-        <target> Campaigns </target>
+        <target> Kampagner </target>
       </segment>
     </unit>
     <unit id="9081389459800982992">
       <segment state="initial">
         <source> Contact Us </source>
-        <target> Contact Us </target>
+        <target> Kontakt os </target>
       </segment>
     </unit>
     <unit id="8864658120410603626">
       <segment state="initial">
         <source>Campaigns</source>
-        <target>Campaigns</target>
+        <target>Kampagner</target>
       </segment>
     </unit>
     <unit id="5158249202259613043">
       <segment state="initial">
         <source> Other languages: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></source>
-        <target> Other languages: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></target>
+        <target> Andre sprog: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></target>
       </segment>
     </unit>
     <unit id="679851261531413848">
       <segment state="initial">
         <source>Follow us on</source>
-        <target>Follow us on</target>
+        <target>Følg os på</target>
       </segment>
     </unit>
     <unit id="8348478365460665907">
       <segment state="initial">
         <source>Partner NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV Institute</pc></source>
-        <target>Partner NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV Institute</pc></target>
+        <target>Partner-NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV-instituttet</pc></target>
       </segment>
     </unit>
     <unit id="3864064412424264069">
       <segment state="initial">
         <source> Legal representation in Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></source>
-        <target> Legal representation in Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></target>
+        <target> Juridisk repræsentation i Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></target>
       </segment>
     </unit>
     <unit id="8584887482763622558">
       <segment state="initial">
         <source>Powered by Ukrainian un*fckable will</source>
-        <target>Powered by Ukrainian un*fckable will</target>
+        <target>Drevet af ukrainsk un*fckable wil</target>
       </segment>
     </unit>
     <unit id="7593555694782789615">
@@ -168,43 +168,43 @@
       </notes>
       <segment state="initial">
         <source>Open</source>
-        <target>Open</target>
+        <target>Åben</target>
       </segment>
     </unit>
     <unit id="7752848848235338438">
       <segment state="initial">
         <source>Open main menu</source>
-        <target>Open main menu</target>
+        <target>Åbn hovedmenuen</target>
       </segment>
     </unit>
     <unit id="4085618859671305484">
       <segment state="initial">
         <source>Quick Donation</source>
-        <target>Quick Donation</target>
+        <target>Hurtig Donation</target>
       </segment>
     </unit>
     <unit id="8244660986474645651">
       <segment state="initial">
         <source>Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</source>
-        <target>Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</target>
+        <target>Har du et teknisk problem? Vil du sende feedback om en beta-funktion? Har du brug for detaljer om vores forretningsplan? Lad os vide det.</target>
       </segment>
     </unit>
     <unit id="1769661379068269645">
       <segment state="initial">
         <source>Your email</source>
-        <target>Your email</target>
+        <target>Din e-mail</target>
       </segment>
     </unit>
     <unit id="9127604588498960753">
       <segment state="initial">
         <source>Subject</source>
-        <target>Subject</target>
+        <target>Emne</target>
       </segment>
     </unit>
     <unit id="1391056849737890767">
       <segment state="initial">
         <source>Your message</source>
-        <target>Your message</target>
+        <target>Din besked</target>
       </segment>
     </unit>
     <unit id="935187492052582731">
@@ -213,67 +213,67 @@
       </notes>
       <segment state="initial">
         <source>Submit</source>
-        <target>Submit</target>
+        <target>Send ind</target>
       </segment>
     </unit>
     <unit id="8740036082299980043">
       <segment state="initial">
         <source>Send message</source>
-        <target>Send message</target>
+        <target>Send en besked</target>
       </segment>
     </unit>
     <unit id="759687838251957893">
       <segment state="initial">
         <source>Contact Us</source>
-        <target>Contact Us</target>
+        <target>Kontakt os</target>
       </segment>
     </unit>
     <unit id="7661266739277123343">
       <segment state="initial">
         <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What do you mean by &quot;Figma assets&quot;? </source>
-        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What do you mean by &quot;Figma assets&quot;? </target>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> Hvad mener du med &quot;Figma-aktiv&quot;? </target>
       </segment>
     </unit>
     <unit id="2714481749274100833">
       <segment state="initial">
         <source>You will have access to download the full Figma project including all of the pages, the components, responsive pages, and also the icons, illustrations, and images included in the screens.</source>
-        <target>You will have access to download the full Figma project including all of the pages, the components, responsive pages, and also the icons, illustrations, and images included in the screens.</target>
+        <target>Du får adgang til at downloade hele Figma-projektet, herunder alle siderne, komponenterne, de responsive sider og også ikonerne, illustrationerne og billederne, der er inkluderet i skærmene.</target>
       </segment>
     </unit>
     <unit id="2356023078199797848">
       <segment state="initial">
         <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does &quot;lifetime access&quot; exactly mean? </source>
-        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> What does &quot;lifetime access&quot; exactly mean? </target>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> Hvad betyder &quot;livstidsadgangs&quot; helt præcist? </target>
       </segment>
     </unit>
     <unit id="7461813655435130484">
       <segment state="initial">
         <source>Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge.</source>
-        <target>Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge.</target>
+        <target>Når du har købt enten design-, kode- eller begge pakker, får du gratis adgang til alle fremtidige opdateringer baseret på køreplanen.</target>
       </segment>
     </unit>
     <unit id="2098379320353314600">
       <segment state="initial">
         <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> How does support work? </source>
-        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> How does support work? </target>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> Hvordan fungerer støtten? </target>
       </segment>
     </unit>
     <unit id="3960229884510612301">
       <segment state="initial">
         <source>We&apos;re aware of the importance of well qualified support, that is why we decided that support will only be provided by the authors that actually worked on this project.</source>
-        <target>We&apos;re aware of the importance of well qualified support, that is why we decided that support will only be provided by the authors that actually worked on this project.</target>
+        <target>Vi &apos;er  klar over vigtigheden af velkvalificeret support, og derfor har vi besluttet, at support kun vil blive ydet af de forfattere, der rent faktisk har arbejdet på dette projekt.</target>
       </segment>
     </unit>
     <unit id="6399625817512677825">
       <segment state="initial">
         <source>Feel free to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;" dispEnd="&lt;/a&gt;">contact us</pc> and we&apos;ll help you out as soon as we can.</source>
-        <target>Feel free to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;" dispEnd="&lt;/a&gt;">contact us</pc> and we&apos;ll help you out as soon as we can.</target>
+        <target>Feel free to <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;#&quot; class=&quot;font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;" dispEnd="&lt;/a&gt;">kontakt os</pc> Vi hjælper dig, så snart vi kan.</target>
       </segment>
     </unit>
     <unit id="4182301013294593793">
       <segment state="initial">
         <source><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> I want to build more than one project. Is that allowed? </source>
-        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> I want to build more than one project. Is that allowed? </target>
+        <target><pc id="0" equivStart="START_TAG__SVG_SVG" equivEnd="CLOSE_TAG__SVG_SVG" type="other" dispStart="&lt;svg class=&quot;flex-shrink-0 mr-2 w-5 h-5 text-gray-500&quot; fill=&quot;currentColor&quot; viewBox=&quot;0 0 20 20&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;" dispEnd="&lt;/svg&gt;"><pc id="1" equivStart="START_TAG__SVG_PATH" equivEnd="CLOSE_TAG__SVG_PATH" type="other" dispStart="&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z&quot; clip-rule=&quot;evenodd&quot;&gt;" dispEnd="&lt;/path&gt;"/></pc> Jeg vil gerne bygge mere end ét projekt. Er det tilladt? </target>
       </segment>
     </unit>
     <unit id="4172205313937003447">
