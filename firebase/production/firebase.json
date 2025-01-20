@@ -9,9 +9,45 @@
     ],
     "rewrites": [
       {
+        "source": "/da{,/**}",
+        "destination": "/da/index.html"
+      },
+      {
+        "source": "/de{,/**}",
+        "destination": "/de/index.html"
+      },
+      {
+        "source": "/es{,/**}",
+        "destination": "/es/index.html"
+      },
+      {
+        "source": "/fr{,/**}",
+        "destination": "/fr/index.html"
+      },
+      {
+        "source": "/fi{,/**}",
+        "destination": "/fi/index.html"
+      },
+      {
+        "source": "/nb{,/**}",
+        "destination": "/nb/index.html"
+      },
+      {
+        "source": "/pl{,/**}",
+        "destination": "/pl/index.html"
+      },
+      {
+        "source": "/sv{,/**}",
+        "destination": "/sv/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "appAssociation": "AUTO",
+    "i18n": {
+      "root": "/"
+    }
   }
 }
