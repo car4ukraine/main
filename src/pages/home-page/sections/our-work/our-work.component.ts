@@ -8,7 +8,6 @@ import {
 } from "@angular/core";
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
-import {NgStyle} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -74,8 +73,7 @@ import {NgStyle} from "@angular/common";
     </div>
   `,
   imports: [
-    NgIcon,
-    NgStyle
+    NgIcon
   ],
   host: {
     class: `w-full bg-[#1F2125] p-10 py-24 flex flex-col items-center justify-center text-white max-md:py-20 max-md:px-2.5`
