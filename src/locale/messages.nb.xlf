@@ -161,7 +161,6 @@
         <source> CARS GIVE FREEDOM <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/> </source>
         <target> BILER GIR FRIHET <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukrainsk flagg&quot;&gt;"/> </target>
       </segment>
-    </unit>nt>
     </unit>
     <unit id="5951663334307834187">
       <segment state="initial">
@@ -282,7 +281,6 @@
         <source>CARS DEPLOYED</source>
         <target>BILER UTPLASSERT</target>
       </segment>
-    </unit>
     </unit>
     <unit id="1300661058366695056">
       <segment state="initial">
