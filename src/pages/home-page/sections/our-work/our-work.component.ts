@@ -8,6 +8,7 @@ import {
 } from "@angular/core";
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
+import {NgStyle} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -22,22 +23,26 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
   ],
   template: `
 
-    <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
+    <div class="grid grid-cols-12 gap-16  max-w-[1330px] w-full max-lg:overflow-hidden">
       <div class="col-span-12">
         <div class="text-6xl font-bold font-tektur text-[#DDE2E7]" i18n>Our Work</div>
       </div>
       <div class="col-span-6 font-tektur text-[#919EAB] text-xl max-md:col-span-10" i18n>
         Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline."
       </div>
-      <div class="col-span-12">
-        <div class="relative w-full lg:w-auto  flex gap-6 snap-x overflow-x-auto lg:h-[578px] scrollbar-hide" #scrollContainer>
+      <div class="col-span-12 mt-4">
+<!--        calc(100vw - ((100vw - 1314px) / 2))-->
+        <div class="relative w-full lg:w-auto flex gap-[6px] snap-x overflow-x-auto lg:h-[578px] scrollbar-hide max-w-[calc(100vw-20px)] min-w-[calc(100vw-20px)] min-[1330px]:max-w-[100vw] min-[1330px]:min-w-[100vw] min-[1330px]:ml-[calc(-1*((100vw-1248px)/2))]" style #scrollContainer>
           @for (file of files; track file.src) {
-            <div class="snap-center flex items-center w-full lg:w-auto shrink-0 lg:h-[578px] relative">
-              <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px] brightness-50"
-                   [src]="file.src"/>
-              <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8 max-md:px-0">
-                <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl max-md:text-xl">
-                  {{ $index }}. {{ file.title }}
+            <div class="snap-center flex items-center w-full min-[1330px]:w-auto shrink-0 max-h-[578px] {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1248px)/2))]' : '' }}">
+              <div class="relative w-full h-full">
+
+                <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px] brightness-50 h-full object-contain"
+                     [src]="file.src"/>
+                <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8 max-md:px-0">
+                  <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl max-md:text-xl">
+                    {{ $index }}. {{ file.title }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -69,7 +74,8 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
     </div>
   `,
   imports: [
-    NgIcon
+    NgIcon,
+    NgStyle
   ],
   host: {
     class: `w-full bg-[#1F2125] p-10 py-24 flex flex-col items-center justify-center text-white max-md:py-20 max-md:px-2.5`

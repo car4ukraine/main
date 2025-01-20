@@ -14,7 +14,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [ DonateCarButtonComponent, NgOptimizedImage, MainDonateButtonComponent],
   host: {
-    class: 'h-[464px] flex w-full flex-col justify-center items-center gap-10 bg-gradient-to-b from-[#7b8693] to-[#DDE2E7] border-[#ccd3da] max-md:gap-4 max-md:mb-10'
+    class: 'h-[554px] flex w-full flex-col justify-center items-center gap-12 bg-gradient-to-b from-[#7b8693] to-[#DDE2E7] border-[#ccd3da] max-md:gap-4 max-md:mb-10'
   }
 })
 export class HeroSectionComponent {

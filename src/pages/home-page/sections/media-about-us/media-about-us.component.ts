@@ -7,7 +7,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
 
-    <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full max-md:flex flex-wrap">
+    <div class="grid grid-cols-12 gap-6 max-w-[1330px] w-full max-md:flex flex-wrap">
 
       <div class="col-span-12">
         <div class="text-6xl font-bold font-tektur text-[#1F2125] max-md:text-4xl" i18n>Media About Us</div>
@@ -35,7 +35,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
 
   `,
   host: {
-    class: `w-full bg-[#EAECED] p-10 py-36 flex flex-col items-center justify-center max-md:p-16 max-md:px-2.5`
+    class: `w-full bg-[#EAECED] p-10 pb-36 pt-28 flex flex-col items-center justify-center max-md:p-16 max-md:px-2.5`
   }
 })
 export class MediaAboutUsComponent {

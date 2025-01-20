@@ -15,7 +15,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
   ],
   template: `
 
-    <div class="grid grid-cols-12 gap-4 max-w-[1330px] w-full">
+    <div class="grid grid-cols-12 gap-16  max-w-[1330px] w-full max-lg:overflow-hidden">
 
       <div class="col-span-12">
         <div class="text-6xl font-bold font-tektur text-[#DDE2E7] max-md:text-4xl" i18n>
@@ -29,11 +29,13 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
       <div class="col-span-12"></div>
 
       <div class="col-span-12">
-        <div class="relative w-full lg:w-auto flex gap-6 snap-x overflow-x-auto lg:h-[578px] scrollbar-hide" #scrollContainer>
+        <div class="relative w-full lg:w-auto flex gap-[6px] snap-x overflow-x-auto lg:h-[578px] scrollbar-hide max-w-[calc(100vw-20px)] min-w-[calc(100vw-20px)] min-[1330px]:max-w-[100vw] min-[1330px]:min-w-[100vw] min-[1330px]:ml-[calc(-1*((100vw-1248px)/2))]"
+             #scrollContainer>
           @for (file of files; track file.src) {
 
-            <div class="snap-center flex items-center w-full lg:w-auto shrink-0 lg:h-[578px]">
-              <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px]" [src]="file.src">
+            <div class="snap-center flex items-center w-full min-[1330px]:w-auto shrink-0 max-h-[578px] {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1248px)/2))]' : '' }}">
+              <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px]"
+                   [src]="file.src">
             </div>
           }
         </div>
@@ -50,7 +52,9 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
               <ng-icon name="heroArrowLeft"/>
             </div>
 
-            <div class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">{{files.length}}</div>
+            <div
+              class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">{{ files.length }}
+            </div>
 
             <div (click)="nextSlide()"
                  class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
