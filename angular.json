@@ -28,6 +28,9 @@
           "fr": {
             "translation": "src/locale/messages.fr.xlf"
           },
+          "fi": {
+            "translation": "src/locale/messages.fi.xlf"
+          },
           "nb": {
             "translation": "src/locale/messages.nb.xlf"
           },
@@ -138,6 +141,9 @@
             "fr": {
               "localize": ["fr"]
             },
+            "fi": {
+              "localize": ["fi"]
+            },
             "nb": {
               "localize": ["nb"]
             },
@@ -177,6 +183,9 @@
             "fr": {
               "buildTarget": "angular-i18n-example:build:development,fr"
             },
+            "fi": {
+              "buildTarget": "angular-i18n-example:build:development,fi"
+            },
             "nb": {
               "buildTarget": "angular-i18n-example:build:development,nb"
             },
@@ -203,6 +212,7 @@
               "messages.de.xlf",
               "messages.es.xlf",
               "messages.fr.xlf",
+              "messages.fi.xlf",
               "messages.nb.xlf",
               "messages.nl.xlf",
               "messages.pl.xlf",

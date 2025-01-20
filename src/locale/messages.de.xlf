@@ -12,115 +12,115 @@
     <unit id="2669721426854134893">
       <segment state="initial">
         <source> DONATE </source>
-        <target> DONATE </target>
+        <target> SPENDEN </target>
       </segment>
     </unit>
     <unit id="5819125010421830334">
       <segment state="initial">
         <source> Contact us </source>
-        <target> Contact us </target>
+        <target> Kontaktieren Sie uns </target>
       </segment>
     </unit>
     <unit id="8696314672440192975">
       <segment state="initial">
         <source> Fill up the form, and we’ll get back to you within 24 hours </source>
-        <target> Fill up the form, and we’ll get back to you within 24 hours </target>
+        <target> Füllen Sie das Formular aus, und wir werden uns innerhalb von 24 Stunden bei Ihnen melden </target>
       </segment>
     </unit>
     <unit id="5453402498443152168">
       <segment state="initial">
         <source> Select type of your inquiry </source>
-        <target> Select type of your inquiry </target>
+        <target> Wählen Sie die Art Ihrer Anfrage </target>
       </segment>
     </unit>
     <unit id="8253985404795100040">
       <segment state="initial">
         <source> Your Name </source>
-        <target> Your Name </target>
+        <target> Ihr Name </target>
       </segment>
     </unit>
     <unit id="7707990905304886819">
       <segment state="initial">
         <source>SEND MESSAGE</source>
-        <target>SEND MESSAGE</target>
+        <target>NACHRICHT SENDEN</target>
       </segment>
     </unit>
     <unit id="3651165538579172203">
       <segment state="initial">
         <source>Site Map</source>
-        <target>Site Map</target>
+        <target>Seitenkarte</target>
       </segment>
     </unit>
     <unit id="8364309938383915497">
       <segment state="initial">
         <source> Home </source>
-        <target> Home </target>
+        <target> Startseite </target>
       </segment>
     </unit>
     <unit id="1307251978584893939">
       <segment state="initial">
         <source> About us </source>
-        <target> About us </target>
+        <target> Über uns </target>
       </segment>
     </unit>
     <unit id="1848675993600091944">
       <segment state="initial">
         <source> FAQ </source>
-        <target> FAQ </target>
+        <target> Häufig gestellte Fragen </target>
       </segment>
     </unit>
     <unit id="4310323778467674178">
       <segment state="initial">
         <source> Donate Car </source>
-        <target> Donate Car </target>
+        <target> Auto spenden </target>
       </segment>
     </unit>
     <unit id="7530965177276291749">
       <segment state="initial">
         <source> Campaigns </source>
-        <target> Campaigns </target>
+        <target> Kampagnen </target>
       </segment>
     </unit>
     <unit id="9081389459800982992">
       <segment state="initial">
         <source> Contact Us </source>
-        <target> Contact Us </target>
+        <target> Kontaktieren Sie uns </target>
       </segment>
     </unit>
     <unit id="8864658120410603626">
       <segment state="initial">
         <source>Campaigns</source>
-        <target>Campaigns</target>
+        <target>Kampagnen</target>
       </segment>
     </unit>
     <unit id="5158249202259613043">
       <segment state="initial">
         <source> Other languages: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></source>
-        <target> Other languages: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></target>
+        <target> Andere Sprachen: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;font-tektur text-xl tex-[#1F2125]&quot;&gt;" dispEnd="&lt;/span&gt;">DA DE ES FI NB PL SU</pc></target>
       </segment>
     </unit>
     <unit id="679851261531413848">
       <segment state="initial">
         <source>Follow us on</source>
-        <target>Follow us on</target>
+        <target>Folgen Sie uns auf</target>
       </segment>
     </unit>
     <unit id="8348478365460665907">
       <segment state="initial">
         <source>Partner NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV Institute</pc></source>
-        <target>Partner NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV Institute</pc></target>
+        <target>Partner-NGO: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://av-institute.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;">AV Institute</pc></target>
       </segment>
     </unit>
     <unit id="3864064412424264069">
       <segment state="initial">
         <source> Legal representation in Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></source>
-        <target> Legal representation in Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></target>
+        <target> Rechtliche Vertretung in der Ukraine: <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://intelliasfoundation.org&quot; target=&quot;_blank&quot; class=&quot;font-semibold underline&quot;&gt;" dispEnd="&lt;/a&gt;"> Intellias Foundation for Change </pc></target>
       </segment>
     </unit>
     <unit id="8584887482763622558">
       <segment state="initial">
         <source>Powered by Ukrainian un*fckable will</source>
-        <target>Powered by Ukrainian un*fckable will</target>
+        <target>Von der unbeugsamen ukrainischen Willenskraft angetrieben</target>
       </segment>
     </unit>
     <unit id="7593555694782789615">
@@ -129,55 +129,55 @@
       </notes>
       <segment state="initial">
         <source>Open</source>
-        <target>Open</target>
+        <target>Öffnen</target>
       </segment>
     </unit>
     <unit id="7752848848235338438">
       <segment state="initial">
         <source>Open main menu</source>
-        <target>Open main menu</target>
+        <target>Hauptmenü öffnen</target>
       </segment>
     </unit>
     <unit id="4085618859671305484">
       <segment state="initial">
         <source>Quick Donation</source>
-        <target>Quick Donation</target>
+        <target>Schnelle Spende</target>
       </segment>
     </unit>
     <unit id="4776238191559675527">
       <segment state="initial">
         <source> Donated Vehicles </source>
-        <target> Donated Vehicles </target>
+        <target> Gespendete Fahrzeuge </target>
       </segment>
     </unit>
     <unit id="1637146014790901967">
       <segment state="initial">
         <source> “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car in many ways, but they all share one wish. </source>
-        <target> “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car in many ways, but they all share one wish. </target>
+        <target> „Mein Auto war zu gut, um es zu verkaufen, und ich wünsche ihm ein besseres Schicksal“ – Menschen drücken ihre Motivation, ein Auto zu spenden, auf viele Arten aus, aber sie alle teilen denselben Wunsch. </target>
       </segment>
     </unit>
     <unit id="2863573355385606334">
       <segment state="initial">
         <source> CARS GIVE FREEDOM <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/></source>
-        <target> CARS GIVE FREEDOM <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/></target>
+        <target> AUTOS GEBEN FREIHEIT <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/></target>
       </segment>
     </unit>
     <unit id="5951663334307834187">
       <segment state="initial">
         <source> We source, upgrade and deliver cars to the frontlines in Ukraine. </source>
-        <target> We source, upgrade and deliver cars to the frontlines in Ukraine. </target>
+        <target> Wir beschaffen, rüsten auf und liefern Autos an die Frontlinien in der Ukraine. </target>
       </segment>
     </unit>
     <unit id="1179467567286219752">
       <segment state="initial">
         <source> Hundreds of people from every corner of the globe have bough for us, donated or sold their cars to give wheels to our warriors. </source>
-        <target> Hundreds of people from every corner of the globe have bough for us, donated or sold their cars to give wheels to our warriors. </target>
+        <target> Hunderte von Menschen aus allen Teilen der Welt haben für uns gekauft, gespendet oder ihre Autos verkauft, um unseren Kriegern Räder zu geben. </target>
       </segment>
     </unit>
     <unit id="8713592270969885498">
       <segment state="initial">
         <source> A car donation saves up to 75% of the cost, leaving only logistics, armoring, and maintenance to cover. More than half of the cars we deploy come as direct donations, and this number is growing. Check these incredible stories. </source>
-        <target> A car donation saves up to 75% of the cost, leaving only logistics, armoring, and maintenance to cover. More than half of the cars we deploy come as direct donations, and this number is growing. Check these incredible stories. </target>
+        <target> Eine Fahrzeugspende spart bis zu 75 % der Kosten, so dass nur noch die Kosten für Logistik, Panzerung und Wartung anfallen. Mehr als die Hälfte der von uns eingesetzten Fahrzeuge werden direkt gespendet, und diese Zahl steigt weiter. Lesen Sie diese unglaublichen Geschichten. </target>
       </segment>
     </unit>
     <unit id="2093653791441885355">
@@ -189,163 +189,163 @@
     <unit id="6677971768887468813">
       <segment state="initial">
         <source>Media About Us</source>
-        <target>Media About Us</target>
+        <target>Medien über uns</target>
       </segment>
     </unit>
     <unit id="3925234057189672630">
       <segment state="initial">
         <source> Every story published brings us one step closer to our shared victory. Thank you! </source>
-        <target> Every story published brings us one step closer to our shared victory. Thank you! </target>
+        <target> Jede veröffentlichte Geschichte bringt uns einen Schritt näher an unseren gemeinsamen Sieg. Vielen Dank! </target>
       </segment>
     </unit>
     <unit id="1356347849930095315">
       <segment state="initial">
         <source> Our Initiative </source>
-        <target> Our Initiative </target>
+        <target> Unsere Initiative </target>
       </segment>
     </unit>
     <unit id="3286655922675407435">
       <segment state="initial">
         <source> All the achievements this project has wouldn’t be possible with people behind it. </source>
-        <target> All the achievements this project has wouldn’t be possible with people behind it. </target>
+        <target> Alle Erfolge dieses Projekts wären ohne die Menschen dahinter nicht möglich. </target>
       </segment>
     </unit>
     <unit id="6632033636649533060">
       <segment state="initial">
         <source> People from from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </source>
-        <target> People from from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </target>
+        <target> Menschen aus völlig unterschiedlichen Branchen wie IT, Logistik, Bildung oder Medien-PR haben sich mit einer gemeinsamen Mission und einem gemeinsamen Wunsch vereint. </target>
       </segment>
     </unit>
     <unit id="3627897773142576264">
       <segment state="initial">
         <source>Since day 1 of the full scale invasion our warriors require mobility. Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide them 4x4 and other cars for as long as it takes. </source>
-        <target>Since day 1 of the full scale invasion our warriors require mobility. Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide them 4x4 and other cars for as long as it takes. </target>
+        <target> Seit dem ersten Tag der groß angelegten Invasion benötigen unsere Krieger Mobilität. Gemeinsam mit über 250 Freiwilligen aus der ganzen Welt sind wir verpflichtet, unseren Helden zu dienen und sie so lange wie nötig mit 4x4- und anderen Fahrzeugen zu versorgen. </target>
       </segment>
     </unit>
     <unit id="620557263762073868">
       <segment state="initial">
         <source> MEET OUR TEAM </source>
-        <target> MEET OUR TEAM </target>
+        <target> LERNEN SIE UNSER TEAM KENNEN </target>
       </segment>
     </unit>
     <unit id="4880653135119148048">
       <segment state="initial">
         <source> since </source>
-        <target> since </target>
+        <target> seit </target>
       </segment>
     </unit>
     <unit id="2997432401345838579">
       <segment state="initial">
         <source> volonteers </source>
-        <target> volonteers </target>
+        <target> Freiwillige </target>
       </segment>
     </unit>
     <unit id="8720853126160623548">
       <segment state="initial">
         <source> countries </source>
-        <target> countries </target>
+        <target> Länder </target>
       </segment>
     </unit>
     <unit id="2664763808281857421">
       <segment state="initial">
         <source> cars delivered </source>
-        <target> cars delivered </target>
+        <target> Autos geliefert </target>
       </segment>
     </unit>
     <unit id="3351281020249926408">
       <segment state="initial">
         <source> WORTH OF TRUCKS </source>
-        <target> WORTH OF TRUCKS </target>
+        <target> WERT DER LKW </target>
       </segment>
     </unit>
     <unit id="2550047917032205584">
       <segment state="initial">
         <source>Our Work</source>
-        <target>Our Work</target>
+        <target>Unsere Arbeit</target>
       </segment>
     </unit>
     <unit id="9177704080762791977">
       <segment state="initial">
         <source> Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline.&quot; </source>
-        <target> Each car goes through a long process of logistics, armoring, and servicing before reaching the frontline.&quot; </target>
+        <target> Jedes Auto durchläuft einen langen Prozess von Logistik, Panzerung und Wartung, bevor es die Frontlinie erreicht.&quot; </target>
       </segment>
     </unit>
     <unit id="1756286064562600907">
       <segment state="initial">
         <source> Since 2022 we’ve been asking our soldiers what they need the most. Some need drones, other medical equipment, but the one common need for every unit no matter where they serve are reliable cars. </source>
-        <target> Since 2022 we’ve been asking our soldiers what they need the most. Some need drones, other medical equipment, but the one common need for every unit no matter where they serve are reliable cars. </target>
+        <target> Seit 2022 fragen wir unsere Soldaten, was sie am dringendsten benötigen. Einige brauchen Drohnen, andere medizinische Ausrüstung, aber das eine gemeinsame Bedürfnis jeder Einheit, egal wo sie dienen, sind zuverlässige Fahrzeuge. </target>
       </segment>
     </unit>
     <unit id="8844410652970249401">
       <segment state="initial">
         <source>CARS DEPLOYED</source>
-        <target>CARS DEPLOYED</target>
+        <target>AUTOS EINGESETZT</target>
       </segment>
     </unit>
     <unit id="1300661058366695056">
       <segment state="initial">
         <source>WORTH OF CARS</source>
-        <target>WORTH OF CARS</target>
+        <target>WERT DER AUTOS</target>
       </segment>
     </unit>
     <unit id="152810346592921686">
       <segment state="initial">
         <source> They Bought Us Cars </source>
-        <target> They Bought Us Cars </target>
+        <target> Sie haben uns Autos gekauft </target>
       </segment>
     </unit>
     <unit id="3282333930793029501">
       <segment state="initial">
         <source> From every corner of the globe people come to Ukraine in person to stand with us and show their support. </source>
-        <target> From every corner of the globe people come to Ukraine in person to stand with us and show their support. </target>
+        <target> Aus allen Ecken der Welt kommen Menschen persönlich in die Ukraine, um mit uns zu stehen und ihre Unterstützung zu zeigen. </target>
       </segment>
     </unit>
     <unit id="5389855581875642030">
       <segment state="initial">
         <source>THEY MADE IT!</source>
-        <target>THEY MADE IT!</target>
+        <target>SIE HABEN ES GESCHAFFT!</target>
       </segment>
     </unit>
     <unit id="3665084015746850306">
       <segment state="initial">
         <source>WILL YOU?</source>
-        <target>WILL YOU?</target>
+        <target>WERDEN SIE?</target>
       </segment>
     </unit>
     <unit id="5513884155699547224">
       <segment state="initial">
         <source> BUY PICKUP TRUCK </source>
-        <target> BUY PICKUP TRUCK </target>
+        <target> PICKUP-TRUCK KAUFEN </target>
       </segment>
     </unit>
     <unit id="6690813934469184660">
       <segment state="initial">
         <source> List of languages </source>
-        <target> List of languages </target>
+        <target> Sprachenliste </target>
       </segment>
     </unit>
     <unit id="5736481176444461852">
       <segment state="initial">
         <source>About Us</source>
-        <target>About Us</target>
+        <target>Über uns</target>
       </segment>
     </unit>
     <unit id="1069885221612312172">
       <segment state="initial">
         <source> All the achievements this project has wouldn’t be possible without people behind it. </source>
-        <target> All the achievements this project has wouldn’t be possible without people behind it. </target>
+        <target> Alle Erfolge dieses Projekts wären ohne die Menschen dahinter nicht möglich. </target>
       </segment>
     </unit>
     <unit id="2081730406109376232">
       <segment state="initial">
         <source> People from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </source>
-        <target> People from totally different industries like IT or logistics, education or media PR have united with a common mission and a common wish. </target>
+        <target> Menschen aus völlig unterschiedlichen Branchen wie IT, Logistik, Bildung oder Medien-PR haben sich mit einer gemeinsamen Mission und einem gemeinsamen Wunsch zusammengeschlossen. </target>
       </segment>
     </unit>
     <unit id="419919156881207305">
       <segment state="initial">
         <source> Since day 1 of the full-scale invasion, our warriors require mobility. Together with over 250 volunteers from all over the globe, we are committed to serving our heroes and providing them 4x4 and other cars for as long as it takes. </source>
-        <target> Since day 1 of the full-scale invasion, our warriors require mobility. Together with over 250 volunteers from all over the globe, we are committed to serving our heroes and providing them 4x4 and other cars for as long as it takes. </target>
+        <target> Seit dem ersten Tag der groß angelegten Invasion benötigen unsere Krieger Mobilität. Gemeinsam mit über 250 Freiwilligen aus der ganzen Welt sind wir verpflichtet, unseren Helden zu dienen und sie so lange wie nötig mit 4x4- und anderen Fahrzeugen zu versorgen. </target>
       </segment>
     </unit>
     <unit id="2806917038528218276">
@@ -357,37 +357,37 @@
     <unit id="1949458548846720872">
       <segment state="initial">
         <source> Subject is required. </source>
-        <target> Subject is required. </target>
+        <target> Betreff ist erforderlich. </target>
       </segment>
     </unit>
     <unit id="3323415564519831786">
       <segment state="initial">
         <source> Name is required. </source>
-        <target> Name is required. </target>
+        <target> Name ist erforderlich. </target>
       </segment>
     </unit>
     <unit id="7817163188308824825">
       <segment state="initial">
         <source> Email </source>
-        <target> Email </target>
+        <target> E-Mail </target>
       </segment>
     </unit>
     <unit id="3227417515282483649">
       <segment state="initial">
         <source> Valid email is required. </source>
-        <target> Valid email is required. </target>
+        <target> Eine gültige E-Mail-Adresse ist erforderlich. </target>
       </segment>
     </unit>
     <unit id="3181866262913879267">
       <segment state="initial">
         <source> Message </source>
-        <target> Message </target>
+        <target> Nachricht </target>
       </segment>
     </unit>
     <unit id="7438395578410553030">
       <segment state="initial">
         <source> Message is required. </source>
-        <target> Message is required. </target>
+        <target> Nachricht ist erforderlich. </target>
       </segment>
     </unit>
     <unit id="3016409759898406728">
@@ -399,139 +399,139 @@
     <unit id="4326551561167692252">
       <segment state="initial">
         <source>Marketing Director </source>
-        <target>Marketing Director </target>
+        <target>Marketing-Direktor </target>
       </segment>
     </unit>
     <unit id="4174663680919291876">
       <segment state="initial">
         <source> Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusamus doloribus earum illo ipsa, iusto maxime mollitia, neque nostrum officia optio saepe sapiente similique, sit. Assumenda nam odio officia. Et, illum. </source>
-        <target> Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusamus doloribus earum illo ipsa, iusto maxime mollitia, neque nostrum officia optio saepe sapiente similique, sit. Assumenda nam odio officia. Et, illum. </target>
+        <target> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus doloribus earum illo ipsa, iusto maxime mollitia, neque nostrum officia optio saepe sapiente similique, sit. Assumenda nam odio officia. Et, illum. </target>
       </segment>
     </unit>
     <unit id="601655721480069213">
       <segment state="initial">
         <source> DONATE CAR TO UKRAINE </source>
-        <target> DONATE CAR TO UKRAINE </target>
+        <target> AUTO FÜR DIE UKRAINE SPENDEN </target>
       </segment>
     </unit>
     <unit id="9210653897093087320">
       <segment state="initial">
         <source> Dozens of people across EU, UK and the US have <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> donated their cars or sold them to buy cars Ukrainian <ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> soldiers need right now. </source>
-        <target> Dozens of people across EU, UK and the US have <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> donated their cars or sold them to buy cars Ukrainian <ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> soldiers need right now. </target>
+        <target> Dutzende Menschen in der EU, Großbritannien und den USA haben <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> ihre Autos gespendet oder verkauft, um Autos zu kaufen, die die ukrainischen <ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> Soldaten jetzt dringend benötigen. </target>
       </segment>
     </unit>
     <unit id="3829979464827375716">
       <segment state="initial">
         <source> BUY CAR </source>
-        <target> BUY CAR </target>
+        <target> AUTO KAUFEN </target>
       </segment>
     </unit>
     <unit id="4129728652360280861">
       <segment state="initial">
         <source> The Road to Ukraine </source>
-        <target> The Road to Ukraine </target>
+        <target> Der Weg in die Ukraine </target>
       </segment>
     </unit>
     <unit id="361130481426942297">
       <segment state="initial">
         <source>Welcome to Ukraine</source>
-        <target>Welcome to Ukraine</target>
+        <target>Willkommen in der Ukraine</target>
       </segment>
     </unit>
     <unit id="1031663256384971949">
       <segment state="initial">
         <source> People who decide to donate a car and bring it to Ukraine in person<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> not only provide a very tangible donationknowing exactly where<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> and how the truck is used but also get a unique opportunity to<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> meet with our team in Lviv,as well as spend some time in a <ph id="3" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> gorgeous city of Lviv followed by a great dinner and some local<ph id="4" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> beer 🙂 </source>
-        <target> People who decide to donate a car and bring it to Ukraine in person<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> not only provide a very tangible donationknowing exactly where<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> and how the truck is used but also get a unique opportunity to<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> meet with our team in Lviv,as well as spend some time in a <ph id="3" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> gorgeous city of Lviv followed by a great dinner and some local<ph id="4" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> beer 🙂 </target>
+        <target> Menschen, die sich entscheiden, ein Auto zu spenden und es persönlich in die Ukraine zu bringen<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> leisten nicht nur eine sehr greifbare Spende, da sie genau wissen,<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> wo und wie das Fahrzeug genutzt wird, sondern erhalten auch die einzigartige Gelegenheit,<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> unser Team in Lwiw zu treffen sowie Zeit in der<ph id="3" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> wunderschönen Stadt Lwiw zu verbringen, gefolgt von einem großartigen Abendessen und lokalem<ph id="4" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> Bier 🙂 </target>
       </segment>
     </unit>
     <unit id="581438244357338227">
       <segment state="initial">
         <source> Want to Donate Car to Ukraine? </source>
-        <target> Want to Donate Car to Ukraine? </target>
+        <target> Möchten Sie ein Auto für die Ukraine spenden? </target>
       </segment>
     </unit>
     <unit id="6233910700269360449">
       <segment state="initial">
         <source> How would you like to help? </source>
-        <target> How would you like to help? </target>
+        <target> Wie möchten Sie helfen? </target>
       </segment>
     </unit>
     <unit id="607021701142967133">
       <segment state="initial">
         <source>Buy a car</source>
-        <target>Buy a car</target>
+        <target>Ein Auto kaufen</target>
       </segment>
     </unit>
     <unit id="2231079011129624910">
       <segment state="initial">
         <source>Donate a car</source>
-        <target>Donate a car</target>
+        <target>Ein Auto spenden</target>
       </segment>
     </unit>
     <unit id="4550662820510406352">
       <segment state="initial">
         <source>Sell a car with discount</source>
-        <target>Sell a car with discount</target>
+        <target>Ein Auto mit Rabatt verkaufen</target>
       </segment>
     </unit>
     <unit id="1213984092902720728">
       <segment state="initial">
         <source> How can I donate my car to Ukraine? </source>
-        <target> How can I donate my car to Ukraine? </target>
+        <target> Wie kann ich mein Auto in die Ukraine spenden? </target>
       </segment>
     </unit>
     <unit id="296032205142186953">
       <segment state="initial">
         <source> You can donate car to Ukraine with us. Please fill up the form and we’ll get back to you within 24 hours. We focus mainly on pickup trucks and 4x4 cars, but other means of transportation such as vans, and civilian cars are accepted as soldiers also move around and have different tasks for which wheels are needed. </source>
-        <target> You can donate car to Ukraine with us. Please fill up the form and we’ll get back to you within 24 hours. We focus mainly on pickup trucks and 4x4 cars, but other means of transportation such as vans, and civilian cars are accepted as soldiers also move around and have different tasks for which wheels are needed. </target>
+        <target> Sie können mit uns ein Auto in die Ukraine spenden. Bitte füllen Sie das Formular aus, und wir werden uns innerhalb von 24 Stunden bei Ihnen melden. Wir konzentrieren uns hauptsächlich auf Pickup-Trucks und 4x4-Fahrzeuge, aber auch andere Transportmittel wie Transporter und Zivilfahrzeuge werden akzeptiert, da Soldaten mobil sein müssen und verschiedene Aufgaben haben, für die Fahrzeuge benötigt werden. </target>
       </segment>
     </unit>
     <unit id="2548200942222516599">
       <segment state="initial">
         <source> How to donate to Ukraine army? </source>
-        <target> How to donate to Ukraine army? </target>
+        <target> Wie kann man der ukrainischen Armee spenden? </target>
       </segment>
     </unit>
     <unit id="4364898115640475085">
       <segment state="initial">
         <source> You can donate to Ukraine army with Car for Ukraine, where we focus specifically on cars for the army. Pickup trucks, 4x4 cars, vans, etc. If you wish to donate your car, please fill up the form, and we’ll get back to you within 24 hours.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> To support the army financially, you can donate here supporting our initiative or check out Come Back Alive organization who helps Ukraine with various projects. </source>
-        <target> You can donate to Ukraine army with Car for Ukraine, where we focus specifically on cars for the army. Pickup trucks, 4x4 cars, vans, etc. If you wish to donate your car, please fill up the form, and we’ll get back to you within 24 hours.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> To support the army financially, you can donate here supporting our initiative or check out Come Back Alive organization who helps Ukraine with various projects. </target>
+        <target> Sie können der ukrainischen Armee mit Car for Ukraine spenden, wobei wir uns speziell auf Autos für die Armee konzentrieren. Pickup-Trucks, 4x4-Fahrzeuge, Transporter usw. Wenn Sie Ihr Auto spenden möchten, füllen Sie bitte das Formular aus, und wir werden uns innerhalb von 24 Stunden bei Ihnen melden.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> Um die Armee finanziell zu unterstützen, können Sie hier unsere Initiative unterstützen oder sich die Organisation Come Back Alive ansehen, die die Ukraine mit verschiedenen Projekten unterstützt. </target>
       </segment>
     </unit>
     <unit id="2524786438199550120">
       <segment state="initial">
         <source> How to donate a car to charity? </source>
-        <target> How to donate a car to charity? </target>
+        <target> Wie kann man ein Auto für wohltätige Zwecke spenden? </target>
       </segment>
     </unit>
     <unit id="6398979675328933046">
       <segment state="initial">
         <source> You can donate a car to charity with Car for Ukraine. We focus on providing the Ukrainian army with means of transportation which includes both lethal and humanitarian needs, such as evacuating people from war zones, bringing food and water, etc. </source>
-        <target> You can donate a car to charity with Car for Ukraine. We focus on providing the Ukrainian army with means of transportation which includes both lethal and humanitarian needs, such as evacuating people from war zones, bringing food and water, etc. </target>
+        <target> Sie können ein Auto für wohltätige Zwecke mit Car for Ukraine spenden. Wir konzentrieren uns darauf, der ukrainischen Armee Transportmittel bereitzustellen, die sowohl tödliche als auch humanitäre Bedürfnisse abdecken, wie die Evakuierung von Menschen aus Kriegsgebieten, das Bringen von Lebensmitteln und Wasser usw. </target>
       </segment>
     </unit>
     <unit id="2871710760780196720">
       <segment state="initial">
         <source> What vehicles do you need? </source>
-        <target> What vehicles do you need? </target>
+        <target> Welche Fahrzeuge benötigen Sie? </target>
       </segment>
     </unit>
     <unit id="691465991163508434">
       <segment state="initial">
         <source>We focus on mobile combat groups who need 4-wheel drive diesel trucks with 2.0l engines or more. These are some of the best options: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500. Besides pickup trucks, 4x4 cars and vans as well as simple civilian vehicles are required too for various missions, e.g. aid delivery, food supplies, etc. </source>
-        <target>We focus on mobile combat groups who need 4-wheel drive diesel trucks with 2.0l engines or more. These are some of the best options: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500. Besides pickup trucks, 4x4 cars and vans as well as simple civilian vehicles are required too for various missions, e.g. aid delivery, food supplies, etc. </target>
+        <target>Wir konzentrieren uns auf mobile Kampfgruppen, die Allrad-Dieseltrucks mit 2,0-Liter-Motoren oder mehr benötigen. Hier sind einige der besten Optionen: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500. Neben Pickup-Trucks werden auch 4x4-Fahrzeuge, Transporter sowie einfache Zivilfahrzeuge für verschiedene Missionen wie Hilfslieferungen, Lebensmittelversorgung usw. benötigt. </target>
       </segment>
     </unit>
     <unit id="3845857221775678409">
       <segment state="initial">
         <source> Do I have to bring the car personally to Ukraine? </source>
-        <target> Do I have to bring the car personally to Ukraine? </target>
+        <target> Muss ich das Auto persönlich in die Ukraine bringen? </target>
       </segment>
     </unit>
     <unit id="2391747982262893069">
       <segment state="initial">
         <source> No, we can pickup your car anywhere in Europe or UK. But we’ll be also happy to assist you with all the paperwork if you decide to come in person. </source>
-        <target> No, we can pickup your car anywhere in Europe or UK. But we’ll be also happy to assist you with all the paperwork if you decide to come in person. </target>
+        <target> Nein, wir können Ihr Auto überall in Europa oder Großbritannien abholen. Aber wir helfen Ihnen auch gerne bei allen Formalitäten, wenn Sie sich entscheiden, persönlich zu kommen. </target>
       </segment>
     </unit>
     <unit id="7708270344948043036">
@@ -542,6 +542,12 @@
         <target>
           <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/>
         </target>
+      </segment>
+    </unit>
+    <unit id="5261353468005780335">
+      <segment state="initial">
+        <source> Dozens of people across EU, UK and the US have donated their cars or sold them to buy cars Ukrainian soldiers need right now. </source>
+        <target> Dutzende von Menschen in der EU, im Vereinigten Königreich und in den USA haben ihre Autos gespendet oder verkauft, um Autos zu kaufen, die die ukrainischen Soldaten gerade jetzt brauchen. </target>
       </segment>
     </unit>
   </file>
