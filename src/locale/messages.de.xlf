@@ -237,7 +237,7 @@
     <unit id="2997432401345838579">
       <segment state="initial">
         <source> volonteers </source>
-         <target> Freiwillige </target>
+        <target> Freiwillige </target>
       </segment>
     </unit>
     <unit id="8720853126160623548">
@@ -279,7 +279,7 @@
     <unit id="8844410652970249401">
       <segment state="initial">
         <source>CARS DEPLOYED</source>
-         <target>AUTOS EINGESETZT</target>
+        <target>AUTOS EINGESETZT</target>
       </segment>
     </unit>
     <unit id="1300661058366695056">
@@ -327,7 +327,7 @@
     <unit id="5736481176444461852">
       <segment state="initial">
         <source>About Us</source>
-         <target>Über uns</target>
+        <target>Über uns</target>
       </segment>
     </unit>
     <unit id="1069885221612312172">
@@ -357,7 +357,7 @@
     <unit id="1949458548846720872">
       <segment state="initial">
         <source> Subject is required. </source>
-         <target> Betreff ist erforderlich. </target>
+        <target> Betreff ist erforderlich. </target>
       </segment>
     </unit>
     <unit id="3323415564519831786">
@@ -542,6 +542,12 @@
         <target>
           <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/>
         </target>
+      </segment>
+    </unit>
+    <unit id="5261353468005780335">
+      <segment state="initial">
+        <source> Dozens of people across EU, UK and the US have donated their cars or sold them to buy cars Ukrainian soldiers need right now. </source>
+        <target> Dutzende von Menschen in der EU, im Vereinigten Königreich und in den USA haben ihre Autos gespendet oder verkauft, um Autos zu kaufen, die die ukrainischen Soldaten gerade jetzt brauchen. </target>
       </segment>
     </unit>
   </file>

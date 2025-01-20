@@ -125,7 +125,7 @@
     </unit>
     <unit id="7593555694782789615">
       <notes>
-        <note category="description">Öppna</note>
+        <note category="description">Open</note>
       </notes>
       <segment state="initial">
         <source>Open</source>
@@ -494,6 +494,60 @@
         <target>
           <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/>
         </target>
+      </segment>
+    </unit>
+    <unit id="5261353468005780335">
+      <segment state="initial">
+        <source> Dozens of people across EU, UK and the US have donated their cars or sold them to buy cars Ukrainian soldiers need right now. </source>
+        <target> Dussintals människor i EU, Storbritannien och USA har donerat sina bilar eller sålt dem för att köpa bilar som ukrainska soldater behöver just nu. </target>
+      </segment>
+    </unit>
+    <unit id="2548200942222516599">
+      <segment state="initial">
+        <source> How to donate to Ukraine army? </source>
+        <target> Hur donerar man till Ukrainas armé? </target>
+      </segment>
+    </unit>
+    <unit id="4364898115640475085">
+      <segment state="initial">
+        <source> You can donate to Ukraine army with Car for Ukraine, where we focus specifically on cars for the army. Pickup trucks, 4x4 cars, vans, etc. If you wish to donate your car, please fill up the form, and we’ll get back to you within 24 hours.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> To support the army financially, you can donate here supporting our initiative or check out Come Back Alive organization who helps Ukraine with various projects. </source>
+        <target> Du kan donera till Ukrainas armé med Car for Ukraine, där vi fokuserar specifikt på bilar för armén. Pickupbilar, 4x4-bilar, skåpbilar, etc. Om du vill donera din bil, vänligen fyll i formuläret, så återkommer vi inom 24 timmar.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> För att stödja armén ekonomiskt kan du donera här och stödja vårt initiativ eller kolla in organisationen Come Back Alive som hjälper Ukraina med olika projekt. </target>
+      </segment>
+    </unit>
+    <unit id="2524786438199550120">
+      <segment state="initial">
+        <source> How to donate a car to charity? </source>
+        <target> Hur donerar man en bil till välgörenhet? </target>
+      </segment>
+    </unit>
+    <unit id="6398979675328933046">
+      <segment state="initial">
+        <source> You can donate a car to charity with Car for Ukraine. We focus on providing the Ukrainian army with means of transportation which includes both lethal and humanitarian needs, such as evacuating people from war zones, bringing food and water, etc. </source>
+        <target> Du kan donera en bil till välgörenhet med Car for Ukraine. Vi fokuserar på att förse den ukrainska armén med transportmedel som inkluderar både dödliga och humanitära behov, såsom att evakuera människor från krigsområden, leverera mat och vatten, etc. </target>
+      </segment>
+    </unit>
+    <unit id="2871710760780196720">
+      <segment state="initial">
+        <source> What vehicles do you need? </source>
+        <target> Vilka fordon behöver ni? </target>
+      </segment>
+    </unit>
+    <unit id="691465991163508434">
+      <segment state="initial">
+        <source>We focus on mobile combat groups who need 4-wheel drive diesel trucks with 2.0l engines or more. These are some of the best options: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500. Besides pickup trucks, 4x4 cars and vans as well as simple civilian vehicles are required too for various missions, e.g. aid delivery, food supplies, etc. </source>
+        <target>Vi fokuserar på mobila stridsgrupper som behöver fyrhjulsdrivna dieselbilar med motorer på 2,0 liter eller mer. Här är några av de bästa alternativen: Toyota Hilux / Tundra, Mitsubishi L200, Ford Ranger, Nissan Navara/KingCab, Isuzu D-Max, Mazda BT-50 / Mazda B2500. Förutom pickupbilar behövs också 4x4-bilar, skåpbilar och enkla civila fordon för olika uppdrag, t.ex. hjälpleveranser, matförsörjning, etc. </target>
+      </segment>
+    </unit>
+    <unit id="3845857221775678409">
+      <segment state="initial">
+        <source> Do I have to bring the car personally to Ukraine? </source>
+        <target> Måste jag personligen leverera bilen till Ukraina? </target>
+      </segment>
+    </unit>
+    <unit id="2391747982262893069">
+      <segment state="initial">
+        <source> No, we can pickup your car anywhere in Europe or UK. But we’ll be also happy to assist you with all the paperwork if you decide to come in person. </source>
+        <target> Nej, vi kan hämta din bil var som helst i Europa eller Storbritannien. Men vi hjälper dig gärna med allt pappersarbete om du bestämmer dig för att komma personligen. </target>
       </segment>
     </unit>
   </file>

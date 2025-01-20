@@ -158,7 +158,7 @@
     </unit>
     <unit id="2863573355385606334">
       <segment state="initial">
-        <source> CARS GIVE FREEDOM <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/> </source>
+        <source> CARS GIVE FREEDOM <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukraine Flag&quot;&gt;"/></source>
         <target> BILER GIR FRIHET <ph id="0" equiv="TAG_IMG" type="image" disp="&lt;img ngSrc=&quot;assets/images/ukraine-flag.svg&quot; class=&quot;max-md:absolute bottom-[14%] right-[10%]&quot; height=&quot;26&quot; width=&quot;47&quot; alt=&quot;Ukrainsk flagg&quot;&gt;"/> </target>
       </segment>
     </unit>
@@ -532,6 +532,22 @@
       <segment state="initial">
         <source> No, we can pickup your car anywhere in Europe or UK. But we’ll be also happy to assist you with all the paperwork if you decide to come in person. </source>
         <target> Nei, vi kan hente bilen din hvor som helst i Europa eller Storbritannia. Men vi hjelper deg gjerne med alt papirarbeidet hvis du bestemmer deg for å komme personlig. </target>
+      </segment>
+    </unit>
+    <unit id="5261353468005780335">
+      <segment state="initial">
+        <source> Dozens of people across EU, UK and the US have donated their cars or sold them to buy cars Ukrainian soldiers need right now. </source>
+        <target> Flere titalls mennesker i EU, Storbritannia og USA har donert eller solgt bilene sine for å kjøpe biler som ukrainske soldater trenger akkurat nå. </target>
+      </segment>
+    </unit>
+    <unit id="7708270344948043036">
+      <segment state="initial">
+        <source>
+          <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/>
+        </source>
+        <target>
+          <ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/>
+        </target>
       </segment>
     </unit>
   </file>

@@ -544,5 +544,11 @@
         </target>
       </segment>
     </unit>
+    <unit id="5261353468005780335">
+      <segment state="initial">
+        <source> Dozens of people across EU, UK and the US have donated their cars or sold them to buy cars Ukrainian soldiers need right now. </source>
+        <target> Dziesiątki osób w UE, Wielkiej Brytanii i USA przekazało swoje samochody lub sprzedało je, aby kupić samochody, których ukraińscy żołnierze potrzebują teraz. </target>
+      </segment>
+    </unit>
   </file>
 </xliff>
