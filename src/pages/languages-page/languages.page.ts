@@ -60,6 +60,11 @@ export class LanguagesPage {
       name: 'Svenska',
       href: '/sv',
       code: 'sv'
+    },
+    {
+      name: 'Suomalainen',
+      href: '/fi',
+      code: 'fi'
     }
   ];
 
