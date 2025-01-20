@@ -37,6 +37,11 @@ export class LanguagesPage {
       code: 'es'
     },
     {
+      name: 'Suomalainen',
+      href: '/fi',
+      code: 'fi'
+    },
+    {
       name: 'Français',
       href: '/fr',
       code: 'fr'
@@ -60,11 +65,6 @@ export class LanguagesPage {
       name: 'Svenska',
       href: '/sv',
       code: 'sv'
-    },
-    {
-      name: 'Suomalainen',
-      href: '/fi',
-      code: 'fi'
     }
   ];
 
