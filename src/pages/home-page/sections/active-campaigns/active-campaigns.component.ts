@@ -41,7 +41,18 @@ import {NgClass} from "@angular/common";
                       <div class="mt-1 text-gray-500 font-tektur max-xl:line-clamp-3"
                            [innerHTML]="campaign.description | safe: 'html'"></div>
                     </div>
-                    <app-main-donate-button/>
+                    <div class="grid grid-cols-2 gap-2">
+                      <div>
+                        <app-main-donate-button [href]="campaign.url"/>
+                      </div>
+                      <div>
+                        <a [href]="campaign.url" class="min-w-full w-full h-[70px] border-2 border-[#1f2024] justify-center items-center gap-[7px] inline-flex cursor-pointer">
+                          <div class="text-center uppercase text-[#1f2024] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
+                            Learn more
+                          </div>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               }
