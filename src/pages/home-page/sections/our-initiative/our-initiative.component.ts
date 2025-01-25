@@ -19,21 +19,20 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
         possible with people behind it.
       </div>
       <div class="col-span-12"></div>
-      <div class="col-span-12 lg:col-span-5 justify-center flex flex-col gap-8">
+      <div class="col-span-12 lg:col-span-5 justify-center flex flex-col gap-4">
         <div class="font-tektur max-w-md text-mainColor text-base" i18n>
           People from from totally different industries like IT or logistics, education or media PR have united with a
           common mission and a common wish.
         </div>
-        <div class="col-span-2"></div>
         <div class="font-tektur max-w-md text-mainColor text-base" i18n>Since day 1 of the full scale invasion our warriors require mobility.
           Together with over 250 volunteers from all over the globe we are committed to serve our heroes and provide
           them 4x4 and other cars for as long as it takes.
         </div>
         <button aria-label="Open" i18n-aria-label="Open"
-          class="w-[312px] h-[66px] px-[18px] border-2 border-[#1f2024] justify-center items-center gap-[7px] inline-flex">
-          <div class="text-center text-[#1f2024] text-2xl font-medium font-tektur leading-loose tracking-[2.88px] cursor-pointer" i18n>
+          class="md:mt-8 w-[312px] h-[66px] px-[18px] border-2 border-[#1f2024] justify-center items-center gap-[7px] inline-flex">
+          <a href="/about" target="_self" class="text-center text-[#1f2024] text-2xl font-medium font-tektur leading-loose tracking-[2.88px] cursor-pointer" i18n>
             MEET OUR TEAM
-          </div>
+          </a>
         </button>
       </div>
       <div class="col-span-7 max-md:col-span-12 portrait:max-xl:col-span-12">
