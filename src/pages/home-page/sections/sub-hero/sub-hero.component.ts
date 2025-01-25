@@ -50,7 +50,7 @@ import {IMetric} from "../../../../api/metric/i.metric.response";
 
   `,
   host: {
-    class: `w-full p-10 py-12 bg-white flex flex-col items-center justify-center max-md:px-2.5 mb-12`
+    class: `w-full md:p-10 md:py-12 bg-white flex flex-col items-center justify-center max-md:px-2.5 mb-12`
   }
 })
 export class SubHeroComponent implements OnInit {
