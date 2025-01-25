@@ -19,11 +19,11 @@ import {NgOptimizedImage} from "@angular/common";
       </div>
 
       <div class="col-span-3 flex flex-col items-center font-tektur max-md:order-1">
-        <div class="text-6xl font-bold text-[#323232]">473</div>
+        <div class="text-5xl md:text-6xl font-bold text-[#323232]">473</div>
         <div class="text-mainColor font-medium text-sm" i18n>CARS DEPLOYED</div>
       </div>
       <div class="col-span-3 flex flex-col items-center font-tektur max-md:order-2 max-md:items-start">
-        <div class="text-6xl font-bold text-[#323232] max-md:text-6xl">$3.84M</div>
+        <div class="text-5xl md:text-6xl font-bold text-[#323232]">$3.84M</div>
         <div class="text-mainColor font-medium text-sm" i18n>WORTH OF CARS</div>
       </div>
 
