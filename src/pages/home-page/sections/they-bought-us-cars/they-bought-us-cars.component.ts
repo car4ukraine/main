@@ -37,7 +37,7 @@ import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
         <div class="relative flex w-full overflow-x-auto scrollbar-hide gap-6 border-t-2 border-[#535353] my-4 py-4"
              #scrollContainer>
           @for (article of articles; track article.videoId) {
-            <div class="grid grid-cols-12 min-w-full max-xl:flex max-xl:flex-col landscape:max-xl:flex-row">
+            <div class="grid grid-cols-12 gap-4 min-w-full max-xl:flex max-xl:flex-col landscape:max-xl:flex-row">
               <div class="col-span-6 font-tektur max-md:col-span-12 lg:w-auto">
                 <div class="text-[30px] font-bold mb-4 text-[#1F2125]">
                   {{ article.title }}
@@ -50,8 +50,7 @@ import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
                     [videoId]="article.videoId"
                     [width]="playerWidth()"
                     [height]="playerHeight()"
-                  >
-                  </youtube-player>
+                  />
                 } @else {
                   <a [href]="article.href" target="_blank">
                     <img
@@ -128,6 +127,19 @@ export class TheyBoughtUsCarsComponent implements OnInit {
     image: string
     videoId?: string;
   }> = [
+    {
+      title: 'From Australia to Lviv',
+      details: `
+        To celebrate her 70-year-old anniversary Claire decided to drive 1,200 miles from UK to donate 4x4s to Ukrainian forces
+
+        Forces News has spoken to an Australian vet and conservationist who has donated six pick-ups to the Ukrainian military and has just driven one from London to Lviv herself.
+
+        Since the start of the war in February 2022, Dr Claire Oelrichs has bought half a dozen pick-ups – paid for with her own money and through fundraising.
+      `,
+      href: 'https://www.youtube.com/watch?v=dxH5qpn7KLs&t=1s',
+      image: '',
+      videoId: 'dxH5qpn7KLs',
+    },
     {
       title: 'Adam from USA',
       details: 'Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers.',
