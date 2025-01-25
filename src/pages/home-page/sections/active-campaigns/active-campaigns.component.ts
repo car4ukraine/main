@@ -32,7 +32,7 @@ import {NgClass} from "@angular/common";
         <div class="container">
           <div class="flex flex-wrap gap-4 pb-4 justify-center">
             @if (campaigns) {
-              @for (campaign of (route.url === '/' ? campaigns.data.slice(0, 3) : campaigns.data); track campaign.id) {
+              @for (campaign of (route.url === '/' ? campaigns.slice(0, 3) : campaigns); track campaign.id) {
                 <div class="max-w-[422px] w-full flex flex-col bg-white rounded-xl max-md:bg-[#EAECED]">
                   <img class="w-full h-[237px] rounded-xl" [src]="campaign.photo_url" alt="Card Image"/>
                   <div class="flex flex-col h-full justify-between">
@@ -76,7 +76,7 @@ export class ActiveCampaignsComponent implements OnInit {
   private readonly campaignApiService = inject(CampaignApiService);
   private readonly campaignWidgetSingleApiService = inject(CampaignWidgetSingleApiService);
   private readonly changeDetectorRef = inject(ChangeDetectorRef);
-  protected campaigns: ICampaignResponse | null = null;
+  protected campaigns: ICampaignResponse['data'] | null = null;
   protected readonly route = inject(Router);
   public title: string = 'Active Campaigns';
   public description: string = 'It’s hard to help everyone but we do our best. Join a campaign you like and help us help these warriors.';
@@ -84,7 +84,7 @@ export class ActiveCampaignsComponent implements OnInit {
   public ngOnInit() {
     this.campaignApiService.documents().subscribe({
       next: (documents) => {
-        this.campaigns = documents;
+        this.campaigns = documents.data.filter((campaign) => campaign.active);
         this.changeDetectorRef.detectChanges();
       },
       error: (error) => {

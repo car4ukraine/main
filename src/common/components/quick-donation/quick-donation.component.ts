@@ -10,7 +10,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
     <div>
       <iframe src="https://donorbox.org/embed/power-the-frontline?language=en-us" name="donorbox"
               allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no"
-              height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"
+              height="900px" width="100%" style="max-width: 100%; min-width: 100%; max-height:none!important"
               allow="payment">
       </iframe>
     </div>
