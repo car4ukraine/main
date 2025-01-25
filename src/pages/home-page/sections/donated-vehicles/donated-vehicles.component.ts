@@ -22,18 +22,20 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
           Donated Vehicles
         </div>
       </div>
-      <div class="col-span-6 font-tektur max-md:col-span-12 max-md:text-[#919EAB] max-md:text-xl" i18n>
+      <div class="col-span-6 font-tektur max-md:col-span-12 text-[#919EAB] max-md:text-xl" i18n>
         “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car
         in many ways, but they all share one wish.
       </div>
       <div class="col-span-12"></div>
 
       <div class="col-span-12">
-        <div class="relative w-full lg:w-auto flex gap-[6px] snap-x overflow-x-auto lg:h-[578px] scrollbar-hide max-w-[calc(100vw-20px)] min-w-[calc(100vw-20px)] min-[1330px]:max-w-[100vw] min-[1330px]:min-w-[100vw] min-[1330px]:ml-[calc(-1*((100vw-1248px)/2))]"
-             #scrollContainer>
+        <div
+          class="relative w-full lg:w-auto flex gap-[6px] snap-x overflow-x-auto lg:h-[578px] scrollbar-hide max-w-[calc(100vw-20px)] min-w-[calc(100vw-20px)] min-[1330px]:max-w-[100vw] min-[1330px]:min-w-[100vw] min-[1330px]:ml-[calc(-1*((100vw-1248px)/2))]"
+          #scrollContainer>
           @for (file of files; track file.src) {
 
-            <div class="snap-center flex items-center w-full min-[1330px]:w-auto shrink-0 max-h-[578px] {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1248px)/2))]' : '' }}">
+            <div
+              class="snap-center flex items-center w-full min-[1330px]:w-auto shrink-0 max-h-[578px] {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1248px)/2))]' : '' }}">
               <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px]"
                    [src]="file.src">
             </div>
@@ -47,19 +49,21 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 
           <div class="justify-start items-center flex gap-8">
 
-            <div (click)="prevSlide()"
-                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
+            <button (click)="prevSlide()"
+                    role="button"
+                    class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
               <ng-icon name="heroArrowLeft"/>
-            </div>
+            </button>
 
             <div
               class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">{{ files.length }}
             </div>
 
-            <div (click)="nextSlide()"
-                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
+            <button (click)="nextSlide()"
+                    role="button"
+                    class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
               <ng-icon name="heroArrowRight"/>
-            </div>
+            </button>
 
           </div>
 

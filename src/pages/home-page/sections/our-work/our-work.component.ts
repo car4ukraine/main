@@ -40,7 +40,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
                      [src]="file.src"/>
                 <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8 max-md:px-0">
                   <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl max-md:text-xl">
-                    {{ $index }}. {{ file.title }}
+                    {{ $index + 1 }}. {{ file.title }}
                   </div>
                 </div>
               </div>
@@ -52,17 +52,19 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
       <div class="col-span-12">
         <div class="justify-start items-center gap-[27px] flex">
           <div class="justify-start items-center flex gap-8">
-            <div (click)="prevSlide()"
-                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
+            <button (click)="prevSlide()"
+                    role="button"
+                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
               <ng-icon name="heroArrowLeft"/>
-            </div>
+            </button>
             <div
               class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">{{ files.length }}
             </div>
-            <div (click)="nextSlide()"
-                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] ">
+            <button (click)="nextSlide()"
+                    role="button"
+                 class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
               <ng-icon name="heroArrowRight"/>
-            </div>
+            </button>
           </div>
           <div class="w-full h-[3px] relative">
             <div class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
@@ -83,27 +85,27 @@ export class OurWorkComponent implements AfterViewInit {
 
   public readonly files = [
     {
-      src: 'assets/images/home/donated-vehicles/v-01.jpg',
+      src: 'assets/images/our-work/1.png',
       title: `We source cars in the EU and UK`
     },
     {
-      src: 'assets/images/home/donated-vehicles/v-02.jpg',
+      src: 'assets/images/our-work/2.png',
       title: `Deliver trucks to Ukraine`
     },
     {
-      src: 'assets/images/home/donated-vehicles/v-03.jpg',
+      src: 'assets/images/our-work/3.png',
       title: `Repair and install armor`
     },
     {
-      src: 'assets/images/home/donated-vehicles/v-04.jpg',
+      src: 'assets/images/our-work/4.png',
       title: `Paint and Brand`
     },
     {
-      src: 'assets/images/home/donated-vehicles/v-05.jpg',
+      src: 'assets/images/our-work/5.png',
       title: `Deliver to the frontlines`
     },
     {
-      src: 'assets/images/home/donated-vehicles/h-06.jpg',
+      src: 'assets/images/our-work/6.png',
       title: `Repeat...`
     },
   ];
@@ -141,39 +143,8 @@ export class OurWorkComponent implements AfterViewInit {
   }
 
   public ngAfterViewInit() {
-    // this.onScroll();
   }
 
-  // public onScroll() {
-  //   console.log('onScroll')
-  //   const container = this.scrollContainer.nativeElement as HTMLDivElement;
-  //   const containerRect = container.getBoundingClientRect();
-  //
-  //   for (let i = 0; i < container.children.length; i++) {
-  //
-  //     const item = container.children.item(i);
-  //
-  //     if (!item) {
-  //       continue;
-  //     }
-  //
-  //     const itemRect = item.getBoundingClientRect();
-  //
-  //     // Check horizontal visibility
-  //     const isVisible =
-  //       itemRect.left >= containerRect.left &&
-  //       itemRect.right <= containerRect.right;
-  //
-  //     if (isVisible) {
-  //       console.log(`Item visible: ${item.textContent}`);
-  //     } else {
-  //       if (this.firstInvisibleItemIndex === -1) {
-  //         this.firstInvisibleItemIndex = i;
-  //       }
-  //     }
-  //
-  //   }
-  // }
   public getProgressPosition(): string {
     if (this.currentSlideIndex >= this.files.length - 1) {
       return `calc(100% - 10%)`;
