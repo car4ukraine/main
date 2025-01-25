@@ -12,7 +12,7 @@ import {
   templateUrl: './hero-section.component.html',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [ DonateCarButtonComponent, NgOptimizedImage, MainDonateButtonComponent],
+  imports: [DonateCarButtonComponent, NgOptimizedImage, MainDonateButtonComponent],
   host: {
     class: 'h-[554px] flex w-full flex-col justify-center items-center gap-12 bg-gradient-to-b from-[#7b8693] to-[#DDE2E7] border-[#ccd3da] max-md:gap-4 max-md:mb-10'
   }
@@ -20,23 +20,4 @@ import {
 export class HeroSectionComponent {
   public readonly title: string = 'At the Volunteering Initiative Car for Ukraine'
   public readonly description: string = 'We accept, upgrade, and deliver donated vehicles to the frontlines in Ukraine.'
-  public readonly metrics: Array<{
-    name: string,
-    value: number,
-    prefix: string,
-    postfix: string
-  }> = [
-    {
-      name: 'Cars Delivered',
-      value: 417,
-      prefix: '',
-      postfix: ''
-    },
-    {
-      name: 'Worth of Cars',
-      value: 3.3,
-      prefix: '$',
-      postfix: 'M+'
-    },
-  ]
 }
