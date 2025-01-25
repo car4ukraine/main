@@ -142,7 +142,11 @@ export class TheyBoughtUsCarsComponent implements OnInit {
     },
     {
       title: 'Adam from USA',
-      details: 'Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers.',
+      details: `
+        Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers.
+
+        Pickup trucks are versatile vehicles popular in rural areas of Britain. Today, many of them left their bucolic homes to improve the mobility of the Ukrainian troops in the Donetsk region. We follow one of the donors — Adam in his trip to frontline Kramatorsk to deliver the car he donated and find out his motivation and impressions after being this close to the frontline
+      `,
       href: 'https://www.youtube.com/watch?v=z8pCibdfCkY',
       image: '1-adam.jpg',
       videoId: 'z8pCibdfCkY',
