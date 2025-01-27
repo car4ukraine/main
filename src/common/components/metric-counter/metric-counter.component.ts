@@ -1,13 +1,16 @@
 import {
   AfterViewInit,
   Component,
-  ElementRef, input,
+  ElementRef,
+  inject,
+  input,
   Input,
+  PLATFORM_ID,
   Renderer2,
   ViewChild,
   ViewEncapsulation
 } from '@angular/core';
-import { CurrencyPipe } from "@angular/common";
+import {CurrencyPipe, isPlatformServer} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -24,7 +27,7 @@ import { CurrencyPipe } from "@angular/common";
   }
 })
 export class MetricCounterComponent implements AfterViewInit {
-  @ViewChild('metricCounterElement', { static: true }) metricCounterElement!: ElementRef;
+  @ViewChild('metricCounterElement', {static: true}) metricCounterElement!: ElementRef;
 
   @Input()
   public value = 1000;
@@ -37,13 +40,19 @@ export class MetricCounterComponent implements AfterViewInit {
 
   public currency = input<string | null>();
 
-  constructor(private renderer: Renderer2) {}
+  private readonly renderer = inject(Renderer2);
+  private readonly platformId = inject(PLATFORM_ID);
 
   ngAfterViewInit(): void {
     this.animateCounter();
   }
 
   animateCounter() {
+
+    if (isPlatformServer(this.platformId)) {
+      return;
+    }
+
     const counter = this.metricCounterElement.nativeElement;
     const totalValue = this.value;
     const duration = this.speed;

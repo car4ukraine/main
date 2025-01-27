@@ -36,7 +36,7 @@ import {ChangeDetectionStrategy, Component, ViewEncapsulation} from "@angular/co
         </button>
       </div>
       <div class="col-span-7 max-md:col-span-12 portrait:max-xl:col-span-12">
-        <img class="w-full h-[500px] max-md:h-auto rounded-lg" src="assets/images/team.jpg" alt=""/>
+        <img class="w-full h-[500px] max-md:h-auto rounded-lg object-cover" src="assets/images/team.jpg" alt=""/>
       </div>
 
       <div class="col-span-12 p-8 gap-8 mt-12 bg-[#1f2024] rounded-xl flex flex-wrap justify-around items-center [&>div>div]:font-tektur [&>div]:max-md:w-full">

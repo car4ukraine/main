@@ -1,16 +1,24 @@
-import {Injectable, Renderer2, RendererFactory2} from '@angular/core';
+import {inject, Injectable, PLATFORM_ID, Renderer2, RendererFactory2} from '@angular/core';
+import {isPlatformServer} from "@angular/common";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ScriptLoaderService {
+
   private renderer: Renderer2;
 
-  constructor(rendererFactory: RendererFactory2) {
-    this.renderer = rendererFactory.createRenderer(null, null);
+  private readonly rendererFactory: RendererFactory2 = inject(RendererFactory2);
+  private readonly platformId = inject(PLATFORM_ID);
+
+  public constructor() {
+    this.renderer = this.rendererFactory.createRenderer(null, null);
   }
 
   loadScript(src: string, id: string, attributes?: { [key: string]: string }): void {
+    if (isPlatformServer(this.platformId)) {
+      return;
+    }
     if (!document.getElementById(id)) {
       const script = this.renderer.createElement('script');
       script.type = 'text/javascript';

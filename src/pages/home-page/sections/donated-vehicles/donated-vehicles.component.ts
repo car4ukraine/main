@@ -23,6 +23,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
         </div>
       </div>
       <div class="col-span-6 font-tektur max-md:col-span-12 text-[#919EAB] max-md:text-xl" i18n>
+TODO: FIX WIDTH!!!!
         “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car
         in many ways, but they all share one wish.
       </div>
