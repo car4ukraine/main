@@ -7,7 +7,7 @@ import {
   signal,
   ViewEncapsulation
 } from "@angular/core";
-import {isPlatformServer, NgOptimizedImage} from "@angular/common";
+import {isPlatformServer} from "@angular/common";
 import {MetricCounterComponent} from "../../../../common/components/metric-counter/metric-counter.component";
 import {MetricApiService} from "../../../../api/metric/metric.api.service";
 import {IMetric} from "../../../../api/metric/i.metric.response";
@@ -17,7 +17,6 @@ import {CurrencyShortenPipe} from "../../../../common/pipe/currency-shorten.pipe
   standalone: true,
   selector: 'app-sub-hero-section-component',
   imports: [
-    NgOptimizedImage,
     MetricCounterComponent,
     CurrencyShortenPipe
   ],

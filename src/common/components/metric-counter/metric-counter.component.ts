@@ -10,7 +10,7 @@ import {
   ViewChild,
   ViewEncapsulation
 } from '@angular/core';
-import {CurrencyPipe, isPlatformServer} from "@angular/common";
+import { isPlatformServer} from "@angular/common";
 
 @Component({
   standalone: true,
@@ -20,7 +20,7 @@ import {CurrencyPipe, isPlatformServer} from "@angular/common";
   `,
   encapsulation: ViewEncapsulation.None,
   imports: [
-    CurrencyPipe
+
   ],
   host: {
     class: 'flex'
