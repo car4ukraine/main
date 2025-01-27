@@ -132,11 +132,11 @@ export class TheyBoughtUsCarsComponent implements OnInit {
     {
       title: 'From Australia to Lviv',
       details: `
-        To celebrate her 70-year-old anniversary Claire decided to drive 1,200 miles from UK to donate 4x4s to Ukrainian forces
+        <p>To celebrate her 70-year-old anniversary Claire decided to drive 1,200 miles from UK to donate 4x4s to Ukrainian forces.</p>
 
-        Forces News has spoken to an Australian vet and conservationist who has donated six pick-ups to the Ukrainian military and has just driven one from London to Lviv herself.
+<p>Claire is an Australian vet and conservationist who has donated six pick-ups to the Ukrainian military but thought it's not enough and she should come to Ukraine in person. Forces News has made a story about her adventure.</p>
 
-        Since the start of the war in February 2022, Dr Claire Oelrichs has bought half a dozen pick-ups – paid for with her own money and through fundraising.
+<p>Since the start of the war in February 2022, Dr Claire Oelrichs has bought half a dozen pick-ups – paid for with her own money and through fundraising.</p>
       `,
       href: 'https://www.youtube.com/watch?v=dxH5qpn7KLs&t=1s',
       image: '',
@@ -149,28 +149,48 @@ export class TheyBoughtUsCarsComponent implements OnInit {
 
         Pickup trucks are versatile vehicles popular in rural areas of Britain. Today, many of them left their bucolic homes to improve the mobility of the Ukrainian troops in the Donetsk region. We follow one of the donors — Adam in his trip to frontline Kramatorsk to deliver the car he donated and find out his motivation and impressions after being this close to the frontline
       `,
-      href: 'https://www.youtube.com/watch?v=z8pCibdfCkY',
+      href: 'https://youtu.be/dxH5qpn7KLs?si=a2RPQfhLy9lIwEdL',
       image: '1-adam.jpg',
+      videoId: 'dxH5qpn7KLs',
+    },
+    {
+      title: 'Adam from USA',
+      details: `
+      <p>Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers. </p>
+
+<p>Pickup trucks are versatile vehicles popular in rural areas of Britain. Today, many of them left their civilian lives to improve the mobility of the Ukrainian troops in the Donetsk region.</p>
+
+<p>United24 has followed one of the donors — Adam in his trip to frontline Kramatorsk to deliver the car he donated and find out his motivation and impressions after being this close to the frontline</p>
+      `,
+      href: 'https://www.youtube.com/watch?v=z8pCibdfCkY',
+      image: '3-british-business.jpg',
       videoId: 'z8pCibdfCkY',
     },
     {
       title: 'British Business Bought us Truck',
-      details: 'UK\'s SUV Prestige dealership purchased an L200 pickup, organized a volunteer convoy to Lviv, and toured shops and the city, creating a compelling story.',
-      href: 'https://www.youtube.com/watch?v=G6rE1wfWpT8',
-      image: '3-british-business.jpg',
-      videoId: 'G6rE1wfWpT8',
+      details: `
+      <p>UK's dealership SUV Prestige has decided to contribute to the defence of Ukraine and purchased an L200 pickup.</p>
+
+<p>After that Harry with his teammates organized a convoy to Lviv, creating a compelling story.</p>
+
+<p>This video is not only about how they traveled but also about the feelings and emotions of people as well as why they do what they do.</p>
+      `,
+      href: 'https://www.youtube.com/channel/UCgdCYMJ37njKA2glQm0F-tA',
+      image: '4-edward-and-hugh.jpg',
+      videoId: 'UCgdCYMJ37njKA2glQm0F',
     },
     {
-      title: 'Edward and Hugh from South Africa',
-      details: 'Born in South Africa and raised in a British-Canadian community, Edward and Hugh personally brought a pickup truck that now defends Ukraine in the East.',
-      href: 'https://twitter.com/carforukraine/status/1743748880808779951',
-      image: '4-edward-and-hugh.jpg'
-    },
-    {
-      title: 'Martin Buhr - Vacation in Ukraine',
-      details: 'Excited to help Ukraine firsthand, Martin spent his September 2023 vacation bringing a truck to aid in demining efforts.',
-      href: 'https://tallmartin.substack.com/p/coda-my-truck-heads-to-the-russo?utm_source=profile&utm_medium=reader2',
-      image: '2-martin-buhr.jpg'
+      title: 'Dutch and Germans come to rescue',
+      details: `
+      <p>A group of supporters from Germany and the Netherlands, led by Niels and Josh decided to scale up their efforts by organizing an entire convoy of cars to support Ukraine.</p>
+
+<p>They raised funds themselves and received some vehicles as direct donations. Together, they organized a convoy, delivering not only vital cars but also food, clothing, and other essential supplies.</p>
+
+<p>This mission perfectly combined the Dutch spirit of "having fun" with the German approach of "sticking to the schedule," resulting in a successful and impactful journey.</p>
+      `,
+      href: 'https://www.youtube.com/watch?v=1YF1-5_MRlw',
+      image: '2-martin-buhr.jpg',
+      videoId: '1YF1-5_MRlw',
     },
   ];
 
