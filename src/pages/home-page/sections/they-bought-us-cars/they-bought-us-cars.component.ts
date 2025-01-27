@@ -9,6 +9,7 @@ import {NgIcon, provideIcons} from "@ng-icons/core";
 import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 import {YouTubePlayer} from "@angular/youtube-player";
 import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
+import {RouterLink} from "@angular/router";
 
 @Component({
   standalone: true,
@@ -98,10 +99,10 @@ import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
           </div>
           <div
             class="max-w-[429px] lg:flex-1 h-[69px] px-[18px] bg-[#1f2024] justify-center items-center gap-[7px] inline-flex ">
-            <div class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px] max-xl:text-xl"
+            <a routerLink="/donate-car" class="text-center text-[#f7f8f7] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px] max-xl:text-xl"
                  i18n>
               BUY PICKUP TRUCK
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -110,7 +111,8 @@ import {isPlatformBrowser, NgOptimizedImage} from "@angular/common";
   imports: [
     NgIcon,
     YouTubePlayer,
-    NgOptimizedImage
+    NgOptimizedImage,
+    RouterLink
   ],
   host: {
     class: `w-full bg-white p-10 py-36 flex flex-col gap-8 items-center justify-center max-md:py-16 max-md:px-2.5 max-xl:pb-0`
