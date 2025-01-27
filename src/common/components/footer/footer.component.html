@@ -9,10 +9,10 @@
           <img src="assets/images/LogoXL.png" alt="logo">
         </div>
       </a>
-      <div class="col-span-full max-md:col-span-12 lg:col-span-2 flex-col justify-between max-md:order-2">
+      <div class="lg:col-span-2 w-full flex-col justify-between max-md:order-2">
         <a href="#" class="py-1.5 items-center max-lg:hidden">
-          <div class="flex  items-center rounded-lg text-emerald-600">
-            <img src="assets/images/LogoXL.png" alt="logo">
+          <div class="flex items-center rounded-lg text-emerald-600">
+            <img src="assets/images/LogoXL.png" class="w-[286px]" alt="logo">
           </div>
         </a>
         <div class="grid grid-cols-2 mt-12 max-md:flex max-md:flex-col max-md:mt-4 max-md:gap-6">
@@ -63,38 +63,137 @@
               </li>
             </ul>
           </div>
-          <div class="[&>ul>li>a]:font-tektur [&>ul>li>a]:text-mainColor">
-            <h2 class="text-base font-semibold font-tektur mb-4 uppercase max-md:mb-3" i18n>Campaigns</h2>
-            <ul class="space-y-2 text-base">
-              <li>
-                <a
-                  routerLink="/campaign/power-frontline"
-                  class="hover:text-gray-800 transition duration-300">
-                  Power the Frontline with Your Support
-                </a>
-              </li>
-              <li>
-                <a
-                  routerLink="/campaign/5-trucks"
-                  class="hover:text-gray-800 transition duration-300">
-                  5 Trucks for Medics in Kharkiv
-                </a>
-              </li>
-              <li>
-                <a
-                  routerLink="/campaign/4-superpowered-trucks"
-                  class="hover:text-gray-800 transition duration-300">
-                  4 Superpowered Trucks
-                </a>
-              </li>
-              <li>
-                <a
-                  routerLink="/campaign/david-knowles"
-                  class="hover:text-gray-800 transition duration-300">
-                  Honoring the Life of David Knowles
-                </a>
-              </li>
-            </ul>
+<!--          <div class="[&>ul>li>a]:font-tektur [&>ul>li>a]:text-mainColor">-->
+<!--            <h2 class="text-base font-semibold font-tektur mb-4 uppercase max-md:mb-3" i18n>Campaigns</h2>-->
+<!--            <ul class="space-y-2 text-base">-->
+<!--              <li>-->
+<!--                <a-->
+<!--                  routerLink="/campaign/power-frontline"-->
+<!--                  class="hover:text-gray-800 transition duration-300">-->
+<!--                  Power the Frontline with Your Support-->
+<!--                </a>-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                <a-->
+<!--                  routerLink="/campaign/5-trucks"-->
+<!--                  class="hover:text-gray-800 transition duration-300">-->
+<!--                  5 Trucks for Medics in Kharkiv-->
+<!--                </a>-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                <a-->
+<!--                  routerLink="/campaign/4-superpowered-trucks"-->
+<!--                  class="hover:text-gray-800 transition duration-300">-->
+<!--                  4 Superpowered Trucks-->
+<!--                </a>-->
+<!--              </li>-->
+<!--              <li>-->
+<!--                <a-->
+<!--                  routerLink="/campaign/david-knowles"-->
+<!--                  class="hover:text-gray-800 transition duration-300">-->
+<!--                  Honoring the Life of David Knowles-->
+<!--                </a>-->
+<!--              </li>-->
+<!--            </ul>-->
+<!--          </div>-->
+          <div class="flex flex-col gap-4 max-md:w-full max-md:flex-wrap max-md:justify-between">
+            <p class="text-base font-semibold font-tektur  uppercase max-md:mb-3" i18n>Follow us on</p>
+            <a href="https://www.youtube.com/@carforukraine"
+               target="_blank" class="flex gap-2 hover:underline transition-all"
+               title="Link to Car for Ukraine YouTube Page">
+              <svg class="w-6 h-6 max-md:w-14 max-md:h-14 bi bi-youtube" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path fill="#3D4650" d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+              </svg>
+              &#64;carforukraine
+            </a>
+            <a href="https://bsky.app/profile/carforukraine.bsky.social"
+               target="_blank"
+               class="flex gap-2 hover:underline transition-all"
+               title="Link to Car for Ukraine BlueSky Page">
+
+              <svg class="w-6 h-6 max-md:w-14 max-md:h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.268 64 68.414" width="2232" height="2500">
+                <path fill="#3D4650" d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805zm36.254 0C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745z"/></svg>
+              carforukraine.bsky.social
+            </a>
+            <a href="https://x.com/carforukraine"
+               target="_blank"
+               class="flex gap-2 hover:underline transition-all"
+               title="Link to Car for Ukraine Twitter Page">
+              <svg
+                class="w-6 h-6 max-md:w-14 max-md:h-14"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_420_641)">
+                  <path
+                    d="M12.8025 11.5894L18.2033 19.3145H15.9868L11.5796 13.0108V13.0104L10.9325 12.085L5.78418 4.7207H8.00071L12.1554 10.664L12.8025 11.5894Z"
+                    fill="#3D4650"/>
+                  <path
+                    d="M21.4067 0H2.59325C1.16108 0 0 1.16108 0 2.59325V21.4067C0 22.8389 1.16108 24 2.59325 24H21.4067C22.8389 24 24 22.8389 24 21.4067V2.59325C24 1.16108 22.8389 0 21.4067 0ZM15.308 20.3525L10.8481 13.8617L5.26435 20.3525H3.82122L10.2073 12.9295L3.82122 3.63521H8.69203L12.9152 9.78152L18.2026 3.63521H19.6458L13.5562 10.7139H13.5558L20.1788 20.3525H15.308Z"
+                    fill="#3D4650"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_420_641">
+                    <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              carforukraine
+            </a>
+            <a href="https://www.facebook.com/car4ukraine"
+               target="_blank"
+               class="flex gap-2 hover:underline transition-all"
+               title="Link to Car for Ukraine Facebook Page">
+              <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.8182 1H3.18182C2.33795 1 1.52864 1.33523 0.931933 1.93193C0.335226 2.52864 0 3.33795 0 4.18182V22.8182C0 23.6621 0.335226 24.4714 0.931933 25.0681C1.52864 25.6648 2.33795 26 3.18182 26H12.3108V15.598H10.2304V11.4372H12.2936V9.55682C12.2936 7.855 13.1043 5.19625 16.6719 5.19625L19.8859 5.20915V8.77398H17.5519C17.1724 8.77398 16.6324 8.96295 16.6324 9.77352V11.4374H19.9389L19.5594 15.5982H16.4716V26H21.8182C22.236 26 22.6498 25.9177 23.0358 25.7578C23.4218 25.5979 23.7726 25.3635 24.0681 25.0681C24.3635 24.7726 24.5979 24.4218 24.7578 24.0358C24.9177 23.6498 25 23.236 25 22.8182V4.18182C25 3.76398 24.9177 3.35022 24.7578 2.96419C24.5979 2.57815 24.3635 2.22739 24.0681 1.93193C23.7726 1.63647 23.4218 1.4021 23.0358 1.2422C22.6498 1.0823 22.236 1 21.8182 1Z"
+                  fill="#3D4650"/>
+              </svg>
+              car4ukraine
+            </a>
+            <a href="https://www.instagram.com/car4ukraine.com_official/"
+               target="_blank"
+               class="flex gap-2 hover:underline transition-all"
+               title="Link to Car for Ukraine Instagram Page">
+              <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_420_635)">
+                  <path
+                    d="M17.625 4.26562H6.375C5.21191 4.26562 4.26562 5.21191 4.26562 6.375V17.625C4.26562 18.7881 5.21191 19.7344 6.375 19.7344H17.625C18.7881 19.7344 19.7344 18.7881 19.7344 17.625V6.375C19.7344 5.21191 18.7881 4.26562 17.625 4.26562ZM12 16.9219C9.28638 16.9219 7.07812 14.7136 7.07812 12C7.07812 9.28638 9.28638 7.07812 12 7.07812C14.7136 7.07812 16.9219 9.28638 16.9219 12C16.9219 14.7136 14.7136 16.9219 12 16.9219ZM16.9219 8.48438C16.1466 8.48438 15.5156 7.85339 15.5156 7.07812C15.5156 6.30286 16.1466 5.67188 16.9219 5.67188C17.6971 5.67188 18.3281 6.30286 18.3281 7.07812C18.3281 7.85339 17.6971 8.48438 16.9219 8.48438Z"
+                    fill="#3D4650"/>
+                  <path
+                    d="M12 8.48438C10.0616 8.48438 8.48438 10.0616 8.48438 12C8.48438 13.9384 10.0616 15.5156 12 15.5156C13.9384 15.5156 15.5156 13.9384 15.5156 12C15.5156 10.0616 13.9384 8.48438 12 8.48438Z"
+                    fill="#3D4650"/>
+                  <path
+                    d="M20.4375 0H3.5625C1.62415 0 0 1.62415 0 3.5625V20.4375C0 22.3759 1.62415 24 3.5625 24H20.4375C22.3759 24 24 22.3759 24 20.4375V3.5625C24 1.62415 22.3759 0 20.4375 0ZM21.1406 17.625C21.1406 19.5634 19.5634 21.1406 17.625 21.1406H6.375C4.43665 21.1406 2.85938 19.5634 2.85938 17.625V6.375C2.85938 4.43665 4.43665 2.85938 6.375 2.85938H17.625C19.5634 2.85938 21.1406 4.43665 21.1406 6.375V17.625Z"
+                    fill="#3D4650"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_420_635">
+                    <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              car4ukraine.com_official
+
+            </a>
+            <a href="https://www.linkedin.com/company/car4ukraine"
+               target="_blank"
+               class="flex gap-2 hover:underline transition-all"
+               title="Link to Car for Ukraine LinkedIn Page">
+              <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_420_631)">
+                  <path
+                    d="M21.6 0H2.4C1.08 0 0 1.08 0 2.4V21.6C0 22.92 1.08 24 2.4 24H21.6C22.92 24 24 22.92 24 21.6V2.4C24 1.08 22.92 0 21.6 0ZM7.2 20.4H3.6V9.6H7.2V20.4ZM5.4 7.56C4.2 7.56 3.24 6.6 3.24 5.4C3.24 4.2 4.2 3.24 5.4 3.24C6.6 3.24 7.56 4.2 7.56 5.4C7.56 6.6 6.6 7.56 5.4 7.56ZM20.4 20.4H16.8V14.04C16.8 13.08 15.96 12.24 15 12.24C14.04 12.24 13.2 13.08 13.2 14.04V20.4H9.6V9.6H13.2V11.04C13.8 10.08 15.12 9.36 16.2 9.36C18.48 9.36 20.4 11.28 20.4 13.56V20.4Z"
+                    fill="#3D4650"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_420_631">
+                    <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              car4ukraine
+            </a>
           </div>
         </div>
       </div>
@@ -108,9 +207,9 @@
           <a href="mailto:info@car4ukraine.com">{{ infoMail }}</a>
         </p>
 
-        <p class="mt-12 text-base font-tektur text-[#1F2125] max-md:flex max-md:mt-6 max-md:flex-col max-md:items-start" i18n>
-          Other languages: <span class="font-tektur text-xl tex-[#1F2125]">DA DE ES FI NB PL SU</span>
-        </p>
+<!--        <p class="mt-12 text-base font-tektur text-[#1F2125] max-md:flex max-md:mt-6 max-md:flex-col max-md:items-start" i18n>-->
+<!--          Other languages: <span class="font-tektur text-xl tex-[#1F2125]">DA DE ES FI NB PL SU</span>-->
+<!--        </p>-->
       </div>
     </div>
   </div>
@@ -118,93 +217,7 @@
   <!-- End Grid -->
   <div class="pt-5 mt-5 flex justify-center max-md:mt-0">
     <div class="flex items-center max-w-[1330px] w-full max-md:flex-col max-md:items-start max-md:gap-5 max-lg:flex-col max-lg:items-start max-lg:gap-5 ">
-      <div class="flex items-center gap-4 w-[40%] max-md:w-full max-md:flex-wrap max-md:justify-between">
-        <p class="font-tektur tex-base text-[#1F2125] flex max-md:w-full" i18n>Follow us on</p>
-        <a href="https://www.youtube.com/@carforukraine"
-           target="_blank"
-           title="Link to Car for Ukraine YouTube Page">
-          <svg class="w-6 h-6 max-md:w-14 max-md:h-14 bi bi-youtube" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill="#3D4650" d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-          </svg>
-        </a>
-        <a href="https://bsky.app/profile/carforukraine.bsky.social"
-           target="_blank"
-           title="Link to Car for Ukraine BlueSky Page">
-          <svg class="w-6 h-6 max-md:w-14 max-md:h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.268 64 68.414" width="2232" height="2500">
-            <path fill="#3D4650" d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805zm36.254 0C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745z"/></svg>
-        </a>
-        <a href="https://x.com/carforukraine"
-           target="_blank"
-           title="Link to Car for Ukraine Twitter Page">
-          <svg
-            class="w-6 h-6 max-md:w-14 max-md:h-14"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_420_641)">
-              <path
-                d="M12.8025 11.5894L18.2033 19.3145H15.9868L11.5796 13.0108V13.0104L10.9325 12.085L5.78418 4.7207H8.00071L12.1554 10.664L12.8025 11.5894Z"
-                fill="#3D4650"/>
-              <path
-                d="M21.4067 0H2.59325C1.16108 0 0 1.16108 0 2.59325V21.4067C0 22.8389 1.16108 24 2.59325 24H21.4067C22.8389 24 24 22.8389 24 21.4067V2.59325C24 1.16108 22.8389 0 21.4067 0ZM15.308 20.3525L10.8481 13.8617L5.26435 20.3525H3.82122L10.2073 12.9295L3.82122 3.63521H8.69203L12.9152 9.78152L18.2026 3.63521H19.6458L13.5562 10.7139H13.5558L20.1788 20.3525H15.308Z"
-                fill="#3D4650"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_420_641">
-                <rect width="24" height="24" fill="white"/>
-              </clipPath>
-            </defs>
-          </svg>
-        </a>
-        <a href="https://www.facebook.com/car4ukraine"
-           target="_blank"
-           title="Link to Car for Ukraine Facebook Page">
-          <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M21.8182 1H3.18182C2.33795 1 1.52864 1.33523 0.931933 1.93193C0.335226 2.52864 0 3.33795 0 4.18182V22.8182C0 23.6621 0.335226 24.4714 0.931933 25.0681C1.52864 25.6648 2.33795 26 3.18182 26H12.3108V15.598H10.2304V11.4372H12.2936V9.55682C12.2936 7.855 13.1043 5.19625 16.6719 5.19625L19.8859 5.20915V8.77398H17.5519C17.1724 8.77398 16.6324 8.96295 16.6324 9.77352V11.4374H19.9389L19.5594 15.5982H16.4716V26H21.8182C22.236 26 22.6498 25.9177 23.0358 25.7578C23.4218 25.5979 23.7726 25.3635 24.0681 25.0681C24.3635 24.7726 24.5979 24.4218 24.7578 24.0358C24.9177 23.6498 25 23.236 25 22.8182V4.18182C25 3.76398 24.9177 3.35022 24.7578 2.96419C24.5979 2.57815 24.3635 2.22739 24.0681 1.93193C23.7726 1.63647 23.4218 1.4021 23.0358 1.2422C22.6498 1.0823 22.236 1 21.8182 1Z"
-              fill="#3D4650"/>
-          </svg>
-        </a>
-        <a href="https://www.instagram.com/car4ukraine.com_official/"
-           target="_blank"
-           title="Link to Car for Ukraine Instagram Page">
-          <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_420_635)">
-              <path
-                d="M17.625 4.26562H6.375C5.21191 4.26562 4.26562 5.21191 4.26562 6.375V17.625C4.26562 18.7881 5.21191 19.7344 6.375 19.7344H17.625C18.7881 19.7344 19.7344 18.7881 19.7344 17.625V6.375C19.7344 5.21191 18.7881 4.26562 17.625 4.26562ZM12 16.9219C9.28638 16.9219 7.07812 14.7136 7.07812 12C7.07812 9.28638 9.28638 7.07812 12 7.07812C14.7136 7.07812 16.9219 9.28638 16.9219 12C16.9219 14.7136 14.7136 16.9219 12 16.9219ZM16.9219 8.48438C16.1466 8.48438 15.5156 7.85339 15.5156 7.07812C15.5156 6.30286 16.1466 5.67188 16.9219 5.67188C17.6971 5.67188 18.3281 6.30286 18.3281 7.07812C18.3281 7.85339 17.6971 8.48438 16.9219 8.48438Z"
-                fill="#3D4650"/>
-              <path
-                d="M12 8.48438C10.0616 8.48438 8.48438 10.0616 8.48438 12C8.48438 13.9384 10.0616 15.5156 12 15.5156C13.9384 15.5156 15.5156 13.9384 15.5156 12C15.5156 10.0616 13.9384 8.48438 12 8.48438Z"
-                fill="#3D4650"/>
-              <path
-                d="M20.4375 0H3.5625C1.62415 0 0 1.62415 0 3.5625V20.4375C0 22.3759 1.62415 24 3.5625 24H20.4375C22.3759 24 24 22.3759 24 20.4375V3.5625C24 1.62415 22.3759 0 20.4375 0ZM21.1406 17.625C21.1406 19.5634 19.5634 21.1406 17.625 21.1406H6.375C4.43665 21.1406 2.85938 19.5634 2.85938 17.625V6.375C2.85938 4.43665 4.43665 2.85938 6.375 2.85938H17.625C19.5634 2.85938 21.1406 4.43665 21.1406 6.375V17.625Z"
-                fill="#3D4650"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_420_635">
-                <rect width="24" height="24" fill="white"/>
-              </clipPath>
-            </defs>
-          </svg>
 
-        </a>
-        <a href="https://www.linkedin.com/company/car4ukraine"
-           target="_blank"
-           title="Link to Car for Ukraine LinkedIn Page">
-          <svg class="w-6 h-6 max-md:w-14 max-md:h-14" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_420_631)">
-              <path
-                d="M21.6 0H2.4C1.08 0 0 1.08 0 2.4V21.6C0 22.92 1.08 24 2.4 24H21.6C22.92 24 24 22.92 24 21.6V2.4C24 1.08 22.92 0 21.6 0ZM7.2 20.4H3.6V9.6H7.2V20.4ZM5.4 7.56C4.2 7.56 3.24 6.6 3.24 5.4C3.24 4.2 4.2 3.24 5.4 3.24C6.6 3.24 7.56 4.2 7.56 5.4C7.56 6.6 6.6 7.56 5.4 7.56ZM20.4 20.4H16.8V14.04C16.8 13.08 15.96 12.24 15 12.24C14.04 12.24 13.2 13.08 13.2 14.04V20.4H9.6V9.6H13.2V11.04C13.8 10.08 15.12 9.36 16.2 9.36C18.48 9.36 20.4 11.28 20.4 13.56V20.4Z"
-                fill="#3D4650"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_420_631">
-                <rect width="24" height="24" fill="white"/>
-              </clipPath>
-            </defs>
-          </svg>
-        </a>
-      </div>
       <div class="flex justify-between items-center [&>div>p]:flex [&>div>p]:flex-col w-[100%] [&>div>p]:tex-base
                   [&>div>p]:text-[#1F2125] [&>div>p>a]:text-mainColor [&>div>p]:font-tektur max-md:flex-col max-md:items-start max-md:gap-5"
       >
