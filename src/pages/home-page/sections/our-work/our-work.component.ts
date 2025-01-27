@@ -213,13 +213,10 @@ export class OurWorkComponent implements AfterViewInit {
     const container = this.scrollContainer.nativeElement as HTMLDivElement;
 
     const paddingLeft = +window.getComputedStyle(container.children[0]).paddingLeft.split('px')[0];
-    console.log({paddingLeft})
 
     const slide = container.children.item(this.currentSlideIndex) as HTMLDivElement;
 
     const left = slide.offsetLeft - paddingLeft;
-
-    console.log({left})
 
     container.scrollTo({
       left,
