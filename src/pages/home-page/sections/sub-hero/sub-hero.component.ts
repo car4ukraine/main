@@ -1,16 +1,25 @@
-import {ChangeDetectionStrategy, Component, inject, OnInit, signal, ViewEncapsulation} from "@angular/core";
-import {NgOptimizedImage} from "@angular/common";
+import {
+  ChangeDetectionStrategy,
+  Component,
+  inject,
+  OnInit,
+  PLATFORM_ID,
+  signal,
+  ViewEncapsulation
+} from "@angular/core";
+import {isPlatformServer, NgOptimizedImage} from "@angular/common";
 import {MetricCounterComponent} from "../../../../common/components/metric-counter/metric-counter.component";
 import {MetricApiService} from "../../../../api/metric/metric.api.service";
-import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
 import {IMetric} from "../../../../api/metric/i.metric.response";
+import {CurrencyShortenPipe} from "../../../../common/pipe/currency-shorten.pipe";
 
 @Component({
   standalone: true,
   selector: 'app-sub-hero-section-component',
   imports: [
     NgOptimizedImage,
-    MetricCounterComponent
+    MetricCounterComponent,
+    CurrencyShortenPipe
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
@@ -25,8 +34,12 @@ import {IMetric} from "../../../../api/metric/i.metric.response";
 
       <div class="col-span-3 flex flex-col items-center font-tektur max-md:order-1">
         <div class="text-5xl md:text-6xl font-bold text-[#323232]">
-          @if (metric()?.cars; as cars) {
-            <app-metric-counter [value]="cars"/>
+          @if (isServer()) {
+            {{ metric()?.cars }}
+          } @else {
+            @if (metric()?.cars; as cars) {
+              <app-metric-counter [value]="cars"/>
+            }
           }
         </div>
         <div class="text-mainColor font-medium text-sm" i18n>CARS DEPLOYED</div>
@@ -35,15 +48,16 @@ import {IMetric} from "../../../../api/metric/i.metric.response";
         <div class="text-5xl md:text-6xl font-bold text-[#323232]">
 
           @if (metric()?.money; as money) {
-            <app-metric-counter [value]="money" [currency]="metric()?.currency"/>
+            <!--            <app-metric-counter [value]="money" [currency]="metric()?.currency"/>-->
+            {{ money | currencyShorten }}
           }
         </div>
         <div class="text-mainColor font-medium text-sm" i18n>WORTH OF CARS</div>
       </div>
 
       <div class="col-span-12 px max-md:order-3">
-        <img class="w-full max-h-96 rounded-lg" height="374" width="900"
-             ngSrc="assets/page/home/section/about-us/banner.jpg"/>
+        <img class="w-full max-h-96 rounded-lg min-h-[300px] object-cover"
+             src="assets/page/home/section/about-us/banner.jpg"/>
       </div>
 
     </div>
@@ -58,6 +72,11 @@ export class SubHeroComponent implements OnInit {
   public readonly metric = signal<IMetric | null>(null);
 
   private readonly metricApiService = inject(MetricApiService);
+  private readonly platformId = inject(PLATFORM_ID);
+
+  public isServer() {
+    return isPlatformServer(this.platformId);
+  }
 
   public ngOnInit() {
     console.log('SubHeroComponent.ngOnInit');

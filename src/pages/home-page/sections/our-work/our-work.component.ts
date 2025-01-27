@@ -48,9 +48,8 @@ import {isPlatformServer} from "@angular/common";
             lg:h-[578px]
             scrollbar-hide
 
+            max-md:px-2.5
             max-[1330px]:px-10
-            max-w-[calc(100vw-20px)]
-            min-w-[calc(100vw-20px)]
             min-[1330px]:max-w-[100vw]
             min-[1330px]:min-w-[100vw]
             min-[1330px]:ml-[calc(-1*((100vw-1330px)/2))]"
