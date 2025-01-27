@@ -49,10 +49,10 @@ import {bootstrapHeart} from "@ng-icons/bootstrap-icons";
             scrollbar-hide
 
             max-[1330px]:px-10
-            max-w-[calc(100vw-20px)]
+            max-w-[calc(100vw-30px)]
             min-w-[calc(100vw-20px)]
-            min-[1330px]:max-w-[100vw]
-            min-[1330px]:min-w-[100vw]
+            min-[1330px]:max-w-[98vw]
+            min-[1330px]:min-w-[98vw]
             min-[1330px]:ml-[calc(-1*((100vw-1330px)/2))]"
          style #scrollContainer>
           @for (file of files; track file.src) {

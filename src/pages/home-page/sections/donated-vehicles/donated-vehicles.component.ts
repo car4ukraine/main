@@ -29,7 +29,7 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
 
       <div class="col-span-12">
         <div
-          class="relative aspect-[16/9] rounded-2xl overflow-hidden w-full lg:w-auto flex gap-[6px] snap-x overflow-x-auto lg:h-[578px] scrollbar-hide max-w-[calc(100vw-20px)] min-w-[calc(100vw-20px)] min-[1330px]:max-w-[100vw] min-[1330px]:min-w-[100vw] min-[1330px]:ml-[calc(-1*((100vw-1248px)/2))]"
+          class="relative aspect-[16/9] rounded-2xl overflow-hidden w-full lg:w-auto flex gap-[6px] snap-x overflow-x-auto lg:h-[578px] scrollbar-hide max-w-[calc(96vw-20px)] min-w-[calc(96vw-20px)] min-[1330px]:max-w-[97vw] min-[1330px]:min-w-[97vw] min-[1330px]:ml-[calc(-1*((100vw-1248px)/2))]"
           #scrollContainer>
           @for (file of files; track file.src) {
 
