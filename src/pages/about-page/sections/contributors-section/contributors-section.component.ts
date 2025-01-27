@@ -76,7 +76,7 @@ export class ContributorsSectionComponent {
     {
       "image": "assets/images/about/members/photo/IvanK.jpg",
       "name": "Ivan Karbashevskyi ",
-      "description": "Frontend Developer in IT but now does all he needs so the car4ukraine.com site is steady and running",
+      "description": "Co-creator of Car for Ukraine and Frontend Developer in IT but now does all he needs so the car4ukraine.com site is steady and running",
       "flag": "assets/images/about/members/flag/pl.svg",
       "icon": "bootstrapGithub",
       "link": "https://github.com/Karbashevskyi"

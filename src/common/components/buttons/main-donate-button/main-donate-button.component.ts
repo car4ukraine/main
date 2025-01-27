@@ -1,6 +1,16 @@
-import {ChangeDetectionStrategy, Component, input, ViewEncapsulation} from "@angular/core";
+import {
+  AfterViewInit,
+  ChangeDetectionStrategy,
+  Component,
+  inject,
+  input,
+  OnInit,
+  PLATFORM_ID,
+  ViewEncapsulation
+} from "@angular/core";
 import {NgIcon, provideIcons} from "@ng-icons/core";
 import {bootstrapHeart} from "@ng-icons/bootstrap-icons";
+import {isPlatformBrowser} from "@angular/common";
 
 @Component({
   selector: 'app-main-donate-button',
@@ -33,9 +43,18 @@ import {bootstrapHeart} from "@ng-icons/bootstrap-icons";
     class: ''
   }
 })
-export class MainDonateButtonComponent {
+export class MainDonateButtonComponent implements AfterViewInit {
+
   public readonly href = input<string>('https://donorbox.org/power-the-frontline?default_interval=o');
   public readonly target = input<'_blank' | '_self'>('_blank');
   public readonly aId = input<string>('preview_inline_popup_button');
   public readonly hreflang = input<string>('en');
+  private readonly platformId = inject(PLATFORM_ID);
+  public ngAfterViewInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      if ('dw_open' in window && typeof window.dw_open === 'function') {
+        window.dw_open();
+      }
+    }
+  }
 }
