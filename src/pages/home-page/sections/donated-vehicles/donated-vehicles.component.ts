@@ -15,62 +15,69 @@ import {heroArrowLeft, heroArrowRight} from "@ng-icons/heroicons/outline";
   ],
   template: `
 
-    <div class="grid grid-cols-12 gap-16  max-w-[1330px] w-full max-lg:overflow-hidden">
+    <div class="w-full max-w-full md:max-w-[1330px] space-y-16">
 
-      <div class="col-span-12">
-        <div class="text-6xl font-bold font-tektur text-[#DDE2E7] max-md:text-4xl" i18n>
-          Donated Vehicles
-        </div>
+      <div class="text-6xl font-bold font-tektur text-[#DDE2E7] max-[1330px]:px-10 max-md:px-2.5" i18n>
+        Donated Vehicles
       </div>
-      <div class="col-span-6 font-tektur max-md:col-span-12 text-[#919EAB] max-md:text-xl" i18n>
-TODO: FIX WIDTH!!!!
+      <div class="font-tektur text-[#919EAB] text-xl text-wrap break-all max-[1330px]:px-10 max-md:px-2.5" i18n>
         “My car was too good to sell, and I wish it a better destiny” – People express their motivation to donate a car
         in many ways, but they all share one wish.
       </div>
 
-      <div class="col-span-12">
-        <div
-          class="relative aspect-[16/9] rounded-2xl overflow-hidden w-full lg:w-auto flex gap-[6px] snap-x overflow-x-auto lg:h-[578px] scrollbar-hide max-w-[calc(100vw-20px)] min-w-[calc(100vw-20px)] min-[1330px]:max-w-[100vw] min-[1330px]:min-w-[100vw] min-[1330px]:ml-[calc(-1*((100vw-1248px)/2))]"
-          #scrollContainer>
-          @for (file of files; track file.src) {
+      <div
+        id="donate-vehicles-scroll-container"
+        class="
+            relative
+            w-full
+            lg:w-auto
+            flex
+            gap-[6px]
+            overflow-x-auto
+            scrollbar-hide
 
-            <div
-              class="snap-center flex items-center w-full min-[1330px]:w-auto shrink-0 max-h-[578px] {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1248px)/2))]' : '' }}">
-              <img class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white lg:h-[578px]"
-                   [src]="file.src">
+            max-md:px-2.5
+            max-[1330px]:px-10
+            min-[1330px]:max-w-[100vw]
+            min-[1330px]:min-w-[100vw]
+            min-[1330px]:ml-[calc(-1*((100vw-1330px)/2))]"
+        style #scrollContainer>
+        @for (file of files; track file.src) {
+
+
+          <div
+            class="flex items-center min-[1330px]:w-auto shrink-0 {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1330px)/2))]' : '' }}">
+            <div class="relative w-full h-full">
+
+              <img
+                class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white brightness-50 object-contain"
+                [src]="file.src"/>
             </div>
-          }
-        </div>
+          </div>
+
+        }
       </div>
 
-      <div class="col-span-12">
 
-        <div class="justify-start items-center gap-[27px] flex">
-
-          <div class="justify-start items-center flex gap-8">
-
-            <button (click)="prevSlide()"
-                    role="button"
-                    class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
-              <ng-icon name="heroArrowLeft"/>
-            </button>
-
-            <div
-              class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">{{ files.length }}
-            </div>
-
-            <button (click)="nextSlide()"
-                    role="button"
-                    class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
-              <ng-icon name="heroArrowRight"/>
-            </button>
-
+      <div class="justify-start items-center gap-[27px] flex w-full max-[1330px]:px-10 max-md:px-2.5">
+        <div class="justify-start items-center flex gap-8">
+          <button (click)="prevSlide()"
+                  role="button"
+                  class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
+            <ng-icon name="heroArrowLeft"/>
+          </button>
+          <div
+            class="text-[#dde1e6] text-base font-normal font-['Tektur'] leading-[23px] tracking-wide">{{ files.length }}
           </div>
-
-          <div class="w-full h-[3px] relative">
-            <div class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
-            <div class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]" [style.left]="getProgressPosition()"></div>
-          </div>
+          <button (click)="nextSlide()"
+                  role="button"
+                  class="w-[55px] h-[55px] flex justify-center items-center border border-[#dde1e6] cursor-pointer">
+            <ng-icon name="heroArrowRight"/>
+          </button>
+        </div>
+        <div class="w-full h-[3px] relative">
+          <div class="w-full h-0.5 left-0 top-[1px] absolute opacity-60 bg-[#8895a4]"></div>
+          <div class="w-[10%] h-[3px] left-0 top-0 absolute bg-[#dde1e6]" [style.left]="getProgressPosition()"></div>
         </div>
       </div>
 
@@ -82,7 +89,19 @@ TODO: FIX WIDTH!!!!
     NgIcon
   ],
   host: {
-    class: `w-full bg-[#1F2125] p-10 py-36 flex flex-col items-center justify-center text-white max-md:p-16 max-md:px-2.5`
+    class: `
+
+      max-md:py-20
+      py-24
+
+      flex justify-center
+
+      bg-[#1F2125] text-white
+      w-full min-w-full
+      max-lg:overflow-hidden
+
+
+    `
   }
 })
 export class DonatedVehiclesComponent implements OnInit {

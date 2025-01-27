@@ -47,7 +47,7 @@ import {NgClass} from "@angular/common";
                       </div>
                       <div>
                         <a [href]="campaign.url" class="min-w-full w-full h-[70px] border-2 border-[#1f2024] justify-center items-center gap-[7px] inline-flex cursor-pointer">
-                          <div class="text-center uppercase text-[#1f2024] text-2xl font-medium font-['Tektur'] leading-loose tracking-[2.88px]">
+                          <div class="text-center uppercase text-[#1f2024] text-2xl font-medium font-['Tektur'] leading-loose ">
                             Learn more
                           </div>
                         </a>

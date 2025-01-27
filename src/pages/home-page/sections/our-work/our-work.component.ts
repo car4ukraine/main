@@ -57,13 +57,12 @@ import {isPlatformServer} from "@angular/common";
         @for (file of files; track file.src) {
 
           @if (file.isBanner) {
-
             <div
-              class="flex items-center w-full min-[1330px]:w-auto shrink-0 max-h-[578px] {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1330px)/2))]' : '' }}">
+              class="flex items-center max-lg:w-full min-[1330px]:w-auto shrink-0 max-h-[578px] {{ $index === 0 ? 'min-[1330px]:pl-[calc(((100vw-1330px)/2))]' : '' }}">
               <div class="relative w-full h-full">
 
                 <img
-                  class="aspect-video w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white min-[1330px]:h-[578px] brightness-50 object-contain"
+                  class="aspect-video lg:h-full w-full lg:w-auto shrink-0 rounded-lg shadow-xl bg-white min-[1330px]:h-[578px] brightness-50 object-contain"
                   [src]="file.src"/>
                 <div class="absolute top-0 left-0 w-full h-full flex justify-center text-center p-8 max-md:px-0">
                   <div class="text-[#FFFFFF] font-tektur font-semibold text-4xl max-md:text-xl">
