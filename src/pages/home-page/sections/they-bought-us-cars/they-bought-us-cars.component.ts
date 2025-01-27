@@ -138,32 +138,21 @@ export class TheyBoughtUsCarsComponent implements OnInit {
 
 <p>Since the start of the war in February 2022, Dr Claire Oelrichs has bought half a dozen pick-ups – paid for with her own money and through fundraising.</p>
       `,
-      href: 'https://www.youtube.com/watch?v=dxH5qpn7KLs&t=1s',
+      href: 'https://youtu.be/dxH5qpn7KLs?si=a2RPQfhLy9lIwEdL',
       image: '',
       videoId: 'dxH5qpn7KLs',
     },
     {
       title: 'Adam from USA',
       details: `
-        Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers.
-
-        Pickup trucks are versatile vehicles popular in rural areas of Britain. Today, many of them left their bucolic homes to improve the mobility of the Ukrainian troops in the Donetsk region. We follow one of the donors — Adam in his trip to frontline Kramatorsk to deliver the car he donated and find out his motivation and impressions after being this close to the frontline
-      `,
-      href: 'https://youtu.be/dxH5qpn7KLs?si=a2RPQfhLy9lIwEdL',
-      image: '1-adam.jpg',
-      videoId: 'dxH5qpn7KLs',
-    },
-    {
-      title: 'Adam from USA',
-      details: `
-      <p>Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers. </p>
+        <p>Adam always wanted to help Ukraine with a tangible donation. In February 2023, he came to Donbas and personally donated two trucks to soldiers. </p>
 
 <p>Pickup trucks are versatile vehicles popular in rural areas of Britain. Today, many of them left their civilian lives to improve the mobility of the Ukrainian troops in the Donetsk region.</p>
 
 <p>United24 has followed one of the donors — Adam in his trip to frontline Kramatorsk to deliver the car he donated and find out his motivation and impressions after being this close to the frontline</p>
       `,
       href: 'https://www.youtube.com/watch?v=z8pCibdfCkY',
-      image: '3-british-business.jpg',
+      image: '',
       videoId: 'z8pCibdfCkY',
     },
     {
@@ -175,9 +164,9 @@ export class TheyBoughtUsCarsComponent implements OnInit {
 
 <p>This video is not only about how they traveled but also about the feelings and emotions of people as well as why they do what they do.</p>
       `,
-      href: 'https://www.youtube.com/channel/UCgdCYMJ37njKA2glQm0F-tA',
+      href: 'https://youtu.be/G6rE1wfWpT8',
       image: '4-edward-and-hugh.jpg',
-      videoId: 'UCgdCYMJ37njKA2glQm0F',
+      videoId: 'G6rE1wfWpT8',
     },
     {
       title: 'Dutch and Germans come to rescue',
